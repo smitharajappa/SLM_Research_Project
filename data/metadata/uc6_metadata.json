@@ -1,0 +1,85 @@
+{
+  "use_case": "UC6 \u2014 Healthcare Clinical Triage",
+  "locked_date": "2026-03-10",
+  "s3_score": 4.44,
+  "s3_prediction": "LLM Only",
+  "s3_threshold_llm_only": 4.0,
+  "dimensions": {
+    "TC_task_complexity": {
+      "score": 5,
+      "weight": 1.0,
+      "note": "Expert clinical reasoning: integrate vitals, symptoms, history simultaneously"
+    },
+    "OS_output_structure": {
+      "score": 4,
+      "weight": 0.8,
+      "note": "One of 4 defined triage labels \u2014 structured but requires expert judgment to reach"
+    },
+    "SK_stakes": {
+      "score": 5,
+      "weight": 1.2,
+      "note": "Under-triage of CRITICAL = patient death; irreversible harm \u2014 maximum stakes"
+    },
+    "DS_data_sensitivity": {
+      "score": 5,
+      "weight": 0.8,
+      "note": "PHI \u2014 protected health information, maximum regulatory exposure (HIPAA)"
+    },
+    "LT_latency": {
+      "score": 4,
+      "weight": 1.0,
+      "note": "Clinical decision support tool; minutes acceptable (not real-time interactive)"
+    },
+    "VL_volume": {
+      "score": 3,
+      "weight": 0.6,
+      "note": "Tens of thousands/month at hospital ED level"
+    }
+  },
+  "hypotheses": {
+    "H6.1": "Best SLM overall accuracy < 90% of LLM accuracy (parity not achieved)",
+    "H6.2": "SLM CRITICAL recall < 80% (systematic under-triage of life-threatening cases)",
+    "H6.3": "UC6 classified as LLM Only \u2014 SLMs fail minimum safety threshold",
+    "H6.4": "SLMs under-triage CRITICAL as URGENT (not as lower categories) \u2014 partial knowledge"
+  },
+  "llm_only_confirmation_criteria": {
+    "primary": "No SLM achieves \u226590% overall accuracy parity with LLM",
+    "secondary": "No SLM achieves \u226580% CRITICAL recall",
+    "note": "Either criterion alone is sufficient to confirm LLM Only. Both expected."
+  },
+  "comparison_baseline": "Manchester Triage System and Emergency Severity Index (ESI) standards.",
+  "build_date": "2026-03-10T13:51:33.130389",
+  "total_items": 100,
+  "train_items": 70,
+  "test_items": 30,
+  "triage_distribution": {
+    "CRITICAL": 15,
+    "URGENT": 35,
+    "SEMIURGENT": 35,
+    "NONURGENT": 15
+  },
+  "test_triage_distribution": {
+    "CRITICAL": 4,
+    "URGENT": 11,
+    "SEMIURGENT": 11,
+    "NONURGENT": 4
+  },
+  "category_distribution": {
+    "cardiac": 20,
+    "respiratory": 20,
+    "neurological": 20,
+    "trauma": 20,
+    "sepsis_infection": 20
+  },
+  "difficulty_distribution": {
+    "easy": 52,
+    "hard": 12,
+    "medium": 36
+  },
+  "deployment_framing": {
+    "stakes_rationale": "Stakes=5 reflects fully autonomous deployment where AI is the sole decision-maker with no human review — this triggers Pre-Screening Gate Rule 1 and disqualifies autonomous deployment. The benchmark models a controlled experiment to empirically validate what occurs when an LLM Only task is attempted with SLMs, providing evidence for why the gate exists.",
+    "paper_positioning": "UC6 serves dual purpose: (1) confirms LLM Only tier prediction (S3=4.44), (2) provides empirical demonstration of Pre-Screening Gate necessity. SLM URGENT recall failure (best SLM 63.6% vs LLM threshold 73.6%) is the measured consequence of ignoring the gate.",
+    "framing_date": "2026-03-11",
+    "framing_note": "No scores modified. Pre-registration values locked 2026-03-10 remain unchanged."
+  }
+}

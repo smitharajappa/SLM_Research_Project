@@ -1,0 +1,101 @@
+id,text,label,category,difficulty,source,notes,split
+UC4_001,"Absolutely love this laptop. Fast, lightweight, and the battery lasts all day. Best purchase I have made this year.",POSITIVE,Electronics,easy,synthetic,"Clear positive, multiple praise signals",train
+UC4_002,"The headphones arrived quickly and sound incredible. Deep bass, clear highs. Totally worth the price.",POSITIVE,Electronics,easy,synthetic,Unambiguous positive,train
+UC4_003,Setup took a while but once it was running the smart TV is fantastic. Picture quality is stunning.,POSITIVE,Electronics,medium,synthetic,Minor negative (setup time) but overall positive,train
+UC4_004,A bit pricier than alternatives but the build quality is exceptional. You get what you pay for.,POSITIVE,Electronics,medium,synthetic,Price acknowledgment but positive conclusion,train
+UC4_005,Not the cheapest option and the manual is terrible but honestly this camera takes photos that make me look like a professional.,POSITIVE,Electronics,hard,synthetic,Two negatives before strong positive — hard to classify,train
+UC4_006,"Five stars. This keyboard is a dream to type on. Clicky, responsive, and looks great on my desk.",POSITIVE,Electronics,easy,synthetic,Explicit five stars,train
+UC4_007,I was sceptical at first but this wireless charger works perfectly with my phone. No more fumbling with cables at night.,POSITIVE,Electronics,medium,synthetic,Initial scepticism resolved positively,train
+UC4_008,The fan is louder than I expected and it runs warm under load but for the price this gaming laptop outperforms everything else I tested.,POSITIVE,Electronics,hard,synthetic,Specific complaints but clear positive verdict,train
+UC4_009,"Perfect fit, beautiful colour, and the fabric feels luxurious. I already ordered two more in different colours.",POSITIVE,Clothing,easy,synthetic,Clear positive with repeat purchase signal,train
+UC4_010,"These jeans are exactly as described. Comfortable, well-made, and look exactly like the photos.",POSITIVE,Clothing,easy,synthetic,Simple positive confirmation,train
+UC4_011,Runs slightly small so I exchanged for the next size up. The replacement fits perfectly and I love the style.,POSITIVE,Clothing,medium,synthetic,"Size issue resolved, positive overall",train
+UC4_012,The colour is slightly darker than the website image but the quality is outstanding. Very happy with this.,POSITIVE,Clothing,medium,synthetic,"Minor colour discrepancy, positive verdict",train
+UC4_013,I almost returned it because the stitching looked loose on arrival but after washing it a few times it has held up better than my more expensive shirts.,POSITIVE,Clothing,hard,synthetic,Near-return story with positive resolution,train
+UC4_014,Incredibly soft and warm. This hoodie is my new favourite thing to wear. Great quality for the price.,POSITIVE,Clothing,easy,synthetic,Simple positive,train
+UC4_015,Not what I imagined from the description but honestly it looks even better in person. Pleasantly surprised.,POSITIVE,Clothing,hard,synthetic,Expectation mismatch but positive surprise,train
+UC4_016,"These coffee beans are exceptional. Rich, smooth flavour with no bitterness. My morning routine has been transformed.",POSITIVE,Food,easy,synthetic,Clear positive food review,train
+UC4_017,Best protein bars I have ever tried. Actually taste like chocolate and not cardboard. Will definitely reorder.,POSITIVE,Food,easy,synthetic,Comparison positive,train
+UC4_018,A little sweet for my taste but my kids absolutely love these snacks and they are gone within a day of arriving.,POSITIVE,Food,medium,synthetic,Personal taste caveat but family positive,train
+UC4_019,More expensive than the supermarket equivalent but the quality difference is noticeable. Worth it for a treat.,POSITIVE,Food,medium,synthetic,"Price acknowledged, quality positive",train
+UC4_020,I was not expecting much for this price point but these olive oils have genuinely changed how I cook. Incredible flavour.,POSITIVE,Food,hard,synthetic,Low expectation exceeded — hard because opener sounds negative,train
+UC4_021,Fast delivery and the tea selection is wonderful. Every blend I have tried has been delicious. Highly recommend.,POSITIVE,Food,easy,synthetic,Simple positive,train
+UC4_022,This air fryer has changed how I cook. Food comes out crispy and delicious every time. No more deep frying for me.,POSITIVE,Home,easy,synthetic,Lifestyle change positive,train
+UC4_023,"Beautiful duvet cover, soft material, and the zip closure is a nice touch. Exactly what I was looking for.",POSITIVE,Home,easy,synthetic,Simple positive,train
+UC4_024,"Assembly was frustrating but the bookcase looks stunning once built. Solid, sturdy, and exactly the right size.",POSITIVE,Home,medium,synthetic,Assembly complaint but product positive,train
+UC4_025,I have bought three of these lamps now. One for every room. The warm light is perfect for evenings.,POSITIVE,Home,medium,synthetic,Repeat purchase = strong positive signal,train
+UC4_026,Took two attempts to get the fit right and customer service could be faster but the blackout curtains work perfectly and I sleep so much better now.,POSITIVE,Home,hard,synthetic,Two complaints then strong positive outcome,train
+UC4_027,"The knife set is sharp, balanced, and came in a beautiful wooden block. A real upgrade from my old set.",POSITIVE,Home,easy,synthetic,Simple positive,train
+UC4_028,Could not put this book down. Stayed up until 2am finishing it. One of the best thrillers I have read in years.,POSITIVE,Books,easy,synthetic,Unambiguous positive,train
+UC4_029,"Brilliant, thought-provoking and beautifully written. This book changed the way I think about the world.",POSITIVE,Books,easy,synthetic,Strong positive,test
+UC4_030,The first half was slow but the second half more than made up for it. By the end I was completely gripped.,POSITIVE,Books,medium,synthetic,"Slow start, positive ending",test
+UC4_031,Not my usual genre but I am so glad I gave it a chance. Completely captivating from start to finish.,POSITIVE,Books,medium,synthetic,"Outside comfort zone, positive surprise",test
+UC4_032,Dense and demanding reading that requires real concentration but the payoff is enormous. Unlike anything I have read before.,POSITIVE,Books,hard,synthetic,Hard because dense/demanding sounds like complaint,test
+UC4_033,"Perfect for the beach. Light, fun, and genuinely funny. Read it in two sittings.",POSITIVE,Books,easy,synthetic,Simple positive,test
+UC4_034,I almost gave up after the first chapter but a friend convinced me to keep going. By chapter three I understood the hype completely.,POSITIVE,Books,hard,synthetic,Near-abandonment with positive resolution,test
+UC4_035,"This project management tool has transformed how our team works. Everything in one place, intuitive, and the support is excellent.",POSITIVE,Software,easy,synthetic,Clear positive,test
+UC4_036,"Best antivirus I have used. Lightweight, does not slow down my computer, and has caught several threats already.",POSITIVE,Software,easy,synthetic,Simple positive,test
+UC4_037,Steep learning curve at first but once you get used to it this design tool is far superior to anything else I have tried.,POSITIVE,Software,medium,synthetic,"Learning curve caveat, strong positive",test
+UC4_038,Pricey subscription but honestly I use it every single day and it has paid for itself many times over.,POSITIVE,Software,medium,synthetic,"Price concern, value positive",test
+UC4_039,The interface looks outdated and the onboarding is confusing but under the hood this accounting software is the most powerful I have ever used.,POSITIVE,Software,hard,synthetic,"Two UI complaints, strong functional positive",test
+UC4_040,"Simple, clean, and does exactly what it promises. No bloat, no ads, just a great note-taking app.",POSITIVE,Software,easy,synthetic,Minimalist positive,test
+UC4_041,Broke after three weeks. Absolute waste of money. Do not buy this.,NEGATIVE,Electronics,easy,synthetic,Clear negative,train
+UC4_042,"The worst headphones I have ever owned. Tinny sound, uncomfortable fit, and the cable frayed within a month.",NEGATIVE,Electronics,easy,synthetic,Multiple clear negatives,train
+UC4_043,The picture quality is fine but the smart TV software is so slow and buggy that I dread using it. Constant freezing.,NEGATIVE,Electronics,medium,synthetic,Partial positive then dominant negative,train
+UC4_044,Looks great on the desk but the battery barely lasts three hours despite claiming eight. Very disappointed.,NEGATIVE,Electronics,medium,synthetic,"Appearance positive, function negative — negative wins",train
+UC4_045,For the price I suppose I cannot complain too much but honestly the build quality feels cheap and the camera is mediocre at best.,NEGATIVE,Electronics,hard,synthetic,Hard — hedged language but clearly negative,train
+UC4_046,Arrived damaged and the seller refused to issue a refund. One star. Avoid.,NEGATIVE,Electronics,easy,synthetic,Clear negative,train
+UC4_047,I wanted to love this tablet and I really tried but after two months the screen has developed dead pixels and the charging port is already loose.,NEGATIVE,Electronics,hard,synthetic,Wanted to be positive — clearly negative outcome,train
+UC4_048,Terrible quality. Seams came apart after the first wash. Not worth even half the price they charge.,NEGATIVE,Clothing,easy,synthetic,Clear negative,train
+UC4_049,Nothing like the photos. The colour is completely different and the material feels like plastic. Returning immediately.,NEGATIVE,Clothing,easy,synthetic,Misrepresentation complaint,train
+UC4_050,The design is cute but the sizing is wildly inconsistent and the fabric pills after just a few wears. Not impressed.,NEGATIVE,Clothing,medium,synthetic,"Design note, dominant negatives",train
+UC4_051,Looked good at first but shrank dramatically in the wash even on a cold cycle. Now completely unwearable.,NEGATIVE,Clothing,medium,synthetic,"Initial positive, negative after use",train
+UC4_052,I have bought from this brand for years and this new line is such a step down in quality. Genuinely sad about it.,NEGATIVE,Clothing,hard,synthetic,"Emotional language, clearly negative but not angry",train
+UC4_053,Buttons fell off within a week. The stitching is appalling. Complete rubbish.,NEGATIVE,Clothing,easy,synthetic,Simple negative,train
+UC4_054,Maybe I just got a bad batch but the zip broke on first use and the lining was already coming unstitched when it arrived. Hard to recommend.,NEGATIVE,Clothing,hard,synthetic,Hedged language but clear negative experience,train
+UC4_055,Disgusting taste. Threw the whole box away after one bite. Complete waste of money.,NEGATIVE,Food,easy,synthetic,Clear negative,train
+UC4_056,Arrived damaged and two of the bottles had leaked. Everything in the package was ruined. Very disappointing.,NEGATIVE,Food,easy,synthetic,Shipping damage complaint,train
+UC4_057,The smell is pleasant but the taste is extremely artificial. Nothing like a real product should taste. Will not reorder.,NEGATIVE,Food,medium,synthetic,Partial positive (smell) overwhelmed by negative,train
+UC4_058,I wanted to support a small brand but the quality is nowhere near good enough to justify the premium price. Back to the supermarket.,NEGATIVE,Food,medium,synthetic,"Goodwill attempted, quality negative",train
+UC4_059,Not the worst coffee I have ever had but far too bitter for everyday drinking and the packaging made it go stale within days.,NEGATIVE,Food,hard,synthetic,Faint praise then dominant negatives,train
+UC4_060,Ordered twice now and both times items were missing from the box. Zero quality control. Do not bother.,NEGATIVE,Food,easy,synthetic,Repeated negative experience,train
+UC4_061,Stopped working after two months. Customer service was no help at all. Complete waste of money.,NEGATIVE,Home,easy,synthetic,Clear negative,train
+UC4_062,The pan warped the first time I used it on high heat. Food sticks everywhere despite being advertised as non-stick. Terrible.,NEGATIVE,Home,easy,synthetic,Specific failure complaint,train
+UC4_063,It looks stylish in photos but in person the materials feel very cheap and it wobbled constantly until I gave up and returned it.,NEGATIVE,Home,medium,synthetic,Photo vs reality complaint,train
+UC4_064,Assembly instructions were missing half the steps and I ended up with leftover screws. Not confident it is safe.,NEGATIVE,Home,medium,synthetic,Safety concern = clear negative,train
+UC4_065,Works as described technically but the noise level is far beyond acceptable for a home setting. My neighbours have already complained.,NEGATIVE,Home,hard,synthetic,Technical positive but practical negative,train
+UC4_066,Smells of chemicals even after multiple washes. Gave me a headache just being in the same room. Returning it.,NEGATIVE,Home,easy,synthetic,"Health complaint, clear negative",train
+UC4_067,"Boring, predictable, and poorly written. Could not finish it. One of the worst books I have read.",NEGATIVE,Books,easy,synthetic,Clear negative,train
+UC4_068,Total waste of time. The plot went nowhere and the ending was insulting to the reader. Avoid.,NEGATIVE,Books,easy,synthetic,Simple negative,train
+UC4_069,"The premise was interesting but the execution was dreadful. Flat characters, lazy writing, and a plot full of holes.",NEGATIVE,Books,medium,synthetic,"Premise positive, execution negative",test
+UC4_070,I pushed through to the end hoping it would improve. It did not. A disappointing book from an author I usually love.,NEGATIVE,Books,medium,synthetic,Perseverance with negative outcome,test
+UC4_071,Technically well-written in places but so relentlessly bleak and joyless that I found no pleasure in reading it.,NEGATIVE,Books,hard,synthetic,Technical praise but experiential negative,test
+UC4_072,Badly edited with obvious errors on almost every page. Distracting and unprofessional.,NEGATIVE,Books,easy,synthetic,Editing complaint,test
+UC4_073,I can see what the author was trying to do and I respect the ambition but the result is unfortunately unreadable for most people.,NEGATIVE,Books,hard,synthetic,Respectful but clearly negative recommendation,test
+UC4_074,Crashes constantly. Lost hours of work. Completely unreliable and the support team is useless.,NEGATIVE,Software,easy,synthetic,Clear negative,test
+UC4_075,They changed the pricing model without warning and now charge three times as much. Will be switching to a competitor.,NEGATIVE,Software,easy,synthetic,Pricing complaint = negative,test
+UC4_076,Some features work well but the core functionality I bought it for is broken and has been for six months with no fix in sight.,NEGATIVE,Software,medium,synthetic,"Partial positive, dominant core failure",test
+UC4_077,"The free version was great. The paid version has more bugs, not fewer. Feels like a bait and switch.",NEGATIVE,Software,medium,synthetic,Downgrade perception = negative,test
+UC4_078,I have used this software for years and each update makes it slower and more cluttered. It used to be elegant.,NEGATIVE,Software,hard,synthetic,Historical positive but current negative trend,test
+UC4_079,Filled with ads even in the paid version. Completely unacceptable. Deleted immediately.,NEGATIVE,Software,easy,synthetic,Clear negative,test
+UC4_080,On paper it does everything I need but in practice it is so slow and unintuitive that I spend more time fighting the software than using it.,NEGATIVE,Software,hard,synthetic,"Feature positive, experience negative",test
+UC4_081,"Does what it says on the box. Nothing more, nothing less. If you need a basic speaker for this price it will do the job.",NEUTRAL,Electronics,hard,synthetic,"Purely functional, no positive or negative sentiment",train
+UC4_082,Good battery life and solid build but the software needs work. Sound quality is average. Three stars.,NEUTRAL,Electronics,hard,synthetic,"Explicit three stars, balanced",train
+UC4_083,The quality is fine for the price. Not exceptional but not bad either. Exactly what you would expect at this price point.,NEUTRAL,Clothing,hard,synthetic,Explicitly middle ground,train
+UC4_084,I like the style but the fit is not quite right for my body shape. Someone else might love it. Hard to say.,NEUTRAL,Clothing,medium,synthetic,Personal fit issue — not a product defect,train
+UC4_085,Tastes fine. Not as good as my local bakery but perfectly acceptable for a packaged product. Would buy again if on offer.,NEUTRAL,Food,hard,synthetic,Conditional reorder — genuinely neutral,train
+UC4_086,Some flavours in the variety pack are excellent and some are not for me at all. Averages out to an okay purchase.,NEUTRAL,Food,hard,synthetic,Mixed within product — neutral overall,train
+UC4_087,It does the job. My old one was better but this gets the dishes clean. Functional if unexciting.,NEUTRAL,Home,medium,synthetic,Comparative neutral,train
+UC4_088,Looks great in the photos and looks great in my home too but I have had some reliability issues that make me hesitant to fully recommend it.,NEUTRAL,Home,hard,synthetic,"Positive appearance, negative reliability — balanced",train
+UC4_089,Well written but not really my kind of book. I can see why others love it. Just not for me.,NEUTRAL,Books,medium,synthetic,Personal preference neutral — quality vs taste distinction,train
+UC4_090,The first and third acts are excellent but the middle drags considerably. Overall an uneven but worthwhile read.,NEUTRAL,Books,hard,synthetic,Mixed quality parts — genuinely neutral verdict,train
+UC4_091,Does some things brilliantly and other things poorly. Whether it works for you depends entirely on your specific use case.,NEUTRAL,Software,hard,synthetic,Conditional recommendation — neutral,train
+UC4_092,Reasonable value for money. Not the best tool available but not the worst either. Gets the job done most of the time.,NEUTRAL,Software,medium,synthetic,Explicit middle ground language,train
+UC4_093,Mixed feelings on this one. The hardware is impressive but the software lets it down. Potential that has not been fully realised.,NEUTRAL,Electronics,hard,synthetic,Explicit mixed feelings,train
+UC4_094,Wore it twice and I am still not sure how I feel about it. The quality seems fine but I keep questioning whether it suits me.,NEUTRAL,Clothing,hard,synthetic,Genuine indecision — neutral,train
+UC4_095,Decent enough product. Does what it says. Nothing special but nothing wrong with it either. Three stars feels right.,NEUTRAL,Food,medium,synthetic,Explicit three-star language,test
+UC4_096,I replaced a much cheaper version with this and I am honestly not sure the upgrade was worth the extra cost. Similar performance.,NEUTRAL,Home,hard,synthetic,Upgrade regret — genuinely neutral,test
+UC4_097,Important subject matter handled in an adequate but not inspiring way. You will learn something but you will not be moved.,NEUTRAL,Books,hard,synthetic,"Functional positive, emotional neutral",test
+UC4_098,The company clearly has good intentions and the product is improving with each update but right now it is not quite there yet.,NEUTRAL,Software,hard,synthetic,Positive trajectory but current state neutral,test
+UC4_099,Works perfectly well for basic tasks. If you need more than the basics you will want something more powerful. Honest product.,NEUTRAL,Electronics,medium,synthetic,Scoped positive = neutral overall,test
+UC4_100,My partner loves it. I think it is just okay. Maybe it depends on personal taste more than product quality.,NEUTRAL,Home,hard,synthetic,Disagreement between users — genuinely neutral,test

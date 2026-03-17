@@ -1,0 +1,101 @@
+id,text,label,category,subcategory,difficulty,source,notes,split
+UC3_001,I was charged twice for the same order. Please refund the duplicate charge.,BILLING,BILLING,Overcharge,easy,synthetic,Clear double-charge complaint — strong billing signal,train
+UC3_002,My invoice shows the wrong tax amount. The rate applied does not match my state.,BILLING,BILLING,Invoice,easy,synthetic,Invoice error — clear billing keyword,train
+UC3_003,I need a copy of last month's invoice for my expense report.,BILLING,BILLING,Invoice,easy,synthetic,Invoice request — unambiguous,train
+UC3_004,I upgraded my plan two weeks ago but I am still being charged the old price.,BILLING,BILLING,Subscription,medium,synthetic,"Plan upgrade billing issue — medium, mentions plan change",train
+UC3_005,I cancelled my subscription last month but was still charged this billing cycle.,BILLING,BILLING,Subscription,medium,synthetic,Post-cancellation charge — subscription keyword present,train
+UC3_006,The discount code I applied at checkout did not appear on my final invoice.,BILLING,BILLING,Discount,medium,synthetic,Discount not reflected — billing + discount keywords,train
+UC3_007,I signed up for monthly billing but I was charged the full annual price upfront.,BILLING,BILLING,Subscription,medium,synthetic,Billing cycle mismatch — clear billing intent,train
+UC3_008,I need to update my credit card before the next billing cycle on the 15th.,BILLING,BILLING,Payment_Method,medium,synthetic,"Payment method update — medium, could seem like ACCOUNT",train
+UC3_009,My company needs an official receipt with our tax ID number for reimbursement purposes.,BILLING,BILLING,Invoice,easy,synthetic,Receipt/invoice request — clear billing need,train
+UC3_010,I would like to switch from monthly to annual billing to take advantage of the discount.,BILLING,BILLING,Subscription,medium,synthetic,Billing frequency change — subscription + billing keywords,train
+UC3_011,The invoice I received has the wrong company name and address. It needs to be corrected.,BILLING,BILLING,Invoice,easy,synthetic,Invoice correction — clear billing,train
+UC3_012,I was overcharged for an item that was marked as on sale on your website.,BILLING,BILLING,Overcharge,easy,synthetic,Overcharge on sale item — clear billing,train
+UC3_013,I see an unrecognized charge of $29.99 on my account this month.,BILLING,BILLING,Overcharge,easy,synthetic,TEST — unrecognized charge — clear billing signal,test
+UC3_014,I need to set up automatic payments so I never miss my monthly due date.,BILLING,BILLING,Payment_Method,easy,synthetic,TEST — auto-pay setup — easy billing,test
+UC3_015,The promotional coupon I received by email is not being accepted at checkout.,BILLING,BILLING,Discount,medium,synthetic,"TEST — coupon not working — medium, discount + checkout",test
+UC3_016,My payment failed but the charge still appears on my bank statement.,BILLING,BILLING,Payment_Method,medium,synthetic,TEST — payment failure with bank charge — medium billing,test
+UC3_017,I upgraded mid-month. How is the prorated charge calculated and when will I see it?,BILLING,BILLING,Subscription,hard,synthetic,"TEST — prorated billing inquiry — hard, requires billing domain knowledge",test
+UC3_018,The app crashes every time I try to upload a file larger than 10MB.,TECHNICAL,TECHNICAL,App_Crash,easy,synthetic,App crash — clear technical bug,train
+UC3_019,The search function is returning no results even when I type exact matches.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,Feature not working — clear technical,train
+UC3_020,My data export keeps failing. I get error code 500 every time I try.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,Error code failure — clear technical,train
+UC3_021,The mobile app is not syncing properly with the desktop version. My changes are not showing up.,TECHNICAL,TECHNICAL,Sync_Issue,medium,synthetic,"Sync failure — technical, medium complexity",train
+UC3_022,I am getting an SSL certificate error when I try to access the dashboard.,TECHNICAL,TECHNICAL,Feature_Bug,medium,synthetic,"SSL error — technical, medium",train
+UC3_023,Videos will not play on my account. I just see a spinning loading icon.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,Playback failure — clear technical,train
+UC3_024,The platform is running extremely slowly today. Every page takes over 30 seconds to load.,TECHNICAL,TECHNICAL,Performance,easy,synthetic,Performance issue — clear technical,train
+UC3_025,"After installing your latest update, all my saved preferences and settings were reset.",TECHNICAL,TECHNICAL,Feature_Bug,medium,synthetic,"Post-update data loss — technical, medium",train
+UC3_026,I keep getting logged out of the app automatically every few minutes.,TECHNICAL,TECHNICAL,App_Crash,medium,synthetic,"Auto-logout bug — medium, could seem like ACCOUNT but is a bug",train
+UC3_027,The PDF export is cutting off the last page of every document I try to download.,TECHNICAL,TECHNICAL,Feature_Bug,medium,synthetic,Export bug — clear technical,train
+UC3_028,The dashboard is not updating in real time. The data appears to be frozen.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,Real-time update failure — clear technical,train
+UC3_029,Dark mode is broken. The text is invisible in several areas of the interface.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,UI rendering bug — clear technical,train
+UC3_030,The screen shows a blank white page for every member of my team since this morning.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,TEST — blank screen bug — clear technical,test
+UC3_031,I keep getting a permission denied error when I try to open a shared folder.,TECHNICAL,TECHNICAL,Feature_Bug,easy,synthetic,"TEST — permission error — easy technical, not ACCOUNT",test
+UC3_032,The integration with Slack stopped sending notifications yesterday after working fine for months.,TECHNICAL,TECHNICAL,Integration,medium,synthetic,TEST — integration failure — medium technical,test
+UC3_033,I am unable to install the software on Windows 11. The installer fails at the last step.,TECHNICAL,TECHNICAL,Feature_Bug,medium,synthetic,TEST — install failure — medium technical,test
+UC3_034,The API endpoint we rely on stopped returning data after your deployment last night.,TECHNICAL,TECHNICAL,Integration,hard,synthetic,"TEST — API breakage — hard, developer-facing technical issue",test
+UC3_035,I forgot my password and the password reset email is not arriving in my inbox.,ACCOUNT,ACCOUNT,Password_Reset,easy,synthetic,Password reset — clear account,train
+UC3_036,I need to update the email address on my account to a new one.,ACCOUNT,ACCOUNT,Profile_Update,easy,synthetic,Email update — clear account,train
+UC3_037,My account has been locked after several failed login attempts. Please unlock it.,ACCOUNT,ACCOUNT,Access_Control,easy,synthetic,Account locked — clear account,train
+UC3_038,I need to add three new team members to my organization account.,ACCOUNT,ACCOUNT,Team_Management,medium,synthetic,Team member addition — account management,train
+UC3_039,I would like to permanently delete my account and remove all my data.,ACCOUNT,ACCOUNT,Profile_Update,medium,synthetic,Account deletion — clear account action,train
+UC3_040,My two-factor authentication is not working. I am not receiving the SMS verification codes.,ACCOUNT,ACCOUNT,Access_Control,medium,synthetic,2FA issue — account security,train
+UC3_041,I need to update my company name and registered address on the account.,ACCOUNT,ACCOUNT,Profile_Update,medium,synthetic,"Account profile update — medium, has billing overlap",train
+UC3_042,I was removed from my team's workspace but I should still have access as an admin.,ACCOUNT,ACCOUNT,Access_Control,medium,synthetic,Permission/role issue — account management,train
+UC3_043,The name on my account is misspelled. I need it corrected to match my legal name.,ACCOUNT,ACCOUNT,Profile_Update,easy,synthetic,Name correction — clear account,train
+UC3_044,I want to remove my saved payment details from the account for security reasons.,ACCOUNT,ACCOUNT,Profile_Update,medium,synthetic,"Remove payment from account — medium, billing/account overlap",train
+UC3_045,My profile picture will not update. It keeps reverting to the old photo.,ACCOUNT,ACCOUNT,Profile_Update,easy,synthetic,Profile picture — account settings,train
+UC3_046,I need to reset my password because I suspect someone else accessed my account.,ACCOUNT,ACCOUNT,Password_Reset,easy,synthetic,Security password reset — clear account,train
+UC3_047,I cannot access my account. I think I may have used a different email address when I signed up.,ACCOUNT,ACCOUNT,Access_Control,easy,synthetic,TEST — account access issue — clear account,test
+UC3_048,I want to enable two-factor authentication on my account for added security.,ACCOUNT,ACCOUNT,Access_Control,easy,synthetic,TEST — 2FA setup — clear account security,test
+UC3_049,I accidentally created two accounts using different email addresses. Can they be merged into one?,ACCOUNT,ACCOUNT,Profile_Update,medium,synthetic,TEST — account merge — medium account management,test
+UC3_050,I need to set up single sign-on for my organization so employees can log in with company credentials.,ACCOUNT,ACCOUNT,SSO,medium,synthetic,"TEST — SSO setup — medium, enterprise account",test
+UC3_051,I am taking over a former employee's responsibilities and need ownership of their account transferred to me.,ACCOUNT,ACCOUNT,Team_Management,hard,synthetic,"TEST — account ownership transfer — hard, requires careful account action",test
+UC3_052,Where is my order? It is now three days past the expected delivery date.,SHIPPING,SHIPPING,Delivery_Status,easy,synthetic,Late delivery — clear shipping,train
+UC3_053,I need to change the delivery address for an order I placed this morning.,SHIPPING,SHIPPING,Address_Change,easy,synthetic,Address change — clear shipping,train
+UC3_054,The tracking number I received is not showing any results on the carrier website.,SHIPPING,SHIPPING,Delivery_Status,easy,synthetic,Tracking not working — clear shipping,train
+UC3_055,Is it possible to upgrade to expedited shipping on an order I placed yesterday?,SHIPPING,SHIPPING,Delivery_Status,medium,synthetic,Shipping upgrade request — medium,train
+UC3_056,My order was split into two shipments but I have only received one of them so far.,SHIPPING,SHIPPING,Missing_Package,medium,synthetic,Partial shipment — clear shipping,train
+UC3_057,I received someone else's package. My order seems to have been delivered to a different address.,SHIPPING,SHIPPING,Carrier_Issue,medium,synthetic,Wrong delivery — shipping issue,train
+UC3_058,The courier attempted delivery but I was not home. How do I reschedule the delivery?,SHIPPING,SHIPPING,Carrier_Issue,easy,synthetic,Missed delivery — clear shipping,train
+UC3_059,My tracking shows the package has been in transit for 10 days with no new updates.,SHIPPING,SHIPPING,Delivery_Status,medium,synthetic,Stalled tracking — shipping,train
+UC3_060,I would prefer to collect my order from a local pickup location instead of home delivery.,SHIPPING,SHIPPING,Carrier_Issue,medium,synthetic,Pickup request — shipping logistics,train
+UC3_061,Can I add a signature-required instruction to my upcoming delivery?,SHIPPING,SHIPPING,Carrier_Issue,medium,synthetic,Delivery instruction — shipping,train
+UC3_062,I need an official proof-of-delivery document for my company's records.,SHIPPING,SHIPPING,Delivery_Status,easy,synthetic,Delivery confirmation — clear shipping,train
+UC3_063,"My order tracking says it was returned to sender, but I never requested a return.",SHIPPING,SHIPPING,Carrier_Issue,hard,synthetic,"Unexpected return-to-sender — hard, shipping vs returns ambiguity",train
+UC3_064,My package is marked as delivered but I never received it. No one left it at the door.,SHIPPING,SHIPPING,Missing_Package,easy,synthetic,TEST — missing delivered package — clear shipping,test
+UC3_065,How many days does standard shipping usually take to the Pacific Northwest region?,SHIPPING,SHIPPING,Delivery_Status,easy,synthetic,"TEST — shipping time inquiry — easy, could seem GENERAL but is shipping-specific",test
+UC3_066,My order arrived but one of the items listed on the packing slip is missing from the box.,SHIPPING,SHIPPING,Missing_Package,medium,synthetic,TEST — partial shipment / missing item — medium shipping,test
+UC3_067,I need to redirect my shipment to an international address. I originally selected domestic delivery.,SHIPPING,SHIPPING,Address_Change,medium,synthetic,TEST — international address change — medium shipping,test
+UC3_068,The package arrived badly damaged and the product inside is broken. I need a replacement sent urgently.,SHIPPING,SHIPPING,Missing_Package,hard,synthetic,"TEST — damaged delivery — hard, shipping vs returns ambiguity",test
+UC3_069,I would like to return a product I purchased last week. It is not what I expected.,RETURNS,RETURNS,Return_Request,easy,synthetic,Basic return request — clear returns,train
+UC3_070,How do I start a return? The product does not meet my needs and I have not opened it.,RETURNS,RETURNS,Return_Request,easy,synthetic,Return process inquiry — clear returns,train
+UC3_071,I received the wrong item in my order and would like to exchange it for the correct one.,RETURNS,RETURNS,Exchange,easy,synthetic,Wrong item exchange — clear returns,train
+UC3_072,The product I received stopped working after two days. I would like a replacement.,RETURNS,RETURNS,Defective_Item,easy,synthetic,Defective product — returns,train
+UC3_073,Can you send me a prepaid return shipping label for my return?,RETURNS,RETURNS,Return_Request,easy,synthetic,Return label request — clear returns,train
+UC3_074,I opened the product before realizing it was the wrong model. Can I still return it?,RETURNS,RETURNS,Return_Request,medium,synthetic,Opened item return — medium returns,train
+UC3_075,I returned the item but was given store credit instead of a refund to my original payment method.,RETURNS,RETURNS,Refund_Status,medium,synthetic,Refund method dispute — returns,train
+UC3_076,I returned my full order but the refund I received does not match the original amount paid.,RETURNS,RETURNS,Refund_Status,medium,synthetic,Partial refund dispute — medium returns,train
+UC3_077,The warehouse confirmed receiving my return three weeks ago but my refund has not been issued.,RETURNS,RETURNS,Refund_Status,medium,synthetic,Delayed refund — clear returns,train
+UC3_078,I would like to exchange the item I ordered for the same product in a different size.,RETURNS,RETURNS,Exchange,easy,synthetic,Size exchange — clear returns,train
+UC3_079,"My replacement item has not been shipped yet, even though the original was returned two weeks ago.",RETURNS,RETURNS,Refund_Status,medium,synthetic,Replacement not sent — returns follow-up,train
+UC3_080,My refund has not appeared after two weeks. The return was marked as received.,RETURNS,RETURNS,Refund_Status,easy,synthetic,TEST — missing refund — easy returns,test
+UC3_081,I accidentally sent back the wrong item in my return package. Can you send it back to me?,RETURNS,RETURNS,Return_Request,easy,synthetic,TEST — wrong item returned — easy returns,test
+UC3_082,I am outside the standard 30-day return window. Is there any exception I can request?,RETURNS,RETURNS,Return_Request,medium,synthetic,TEST — late return request — medium returns,test
+UC3_083,I need to return several items from the same order but I would like to send them separately.,RETURNS,RETURNS,Return_Request,medium,synthetic,TEST — multi-item separate return — medium returns,test
+UC3_084,I purchased a digital download and the content was not as described. Can I get a refund?,RETURNS,RETURNS,Return_Request,hard,synthetic,"TEST — digital product return — hard, policy-dependent edge case",test
+UC3_085,Do you offer special pricing or discounts for registered nonprofits?,GENERAL,GENERAL,Pricing_Inquiry,easy,synthetic,Nonprofit discount — general product/pricing question,train
+UC3_086,What are your customer support hours? I want to know when I can reach someone by phone.,GENERAL,GENERAL,Product_Question,easy,synthetic,Support hours — general info,train
+UC3_087,Do you have a mobile app available for Android? I could not find it in the Play Store.,GENERAL,GENERAL,Product_Question,easy,synthetic,Product availability — general,train
+UC3_088,I have some feedback about the recent changes to your dashboard layout. Who should I send it to?,GENERAL,GENERAL,Feedback,medium,synthetic,Feedback routing — general,train
+UC3_089,Can you recommend the best plan for a team of around 10 people with mixed usage needs?,GENERAL,GENERAL,Pricing_Inquiry,medium,synthetic,"Plan recommendation — medium, could seem BILLING but is pre-purchase",train
+UC3_090,Is there a free trial available before committing to a paid subscription?,GENERAL,GENERAL,Pricing_Inquiry,easy,synthetic,Free trial inquiry — general,train
+UC3_091,What languages does your platform currently support for the user interface?,GENERAL,GENERAL,Product_Question,easy,synthetic,Language support — general product,train
+UC3_092,I read about your product in an article. Where can I learn more about what it does?,GENERAL,GENERAL,Product_Question,medium,synthetic,Prospect inquiry — general,train
+UC3_093,Do you offer any official training courses or certifications for using your platform?,GENERAL,GENERAL,Product_Question,medium,synthetic,Training inquiry — general,train
+UC3_094,What is your company's data retention policy? How long do you keep customer data?,GENERAL,GENERAL,Policy,medium,synthetic,"Data policy question — general, not technical",train
+UC3_095,I would like to speak with your enterprise sales team about a custom contract for our organization.,GENERAL,GENERAL,Pricing_Inquiry,hard,synthetic,"Enterprise sales — hard, general routing to sales",train
+UC3_096,Do you offer discounts for students or academic institutions?,GENERAL,GENERAL,Pricing_Inquiry,easy,synthetic,TEST — student discount — easy general,test
+UC3_097,I am thinking about upgrading. What additional features do I get on the premium tier?,GENERAL,GENERAL,Pricing_Inquiry,easy,synthetic,"TEST — feature comparison — easy general, pre-purchase inquiry not billing",test
+UC3_098,Does your platform integrate natively with Salesforce CRM?,GENERAL,GENERAL,Integration_Inquiry,medium,synthetic,"TEST — integration inquiry — medium general, could seem TECHNICAL",test
+UC3_099,I am a developer and want to build on top of your platform. Where can I find the API documentation?,GENERAL,GENERAL,Integration_Inquiry,hard,synthetic,"TEST — API docs request — hard, developer inquiry could route to TECHNICAL",test
+UC3_100,I would like to submit a positive review of your service. Is there a specific place to do that?,GENERAL,GENERAL,Feedback,medium,synthetic,TEST — review submission inquiry — medium general,test

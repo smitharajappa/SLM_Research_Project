@@ -1,0 +1,8 @@
+model,tier,params,overall_acc,urgent_recall,p95_ms,n_inferences
+Gemma3-4B,SLM,4B,30.0,0.0,589,90
+Llama-3.1-8B,SLM,8B,73.3,63.6,2949,90
+Llama-3.2-3B,SLM,3B,50.0,9.1,1058,90
+Llama-3.3-70B,LLM,70B,68.9,81.8,2457,90
+Mistral-7B,SLM,7B,23.3,0.0,845,90
+Phi4-Mini,SLM,3.8B,36.7,54.5,1358,90
+Qwen2.5-7B,SLM,7B,63.3,63.6,750,90

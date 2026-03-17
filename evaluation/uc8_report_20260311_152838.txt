@@ -1,0 +1,112 @@
+========================================================================
+  UC8 EVALUATION REPORT -- Financial Report Drafting
+  Generated   : 2026-03-11 16:13:35
+  Pre-reg     : 2026-03-11  |  S3 Score: 3.80  |  Prediction: Hybrid
+  Judge model : llama-3.3-70b-versatile
+  Parity thr  : >= 95% of LLM composite score
+========================================================================
+
+  TABLE 1 -- Overall Composite Scores (LLM-as-Judge, 0-100%)
+------------------------------------------------------------------------
+  Model              Tier     Avg%   Parity   P50ms   P95ms  <LLM_P95
+------------------------------------------------------------------------
+  Llama-3.3-70B      LLM     80.6%    1.000   1330   1520       NO  <- LLM baseline
+  Llama-3.2-3B       SLM     72.3%    0.897   9055  11802       NO 
+  Phi4-Mini          SLM     51.7%    0.641  13474  18392       NO 
+  Gemma3-4B          SLM     51.5%    0.639   8810  10551       NO 
+  Qwen2.5-7B         SLM     51.7%    0.641  13439  16460       NO 
+  Mistral-7B         SLM     50.0%    0.620  17045  20654       NO 
+  Llama-3.1-8B       SLM     50.0%    0.620  19793  25680       NO 
+------------------------------------------------------------------------
+
+  TABLE 2 -- Scores by Sector (SLM composite average)
+------------------------------------------------------------------------
+  Model                 Techno    Retail    Health    Manufa    Financ
+------------------------------------------------------------------------
+  Llama-3.3-70B          95.9%     85.4%     72.9%     77.5%     68.8%
+  Llama-3.2-3B           61.5%     69.8%     67.7%     81.2%     81.3%
+  Phi4-Mini              50.0%     58.3%     50.0%     50.0%     50.0%
+  Gemma3-4B              50.0%     57.3%     50.0%     50.0%     50.0%
+  Qwen2.5-7B             50.0%     58.3%     50.0%     50.0%     50.0%
+  Mistral-7B             50.0%     50.0%     50.0%     50.0%     50.0%
+  Llama-3.1-8B           50.0%     50.0%     50.0%     50.0%     50.0%
+------------------------------------------------------------------------
+  SLM/LLM relative by sector: Techno=0.542 | Retail=0.696 | Health=0.792 | Manufa=0.783 | Financ=0.878
+
+  TABLE 3 -- Scores by Difficulty (average composite %)
+------------------------------------------------------------------------
+  Model                   Easy    Medium      Hard   Gap(E-H)
+------------------------------------------------------------------------
+  Llama-3.3-70B          85.0%     78.8%     77.4%       7.6pp
+  Llama-3.2-3B           78.1%     69.4%     69.4%       8.8pp
+  Phi4-Mini              55.0%     50.0%     50.0%       5.0pp
+  Gemma3-4B              50.0%     50.0%     54.4%      -4.4pp
+  Qwen2.5-7B             55.0%     50.0%     50.0%       5.0pp
+  Mistral-7B             50.0%     50.0%     50.0%       0.0pp
+  Llama-3.1-8B           50.0%     50.0%     50.0%       0.0pp
+------------------------------------------------------------------------
+
+  TABLE 4 -- Dimension Breakdown (model averages)
+------------------------------------------------------------------------
+  Model                D1 Acc  D2 Dpth  D3 Tone  D4 Comp
+------------------------------------------------------------------------
+  Llama-3.3-70B         4.29     3.96     4.36     4.29
+  Llama-3.2-3B          4.03     3.57     4.23     3.73
+  Phi4-Mini             3.07     3.07     3.07     3.07
+  Gemma3-4B             3.07     3.03     3.07     3.07
+  Qwen2.5-7B            3.07     3.07     3.07     3.07
+  Mistral-7B            3.00     3.00     3.00     3.00
+  Llama-3.1-8B          3.00     3.00     3.00     3.00
+------------------------------------------------------------------------
+
+========================================================================
+  HYPOTHESIS TEST OUTCOMES
+========================================================================
+
+  H8.1 Accuracy parity (>=4/6 SLMs >= 95% of LLM):
+       Models achieving parity: 0/6  -->  NOT SUPPORTED
+       Llama-3.2-3B        72.3% / 80.6% = 0.897  BELOW
+       Phi4-Mini           51.7% / 80.6% = 0.641  BELOW
+       Gemma3-4B           51.5% / 80.6% = 0.639  BELOW
+       Qwen2.5-7B          51.7% / 80.6% = 0.641  BELOW
+       Mistral-7B          50.0% / 80.6% = 0.620  BELOW
+       Llama-3.1-8B        50.0% / 80.6% = 0.620  BELOW
+
+  H8.2 Latency (>=4/6 SLMs P95 < LLM P95 of 1520ms):
+       Models faster than LLM P95: 0/6  -->  NOT SUPPORTED
+       Llama-3.2-3B       P95=11802ms  SLOWER
+       Phi4-Mini          P95=18392ms  SLOWER
+       Gemma3-4B          P95=10551ms  SLOWER
+       Qwen2.5-7B         P95=16460ms  SLOWER
+       Mistral-7B         P95=20654ms  SLOWER
+       Llama-3.1-8B       P95=25680ms  SLOWER
+
+  H8.3 Difficulty gradient (hard < easy for all SLMs):
+       --> NOT SUPPORTED
+       Llama-3.2-3B       easy=78.1%  hard=69.4%  gradient=YES
+       Phi4-Mini          easy=55.0%  hard=50.0%  gradient=YES
+       Gemma3-4B          easy=50.0%  hard=54.4%  gradient=NO
+       Qwen2.5-7B         easy=55.0%  hard=50.0%  gradient=YES
+       Mistral-7B         easy=50.0%  hard=50.0%  gradient=NO
+       Llama-3.1-8B       easy=50.0%  hard=50.0%  gradient=NO
+
+  H8.4 Financial sector lowest relative SLM score:
+       Lowest sector: Technology  -->  NOT SUPPORTED (lowest: Technology)
+       Technology     relative_score=0.542
+       Retail         relative_score=0.696
+       Manufacturing  relative_score=0.783
+       Healthcare     relative_score=0.792
+       Financial      relative_score=0.878
+
+========================================================================
+  HYPOTHESES SUPPORTED: 0/4
+  TIER VERDICT         : LLM ONLY or further review needed
+  S3 PREDICTION        : Hybrid
+  PREDICTION OUTCOME   : DISCONFIRMED
+========================================================================
+
+  OUTPUT FILES
+  Evaluation CSV : evaluation/uc8_evaluation_20260311_152838.csv
+  Summary CSV    : evaluation/uc8_summary_20260311_152838.csv
+  This report    : evaluation/uc8_report_20260311_152838.txt
+========================================================================

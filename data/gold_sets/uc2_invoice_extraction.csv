@@ -1,0 +1,1029 @@
+item_id,category,difficulty,split,invoice_text,vendor_name,invoice_date,invoice_number,total_amount,tax_amount,line_item_count
+UC2_001,tech_services,easy,train,"INVOICE
+Vendor: TechNova Solutions LLC
+Invoice Number: TNS-20240815-001
+Date: 2024-08-15
+
+Services Rendered:
+  - Cloud Infrastructure Setup    $3,200.00
+  - Security Audit                $1,800.00
+
+Subtotal: $5,000.00
+Tax (8%): $400.00
+Total Due: $5,400.00",TechNova Solutions LLC,2024-08-15,TNS-20240815-001,5400.0,400.0,2
+UC2_002,tech_services,easy,train,"INVOICE
+From: DataBridge Systems Inc.
+Invoice #: DBS-2024-0042
+Invoice Date: September 3, 2024
+
+Description:
+  1. Database Migration Services   $6,500.00
+  2. Staff Training (2 days)        $2,000.00
+  3. Documentation Package            $500.00
+
+Tax: $720.00
+Grand Total: $9,720.00",DataBridge Systems Inc.,2024-09-03,DBS-2024-0042,9720.0,720.0,3
+UC2_003,tech_services,easy,train,"SALES INVOICE
+
+Supplier: Apex IT Consultants
+Invoice No: AIC-003871
+Billing Date: 2024-11-01
+
+Item: Annual Support Contract    $12,000.00
+
+Sales Tax: $960.00
+Total Amount Due: $12,960.00",Apex IT Consultants,2024-11-01,AIC-003871,12960.0,960.0,1
+UC2_004,tech_services,medium,train,"Invoice from CloudMatrix Corp | Ref: CMX/INV/2025/0291
+Issued: January 15th, 2025
+
+Deliverables:
+  API Integration Work (Phase 1)   $4,100
+  API Integration Work (Phase 2)   $3,900
+  QA & Testing                     $1,200
+  Project Management               $800
+
+All amounts exclusive of applicable taxes.
+Total (incl. 7.5% state tax): $10,750.00",CloudMatrix Corp,2025-01-15,CMX/INV/2025/0291,10750.0,750.0,4
+UC2_005,tech_services,medium,train,"BILLING STATEMENT
+Tech Horizon Group | TX-H-20241203
+Date of Issue: 03-Dec-2024
+
+Services:
+  Managed Detection & Response (MDR) — 3 months    $8,400.00
+  Penetration Test Report                           $2,500.00
+
+Subtotal before tax: $10,900.00
+Taxes and fees included in final amount.
+TOTAL: $11,854.50",Tech Horizon Group,2024-12-03,TX-H-20241203,11854.5,954.5,2
+UC2_006,tech_services,medium,train,"INVOICE — Nexus Software Engineering
+Invoice Reference: NSE-2025-Q1-014
+Billing period end date: March 31, 2025
+
+Monthly retainer: $5,000.00 × 3 months = $15,000.00
+Emergency on-call incidents (2): $750.00
+
+GST/HST (13%): $2,047.50
+Net payable: $17,797.50",Nexus Software Engineering,2025-03-31,NSE-2025-Q1-014,17797.5,2047.5,2
+UC2_007,tech_services,medium,train,"Vantage Systems | Invoice
+Client PO: PO-88821
+Invoice: VSI-88821-R2
+Date: Feb 7 2025
+
+Work items (revised per change order):
+  Core dev work        $11,200.00
+  Change order #1      +$2,000.00
+  Discount applied     -$500.00
+
+Tax (8.25%): $1,051.50
+Total: $13,751.50",Vantage Systems,2025-02-07,VSI-88821-R2,13751.5,1051.5,3
+UC2_008,tech_services,hard,train,"INV# IT-SRV-25-0087 | Meridian Tech Partners
+Billing cycle: Q4 FY25 (Oct–Dec)
+
+Stmt rendered: 31-Dec-25
+
+Hrs   Description                          Rate     Ext.
+120   Sr. Architect (J. Patel)           $185/hr  $22,200
+ 80   DevOps Eng. (contract)             $140/hr  $11,200
+ 40   Jr. Developer                       $95/hr   $3,800
+ 20   PM oversight                       $160/hr   $3,200
+
+Travel & expenses (receipts attached):   $1,340.00
+Withholding adj:                          -$200.00
+Applicable sales tax:                   $3,303.20
+TOTAL DUE:                             $44,843.20",Meridian Tech Partners,2025-12-31,IT-SRV-25-0087,44843.2,3303.2,6
+UC2_009,tech_services,hard,train,"INVOICE — Pinnacle Digital Inc. | PDI-FY2025-0441
+Originated: Q3-end (see attached SOW ref #SOW-882)
+Note: This invoice supersedes draft PDI-FY2025-0441-D
+
+Module A: UI/UX Redesign         $18,500
+Module B: Backend Refactor       $22,000
+Module C: CI/CD Pipeline          $9,500
+Licensing (annual):               $4,200
+Volume discount (-5%):           -$2,710
+
+VAT @ 20%:                       $10,298
+Total payable (GBP equivalent shown in addendum): $61,788.00",Pinnacle Digital Inc.,,PDI-FY2025-0441,61788.0,10298.0,5
+UC2_010,office_supplies,easy,train,"INVOICE
+Vendor: OfficeWorld Direct
+Invoice: OWD-24-5521
+Date: 2024-07-10
+
+  Laser Paper (10 reams)        $89.90
+  Ballpoint Pens (box of 50)    $24.99
+  Sticky Notes (24-pack)        $18.50
+
+Tax: $10.68
+Total: $144.07",OfficeWorld Direct,2024-07-10,OWD-24-5521,144.07,10.68,3
+UC2_011,office_supplies,easy,train,"TAX INVOICE
+Staples Business Advantage
+Invoice Number: SBA-0089234
+Invoice Date: October 22, 2024
+
+Products:
+  HP 67XL Ink Cartridges (4-pack)    $62.99
+  Wireless Keyboard & Mouse          $54.99
+  Monitor Stand (adjustable)         $79.99
+  USB Hub 7-port                     $34.99
+  Cable Management Kit               $19.99
+
+HST (13%): $33.50
+Total: $286.45",Staples Business Advantage,2024-10-22,SBA-0089234,286.45,33.5,5
+UC2_012,office_supplies,easy,train,"PURCHASE INVOICE
+Quill Corporation | INV-QC-2025-00338
+Date: 2025-02-14
+
+Ergonomic Chair Model EX-7    $349.00
+
+Tax: $27.92
+Total: $376.92",Quill Corporation,2025-02-14,INV-QC-2025-00338,376.92,27.92,1
+UC2_013,office_supplies,medium,train,"SupplyPro | Order #SP-77421-B | Inv. date: 14 Mar 2025
+
+Qty  Item                         Unit    Total
+ 20  Copy paper A4 (ream)         $8.99  $179.80
+  5  Whiteboard markers (set)    $12.50   $62.50
+ 10  File folders (box)            $7.20   $72.00
+  3  Label maker tape rolls       $11.00   $33.00
+
+Shipping: $15.00
+Total (tax exempt — reseller cert on file): $362.30",SupplyPro,2025-03-14,SP-77421-B,362.3,,4
+UC2_014,office_supplies,medium,train,"INVOICE FROM: Global Office Essentials
+Our ref: GOE/2025/INV/0561
+Your PO: 90213
+Date of supply: 5th February 2025
+
+  Standing desk converters ×4    $279.96
+  Laptop stands ×6               $149.94
+  Cable organizers ×10            $49.90
+
+Subtotal: $479.80
+VAT (20%): $95.96
+Total incl. VAT: $575.76",Global Office Essentials,2025-02-05,GOE/2025/INV/0561,575.76,95.96,3
+UC2_015,office_supplies,medium,train,"BrightSpace Interiors | BS-202500144
+Billing Date: Jan 30, '25
+
+Office partition panels (×6, installed)   $2,400.00
+Reception desk refurb                     $1,850.00
+Delivery & assembly                         $320.00
+
+Note: 50% deposit paid. Remaining 50% shown below.
+Tax (9%): $419.40
+Balance due: $5,069.40",BrightSpace Interiors,2025-01-30,BS-202500144,5069.4,419.4,3
+UC2_016,office_supplies,hard,train,"CONSOLIDATED SUPPLY INVOICE
+Vendor: Office Depot Business (acct #: 4481-PRO)
+Inv. Ref.: ODBI-2025-0331-ADJ | Replaces: ODBI-2025-0331
+Period: March 2025
+
+  Paper products bundle       $214.60
+  Toner cartridges (est.)     $387.50 *
+  Breakroom supplies          $156.20
+  Misc. small items           $73.40
+  Credit memo (CM-0032)      -$45.00
+
+* Actual toner qty adjusted per monthly usage report.
+State tax (est.): $62.93
+Corrected Total Due: $849.63",Office Depot Business,,ODBI-2025-0331-ADJ,849.63,62.93,5
+UC2_017,professional_services,easy,train,"INVOICE
+From: Hartwell & Associates LLP
+Invoice #: HA-2025-0117
+Date: January 17, 2025
+
+  Legal Consultation (4 hrs × $320/hr)   $1,280.00
+  Contract Drafting                       $2,500.00
+  Filing Fees (disbursement)                $150.00
+
+Tax: $0 (legal services exempt)
+Total Due: $3,930.00",Hartwell & Associates LLP,2025-01-17,HA-2025-0117,3930.0,,3
+UC2_018,professional_services,easy,train,"ACCOUNTING SERVICES INVOICE
+Firm: Rivera & Chen CPAs
+Invoice Number: RC-2024-Q4-009
+Invoice Date: 2024-12-31
+
+  Annual Audit                  $8,500.00
+  Tax Preparation (Corp.)       $2,200.00
+
+Tax: $856.00
+Total: $11,556.00",Rivera & Chen CPAs,2024-12-31,RC-2024-Q4-009,11556.0,856.0,2
+UC2_019,professional_services,easy,train,"INVOICE
+Consulting Firm: Bright Future Strategy Group
+Invoice: BFSG-00223
+Date: March 5, 2025
+
+  Market Entry Analysis Report        $7,000.00
+
+No applicable taxes.
+Amount Due: $7,000.00",Bright Future Strategy Group,2025-03-05,BFSG-00223,7000.0,,1
+UC2_020,professional_services,medium,train,"Thornton Executive Search | Invoice TES-2025-0085
+Issued: 28 February, 2025
+
+Recruitment fee — VP Engineering placement
+  (22% of first-year base salary $195,000)    $42,900.00
+Background check (pass-through)                   $475.00
+
+Subtotal: $43,375.00
+GST (5%): $2,168.75
+Total: $45,543.75",Thornton Executive Search,2025-02-28,TES-2025-0085,45543.75,2168.75,2
+UC2_021,professional_services,medium,train,"INVOICE — Clearwater Training Solutions
+CTS Invoice: 2025-TRN-0049 (see also PO# 77-2025-CORP)
+Course dates: Feb 10-14, 2025 | Invoice date: 17 Feb 25
+
+  Leadership Workshop (8 attendees)     $6,400.00
+  Facilitator travel                      $890.00
+  Course materials                        $640.00
+  Venue rental (contribution)             $750.00
+  Post-course coaching (4 sessions)     $1,600.00
+
+Tax: $839.36
+Invoice total: $11,119.36",Clearwater Training Solutions,2025-02-17,2025-TRN-0049,11119.36,839.36,5
+UC2_022,professional_services,medium,train,"PR Firm: Mosaic Communications Group
+Billing ref: MCG-Q2-2025-007
+Period: April–June 2025 | Issued: 30 Jun 2025
+
+Monthly retainer × 3 months ($4,500/mo)  $13,500.00
+Press release distribution (×5 releases)   $2,500.00
+Media monitoring tool (quarterly)          $1,200.00
+
+Taxes where applicable: None (b2b services, exempt).
+Total Due: $17,200.00",Mosaic Communications Group,2025-06-30,MCG-Q2-2025-007,17200.0,,3
+UC2_023,professional_services,hard,train,"ENGAGEMENT INVOICE
+Practice: Meridian Management Consulting | Office: Chicago
+Engagement: Project Gemini | Phase: II
+Invoice: MMC-ENG-2025-GMNI-P2-003
+
+Team time (week ending 2025-06-27):
+  Partner (S. Okafor)      14.5 hrs × $600    $8,700
+  Sr. Mgr (L. Bernstein)   38.0 hrs × $380   $14,440
+  Analyst (A. Dutta)       52.0 hrs × $195   $10,140
+Reimbursables:
+  Flights                             $1,642
+  Hotel (4 nights)                    $1,128
+  Meals (per diem)                      $312
+
+Applicable taxes: none (inter-company)
+Invoice Total: $36,362.00",Meridian Management Consulting,2025-06-27,MMC-ENG-2025-GMNI-P2-003,36362.0,,6
+UC2_024,professional_services,hard,train,"AMENDED TAX INVOICE
+Original: AMG-2025-0198 | This document: AMG-2025-0198-AMD
+Amend. reason: Line item 2 qty correction
+Firm: Atlas Management Group | Dept: Strategy
+Date rendered: 15 May 2025
+
+1. Board advisory sessions (orig: 3, corrected: 2 × $5,500)  $11,000
+2. Benchmarking report (revised scope)                         $8,750
+3. Travel (as per approved budget)                             $2,100
+
+Less: credit from overpayment INV-0181                       -$1,200
+Sub: $20,650
+GST (10%): $2,065
+Net Payable: $22,715.00",Atlas Management Group,2025-05-15,AMG-2025-0198-AMD,22715.0,2065.0,4
+UC2_025,utilities,easy,train,"ELECTRIC UTILITY INVOICE
+Provider: Consolidated Power & Light
+Account Invoice: CPL-INV-20240801
+Bill Date: August 1, 2024
+
+  Energy consumption (1,240 kWh × $0.12)    $148.80
+  Distribution charge                        $32.50
+
+Tax: $9.09
+Total Amount Due: $190.39",Consolidated Power & Light,2024-08-01,CPL-INV-20240801,190.39,9.09,2
+UC2_026,utilities,easy,train,"WATER & WASTEWATER BILL
+Utility: Metro Water District
+Invoice #: MWD-Q3-2024-00772
+Billing Date: 2024-09-30
+
+  Water usage (18,500 gallons)   $74.00
+  Wastewater fee                 $45.00
+  Infrastructure surcharge        $12.50
+
+Tax: $0 (utility, tax-exempt)
+Total: $131.50",Metro Water District,2024-09-30,MWD-Q3-2024-00772,131.5,,3
+UC2_027,utilities,easy,train,"NATURAL GAS INVOICE
+Supplier: Cascade Gas Services
+Invoice No.: CGS-2025-0058
+Date: January 31, 2025
+
+  Gas usage (620 therms × $1.45)   $899.00
+  Safety inspection fee              $25.00
+
+Tax (utility levy 3%): $27.72
+Total Payable: $951.72",Cascade Gas Services,2025-01-31,CGS-2025-0058,951.72,27.72,2
+UC2_028,utilities,medium,train,"COMBINED UTILITY BILL — Pacific Summit Utilities
+Account: PSU-88320 | Period: Oct–Nov 2024
+Invoice ref: PSU-88320-NOV24
+Statement date: November 30 2024
+
+Electric (2 months)    $412.00
+Gas                    $183.50
+Prior balance          $127.20
+Late payment fee        $12.72
+
+Regulatory surcharge (estimated):  $28.40
+Total balance: $763.82",Pacific Summit Utilities,2024-11-30,PSU-88320-NOV24,763.82,28.4,4
+UC2_029,utilities,medium,train,"TELECOM SERVICES INVOICE
+Carrier: Broadband Plus | BP-ENT-2025-0392
+Billing month: February 2025 (issued 28-Feb-25)
+
+Dedicated fiber 1Gbps (monthly)    $850.00
+Failover 4G LTE backup             $120.00
+Static IP block (×8 addresses)      $40.00
+DDoS protection add-on              $95.00
+
+Note: Tax not applicable on carrier services in this state.
+Total: $1,105.00",Broadband Plus,2025-02-28,BP-ENT-2025-0392,1105.0,,4
+UC2_030,utilities,hard,train,"STATEMENT OF CHARGES
+Multi-site account — see site schedule (attached)
+Provider: Tri-State Electrical Cooperative
+Acct: TSEC-CORP-9928-A
+Consolidation invoice: TSEC-CORP-9928-A-Q1-25
+Covers: Jan, Feb, Mar 2025
+
+Site A (HQ):         $1,842.00
+Site B (Warehouse):    $904.50
+Site C (Annex):        $388.00
+Demand charges:        $512.00
+Power factor adj:      +$84.50
+Green energy credit:  -$120.00
+
+Franchise fee (est.): $178.20
+TOTAL Q1 2025:      $3,789.20",Tri-State Electrical Cooperative,,TSEC-CORP-9928-A-Q1-25,3789.2,178.2,6
+UC2_031,software_saas,easy,train,"SUBSCRIPTION INVOICE
+Vendor: Salesforce Inc.
+Invoice #: SF-2025-INV-00041
+Invoice Date: 2025-01-01
+
+  Sales Cloud Enterprise (50 users × $150/mo × 12 mo)   $90,000.00
+
+Tax: $7,200.00
+Total Due: $97,200.00",Salesforce Inc.,2025-01-01,SF-2025-INV-00041,97200.0,7200.0,1
+UC2_032,software_saas,easy,train,"INVOICE
+Company: Atlassian
+Invoice Number: ATL-2024-0128847
+Date: November 1, 2024
+
+  Jira Software (Cloud, 25 users)   $3,750.00
+  Confluence (Cloud, 25 users)       $2,625.00
+  Jira Service Management (10 agents) $6,000.00
+
+GST: $1,237.50
+Total: $13,612.50",Atlassian,2024-11-01,ATL-2024-0128847,13612.5,1237.5,3
+UC2_033,software_saas,easy,train,"TAX INVOICE
+Supplier: Adobe Systems Inc.
+Invoice ID: ADBE-US-20250115-7832
+Date of Issue: January 15, 2025
+
+  Adobe Creative Cloud All Apps (annual, 10 seats)   $6,600.00
+  Adobe Sign (enterprise)                            $2,400.00
+
+Sales Tax: $719.40
+Total Amount: $9,719.40",Adobe Systems Inc.,2025-01-15,ADBE-US-20250115-7832,9719.4,719.4,2
+UC2_034,software_saas,medium,train,"Snowflake Inc. | Invoice SNF-2025-Q1-88320
+Billing period: January 1 – March 31, 2025
+Invoice rendered: March 31, 2025
+
+Compute credits consumed:    $14,820.00
+Storage (avg 4.2TB × $23)      $966.00
+Data transfer (egress):         $340.00
+Support (Business plan):        $900.00
+
+Promotional credit applied:   -$500.00
+Applicable tax: $1,322.08
+Total Billed: $17,848.08",Snowflake Inc.,2025-03-31,SNF-2025-Q1-88320,17848.08,1322.08,5
+UC2_035,software_saas,medium,train,"Microsoft Azure | Invoice MAZ-2025-02-00049823
+Billing period end: Feb 28, 2025
+
+Compute (B4ms, 720 hrs):      $278.40
+Azure SQL Managed Instance:   $892.00
+Storage (LRS, 5TB):           $102.00
+Azure OpenAI Service tokens:  $614.50
+Bandwidth (outbound 1.2TB):    $89.40
+
+Enterprise Agreement discount (-15%):  -$296.44
+Tax: $0 (EA exempt this billing period)
+Total: $1,679.86",Microsoft Azure,2025-02-28,MAZ-2025-02-00049823,1679.86,,6
+UC2_036,software_saas,medium,train,"INVOICE — Zoom Video Communications
+ZVC Ref: ZVC-ENT-2025-00441 | PO: PO-ZOOM-882
+Date: March 1, 2025
+
+Zoom One Business Plus
+  250 hosts × $19.99/mo × 12 months    $59,970.00
+Zoom Rooms (20 rooms × $49/mo × 12)    $11,760.00
+Zoom Phone (100 lines × $10/mo × 12)   $12,000.00
+
+Tax (8.625%): $7,207.24
+Contract total: $90,937.24",Zoom Video Communications,2025-03-01,ZVC-ENT-2025-00441,90937.24,7207.24,3
+UC2_037,software_saas,hard,train,"CONSOLIDATED SOFTWARE RENEWAL INVOICE
+Reseller: Presidio Technology Solutions
+Reseller Invoice: PTS-ENT-25-00872
+End-customer: refer to attached order form
+Date: See renewal schedule; Statement date: 31-Mar-25
+
+Microsoft M365 E5 (200 seats, 12mo)          $72,000.00
+Defender for Endpoint P2 add-on (200)         $8,400.00
+Azure AD Premium P2 (200)                     $3,600.00
+Co-management fee (Presidio)                  $4,800.00
+True-up adjustment (Q3 audit):               +$1,200.00
+
+Applicable sales tax (varies by jurisdiction): $6,000.00 (est.)
+GRAND TOTAL (USD): $96,000.00",Presidio Technology Solutions,2025-03-31,PTS-ENT-25-00872,96000.0,6000.0,5
+UC2_038,software_saas,hard,train,"AWS | Invoice AWS-US-2025-0209-BLENDED
+Acct: 123456789012 | Consolidated (3 linked accounts)
+Period: Feb 2025 | Rendered automatically
+
+EC2 (family: r6i, m6i, c6g):     $4,821.40
+RDS Multi-AZ (PostgreSQL 14):     $1,644.00
+S3 (storage + requests):            $387.60
+CloudFront (1.8TB xfr):             $156.90
+Lambda (12B invocations):           $240.00
+SES (outbound mail):                 $48.00
+Support (Business, prorated):       $475.00
+
+Savings Plans savings:           -$1,200.00
+Tax (auto-calculated):             $626.47
+Net Billed: $7,199.37",AWS,2025-02-28,AWS-US-2025-0209-BLENDED,7199.37,626.47,8
+UC2_039,tech_services,easy,train,"INVOICE
+Vendor: Strata Cloud Corp
+Invoice #: SCC-2024-00551
+Date: 2024-06-20
+
+Services/Products rendered as per agreed terms.
+Tax: $704.00
+Total Due: $8800.00",Strata Cloud Corp,2024-06-20,SCC-2024-00551,8800.0,704.0,2
+UC2_040,tech_services,easy,train,"INVOICE
+Vendor: BluePrint DevOps
+Invoice #: BPD-INV-0029
+Date: 2024-09-10
+
+Services/Products rendered as per agreed terms.
+Tax: $420.00
+Total Due: $5250.00",BluePrint DevOps,2024-09-10,BPD-INV-0029,5250.0,420.0,1
+UC2_041,tech_services,medium,train,"INVOICE
+Vendor: Kinetic Systems Group
+Invoice #: KSG-25-0183
+Date: 2025-01-22
+
+Services/Products rendered as per agreed terms.
+Tax: $1552.00
+Total Due: $19400.00",Kinetic Systems Group,2025-01-22,KSG-25-0183,19400.0,1552.0,3
+UC2_042,tech_services,medium,train,"INVOICE
+Vendor: Orion Network Services
+Invoice #: ONS-2025-0078
+Date: 2025-02-19
+
+Services/Products rendered as per agreed terms.
+Tax: $609.64
+Total Due: $7620.50",Orion Network Services,2025-02-19,ONS-2025-0078,7620.5,609.64,4
+UC2_043,tech_services,hard,train,"INVOICE
+Vendor: Vertex Integration Labs
+Invoice #: VIL-H-25-0041
+Date: 2025-11-30
+
+Services/Products rendered as per agreed terms.
+Tax: $4664.00
+Total Due: $58300.00",Vertex Integration Labs,2025-11-30,VIL-H-25-0041,58300.0,4664.0,7
+UC2_044,tech_services,hard,train,"INVOICE
+Vendor: Delta Secure Systems
+Invoice #: DSS-CORP-2025
+Date: 2025-06-15
+
+Services/Products rendered as per agreed terms.
+Tax: $2568.00
+Total Due: $32100.00",Delta Secure Systems,2025-06-15,DSS-CORP-2025,32100.0,2568.0,5
+UC2_045,office_supplies,easy,train,"INVOICE
+Vendor: Warehouse Direct Co.
+Invoice #: WDC-2024-8810
+Date: 2024-08-22
+
+Services/Products rendered as per agreed terms.
+Tax: $17.63
+Total Due: $220.45",Warehouse Direct Co.,2024-08-22,WDC-2024-8810,220.45,17.63,4
+UC2_046,office_supplies,easy,train,"INVOICE
+Vendor: PaperPlus Inc.
+Invoice #: PP-20241101
+Date: 2024-11-01
+
+Services/Products rendered as per agreed terms.
+Tax: $41.02
+Total Due: $512.80",PaperPlus Inc.,2024-11-01,PP-20241101,512.8,41.02,6
+UC2_047,office_supplies,medium,train,"INVOICE
+Vendor: FurniCo Business
+Invoice #: FCB-INV-0291
+Date: 2025-01-09
+
+Services/Products rendered as per agreed terms.
+Tax: $254.40
+Total Due: $3180.00",FurniCo Business,2025-01-09,FCB-INV-0291,3180.0,254.4,3
+UC2_048,office_supplies,medium,train,"INVOICE
+Vendor: EcoSupplies LLC
+Invoice #: ECO-2025-0044
+Date: 2025-03-03
+
+Services/Products rendered as per agreed terms.
+Tax: $71.62
+Total Due: $895.20",EcoSupplies LLC,2025-03-03,ECO-2025-0044,895.2,71.62,5
+UC2_049,office_supplies,hard,train,"INVOICE
+Vendor: Premier Office Group
+Invoice #: POG-Q1-25-ADJ
+Date: 2025-03-31
+
+Services/Products rendered as per agreed terms.
+Tax: $113.67
+Total Due: $1420.88",Premier Office Group,2025-03-31,POG-Q1-25-ADJ,1420.88,113.67,6
+UC2_050,professional_services,easy,train,"INVOICE
+Vendor: Summit HR Advisors
+Invoice #: SHA-2025-0011
+Date: 2025-01-08
+
+Services/Products rendered as per agreed terms.
+Tax: N/A (exempt)
+Total Due: $4500.00",Summit HR Advisors,2025-01-08,SHA-2025-0011,4500.0,,2
+UC2_051,professional_services,easy,train,"INVOICE
+Vendor: Blue Ridge Tax Group
+Invoice #: BRT-INV-2025
+Date: 2025-02-01
+
+Services/Products rendered as per agreed terms.
+Tax: $736.00
+Total Due: $9200.00",Blue Ridge Tax Group,2025-02-01,BRT-INV-2025,9200.0,736.0,3
+UC2_052,professional_services,medium,train,"INVOICE
+Vendor: Clover Brand Agency
+Invoice #: CBA-MKT-25048
+Date: 2025-04-15
+
+Services/Products rendered as per agreed terms.
+Tax: $1160.00
+Total Due: $14500.00",Clover Brand Agency,2025-04-15,CBA-MKT-25048,14500.0,1160.0,4
+UC2_053,professional_services,medium,train,"INVOICE
+Vendor: Nova Actuarial Partners
+Invoice #: NAP-2025-0092
+Date: 2025-05-30
+
+Services/Products rendered as per agreed terms.
+Tax: $2272.00
+Total Due: $28400.00",Nova Actuarial Partners,2025-05-30,NAP-2025-0092,28400.0,2272.0,3
+UC2_054,professional_services,hard,train,"INVOICE
+Vendor: Apex Global Consulting
+Invoice #: AGC-2025-ENGX
+Date: 2025-08-31
+
+Services/Products rendered as per agreed terms.
+Tax: N/A (exempt)
+Total Due: $97000.00",Apex Global Consulting,2025-08-31,AGC-2025-ENGX,97000.0,,8
+UC2_055,utilities,easy,train,"INVOICE
+Vendor: SunCity Telecom
+Invoice #: SCT-INV-00912
+Date: 2024-10-15
+
+Services/Products rendered as per agreed terms.
+Tax: $75.60
+Total Due: $945.00",SunCity Telecom,2024-10-15,SCT-INV-00912,945.0,75.6,3
+UC2_056,utilities,medium,train,"INVOICE
+Vendor: Eastern Grid Services
+Invoice #: EGS-2025-0061
+Date: 2025-02-28
+
+Services/Products rendered as per agreed terms.
+Tax: $328.00
+Total Due: $4100.00",Eastern Grid Services,2025-02-28,EGS-2025-0061,4100.0,328.0,5
+UC2_057,utilities,hard,train,"INVOICE
+Vendor: National Gas Consortium
+Invoice #: NGC-CORP-Q425
+Date: See attached schedule
+
+Services/Products rendered as per agreed terms.
+Tax: $248.00
+Total Due: $6200.00",National Gas Consortium,,NGC-CORP-Q425,6200.0,248.0,7
+UC2_058,software_saas,easy,train,"INVOICE
+Vendor: HubSpot Inc.
+Invoice #: HS-2025-00892
+Date: 2025-01-01
+
+Services/Products rendered as per agreed terms.
+Tax: $1728.00
+Total Due: $21600.00",HubSpot Inc.,2025-01-01,HS-2025-00892,21600.0,1728.0,2
+UC2_059,software_saas,medium,train,"INVOICE
+Vendor: Datadog Inc.
+Invoice #: DD-2025-03-551
+Date: 2025-03-31
+
+Services/Products rendered as per agreed terms.
+Tax: $992.00
+Total Due: $12400.00",Datadog Inc.,2025-03-31,DD-2025-03-551,12400.0,992.0,4
+UC2_060,software_saas,hard,test,"INVOICE
+Vendor: Oracle Cloud
+Invoice #: OCI-ENT-25-009
+Date: 2025-03-31
+
+Services/Products rendered as per agreed terms.
+Tax: $6720.00
+Total Due: $84000.00",Oracle Cloud,2025-03-31,OCI-ENT-25-009,84000.0,6720.0,6
+UC2_061,tech_services,medium,train,"INVOICE
+Vendor: Kinetic Systems Group
+Invoice #: KSG-25-0183-X
+Date: 2025-01-22
+
+Services/Products rendered as per agreed terms.
+Tax: $1552.00
+Total Due: $19400.00",Kinetic Systems Group,2025-01-22,KSG-25-0183-X,19400.0,1552.0,3
+UC2_062,tech_services,hard,train,"INV# IT-SRV-25-0087-X | Meridian Tech Partners
+Billing cycle: Q4 FY25 (Oct–Dec)
+
+Stmt rendered: 31-Dec-25
+
+Hrs   Description                          Rate     Ext.
+120   Sr. Architect (J. Patel)           $185/hr  $22,200
+ 80   DevOps Eng. (contract)             $140/hr  $11,200
+ 40   Jr. Developer                       $95/hr   $3,800
+ 20   PM oversight                       $160/hr   $3,200
+
+Travel & expenses (receipts attached):   $1,340.00
+Withholding adj:                          -$200.00
+Applicable sales tax:                   $3,303.20
+TOTAL DUE:                             $44,843.20",Meridian Tech Partners,2025-12-31,IT-SRV-25-0087-X,44843.2,3303.2,6
+UC2_063,tech_services,easy,test,"INVOICE
+From: DataBridge Systems Inc.
+Invoice #: DBS-2024-0042-X
+Invoice Date: September 3, 2024
+
+Description:
+  1. Database Migration Services   $6,500.00
+  2. Staff Training (2 days)        $2,000.00
+  3. Documentation Package            $500.00
+
+Tax: $720.00
+Grand Total: $9,720.00",DataBridge Systems Inc.,2024-09-03,DBS-2024-0042-X,9720.0,720.0,3
+UC2_064,office_supplies,medium,train,"INVOICE
+Vendor: EcoSupplies LLC
+Invoice #: ECO-2025-0044-X
+Date: 2025-03-03
+
+Services/Products rendered as per agreed terms.
+Tax: $71.62
+Total Due: $895.20",EcoSupplies LLC,2025-03-03,ECO-2025-0044-X,895.2,71.62,5
+UC2_065,software_saas,medium,train,"INVOICE — Zoom Video Communications
+ZVC Ref: ZVC-ENT-2025-00441-X | PO: PO-ZOOM-882
+Date: March 1, 2025
+
+Zoom One Business Plus
+  250 hosts × $19.99/mo × 12 months    $59,970.00
+Zoom Rooms (20 rooms × $49/mo × 12)    $11,760.00
+Zoom Phone (100 lines × $10/mo × 12)   $12,000.00
+
+Tax (8.625%): $7,207.24
+Contract total: $90,937.24",Zoom Video Communications,2025-03-01,ZVC-ENT-2025-00441-X,90937.24,7207.24,3
+UC2_066,software_saas,easy,train,"INVOICE
+Company: Atlassian
+Invoice Number: ATL-2024-0128847-X
+Date: November 1, 2024
+
+  Jira Software (Cloud, 25 users)   $3,750.00
+  Confluence (Cloud, 25 users)       $2,625.00
+  Jira Service Management (10 agents) $6,000.00
+
+GST: $1,237.50
+Total: $13,612.50",Atlassian,2024-11-01,ATL-2024-0128847-X,13612.5,1237.5,3
+UC2_067,utilities,medium,train,"TELECOM SERVICES INVOICE
+Carrier: Broadband Plus | BP-ENT-2025-0392-X
+Billing month: February 2025 (issued 28-Feb-25)
+
+Dedicated fiber 1Gbps (monthly)    $850.00
+Failover 4G LTE backup             $120.00
+Static IP block (×8 addresses)      $40.00
+DDoS protection add-on              $95.00
+
+Note: Tax not applicable on carrier services in this state.
+Total: $1,105.00",Broadband Plus,2025-02-28,BP-ENT-2025-0392-X,1105.0,,4
+UC2_068,professional_services,easy,test,"ACCOUNTING SERVICES INVOICE
+Firm: Rivera & Chen CPAs
+Invoice Number: RC-2024-Q4-009-X
+Invoice Date: 2024-12-31
+
+  Annual Audit                  $8,500.00
+  Tax Preparation (Corp.)       $2,200.00
+
+Tax: $856.00
+Total: $11,556.00",Rivera & Chen CPAs,2024-12-31,RC-2024-Q4-009-X,11556.0,856.0,2
+UC2_069,office_supplies,medium,test,"INVOICE FROM: Global Office Essentials
+Our ref: GOE/2025/INV/0561-X
+Your PO: 90213
+Date of supply: 5th February 2025
+
+  Standing desk converters ×4    $279.96
+  Laptop stands ×6               $149.94
+  Cable organizers ×10            $49.90
+
+Subtotal: $479.80
+VAT (20%): $95.96
+Total incl. VAT: $575.76",Global Office Essentials,2025-02-05,GOE/2025/INV/0561-X,575.76,95.96,3
+UC2_070,office_supplies,easy,train,"PURCHASE INVOICE
+Quill Corporation | INV-QC-2025-00338-X
+Date: 2025-02-14
+
+Ergonomic Chair Model EX-7    $349.00
+
+Tax: $27.92
+Total: $376.92",Quill Corporation,2025-02-14,INV-QC-2025-00338-X,376.92,27.92,1
+UC2_071,utilities,easy,train,"INVOICE
+Vendor: SunCity Telecom
+Invoice #: SCT-INV-00912-X
+Date: 2024-10-15
+
+Services/Products rendered as per agreed terms.
+Tax: $75.60
+Total Due: $945.00",SunCity Telecom,2024-10-15,SCT-INV-00912-X,945.0,75.6,3
+UC2_072,tech_services,medium,test,"BILLING STATEMENT
+Tech Horizon Group | TX-H-20241203-X
+Date of Issue: 03-Dec-2024
+
+Services:
+  Managed Detection & Response (MDR) — 3 months    $8,400.00
+  Penetration Test Report                           $2,500.00
+
+Subtotal before tax: $10,900.00
+Taxes and fees included in final amount.
+TOTAL: $11,854.50",Tech Horizon Group,2024-12-03,TX-H-20241203-X,11854.5,954.5,2
+UC2_073,tech_services,medium,test,"Invoice from CloudMatrix Corp | Ref: CMX/INV/2025/0291-X
+Issued: January 15th, 2025
+
+Deliverables:
+  API Integration Work (Phase 1)   $4,100
+  API Integration Work (Phase 2)   $3,900
+  QA & Testing                     $1,200
+  Project Management               $800
+
+All amounts exclusive of applicable taxes.
+Total (incl. 7.5% state tax): $10,750.00",CloudMatrix Corp,2025-01-15,CMX/INV/2025/0291-X,10750.0,750.0,4
+UC2_074,office_supplies,easy,train,"PURCHASE INVOICE
+Quill Corporation | INV-QC-2025-00338-X
+Date: 2025-02-14
+
+Ergonomic Chair Model EX-7    $349.00
+
+Tax: $27.92
+Total: $376.92",Quill Corporation,2025-02-14,INV-QC-2025-00338-X,376.92,27.92,1
+UC2_075,utilities,medium,train,"COMBINED UTILITY BILL — Pacific Summit Utilities
+Account: PSU-88320 | Period: Oct–Nov 2024
+Invoice ref: PSU-88320-NOV24-X
+Statement date: November 30 2024
+
+Electric (2 months)    $412.00
+Gas                    $183.50
+Prior balance          $127.20
+Late payment fee        $12.72
+
+Regulatory surcharge (estimated):  $28.40
+Total balance: $763.82",Pacific Summit Utilities,2024-11-30,PSU-88320-NOV24-X,763.82,28.4,4
+UC2_076,utilities,hard,train,"STATEMENT OF CHARGES
+Multi-site account — see site schedule (attached)
+Provider: Tri-State Electrical Cooperative
+Acct: TSEC-CORP-9928-A
+Consolidation invoice: TSEC-CORP-9928-A-Q1-25-X
+Covers: Jan, Feb, Mar 2025
+
+Site A (HQ):         $1,842.00
+Site B (Warehouse):    $904.50
+Site C (Annex):        $388.00
+Demand charges:        $512.00
+Power factor adj:      +$84.50
+Green energy credit:  -$120.00
+
+Franchise fee (est.): $178.20
+TOTAL Q1 2025:      $3,789.20",Tri-State Electrical Cooperative,,TSEC-CORP-9928-A-Q1-25-X,3789.2,178.2,6
+UC2_077,software_saas,medium,test,"INVOICE — Zoom Video Communications
+ZVC Ref: ZVC-ENT-2025-00441-X-X | PO: PO-ZOOM-882
+Date: March 1, 2025
+
+Zoom One Business Plus
+  250 hosts × $19.99/mo × 12 months    $59,970.00
+Zoom Rooms (20 rooms × $49/mo × 12)    $11,760.00
+Zoom Phone (100 lines × $10/mo × 12)   $12,000.00
+
+Tax (8.625%): $7,207.24
+Contract total: $90,937.24",Zoom Video Communications,2025-03-01,ZVC-ENT-2025-00441-X-X,90937.24,7207.24,3
+UC2_078,tech_services,medium,test,"Invoice from CloudMatrix Corp | Ref: CMX/INV/2025/0291-X
+Issued: January 15th, 2025
+
+Deliverables:
+  API Integration Work (Phase 1)   $4,100
+  API Integration Work (Phase 2)   $3,900
+  QA & Testing                     $1,200
+  Project Management               $800
+
+All amounts exclusive of applicable taxes.
+Total (incl. 7.5% state tax): $10,750.00",CloudMatrix Corp,2025-01-15,CMX/INV/2025/0291-X,10750.0,750.0,4
+UC2_079,tech_services,medium,test,"BILLING STATEMENT
+Tech Horizon Group | TX-H-20241203-X-X
+Date of Issue: 03-Dec-2024
+
+Services:
+  Managed Detection & Response (MDR) — 3 months    $8,400.00
+  Penetration Test Report                           $2,500.00
+
+Subtotal before tax: $10,900.00
+Taxes and fees included in final amount.
+TOTAL: $11,854.50",Tech Horizon Group,2024-12-03,TX-H-20241203-X-X,11854.5,954.5,2
+UC2_080,utilities,easy,test,"WATER & WASTEWATER BILL
+Utility: Metro Water District
+Invoice #: MWD-Q3-2024-00772-X
+Billing Date: 2024-09-30
+
+  Water usage (18,500 gallons)   $74.00
+  Wastewater fee                 $45.00
+  Infrastructure surcharge        $12.50
+
+Tax: $0 (utility, tax-exempt)
+Total: $131.50",Metro Water District,2024-09-30,MWD-Q3-2024-00772-X,131.5,,3
+UC2_081,office_supplies,easy,test,"PURCHASE INVOICE
+Quill Corporation | INV-QC-2025-00338-X-X
+Date: 2025-02-14
+
+Ergonomic Chair Model EX-7    $349.00
+
+Tax: $27.92
+Total: $376.92",Quill Corporation,2025-02-14,INV-QC-2025-00338-X-X,376.92,27.92,1
+UC2_082,professional_services,hard,test,"INVOICE
+Vendor: Apex Global Consulting
+Invoice #: AGC-2025-ENGX-X
+Date: 2025-08-31
+
+Services/Products rendered as per agreed terms.
+Tax: N/A (exempt)
+Total Due: $97000.00",Apex Global Consulting,2025-08-31,AGC-2025-ENGX-X,97000.0,,8
+UC2_083,utilities,medium,test,"TELECOM SERVICES INVOICE
+Carrier: Broadband Plus | BP-ENT-2025-0392-X
+Billing month: February 2025 (issued 28-Feb-25)
+
+Dedicated fiber 1Gbps (monthly)    $850.00
+Failover 4G LTE backup             $120.00
+Static IP block (×8 addresses)      $40.00
+DDoS protection add-on              $95.00
+
+Note: Tax not applicable on carrier services in this state.
+Total: $1,105.00",Broadband Plus,2025-02-28,BP-ENT-2025-0392-X,1105.0,,4
+UC2_084,software_saas,easy,test,"INVOICE
+Vendor: HubSpot Inc.
+Invoice #: HS-2025-00892-X
+Date: 2025-01-01
+
+Services/Products rendered as per agreed terms.
+Tax: $1728.00
+Total Due: $21600.00",HubSpot Inc.,2025-01-01,HS-2025-00892-X,21600.0,1728.0,2
+UC2_085,utilities,hard,test,"STATEMENT OF CHARGES
+Multi-site account — see site schedule (attached)
+Provider: Tri-State Electrical Cooperative
+Acct: TSEC-CORP-9928-A
+Consolidation invoice: TSEC-CORP-9928-A-Q1-25-X-X
+Covers: Jan, Feb, Mar 2025
+
+Site A (HQ):         $1,842.00
+Site B (Warehouse):    $904.50
+Site C (Annex):        $388.00
+Demand charges:        $512.00
+Power factor adj:      +$84.50
+Green energy credit:  -$120.00
+
+Franchise fee (est.): $178.20
+TOTAL Q1 2025:      $3,789.20",Tri-State Electrical Cooperative,,TSEC-CORP-9928-A-Q1-25-X-X,3789.2,178.2,6
+UC2_086,software_saas,medium,test,"INVOICE — Zoom Video Communications
+ZVC Ref: ZVC-ENT-2025-00441-X | PO: PO-ZOOM-882
+Date: March 1, 2025
+
+Zoom One Business Plus
+  250 hosts × $19.99/mo × 12 months    $59,970.00
+Zoom Rooms (20 rooms × $49/mo × 12)    $11,760.00
+Zoom Phone (100 lines × $10/mo × 12)   $12,000.00
+
+Tax (8.625%): $7,207.24
+Contract total: $90,937.24",Zoom Video Communications,2025-03-01,ZVC-ENT-2025-00441-X,90937.24,7207.24,3
+UC2_087,tech_services,easy,test,"INVOICE
+Vendor: TechNova Solutions LLC
+Invoice Number: TNS-20240815-001-X
+Date: 2024-08-15
+
+Services Rendered:
+  - Cloud Infrastructure Setup    $3,200.00
+  - Security Audit                $1,800.00
+
+Subtotal: $5,000.00
+Tax (8%): $400.00
+Total Due: $5,400.00",TechNova Solutions LLC,2024-08-15,TNS-20240815-001-X,5400.0,400.0,2
+UC2_088,professional_services,medium,test,"INVOICE — Clearwater Training Solutions
+CTS Invoice: 2025-TRN-0049-X (see also PO# 77-2025-CORP)
+Course dates: Feb 10-14, 2025 | Invoice date: 17 Feb 25
+
+  Leadership Workshop (8 attendees)     $6,400.00
+  Facilitator travel                      $890.00
+  Course materials                        $640.00
+  Venue rental (contribution)             $750.00
+  Post-course coaching (4 sessions)     $1,600.00
+
+Tax: $839.36
+Invoice total: $11,119.36",Clearwater Training Solutions,2025-02-17,2025-TRN-0049-X,11119.36,839.36,5
+UC2_089,utilities,easy,test,"INVOICE
+Vendor: SunCity Telecom
+Invoice #: SCT-INV-00912-X
+Date: 2024-10-15
+
+Services/Products rendered as per agreed terms.
+Tax: $75.60
+Total Due: $945.00",SunCity Telecom,2024-10-15,SCT-INV-00912-X,945.0,75.6,3
+UC2_090,tech_services,hard,test,"INVOICE
+Vendor: Delta Secure Systems
+Invoice #: DSS-CORP-2025-X
+Date: 2025-06-15
+
+Services/Products rendered as per agreed terms.
+Tax: $2568.00
+Total Due: $32100.00",Delta Secure Systems,2025-06-15,DSS-CORP-2025-X,32100.0,2568.0,5
+UC2_091,software_saas,medium,test,"INVOICE — Zoom Video Communications
+ZVC Ref: ZVC-ENT-2025-00441-X | PO: PO-ZOOM-882
+Date: March 1, 2025
+
+Zoom One Business Plus
+  250 hosts × $19.99/mo × 12 months    $59,970.00
+Zoom Rooms (20 rooms × $49/mo × 12)    $11,760.00
+Zoom Phone (100 lines × $10/mo × 12)   $12,000.00
+
+Tax (8.625%): $7,207.24
+Contract total: $90,937.24",Zoom Video Communications,2025-03-01,ZVC-ENT-2025-00441-X,90937.24,7207.24,3
+UC2_092,professional_services,medium,test,"Thornton Executive Search | Invoice TES-2025-0085-X
+Issued: 28 February, 2025
+
+Recruitment fee — VP Engineering placement
+  (22% of first-year base salary $195,000)    $42,900.00
+Background check (pass-through)                   $475.00
+
+Subtotal: $43,375.00
+GST (5%): $2,168.75
+Total: $45,543.75",Thornton Executive Search,2025-02-28,TES-2025-0085-X,45543.75,2168.75,2
+UC2_093,utilities,medium,test,"COMBINED UTILITY BILL — Pacific Summit Utilities
+Account: PSU-88320 | Period: Oct–Nov 2024
+Invoice ref: PSU-88320-NOV24-X
+Statement date: November 30 2024
+
+Electric (2 months)    $412.00
+Gas                    $183.50
+Prior balance          $127.20
+Late payment fee        $12.72
+
+Regulatory surcharge (estimated):  $28.40
+Total balance: $763.82",Pacific Summit Utilities,2024-11-30,PSU-88320-NOV24-X,763.82,28.4,4
+UC2_094,tech_services,hard,test,"INVOICE
+Vendor: Delta Secure Systems
+Invoice #: DSS-CORP-2025-X
+Date: 2025-06-15
+
+Services/Products rendered as per agreed terms.
+Tax: $2568.00
+Total Due: $32100.00",Delta Secure Systems,2025-06-15,DSS-CORP-2025-X,32100.0,2568.0,5
+UC2_095,office_supplies,medium,test,"INVOICE FROM: Global Office Essentials
+Our ref: GOE/2025/INV/0561-X
+Your PO: 90213
+Date of supply: 5th February 2025
+
+  Standing desk converters ×4    $279.96
+  Laptop stands ×6               $149.94
+  Cable organizers ×10            $49.90
+
+Subtotal: $479.80
+VAT (20%): $95.96
+Total incl. VAT: $575.76",Global Office Essentials,2025-02-05,GOE/2025/INV/0561-X,575.76,95.96,3
+UC2_096,office_supplies,easy,test,"PURCHASE INVOICE
+Quill Corporation | INV-QC-2025-00338-X
+Date: 2025-02-14
+
+Ergonomic Chair Model EX-7    $349.00
+
+Tax: $27.92
+Total: $376.92",Quill Corporation,2025-02-14,INV-QC-2025-00338-X,376.92,27.92,1
+UC2_097,office_supplies,hard,test,"INVOICE
+Vendor: Premier Office Group
+Invoice #: POG-Q1-25-ADJ-X
+Date: 2025-03-31
+
+Services/Products rendered as per agreed terms.
+Tax: $113.67
+Total Due: $1420.88",Premier Office Group,2025-03-31,POG-Q1-25-ADJ-X,1420.88,113.67,6
+UC2_098,office_supplies,medium,test,"SupplyPro | Order #SP-77421-B-X | Inv. date: 14 Mar 2025
+
+Qty  Item                         Unit    Total
+ 20  Copy paper A4 (ream)         $8.99  $179.80
+  5  Whiteboard markers (set)    $12.50   $62.50
+ 10  File folders (box)            $7.20   $72.00
+  3  Label maker tape rolls       $11.00   $33.00
+
+Shipping: $15.00
+Total (tax exempt — reseller cert on file): $362.30",SupplyPro,2025-03-14,SP-77421-B-X,362.3,,4
+UC2_099,office_supplies,easy,test,"INVOICE
+Vendor: PaperPlus Inc.
+Invoice #: PP-20241101-X
+Date: 2024-11-01
+
+Services/Products rendered as per agreed terms.
+Tax: $41.02
+Total Due: $512.80",PaperPlus Inc.,2024-11-01,PP-20241101-X,512.8,41.02,6
+UC2_100,office_supplies,easy,test,"INVOICE
+Vendor: Warehouse Direct Co.
+Invoice #: WDC-2024-8810-X
+Date: 2024-08-22
+
+Services/Products rendered as per agreed terms.
+Tax: $17.63
+Total Due: $220.45",Warehouse Direct Co.,2024-08-22,WDC-2024-8810-X,220.45,17.63,4

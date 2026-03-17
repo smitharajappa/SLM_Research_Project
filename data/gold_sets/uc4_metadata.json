@@ -1,0 +1,46 @@
+{
+  "use_case": "UC4",
+  "name": "Product Review Sentiment",
+  "pre_registration_date": "2026-03-03",
+  "s3_score": 2.1,
+  "s3_prediction": "Pure SLM",
+  "version": "1.0",
+  "total_items": 100,
+  "label_distribution": {
+    "POSITIVE": 40,
+    "NEGATIVE": 40,
+    "NEUTRAL": 20
+  },
+  "categories": [
+    "Electronics",
+    "Clothing",
+    "Food",
+    "Home",
+    "Books",
+    "Software"
+  ],
+  "difficulty_distribution": {
+    "easy": 36,
+    "medium": 31,
+    "hard": 33
+  },
+  "split": {
+    "train": 70,
+    "test": 30
+  },
+  "split_method": "stratified_by_label",
+  "evaluation_metrics": [
+    "Accuracy",
+    "Macro F1",
+    "Per-class F1 (POSITIVE / NEGATIVE / NEUTRAL)",
+    "Confusion Matrix 3x3",
+    "Hallucination Rate",
+    "Latency P50/P95"
+  ],
+  "pre_registered_hypotheses": [
+    "H4.1: Best SLM achieves >= 90% of LLM accuracy on UC4",
+    "H4.2: Best SLM P95 latency < 2000ms",
+    "H4.3: UC4 graduates to Pure SLM (S3=2.1, Stakes=1)",
+    "H4.4: NEUTRAL class will have lowest per-class F1 across all models"
+  ]
+}

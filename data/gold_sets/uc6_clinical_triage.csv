@@ -1,0 +1,401 @@
+item_id,split,category,difficulty,triage_label,presentation
+uc6_train_001,train,sepsis_infection,hard,CRITICAL,"Triage Note:
+Chief Complaint: Mild fever and generally unwell in patient receiving chemotherapy
+Vitals: HR 112 | BP 106/68 | RR 20 | SpO2 96% | Temp 38.3°C | GCS 15/15
+History: 54-year-old female, day 10 of cycle 3 chemotherapy for diffuse large B-cell lymphoma. Feels 'off' since yesterday. No obvious source of infection. Last CBC showed neutrophils 0.3 × 10⁹/L. On granulocyte colony-stimulating factor."
+uc6_train_002,train,sepsis_infection,easy,CRITICAL,"Triage Note:
+Chief Complaint: Confusion and feeling very unwell, brought by ambulance
+Vitals: HR 138 | BP 70/40 | RR 28 | SpO2 94% | Temp 39.8°C | GCS 12/15
+History: 71-year-old female, nursing home resident. 24 hours of progressive confusion. Mottled skin, cold extremities, not passing urine. Suspected urinary source. No antibiotics administered yet."
+uc6_train_003,train,respiratory,hard,CRITICAL,"Triage Note:
+Chief Complaint: Chest pain and worsening shortness of breath after road traffic accident
+Vitals: HR 118 | BP 92/58 | RR 32 | SpO2 88% | Temp 36.8°C | GCS 14/15
+History: 44-year-old male, driver in MVA 1 hour ago. Appears to be deteriorating. Absent breath sounds on left, trachea deviated to right, distended neck veins. Chest X-ray not yet obtained."
+uc6_train_004,train,cardiac,medium,CRITICAL,"Triage Note:
+Chief Complaint: Sudden onset severe breathlessness, unable to speak in full sentences
+Vitals: HR 124 | BP 96/60 | RR 34 | SpO2 82% | Temp 37.2°C | GCS 14/15
+History: 74-year-old female, known ischaemic heart disease. Pink frothy sputum. Diffuse bilateral crackles on auscultation. Marked peripheral oedema. Cold extremities."
+uc6_train_005,train,trauma,easy,CRITICAL,"Triage Note:
+Chief Complaint: Unresponsive following head-on vehicle collision
+Vitals: HR 56 | BP 168/92 | RR 8 | SpO2 88% | Temp 36.6°C | GCS 5/15
+History: 22-year-old male, driver in 80km/h head-on collision 20 minutes ago. Unequal pupils (R 6mm fixed, L 3mm reactive). Significant scalp laceration. Cervical collar in place."
+uc6_train_006,train,respiratory,easy,CRITICAL,"Triage Note:
+Chief Complaint: Cannot breathe, turning blue
+Vitals: HR 138 | BP 104/68 | RR 36 | SpO2 72% | Temp 37.0°C | GCS 13/15
+History: 29-year-old male, known severe asthma, last used blue inhaler 10 min ago with no effect. Using all accessory muscles, tripod position, cyanosis visible centrally."
+uc6_train_007,train,respiratory,medium,CRITICAL,"Triage Note:
+Chief Complaint: Throat tightening and difficulty swallowing after wasp sting
+Vitals: HR 132 | BP 78/46 | RR 28 | SpO2 91% | Temp 36.9°C | GCS 15/15
+History: 35-year-old female, stung 15 minutes ago in the garden. Audible stridor, urticaria covering trunk. No prior allergy history. Tongue visibly swollen."
+uc6_train_008,train,trauma,hard,CRITICAL,"Triage Note:
+Chief Complaint: Abdominal pain after being struck by forklift at work
+Vitals: HR 108 | BP 102/68 | RR 22 | SpO2 97% | Temp 36.8°C | GCS 15/15
+History: 39-year-old male, struck by slow-moving forklift 30 minutes ago, initially walked around. Now has worsening periumbilical pain. Abdomen rigid on palpation, guarding present. Repeat BP 88/52 ten minutes after arrival."
+uc6_train_009,train,cardiac,easy,CRITICAL,"Triage Note:
+Chief Complaint: Crushing chest pain radiating to left arm, sweating profusely
+Vitals: HR 58 | BP 88/52 | RR 22 | SpO2 94% | Temp 36.8°C | GCS 15/15
+History: 62-year-old male, sudden onset 20 minutes ago. Diaphoretic on arrival. 12-lead ECG shows ST elevation in leads II, III, aVF. Known hypertensive."
+uc6_train_010,train,cardiac,hard,CRITICAL,"Triage Note:
+Chief Complaint: Sudden tearing pain between shoulder blades, now extending to abdomen
+Vitals: HR 102 | BP Right arm 148/90 Left arm 96/60 | RR 20 | SpO2 97% | Temp 37.1°C | GCS 15/15
+History: 58-year-old male, hypertensive, pain onset 30 minutes ago while at rest. Describes pain as 'ripping'. BP differential between arms of 52mmHg. No chest wall tenderness."
+uc6_train_011,train,trauma,medium,CRITICAL,"Triage Note:
+Chief Complaint: Stab wound to left chest
+Vitals: HR 126 | BP 88/56 | RR 30 | SpO2 87% | Temp 36.7°C | GCS 14/15
+History: 26-year-old male, single stab wound left anterior chest, 5th intercostal space. Decreased air entry left side, haemoptysis, patient deteriorating. 2 large-bore IV cannulas inserted en route."
+uc6_train_012,train,cardiac,medium,URGENT,"Triage Note:
+Chief Complaint: Increasing breathlessness and leg swelling over 5 days
+Vitals: HR 102 | BP 138/88 | RR 24 | SpO2 93% | Temp 36.9°C | GCS 15/15
+History: 78-year-old male, known heart failure. Worsening orthopnoea, bilateral ankle oedema. SpO2 drops to 88% on exertion. Bibasal crackles, JVP elevated. Missed diuretics for 2 weeks."
+uc6_train_013,train,neurological,easy,URGENT,"Triage Note:
+Chief Complaint: First ever seizure in a 42-year-old
+Vitals: HR 112 | BP 148/88 | RR 18 | SpO2 97% | Temp 37.0°C | GCS 14/15
+History: 42-year-old female, witnessed tonic-clonic seizure lasting 3 minutes, now post-ictal and confused. No prior epilepsy. Headaches for 2 months preceding this episode. Urgent CT head required."
+uc6_train_014,train,trauma,medium,URGENT,"Triage Note:
+Chief Complaint: Right-sided chest pain after striking steering wheel
+Vitals: HR 112 | BP 118/74 | RR 26 | SpO2 94% | Temp 36.9°C | GCS 15/15
+History: 45-year-old female, low-speed MVA, struck steering wheel. Right-sided chest tenderness, splinted breathing, no pneumothorax on CXR. Multiple rib fractures. Monitoring required for development of haemothorax."
+uc6_train_015,train,respiratory,easy,URGENT,"Triage Note:
+Chief Complaint: Worsening breathlessness and increased sputum in COPD patient
+Vitals: HR 106 | BP 136/84 | RR 24 | SpO2 88% | Temp 38.1°C | GCS 15/15
+History: 72-year-old male, COPD Gold stage III. Increased dyspnoea over 48 hours, purulent sputum. Bilaterally reduced air entry, prolonged expiration. Baseline SpO2 at home is 90-92%."
+uc6_train_016,train,sepsis_infection,hard,URGENT,"Triage Note:
+Chief Complaint: Sore throat with difficulty swallowing for 3 days, worsening
+Vitals: HR 102 | BP 118/76 | RR 20 | SpO2 97% | Temp 38.8°C | GCS 15/15
+History: 35-year-old female, odynophagia for 3 days, drooling, muffled 'hot potato' voice. No stridor at rest but progressive difficulty swallowing secretions. Peritonsillar swelling visible. Epiglottitis and deep space neck infection must be excluded."
+uc6_train_017,train,trauma,medium,URGENT,"Triage Note:
+Chief Complaint: Hit in the head by cricket ball, briefly lost consciousness
+Vitals: HR 88 | BP 128/76 | RR 16 | SpO2 99% | Temp 36.7°C | GCS 14/15
+History: 17-year-old male, direct blow to temporal region with cricket ball. Brief LOC 1-2 minutes, now GCS 14 with persistent headache and vomiting. CT head indicated per NICE criteria."
+uc6_train_018,train,respiratory,easy,URGENT,"Triage Note:
+Chief Complaint: Productive cough, fever and difficulty breathing for 3 days
+Vitals: HR 112 | BP 108/68 | RR 26 | SpO2 92% | Temp 39.4°C | GCS 15/15
+History: 70-year-old male with COPD. Right lower lobe consolidation on CXR. Meeting 2 of 3 CURB-65 criteria (urea 9.2, RR 26). Was managing at home but deteriorating."
+uc6_train_019,train,neurological,easy,URGENT,"Triage Note:
+Chief Complaint: Sudden onset of slurred speech and right hand weakness, resolved
+Vitals: HR 78 | BP 172/98 | RR 16 | SpO2 98% | Temp 36.8°C | GCS 15/15
+History: 65-year-old male, symptoms lasted 20 minutes then fully resolved. ABCD2 score 5 (high risk). Known AF not on anticoagulation. Still has full resolution of deficit but urgent imaging required."
+uc6_train_020,train,sepsis_infection,easy,URGENT,"Triage Note:
+Chief Complaint: Severe central abdominal pain moving to right side
+Vitals: HR 108 | BP 118/74 | RR 18 | SpO2 98% | Temp 38.2°C | GCS 15/15
+History: 24-year-old female, 12-hour history of periumbilical pain now localising to RIF. Rovsing's sign positive, rebound tenderness at McBurney's point. Elevated WBC. Clinical diagnosis of acute appendicitis. Surgical review requested."
+uc6_train_021,train,sepsis_infection,medium,URGENT,"Triage Note:
+Chief Complaint: Sudden onset severe left-sided scrotal pain in teenager
+Vitals: HR 104 | BP 124/76 | RR 16 | SpO2 99% | Temp 37.2°C | GCS 15/15
+History: 15-year-old male, acute onset testicular pain 3 hours ago, woke from sleep. Left testis high-riding and horizontal lie, extremely tender to palpation. Time-critical: testicular torsion cannot be excluded without surgical exploration."
+uc6_train_022,train,trauma,easy,URGENT,"Triage Note:
+Chief Complaint: Deep laceration to palm with ongoing bleeding
+Vitals: HR 102 | BP 108/68 | RR 18 | SpO2 98% | Temp 36.8°C | GCS 15/15
+History: 38-year-old male, cut hand on broken glass 30 minutes ago. Deep laceration across palm with significant ongoing blood loss. Reduced index finger flexion. Possible flexor tendon involvement."
+uc6_train_023,train,trauma,medium,URGENT,"Triage Note:
+Chief Complaint: Chemical splash in both eyes 15 minutes ago
+Vitals: HR 88 | BP 122/76 | RR 16 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 34-year-old male, industrial alkali splash to both eyes. Copious irrigation started by paramedics. Corneal whitening visible, severe pain. Time-critical irrigation to limit corneal damage."
+uc6_train_024,train,neurological,medium,URGENT,"Triage Note:
+Chief Complaint: Headache, fever, and confusion over 48 hours
+Vitals: HR 118 | BP 106/68 | RR 20 | SpO2 96% | Temp 39.6°C | GCS 13/15
+History: 24-year-old female, gradually worsening headache, fever, and unusual behaviour. No rash, no neck stiffness. HSV encephalitis cannot be excluded. MRI head and LP arranged. Time-critical for aciclovir."
+uc6_train_025,train,trauma,medium,URGENT,"Triage Note:
+Chief Complaint: Badly broken forearm, sensation changed below injury
+Vitals: HR 106 | BP 124/78 | RR 18 | SpO2 98% | Temp 36.8°C | GCS 15/15
+History: 31-year-old male, fell from bike at speed. Compound midshaft radius-ulna fracture with bone protruding. Reduced sensation in ring and little finger. Weak grip."
+uc6_train_026,train,cardiac,hard,URGENT,"Triage Note:
+Chief Complaint: Sudden onset rapid palpitations, near-blackout episode
+Vitals: HR 226 | BP 102/68 | RR 18 | SpO2 97% | Temp 36.8°C | GCS 15/15
+History: 24-year-old male, first episode, no cardiac history. ECG shows wide-complex tachycardia with short PR interval and delta waves. Near-syncope resolved spontaneously after 5 minutes but still tachycardic."
+uc6_train_027,train,neurological,hard,URGENT,"Triage Note:
+Chief Complaint: Sudden onset vertigo, vomiting, can't walk straight
+Vitals: HR 88 | BP 162/92 | RR 16 | SpO2 97% | Temp 37.0°C | GCS 15/15
+History: 62-year-old male, hypertensive, sudden onset severe vertigo with vomiting. Unable to walk. Horizontal nystagmus. HINTS exam shows abnormal head impulse test. Finger-nose dysmetria. Cannot exclude posterior circulation stroke."
+uc6_train_028,train,cardiac,easy,URGENT,"Triage Note:
+Chief Complaint: Chest pain at rest for 2 hours, came in by taxi
+Vitals: HR 88 | BP 148/92 | RR 18 | SpO2 97% | Temp 36.8°C | GCS 15/15
+History: 58-year-old male, central chest tightness radiating to jaw, came on at rest. Known type 2 diabetic, smoker, previous angioplasty 3 years ago. ECG shows ST depression leads V4-V6. Troponin pending."
+uc6_train_029,train,neurological,hard,URGENT,"Triage Note:
+Chief Complaint: Left facial drooping and eye won't close properly, ear pain
+Vitals: HR 74 | BP 128/80 | RR 16 | SpO2 99% | Temp 37.6°C | GCS 15/15
+History: 52-year-old male, rapid onset left-sided facial palsy 6 hours ago. Vesicles visible in external auditory canal. Hyperacusis, taste disturbance. Ramsay Hunt syndrome suspected — time-critical for antiviral treatment."
+uc6_train_030,train,neurological,medium,URGENT,"Triage Note:
+Chief Complaint: Sudden onset severe headache 6 hours ago, now almost resolved
+Vitals: HR 72 | BP 158/90 | RR 16 | SpO2 99% | Temp 37.0°C | GCS 15/15
+History: 38-year-old female, sudden maximal onset headache while at computer, rated 10/10, now 4/10 and improving. CT head done in ED is normal. Needs LP to exclude xanthochromia given thunderclap onset."
+uc6_train_031,train,respiratory,easy,URGENT,"Triage Note:
+Chief Complaint: Severe wheeze and shortness of breath
+Vitals: HR 118 | BP 126/78 | RR 26 | SpO2 91% | Temp 37.0°C | GCS 15/15
+History: 22-year-old female, known asthma. Peak flow 38% predicted. Audible wheeze, speaking in short phrases. 4 puffs of salbutamol in last 2 hours with partial effect."
+uc6_train_032,train,respiratory,medium,URGENT,"Triage Note:
+Chief Complaint: Increasing breathlessness and right-sided dullness
+Vitals: HR 102 | BP 116/74 | RR 22 | SpO2 93% | Temp 37.2°C | GCS 15/15
+History: 67-year-old male, known mesothelioma. Worsening dyspnoea over 1 week. Stony dullness right base, absent breath sounds. Estimated 1.5L effusion on CXR. Requires urgent drainage."
+uc6_train_033,train,cardiac,hard,URGENT,"Triage Note:
+Chief Complaint: Sudden severe pain in the right calf and foot, foot gone cold
+Vitals: HR 82 | BP 136/84 | RR 16 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 61-year-old male, smoker with peripheral vascular disease. Right foot cold, pale, and pulseless below the knee, onset 3 hours ago. Pain on passive dorsiflexion. Femoral pulse present. Dorsalis pedis and posterior tibial absent."
+uc6_train_034,train,cardiac,easy,URGENT,"Triage Note:
+Chief Complaint: Heart racing and feels faint for the past 3 hours
+Vitals: HR 148 (irregular) | BP 118/74 | RR 18 | SpO2 98% | Temp 36.9°C | GCS 15/15
+History: 66-year-old female, known hypertensive. Palpitations onset 3 hours ago at home. No chest pain. Mildly lightheaded but not syncopal. ECG shows atrial fibrillation with rapid ventricular response."
+uc6_train_035,train,cardiac,medium,URGENT,"Triage Note:
+Chief Complaint: Severe headache and blurred vision
+Vitals: HR 76 | BP 218/124 | RR 16 | SpO2 98% | Temp 36.7°C | GCS 15/15
+History: 52-year-old male, non-adherent hypertensive. Frontal headache and bilateral blurred vision for 4 hours. No neurological deficit. ECG normal. Fundoscopy shows papilloedema bilaterally."
+uc6_train_036,train,respiratory,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Pleuritic left-sided chest pain, no breathlessness
+Vitals: HR 78 | BP 118/74 | RR 16 | SpO2 98% | Temp 36.9°C | GCS 15/15
+History: 30-year-old male, sharp left-sided pain on inspiration for 2 days. CXR normal, D-dimer 0.3 (low). Wells score 1. No clinical PE features. Pleurisy, likely viral aetiology."
+uc6_train_037,train,neurological,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Ongoing dizziness, unsteady gait, known inner ear problem
+Vitals: HR 80 | BP 124/78 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 48-year-old female, known benign paroxysmal positional vertigo. Episodic triggered positional vertigo since this morning. Normal neurological exam. Responds to Epley manoeuvre. No new onset focal symptoms."
+uc6_train_038,train,cardiac,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Mild breathlessness and ankle swelling, on treatment
+Vitals: HR 76 | BP 132/84 | RR 18 | SpO2 95% | Temp 36.8°C | GCS 15/15
+History: 71-year-old female, known stable heart failure on optimal medical therapy. Mild increase in ankle oedema and exertional dyspnoea over 1 week. Haemodynamically stable. Medication review and diuretic adjustment needed."
+uc6_train_039,train,trauma,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Twisted ankle during sport, mild swelling
+Vitals: HR 76 | BP 118/72 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 22-year-old male, rolled ankle during football. Ottawa ankle rules negative. Weight-bearing with pain. Mild swelling over lateral ligament complex. No fracture. RICE advice and referral to physiotherapy."
+uc6_train_040,train,cardiac,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Routine visit for monitoring after recent medication change
+Vitals: HR 68 | BP 148/88 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 64-year-old male, hypertensive, started new beta-blocker last week. Mild dizziness when standing. No other symptoms. Requires ECG and review of antihypertensive regimen."
+uc6_train_041,train,trauma,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Burn to right forearm after touching oven rack
+Vitals: HR 86 | BP 122/78 | RR 14 | SpO2 99% | Temp 36.9°C | GCS 15/15
+History: 29-year-old female, contact burn from hot oven rack. Superficial-partial thickness burn approximately 3% BSA right forearm. Blistering present. Significant pain. Requires dressings and analgesia."
+uc6_train_042,train,trauma,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Wrist pain and swelling after falling onto outstretched hand
+Vitals: HR 78 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 55-year-old female, fell on outstretched right hand. X-ray shows minimally displaced Colles-type distal radius fracture. Neurovascular intact distal. Requires manipulation and plaster cast."
+uc6_train_043,train,sepsis_infection,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Burning urination and lower abdominal discomfort
+Vitals: HR 82 | BP 118/74 | RR 14 | SpO2 99% | Temp 37.6°C | GCS 15/15
+History: 28-year-old female, dysuria, frequency, suprapubic pain for 2 days. Urine dipstick: nitrites and leucocytes positive. No systemic features. Simple UTI — oral trimethoprim prescribed."
+uc6_train_044,train,sepsis_infection,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Colicky right-sided flank pain and blood in urine
+Vitals: HR 96 | BP 124/78 | RR 16 | SpO2 99% | Temp 37.0°C | GCS 15/15
+History: 38-year-old male, first episode of severe right loin-to-groin colicky pain. Haematuria on dipstick. USKG shows 4mm right ureteric calculus. No fever. Requires analgesia and urology follow-up. Not obstructed."
+uc6_train_045,train,cardiac,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Intermittent palpitations for the last week
+Vitals: HR 82 | BP 124/78 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 38-year-old male, palpitations lasting seconds, resolving spontaneously. No syncope. ECG in sinus rhythm with frequent ectopic beats. Caffeine excess. No structural heart disease. Ambulatory monitoring arranged."
+uc6_train_046,train,sepsis_infection,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Painful lump in armpit, increasingly tender
+Vitals: HR 80 | BP 118/74 | RR 14 | SpO2 99% | Temp 37.8°C | GCS 15/15
+History: 23-year-old male, tender fluctuant abscess right axilla for 5 days. Increased in size yesterday. Systemically well. Surrounding cellulitis. Requires incision and drainage under local anaesthetic."
+uc6_train_047,train,cardiac,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Leg pain on walking, relieved by rest
+Vitals: HR 78 | BP 138/88 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 64-year-old male smoker, intermittent claudication bilateral calves for 6 months. ABPI 0.72. Pulses present but reduced. No rest pain. Vascular clinic referral needed."
+uc6_train_048,train,neurological,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Memory problems and personality change over 4 weeks
+Vitals: HR 76 | BP 128/80 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 14/15
+History: 67-year-old male, family reports progressive confusion and personality change. MMSE 22/30. No fever. No focal deficit. CT head pending. Subacute presentation — could be reversible cause or early dementia."
+uc6_train_049,train,respiratory,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Seasonal wheeze and runny nose, known hay fever
+Vitals: HR 76 | BP 112/72 | RR 14 | SpO2 98% | Temp 36.8°C | GCS 15/15
+History: 26-year-old female, known seasonal allergic rhinitis and mild asthma. Seasonal exacerbation. Peak flow 75%. Asks for antihistamine and steroid inhaler review. No acute distress."
+uc6_train_050,train,neurological,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Headaches and visual blurring since stopping steroids 1 week ago
+Vitals: HR 78 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 32-year-old female, known IIH (idiopathic intracranial hypertension), stopped acetazolamide 1 week ago. Pulsatile tinnitus returned. Needs urgent ophthalmology for visual fields and papilloedema assessment."
+uc6_train_051,train,neurological,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Neck pain and stiffness after long car journey
+Vitals: HR 72 | BP 122/76 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 36-year-old female, mechanical neck pain for 3 days after long drive. No radiculopathy, no weakness, no red flags. Full range of movement on examination. Simple analgesia and physio referral appropriate."
+uc6_train_052,train,trauma,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Eye is sore, feels like something is in it
+Vitals: HR 74 | BP 116/72 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 35-year-old male, metalwork without eye protection. Right eye pain, photophobia, profuse watering. Slit lamp shows small corneal foreign body. Requires removal under local anaesthetic."
+uc6_train_053,train,respiratory,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Dry cough and occasional breathlessness for 3 weeks
+Vitals: HR 82 | BP 124/80 | RR 16 | SpO2 97% | Temp 36.8°C | GCS 15/15
+History: 58-year-old male, non-smoker, on ACE-inhibitor. Dry cough persisting. Spirometry pending. CXR clear. Likely ACE inhibitor-induced cough."
+uc6_train_054,train,neurological,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Tingling and numbness in both hands, worse at night
+Vitals: HR 74 | BP 118/76 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 42-year-old female, 3-month history of bilateral hand paraesthesia, worse at night and with prolonged keyboard use. Positive Phalen's test. No acute neurology. Likely bilateral carpal tunnel syndrome."
+uc6_train_055,train,sepsis_infection,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Skin rash and itching all over
+Vitals: HR 78 | BP 116/72 | RR 14 | SpO2 99% | Temp 37.0°C | GCS 15/15
+History: 26-year-old female, widespread maculopapular urticarial rash after starting new antibiotic. No airway involvement, no angioedema. Haemodynamically stable. Drug reaction. Cetirizine prescribed, medication stopped."
+uc6_train_056,train,trauma,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Dog bite to forearm
+Vitals: HR 80 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 31-year-old female, bitten by neighbour's dog 2 hours ago. 3 puncture wounds to right forearm, cleaned at scene. Tetanus status unknown. Requires wound assessment, irrigation, antibiotics."
+uc6_train_057,train,respiratory,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Mild wheeze, responding well to inhaler
+Vitals: HR 86 | BP 118/76 | RR 18 | SpO2 96% | Temp 37.0°C | GCS 15/15
+History: 19-year-old female, mild asthma exacerbation. Peak flow 68% predicted. Speaking in full sentences. Improved with 4 puffs salbutamol. Requires further observation and optimisation of inhaler technique."
+uc6_train_058,train,sepsis_infection,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Red spreading rash on lower leg, mild fever
+Vitals: HR 90 | BP 124/78 | RR 16 | SpO2 98% | Temp 37.9°C | GCS 15/15
+History: 55-year-old male, cellulitis right lower leg extending to knee. Ascending margin marked with pen for monitoring. Systemically well. No abscess. IV antibiotics if no oral response, currently starting oral flucloxacillin."
+uc6_train_059,train,cardiac,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Stood up and nearly fainted in young female
+Vitals: HR 88 | BP 102/68 (lying) / 80/52 (standing) | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 22-year-old female, pre-syncopal episode on standing from lying. Orthostatic drop confirmed. No cardiac history. Likely vasovagal or dehydration. Needs ECG and electrolytes to exclude secondary cause."
+uc6_train_060,train,cardiac,easy,NONURGENT,"Triage Note:
+Chief Complaint: Routine review of blood pressure readings at home
+Vitals: HR 70 | BP 142/88 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 58-year-old male, known mild hypertension on one agent. Home readings slightly elevated. No symptoms. No end organ damage signs. Medication review and lifestyle advice needed."
+uc6_train_061,train,sepsis_infection,easy,NONURGENT,"Triage Note:
+Chief Complaint: Slightly sore and itchy ear for a few days
+Vitals: HR 72 | BP 116/72 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 32-year-old female, mild external otitis after swimming. External ear canal erythematous and moist. Tympanic membrane intact. Topical acetic acid drops prescribed. No fever."
+uc6_train_062,train,respiratory,easy,NONURGENT,"Triage Note:
+Chief Complaint: Seasonal hay fever, wants prescription for antihistamine
+Vitals: HR 74 | BP 112/70 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 21-year-old female, known seasonal allergic rhinitis. Runny nose and itchy eyes annually in spring. Requests cetirizine prescription. No wheeze, no breathing difficulty."
+uc6_train_063,train,sepsis_infection,easy,NONURGENT,"Triage Note:
+Chief Complaint: Mild sore throat for 2 days, no fever
+Vitals: HR 74 | BP 114/72 | RR 14 | SpO2 99% | Temp 36.9°C | GCS 15/15
+History: 20-year-old male, mild pharyngitis. FeverPAIN score 1 (low). No exudate, no cervical lymphadenopathy, no trismus. Viral aetiology. Symptomatic advice only — not indicated for antibiotics."
+uc6_train_064,train,respiratory,easy,NONURGENT,"Triage Note:
+Chief Complaint: Mild cough for 1 week, no fever
+Vitals: HR 72 | BP 114/72 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 36-year-old female, dry cough for 1 week after recent cold. Improving. No dyspnoea, no wheeze. Lungs clear. Post-viral cough — no treatment required, reassurance given."
+uc6_train_065,train,neurological,easy,NONURGENT,"Triage Note:
+Chief Complaint: Chronic tension headache, seeking advice on long-term management
+Vitals: HR 70 | BP 116/72 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 30-year-old female, bilateral pressing headache for years, no red flags. Pattern unchanged. Normal neurological exam. Analgesic overuse excluded. Preventive treatment discussion needed."
+uc6_train_066,train,neurological,easy,NONURGENT,"Triage Note:
+Chief Complaint: Lower back pain, standing job, no red flags
+Vitals: HR 74 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 44-year-old male, chronic low back pain related to work standing on concrete. No radiculopathy, no cauda equina symptoms, no night pain. Physiotherapy and ergonomic advice appropriate."
+uc6_train_067,train,cardiac,easy,NONURGENT,"Triage Note:
+Chief Complaint: Wants prescription renewed for regular blood pressure medication
+Vitals: HR 68 | BP 132/82 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 67-year-old male, well-controlled hypertension. Stable on ramipril. Ran out of medication. No symptoms. GP letter provided. Requires prescription renewal."
+uc6_train_068,train,respiratory,easy,NONURGENT,"Triage Note:
+Chief Complaint: Runny nose, sore throat, mild cough for 3 days
+Vitals: HR 76 | BP 116/72 | RR 14 | SpO2 99% | Temp 37.3°C | GCS 15/15
+History: 24-year-old male, typical viral upper respiratory tract infection. No difficulty breathing. Throat mildly red but no exudate. No cervical lymphadenopathy. Symptomatic advice only — rest, fluids, paracetamol."
+uc6_train_069,train,trauma,easy,NONURGENT,"Triage Note:
+Chief Complaint: Bee sting on arm, no systemic reaction
+Vitals: HR 72 | BP 118/72 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 44-year-old male, single bee sting right forearm 1 hour ago. Local erythema and mild swelling at sting site only. No urticaria, no dyspnoea. Stinger removed. Antihistamine tablet recommended."
+uc6_train_070,train,neurological,easy,NONURGENT,"Triage Note:
+Chief Complaint: Difficulty sleeping and mild anxiety
+Vitals: HR 76 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 35-year-old male, stress at work, sleep onset insomnia for 3 months. No suicidal ideation, no depression. CBT-I and sleep hygiene advice. GP follow-up arranged."
+uc6_test_001,test,neurological,hard,CRITICAL,"Triage Note:
+Chief Complaint: Worst headache of my life, came on suddenly while lifting
+Vitals: HR 58 | BP 178/98 | RR 16 | SpO2 98% | Temp 37.8°C | GCS 14/15
+History: 47-year-old male, sudden onset 'thunderclap' headache rated 10/10, onset during weight training 1 hour ago. Neck stiffness on passive flexion. Vomiting twice. No prior headache history. No focal neurology."
+uc6_test_002,test,sepsis_infection,medium,CRITICAL,"Triage Note:
+Chief Complaint: Severe headache, neck stiffness, rash spreading quickly
+Vitals: HR 128 | BP 96/58 | RR 26 | SpO2 95% | Temp 40.2°C | GCS 13/15
+History: 19-year-old male, university student. 6-hour history of worsening headache and fever. Non-blanching petechial rash spreading to trunk. Photophobia, neck stiffness. Roommate recently had similar illness."
+uc6_test_003,test,neurological,medium,CRITICAL,"Triage Note:
+Chief Complaint: Prolonged seizure, not stopping
+Vitals: HR 148 | BP 164/94 | RR 24 | SpO2 89% | Temp 37.6°C | GCS 6/15
+History: 31-year-old male, witnessed tonic-clonic seizure for 22 minutes, still ongoing. No prior epilepsy history. Oxygen administered. Jaw clenched, incontinent of urine."
+uc6_test_004,test,neurological,easy,CRITICAL,"Triage Note:
+Chief Complaint: Sudden right-sided weakness and can't speak properly
+Vitals: HR 84 | BP 192/106 | RR 18 | SpO2 96% | Temp 36.7°C | GCS 13/15
+History: 68-year-old female, onset 40 minutes ago during breakfast. Right face droop, right arm drift, expressive aphasia. FAST positive. Last seen well 45 minutes ago. No anticoagulants."
+uc6_test_005,test,neurological,medium,URGENT,"Triage Note:
+Chief Complaint: Suddenly became confused, not recognising family
+Vitals: HR 94 | BP 142/86 | RR 18 | SpO2 96% | Temp 38.4°C | GCS 13/15
+History: 78-year-old male, sudden onset confusion, agitated, pulling at clothes. CAM positive. No known dementia. Possible urinary source. Requires urgent work-up to exclude CNS cause and organ failure."
+uc6_test_006,test,trauma,easy,URGENT,"Triage Note:
+Chief Complaint: Hip pain, unable to weight-bear after a fall
+Vitals: HR 98 | BP 142/86 | RR 18 | SpO2 97% | Temp 36.9°C | GCS 15/15
+History: 82-year-old female, fell from standing height at home. Right leg shortened and externally rotated. Significant pain. Cognitively intact. X-ray shows displaced intracapsular neck of femur fracture."
+uc6_test_007,test,sepsis_infection,easy,URGENT,"Triage Note:
+Chief Complaint: High fever, rigors and generally very unwell
+Vitals: HR 118 | BP 102/66 | RR 22 | SpO2 96% | Temp 39.8°C | GCS 15/15
+History: 48-year-old male, 2 days of fever, rigors, right-sided loin pain. SIRS criteria met (HR >90, RR >20, Temp >38). No organ dysfunction yet. Haemodynamically marginal — requires urgent IV access and cultures."
+uc6_test_008,test,respiratory,medium,URGENT,"Triage Note:
+Chief Complaint: Sudden left-sided chest pain and breathlessness in tall thin man
+Vitals: HR 104 | BP 122/74 | RR 22 | SpO2 94% | Temp 36.7°C | GCS 15/15
+History: 23-year-old male, 6'4"", spontaneous onset 1 hour ago at rest. Decreased left-sided breath sounds. No trauma. CXR shows left pneumothorax ~25%."
+uc6_test_009,test,trauma,medium,URGENT,"Triage Note:
+Chief Complaint: Neck pain after head-on collision, tingling in both arms
+Vitals: HR 82 | BP 118/72 | RR 16 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 28-year-old male, moderate-speed MVA. Cervical spine immobilised. Bilateral arm tingling and mild weakness. Cervical spine CT ordered — possible C5/6 injury."
+uc6_test_010,test,respiratory,medium,URGENT,"Triage Note:
+Chief Complaint: Sudden onset breathlessness and pleuritic chest pain
+Vitals: HR 114 | BP 128/82 | RR 24 | SpO2 93% | Temp 37.1°C | GCS 15/15
+History: 34-year-old female, 6 weeks post-partum. Right-sided pleuritic pain, haemodynamically stable. D-dimer elevated. Wells score 5. CT-PA ordered."
+uc6_test_011,test,sepsis_infection,medium,URGENT,"Triage Note:
+Chief Complaint: Vomiting, abdominal pain, and fruity breath in known diabetic
+Vitals: HR 114 | BP 108/68 | RR 28 | SpO2 97% | Temp 37.6°C | GCS 15/15
+History: 18-year-old male, type 1 diabetes. Nausea and vomiting for 24 hours. Kussmaul breathing, glucose 32.4 mmol/L, large ketones. Haemodynamically marginal — moderate DKA."
+uc6_test_012,test,sepsis_infection,hard,URGENT,"Triage Note:
+Chief Complaint: Right-sided abdominal pain, nausea, and positive pregnancy test
+Vitals: HR 116 | BP 108/64 | RR 18 | SpO2 98% | Temp 37.1°C | GCS 15/15
+History: 29-year-old female, 6 weeks amenorrhoea. Right iliac fossa pain, shoulder tip pain on lying flat. Beta-hCG positive. No products on TVUS. Peritoneal signs. Ectopic pregnancy until excluded."
+uc6_test_013,test,respiratory,hard,URGENT,"Triage Note:
+Chief Complaint: Choking episode, now settled but intermittent cough and wheeze
+Vitals: HR 96 | BP 122/78 | RR 20 | SpO2 96% | Temp 36.9°C | GCS 15/15
+History: 3-year-old male, sudden onset choking while eating peanuts. Episode seemed to resolve but now has persistent unilateral wheeze and hypoxia dips. CXR shows air trapping right lower lobe. Parent very anxious."
+uc6_test_014,test,cardiac,medium,URGENT,"Triage Note:
+Chief Complaint: Sharp chest pain worse on breathing, mild fever
+Vitals: HR 96 | BP 128/78 | RR 20 | SpO2 97% | Temp 38.2°C | GCS 15/15
+History: 28-year-old male, sharp pleuritic chest pain for 2 days, worse lying flat, relieved by leaning forward. Recent viral illness. ECG shows saddle-shaped ST elevation throughout."
+uc6_test_015,test,sepsis_infection,medium,URGENT,"Triage Note:
+Chief Complaint: High fever, back pain and rigors in patient with recent cystitis
+Vitals: HR 116 | BP 106/68 | RR 22 | SpO2 97% | Temp 39.6°C | GCS 15/15
+History: 33-year-old female, treated for UTI 1 week ago with trimethoprim. Now worsening, right loin pain, rigors. Urine dipstick strongly positive. SIRS criteria met — ascending pyelonephritis with possible bacteraemia."
+uc6_test_016,test,neurological,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Severe headache, usual migraine pattern
+Vitals: HR 82 | BP 128/78 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 34-year-old female, known migraineur with typical visual aura preceding headache. Gradual onset, no fever, no meningism. Same as previous episodes. Requires antiemetic and analgesia. Photophobia but neurology normal."
+uc6_test_017,test,neurological,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Tension-type headache with nausea for 2 days
+Vitals: HR 76 | BP 122/78 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 28-year-old male, bilateral pressing headache, worse with stress. No neurological symptoms, no meningism. Usual tension pattern. Analgesia and hydration advised."
+uc6_test_018,test,respiratory,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Coughing up small amounts of blood twice, smoker
+Vitals: HR 82 | BP 128/80 | RR 16 | SpO2 97% | Temp 36.8°C | GCS 15/15
+History: 56-year-old male, 35 pack-year smoker. Two episodes of haemoptysis yesterday, < 10 mL each. CXR shows right upper lobe mass. Haemodynamically stable. Urgent CT chest and respiratory referral required."
+uc6_test_019,test,cardiac,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Chest pain for 2 days, worse on pressing
+Vitals: HR 72 | BP 128/80 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 45-year-old female, costochondritis-pattern chest pain. Reproducible on palpation of costochondral junctions. No radiation. No diaphoresis. ECG normal. Low-risk features."
+uc6_test_020,test,trauma,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Head laceration, not actively bleeding now
+Vitals: HR 82 | BP 122/78 | RR 14 | SpO2 99% | Temp 36.8°C | GCS 15/15
+History: 48-year-old male, 5cm scalp laceration from falling against door frame. Pressure applied, now oozing. GCS 15. No LOC. No nausea. No CT indications. Wound closure required."
+uc6_test_021,test,respiratory,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Worsening breathlessness, known interstitial lung disease
+Vitals: HR 88 | BP 118/76 | RR 20 | SpO2 93% | Temp 36.8°C | GCS 15/15
+History: 68-year-old female, known IPF. Gradual worsening over 2 weeks. Stable on supplemental oxygen at home (2L). No fever, no new consolidation on CXR. Requires review of oxygen titration and respiratory clinic follow-up."
+uc6_test_022,test,trauma,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Soft tissue injury to knee, limping in
+Vitals: HR 78 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 40-year-old female, twisting injury during running. Knee swollen, limited range of movement. Lachman test equivocal. Ottawa knee rules negative. Weight-bearing with difficulty. MRI ligament injury arranged."
+uc6_test_023,test,respiratory,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Productive cough and fever for 4 days
+Vitals: HR 94 | BP 122/76 | RR 18 | SpO2 96% | Temp 38.4°C | GCS 15/15
+History: 42-year-old female, productive cough with yellow sputum. Right lower lobe consolidation on CXR. CURB-65 score 1 — suitable for oral antibiotics. Haemodynamically stable. Sent home on amoxicillin."
+uc6_test_024,test,sepsis_infection,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Fever and generalised body aches for 4 days
+Vitals: HR 96 | BP 118/74 | RR 16 | SpO2 97% | Temp 38.8°C | GCS 15/15
+History: 32-year-old male, viral illness with myalgia, headache, fatigue. No localising symptoms. WBC normal. Influenza rapid test positive. Haemodynamically stable. Symptomatic management."
+uc6_test_025,test,sepsis_infection,medium,SEMIURGENT,"Triage Note:
+Chief Complaint: Severe toothache and swelling of the jaw for 2 days
+Vitals: HR 88 | BP 122/76 | RR 14 | SpO2 99% | Temp 37.8°C | GCS 15/15
+History: 40-year-old male, dental abscess with submandibular swelling. Trismus present. No dysphagia, no stridor. Airway not at risk currently. Requires IV antibiotics and urgent dental or maxillofacial review."
+uc6_test_026,test,cardiac,easy,SEMIURGENT,"Triage Note:
+Chief Complaint: Feeling of missed heartbeats, no other symptoms
+Vitals: HR 74 (regular) | BP 118/74 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 55-year-old male, isolated ectopic beats, aware of them for months. ECG shows frequent isolated PVCs, no sustained arrhythmia. Thyroid function normal. Reassurance and Holter monitor indicated."
+uc6_test_027,test,trauma,easy,NONURGENT,"Triage Note:
+Chief Complaint: Small cut on finger from kitchen knife
+Vitals: HR 72 | BP 116/72 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 25-year-old female, 1cm superficial laceration right index fingertip. Bleeding stopped with pressure. Neurovascular intact. Wound cleaned and steristripped. Tetanus up to date."
+uc6_test_028,test,trauma,easy,NONURGENT,"Triage Note:
+Chief Complaint: Mild ankle soreness after walking on uneven ground
+Vitals: HR 70 | BP 114/70 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 19-year-old female, minimal swelling left lateral ankle. Full weight-bearing, Ottawa ankle rules negative. RICE advice provided. No imaging required."
+uc6_test_029,test,sepsis_infection,easy,NONURGENT,"Triage Note:
+Chief Complaint: Requesting repeat prescription for antifungal cream
+Vitals: HR 70 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 48-year-old male, recurrent tinea pedis (athlete's foot). Chronic, well-managed with clotrimazole. No systemic signs. Prescription renewed and hygiene advice reinforced."
+uc6_test_030,test,cardiac,easy,NONURGENT,"Triage Note:
+Chief Complaint: Occasional awareness of heartbeat, especially lying in bed
+Vitals: HR 72 | BP 118/74 | RR 14 | SpO2 99% | Temp 36.7°C | GCS 15/15
+History: 29-year-old female, anxious, notices heartbeat at night. No arrhythmia on ECG, no structural disease. Caffeine and anxiety likely factors. Reassurance and lifestyle modification."

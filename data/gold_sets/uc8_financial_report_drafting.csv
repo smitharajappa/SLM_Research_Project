@@ -1,0 +1,3003 @@
+item_id,sector,difficulty,split,company_name,period,financial_data_json,prompt_text,gold_criteria
+UC8_001,Technology,easy,test,NovaSoft Inc.,Q2 2025,"{""revenue_m"": 142.3, ""revenue_growth_yoy_pct"": 22.1, ""gross_margin_pct"": 74.5, ""operating_income_m"": 38.4, ""operating_margin_pct"": 27.0, ""net_income_m"": 31.2, ""eps"": 1.84, ""arr_m"": 540.0, ""arr_growth_yoy_pct"": 28.0, ""net_revenue_retention_pct"": 118, ""customer_count"": 4120, ""free_cash_flow_m"": 44.1, ""cash_and_equivalents_m"": 210.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : NovaSoft Inc.
+Period   : Q2 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 142.3
+  Revenue Growth Yoy (%): 22.1
+  Gross ($M)Argin (%): 74.5
+  Operating Income ($M): 38.4
+  Operating ($M)Argin (%): 27.0
+  Net Income ($M): 31.2
+  Eps: 1.8
+  Arr ($M): 540.0
+  Arr Growth Yoy (%): 28.0
+  Net Revenue Retention (%): 118
+  Customer Count: 4,120
+  Free Cash Flow ($M): 44.1
+  Cash And Equivalents ($M): 210.0
+
+Write the financial performance summary now:",Revenue $142.3M up 22.1% YoY|Gross margin 74.5%|Operating income $38.4M margin 27%|ARR $540M up 28%|NRR 118%|FCF $44.1M|4120 customers
+UC8_002,Technology,easy,test,CloudPeak Systems,Q1 2025,"{""revenue_m"": 89.6, ""revenue_growth_yoy_pct"": 31.4, ""gross_margin_pct"": 71.2, ""operating_income_m"": 19.8, ""operating_margin_pct"": 22.1, ""net_income_m"": 16.5, ""eps"": 0.97, ""arr_m"": 348.0, ""arr_growth_yoy_pct"": 34.0, ""net_revenue_retention_pct"": 121, ""customer_count"": 2870, ""free_cash_flow_m"": 22.4, ""cash_and_equivalents_m"": 145.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : CloudPeak Systems
+Period   : Q1 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 89.6
+  Revenue Growth Yoy (%): 31.4
+  Gross ($M)Argin (%): 71.2
+  Operating Income ($M): 19.8
+  Operating ($M)Argin (%): 22.1
+  Net Income ($M): 16.5
+  Eps: 1.0
+  Arr ($M): 348.0
+  Arr Growth Yoy (%): 34.0
+  Net Revenue Retention (%): 121
+  Customer Count: 2,870
+  Free Cash Flow ($M): 22.4
+  Cash And Equivalents ($M): 145.0
+
+Write the financial performance summary now:",Revenue $89.6M up 31.4% YoY|Gross margin 71.2%|Operating income $19.8M margin 22.1%|ARR $348M up 34%|NRR 121%|FCF $22.4M|2870 customers
+UC8_003,Technology,easy,train,DataBridge Corp,Q3 2025,"{""revenue_m"": 205.1, ""revenue_growth_yoy_pct"": 18.7, ""gross_margin_pct"": 78.3, ""operating_income_m"": 62.0, ""operating_margin_pct"": 30.2, ""net_income_m"": 51.8, ""eps"": 2.41, ""arr_m"": 790.0, ""arr_growth_yoy_pct"": 21.0, ""net_revenue_retention_pct"": 115, ""customer_count"": 6500, ""free_cash_flow_m"": 70.2, ""cash_and_equivalents_m"": 380.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : DataBridge Corp
+Period   : Q3 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 205.1
+  Revenue Growth Yoy (%): 18.7
+  Gross ($M)Argin (%): 78.3
+  Operating Income ($M): 62.0
+  Operating ($M)Argin (%): 30.2
+  Net Income ($M): 51.8
+  Eps: 2.4
+  Arr ($M): 790.0
+  Arr Growth Yoy (%): 21.0
+  Net Revenue Retention (%): 115
+  Customer Count: 6,500
+  Free Cash Flow ($M): 70.2
+  Cash And Equivalents ($M): 380.0
+
+Write the financial performance summary now:",Revenue $205.1M up 18.7%|Gross margin 78.3%|Operating income $62M 30.2% margin|ARR $790M up 21%|NRR 115%|FCF $70.2M
+UC8_004,Technology,easy,train,Aperio Analytics,Q4 2024,"{""revenue_m"": 178.4, ""revenue_growth_yoy_pct"": 25.6, ""gross_margin_pct"": 72.9, ""operating_income_m"": 44.7, ""operating_margin_pct"": 25.1, ""net_income_m"": 37.3, ""eps"": 2.1, ""arr_m"": 680.0, ""arr_growth_yoy_pct"": 27.0, ""net_revenue_retention_pct"": 119, ""customer_count"": 5100, ""free_cash_flow_m"": 55.6, ""cash_and_equivalents_m"": 270.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Aperio Analytics
+Period   : Q4 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 178.4
+  Revenue Growth Yoy (%): 25.6
+  Gross ($M)Argin (%): 72.9
+  Operating Income ($M): 44.7
+  Operating ($M)Argin (%): 25.1
+  Net Income ($M): 37.3
+  Eps: 2.1
+  Arr ($M): 680.0
+  Arr Growth Yoy (%): 27.0
+  Net Revenue Retention (%): 119
+  Customer Count: 5,100
+  Free Cash Flow ($M): 55.6
+  Cash And Equivalents ($M): 270.0
+
+Write the financial performance summary now:",Revenue $178.4M up 25.6%|Gross margin 72.9%|Operating income $44.7M 25.1% margin|ARR $680M up 27%|NRR 119%|FCF $55.6M
+UC8_005,Technology,easy,train,Meridian SaaS,Q2 2025,"{""revenue_m"": 67.2, ""revenue_growth_yoy_pct"": 29.8, ""gross_margin_pct"": 76.1, ""operating_income_m"": 15.4, ""operating_margin_pct"": 22.9, ""net_income_m"": 13.0, ""eps"": 0.78, ""arr_m"": 258.0, ""arr_growth_yoy_pct"": 32.0, ""net_revenue_retention_pct"": 116, ""customer_count"": 1980, ""free_cash_flow_m"": 17.8, ""cash_and_equivalents_m"": 98.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Meridian SaaS
+Period   : Q2 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 67.2
+  Revenue Growth Yoy (%): 29.8
+  Gross ($M)Argin (%): 76.1
+  Operating Income ($M): 15.4
+  Operating ($M)Argin (%): 22.9
+  Net Income ($M): 13.0
+  Eps: 0.8
+  Arr ($M): 258.0
+  Arr Growth Yoy (%): 32.0
+  Net Revenue Retention (%): 116
+  Customer Count: 1,980
+  Free Cash Flow ($M): 17.8
+  Cash And Equivalents ($M): 98.0
+
+Write the financial performance summary now:",Revenue $67.2M up 29.8%|Gross margin 76.1%|Operating income $15.4M|ARR $258M up 32%|NRR 116%|1980 customers
+UC8_006,Technology,easy,train,Vektor Cloud,Q1 2025,"{""revenue_m"": 113.0, ""revenue_growth_yoy_pct"": 20.5, ""gross_margin_pct"": 73.8, ""operating_income_m"": 27.1, ""operating_margin_pct"": 24.0, ""net_income_m"": 22.7, ""eps"": 1.35, ""arr_m"": 435.0, ""arr_growth_yoy_pct"": 22.0, ""net_revenue_retention_pct"": 114, ""customer_count"": 3450, ""free_cash_flow_m"": 31.5, ""cash_and_equivalents_m"": 162.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vektor Cloud
+Period   : Q1 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 113.0
+  Revenue Growth Yoy (%): 20.5
+  Gross ($M)Argin (%): 73.8
+  Operating Income ($M): 27.1
+  Operating ($M)Argin (%): 24.0
+  Net Income ($M): 22.7
+  Eps: 1.4
+  Arr ($M): 435.0
+  Arr Growth Yoy (%): 22.0
+  Net Revenue Retention (%): 114
+  Customer Count: 3,450
+  Free Cash Flow ($M): 31.5
+  Cash And Equivalents ($M): 162.0
+
+Write the financial performance summary now:",Revenue $113M up 20.5%|Gross margin 73.8%|Operating income $27.1M|ARR $435M up 22%|NRR 114%|FCF $31.5M
+UC8_007,Technology,easy,train,Nimbix Solutions,Q3 2024,"{""revenue_m"": 55.9, ""revenue_growth_yoy_pct"": 27.3, ""gross_margin_pct"": 70.4, ""operating_income_m"": 11.3, ""operating_margin_pct"": 20.2, ""net_income_m"": 9.4, ""eps"": 0.56, ""arr_m"": 210.0, ""arr_growth_yoy_pct"": 30.0, ""net_revenue_retention_pct"": 113, ""customer_count"": 1560, ""free_cash_flow_m"": 13.2, ""cash_and_equivalents_m"": 77.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Nimbix Solutions
+Period   : Q3 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 55.9
+  Revenue Growth Yoy (%): 27.3
+  Gross ($M)Argin (%): 70.4
+  Operating Income ($M): 11.3
+  Operating ($M)Argin (%): 20.2
+  Net Income ($M): 9.4
+  Eps: 0.6
+  Arr ($M): 210.0
+  Arr Growth Yoy (%): 30.0
+  Net Revenue Retention (%): 113
+  Customer Count: 1,560
+  Free Cash Flow ($M): 13.2
+  Cash And Equivalents ($M): 77.0
+
+Write the financial performance summary now:",Revenue $55.9M up 27.3%|Gross margin 70.4%|Operating income $11.3M|ARR $210M up 30%|NRR 113%
+UC8_008,Technology,medium,test,Stratix Platform,Q2 2025,"{""revenue_m"": 121.7, ""revenue_growth_yoy_pct"": 9.4, ""gross_margin_pct"": 68.2, ""gross_margin_prev_qtr_pct"": 71.5, ""operating_income_m"": 14.6, ""operating_margin_pct"": 12.0, ""net_income_m"": 11.3, ""eps"": 0.67, ""arr_m"": 465.0, ""arr_growth_yoy_pct"": 11.0, ""net_revenue_retention_pct"": 104, ""customer_count"": 3820, ""customer_churn_pct"": 4.2, ""free_cash_flow_m"": 18.9, ""cash_and_equivalents_m"": 92.0, ""restructuring_charge_m"": 8.5, ""note"": ""Gross margin compression due to increased cloud hosting costs; restructuring charge of $8.5M related to workforce rebalancing""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Stratix Platform
+Period   : Q2 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 121.7
+  Revenue Growth Yoy (%): 9.4
+  Gross ($M)Argin (%): 68.2
+  Gross ($M)Argin Prev Qtr (%): 71.5
+  Operating Income ($M): 14.6
+  Operating ($M)Argin (%): 12.0
+  Net Income ($M): 11.3
+  Eps: 0.7
+  Arr ($M): 465.0
+  Arr Growth Yoy (%): 11.0
+  Net Revenue Retention (%): 104
+  Customer Count: 3,820
+  Customer Churn (%): 4.2
+  Free Cash Flow ($M): 18.9
+  Cash And Equivalents ($M): 92.0
+  Restructuring Charge ($M): 8.5
+
+Write the financial performance summary now:",Revenue $121.7M up 9.4% (growth deceleration)|Gross margin 68.2% down from 71.5% -- compression noted|Operating margin 12% impacted by $8.5M restructuring|ARR $465M up 11%|NRR 104% -- retention pressure|4.2% churn elevated|restructuring context required
+UC8_009,Technology,medium,test,Axon Digital,Q4 2024,"{""revenue_m"": 98.3, ""revenue_growth_yoy_pct"": 14.8, ""gross_margin_pct"": 65.7, ""operating_income_m"": 8.9, ""operating_margin_pct"": 9.1, ""net_income_m"": 6.2, ""eps"": 0.37, ""arr_m"": 372.0, ""arr_growth_yoy_pct"": 16.0, ""net_revenue_retention_pct"": 107, ""customer_count"": 2960, ""free_cash_flow_m"": 12.4, ""cash_and_equivalents_m"": 68.0, ""r_and_d_expense_m"": 31.5, ""r_and_d_as_pct_revenue"": 32.0, ""new_product_launches"": 2, ""note"": ""Heavy R&D investment in next-generation AI features; two new product modules launched in quarter""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Axon Digital
+Period   : Q4 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 98.3
+  Revenue Growth Yoy (%): 14.8
+  Gross ($M)Argin (%): 65.7
+  Operating Income ($M): 8.9
+  Operating ($M)Argin (%): 9.1
+  Net Income ($M): 6.2
+  Eps: 0.4
+  Arr ($M): 372.0
+  Arr Growth Yoy (%): 16.0
+  Net Revenue Retention (%): 107
+  Customer Count: 2,960
+  Free Cash Flow ($M): 12.4
+  Cash And Equivalents ($M): 68.0
+  R And D Expense ($M): 31.5
+  R And D As (%) Revenue: 32.0
+  New Product Launches: 2
+
+Write the financial performance summary now:",Revenue $98.3M up 14.8%|Gross margin 65.7% -- R&D investment context|Operating income $8.9M 9.1% margin|R&D $31.5M (32% of revenue)|ARR $372M up 16%|NRR 107%|two new product launches
+UC8_010,Technology,medium,train,Optera Systems,Q1 2025,"{""revenue_m"": 145.2, ""revenue_growth_yoy_pct"": 7.1, ""gross_margin_pct"": 67.4, ""operating_income_m"": 12.3, ""operating_margin_pct"": 8.5, ""net_income_m"": 9.8, ""eps"": 0.58, ""arr_m"": 558.0, ""arr_growth_yoy_pct"": 8.0, ""net_revenue_retention_pct"": 103, ""customer_count"": 4320, ""free_cash_flow_m"": 16.1, ""cash_and_equivalents_m"": 105.0, ""sales_and_marketing_m"": 52.0, ""note"": ""Increased S&M spend to re-accelerate growth after two quarters of deceleration""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Optera Systems
+Period   : Q1 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 145.2
+  Revenue Growth Yoy (%): 7.1
+  Gross ($M)Argin (%): 67.4
+  Operating Income ($M): 12.3
+  Operating ($M)Argin (%): 8.5
+  Net Income ($M): 9.8
+  Eps: 0.6
+  Arr ($M): 558.0
+  Arr Growth Yoy (%): 8.0
+  Net Revenue Retention (%): 103
+  Customer Count: 4,320
+  Free Cash Flow ($M): 16.1
+  Cash And Equivalents ($M): 105.0
+  Sales And ($M)Arketing ($M): 52.0
+
+Write the financial performance summary now:",Revenue $145.2M up 7.1%|Gross margin 67.4%|Operating income $12.3M 8.5% margin|ARR $558M up 8%|NRR 103%|Elevated S&M spend $52M growth re-acceleration noted
+UC8_011,Technology,medium,train,Parallax Software,Q3 2024,"{""revenue_m"": 77.8, ""revenue_growth_yoy_pct"": 11.2, ""gross_margin_pct"": 69.0, ""operating_income_m"": 7.0, ""operating_margin_pct"": 9.0, ""net_income_m"": 5.6, ""eps"": 0.33, ""arr_m"": 298.0, ""arr_growth_yoy_pct"": 12.5, ""net_revenue_retention_pct"": 105, ""customer_count"": 2340, ""free_cash_flow_m"": 9.5, ""cash_and_equivalents_m"": 55.0, ""customer_acquisition_cost_m"": 18.2, ""note"": ""CAC increased 15% sequentially due to competitive market dynamics""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Parallax Software
+Period   : Q3 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 77.8
+  Revenue Growth Yoy (%): 11.2
+  Gross ($M)Argin (%): 69.0
+  Operating Income ($M): 7.0
+  Operating ($M)Argin (%): 9.0
+  Net Income ($M): 5.6
+  Eps: 0.3
+  Arr ($M): 298.0
+  Arr Growth Yoy (%): 12.5
+  Net Revenue Retention (%): 105
+  Customer Count: 2,340
+  Free Cash Flow ($M): 9.5
+  Cash And Equivalents ($M): 55.0
+  Customer Acquisition Cost ($M): 18.2
+
+Write the financial performance summary now:",Revenue $77.8M up 11.2%|Gross margin 69%|Operating income $7M 9% margin|ARR $298M up 12.5%|NRR 105%|CAC increase competitive environment
+UC8_012,Technology,medium,train,Quorum Technologies,Q2 2024,"{""revenue_m"": 161.0, ""revenue_growth_yoy_pct"": 13.0, ""gross_margin_pct"": 70.8, ""operating_income_m"": 21.7, ""operating_margin_pct"": 13.5, ""net_income_m"": 18.0, ""eps"": 1.06, ""arr_m"": 615.0, ""arr_growth_yoy_pct"": 14.0, ""net_revenue_retention_pct"": 109, ""customer_count"": 4890, ""free_cash_flow_m"": 26.3, ""cash_and_equivalents_m"": 148.0, ""international_revenue_pct"": 38, ""note"": ""International revenue grew 22% YoY outpacing domestic growth of 8%""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Quorum Technologies
+Period   : Q2 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 161.0
+  Revenue Growth Yoy (%): 13.0
+  Gross ($M)Argin (%): 70.8
+  Operating Income ($M): 21.7
+  Operating ($M)Argin (%): 13.5
+  Net Income ($M): 18.0
+  Eps: 1.1
+  Arr ($M): 615.0
+  Arr Growth Yoy (%): 14.0
+  Net Revenue Retention (%): 109
+  Customer Count: 4,890
+  Free Cash Flow ($M): 26.3
+  Cash And Equivalents ($M): 148.0
+  International Revenue (%): 38
+
+Write the financial performance summary now:",Revenue $161M up 13%|Gross margin 70.8%|Operating income $21.7M 13.5% margin|ARR $615M up 14%|NRR 109%|International 38% of revenue up 22%
+UC8_013,Technology,medium,train,Flux Analytics,Q4 2025,"{""revenue_m"": 89.1, ""revenue_growth_yoy_pct"": 10.8, ""gross_margin_pct"": 66.5, ""operating_income_m"": 8.0, ""operating_margin_pct"": 9.0, ""net_income_m"": 6.5, ""eps"": 0.39, ""arr_m"": 340.0, ""arr_growth_yoy_pct"": 11.5, ""net_revenue_retention_pct"": 106, ""customer_count"": 2680, ""free_cash_flow_m"": 10.4, ""cash_and_equivalents_m"": 61.0, ""note"": ""Professional services revenue declined 8% as company shifts to product-led growth model""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Flux Analytics
+Period   : Q4 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 89.1
+  Revenue Growth Yoy (%): 10.8
+  Gross ($M)Argin (%): 66.5
+  Operating Income ($M): 8.0
+  Operating ($M)Argin (%): 9.0
+  Net Income ($M): 6.5
+  Eps: 0.4
+  Arr ($M): 340.0
+  Arr Growth Yoy (%): 11.5
+  Net Revenue Retention (%): 106
+  Customer Count: 2,680
+  Free Cash Flow ($M): 10.4
+  Cash And Equivalents ($M): 61.0
+
+Write the financial performance summary now:",Revenue $89.1M up 10.8%|Gross margin 66.5%|Operating income $8M 9% margin|ARR $340M up 11.5%|NRR 106%|Professional services decline product-led growth transition
+UC8_014,Technology,medium,train,Helix Data Corp,Q1 2024,"{""revenue_m"": 54.3, ""revenue_growth_yoy_pct"": 16.4, ""gross_margin_pct"": 68.8, ""operating_income_m"": 5.4, ""operating_margin_pct"": 10.0, ""net_income_m"": 4.3, ""eps"": 0.26, ""arr_m"": 208.0, ""arr_growth_yoy_pct"": 18.0, ""net_revenue_retention_pct"": 110, ""customer_count"": 1740, ""free_cash_flow_m"": 7.1, ""cash_and_equivalents_m"": 43.0, ""note"": ""Land-and-expand motion driving NRR; average contract value grew 12% YoY""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Helix Data Corp
+Period   : Q1 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 54.3
+  Revenue Growth Yoy (%): 16.4
+  Gross ($M)Argin (%): 68.8
+  Operating Income ($M): 5.4
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 4.3
+  Eps: 0.3
+  Arr ($M): 208.0
+  Arr Growth Yoy (%): 18.0
+  Net Revenue Retention (%): 110
+  Customer Count: 1,740
+  Free Cash Flow ($M): 7.1
+  Cash And Equivalents ($M): 43.0
+
+Write the financial performance summary now:",Revenue $54.3M up 16.4%|Gross margin 68.8%|Operating income $5.4M 10% margin|ARR $208M up 18%|NRR 110%|ACV grew 12% land-and-expand
+UC8_015,Technology,hard,test,Corvis Technologies,Q3 2025,"{""revenue_m"": 134.2, ""revenue_growth_yoy_pct"": -3.1, ""gross_margin_pct"": 61.4, ""gross_margin_prev_year_pct"": 70.8, ""operating_income_m"": -8.7, ""operating_margin_pct"": -6.5, ""net_income_m"": -11.4, ""eps"": -0.67, ""arr_m"": 510.0, ""arr_growth_yoy_pct"": -1.5, ""net_revenue_retention_pct"": 92, ""customer_count"": 3890, ""customer_churn_pct"": 8.9, ""free_cash_flow_m"": -15.2, ""cash_and_equivalents_m"": 48.0, ""impairment_charge_m"": 22.0, ""restructuring_charge_m"": 14.5, ""debt_m"": 180.0, ""note"": ""Goodwill impairment $22M related to underperforming acquisition from 2023; net revenue decline driven by enterprise segment downturn; $14.5M restructuring charge for 12% workforce reduction; 8.9% churn highest in company history""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Corvis Technologies
+Period   : Q3 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 134.2
+  Revenue Growth Yoy (%): -3.1
+  Gross ($M)Argin (%): 61.4
+  Gross ($M)Argin Prev Year (%): 70.8
+  Operating Income ($M): -8.7
+  Operating ($M)Argin (%): -6.5
+  Net Income ($M): -11.4
+  Eps: -0.7
+  Arr ($M): 510.0
+  Arr Growth Yoy (%): -1.5
+  Net Revenue Retention (%): 92
+  Customer Count: 3,890
+  Customer Churn (%): 8.9
+  Free Cash Flow ($M): -15.2
+  Cash And Equivalents ($M): 48.0
+  Impairment Charge ($M): 22.0
+  Restructuring Charge ($M): 14.5
+  Debt ($M): 180.0
+
+Write the financial performance summary now:",Revenue $134.2M DOWN 3.1% YoY -- revenue decline|Gross margin 61.4% down sharply from 70.8%|Operating loss -$8.7M margin -6.5%|Net loss -$11.4M|ARR $510M down 1.5%|NRR 92% -- below 100 means contraction|Churn 8.9% highest on record|$22M goodwill impairment|$14.5M restructuring 12% workforce cut|FCF -$15.2M cash burn|$48M cash limited runway with $180M debt|All negative signals must be clearly reported
+UC8_016,Technology,hard,test,Specter AI,Q2 2024,"{""revenue_m"": 47.8, ""revenue_growth_yoy_pct"": 62.3, ""gross_margin_pct"": 41.2, ""operating_income_m"": -28.4, ""operating_margin_pct"": -59.4, ""net_income_m"": -31.0, ""eps"": -1.83, ""arr_m"": 180.0, ""arr_growth_yoy_pct"": 78.0, ""net_revenue_retention_pct"": 138, ""customer_count"": 890, ""free_cash_flow_m"": -33.1, ""cash_and_equivalents_m"": 124.0, ""r_and_d_expense_m"": 28.5, ""sales_and_marketing_m"": 32.1, ""headcount"": 620, ""headcount_growth_yoy_pct"": 89, ""note"": ""Hyper-growth phase -- company deliberately investing ahead of revenue; gross margin suppressed by compute costs for AI model training and inference; management expects gross margins to expand to 65%+ at scale""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Specter AI
+Period   : Q2 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 47.8
+  Revenue Growth Yoy (%): 62.3
+  Gross ($M)Argin (%): 41.2
+  Operating Income ($M): -28.4
+  Operating ($M)Argin (%): -59.4
+  Net Income ($M): -31.0
+  Eps: -1.8
+  Arr ($M): 180.0
+  Arr Growth Yoy (%): 78.0
+  Net Revenue Retention (%): 138
+  Customer Count: 890
+  Free Cash Flow ($M): -33.1
+  Cash And Equivalents ($M): 124.0
+  R And D Expense ($M): 28.5
+  Sales And ($M)Arketing ($M): 32.1
+  Headcount: 620
+  Headcount Growth Yoy (%): 89
+
+Write the financial performance summary now:",Revenue $47.8M up 62.3% hyper-growth|Gross margin 41.2% suppressed by AI compute -- scale expectation 65%+|Operating loss -$28.4M -59.4% margin -- deliberate investment phase|Net loss -$31M|ARR $180M up 78%|NRR 138% -- exceptional retention|R&D $28.5M and S&M $32.1M investment ahead of revenue|FCF -$33.1M burn rate|$124M cash runway context|Headcount +89% YoY|Both growth story and cash burn risk must be addressed
+UC8_017,Technology,hard,train,Meridian AI,Q1 2024,"{""revenue_m"": 88.5, ""revenue_growth_yoy_pct"": -8.2, ""gross_margin_pct"": 58.3, ""operating_income_m"": -19.2, ""operating_margin_pct"": -21.7, ""net_income_m"": -22.8, ""eps"": -1.35, ""arr_m"": 337.0, ""arr_decline_qoq_m"": -12.0, ""net_revenue_retention_pct"": 88, ""customer_count"": 2940, ""free_cash_flow_m"": -24.5, ""cash_and_equivalents_m"": 62.0, ""note"": ""ARR contraction driven by enterprise downgrades; NRR below 100 for third consecutive quarter""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Meridian AI
+Period   : Q1 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 88.5
+  Revenue Growth Yoy (%): -8.2
+  Gross ($M)Argin (%): 58.3
+  Operating Income ($M): -19.2
+  Operating ($M)Argin (%): -21.7
+  Net Income ($M): -22.8
+  Eps: -1.4
+  Arr ($M): 337.0
+  Arr Decline Qoq ($M): -12.0
+  Net Revenue Retention (%): 88
+  Customer Count: 2,940
+  Free Cash Flow ($M): -24.5
+  Cash And Equivalents ($M): 62.0
+
+Write the financial performance summary now:",Revenue $88.5M down 8.2%|Gross margin 58.3%|Operating loss -$19.2M|ARR $337M contracting QoQ by $12M|NRR 88% below 100 third consecutive quarter|FCF -$24.5M|$62M cash limited runway
+UC8_018,Technology,hard,train,Conduit SaaS,Q4 2024,"{""revenue_m"": 201.0, ""revenue_growth_yoy_pct"": 4.2, ""gross_margin_pct"": 72.1, ""operating_income_m"": 30.1, ""operating_margin_pct"": 15.0, ""net_income_m"": 24.8, ""eps"": 1.47, ""arr_m"": 780.0, ""arr_growth_yoy_pct"": 5.5, ""net_revenue_retention_pct"": 101, ""customer_count"": 6200, ""free_cash_flow_m"": 41.2, ""cash_and_equivalents_m"": 290.0, ""share_repurchase_m"": 60.0, ""note"": ""Company returned $60M to shareholders via buyback; management commented growth deceleration reflects market saturation in core segment; expanding into adjacent markets""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Conduit SaaS
+Period   : Q4 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 201.0
+  Revenue Growth Yoy (%): 4.2
+  Gross ($M)Argin (%): 72.1
+  Operating Income ($M): 30.1
+  Operating ($M)Argin (%): 15.0
+  Net Income ($M): 24.8
+  Eps: 1.5
+  Arr ($M): 780.0
+  Arr Growth Yoy (%): 5.5
+  Net Revenue Retention (%): 101
+  Customer Count: 6,200
+  Free Cash Flow ($M): 41.2
+  Cash And Equivalents ($M): 290.0
+  Share Repurchase ($M): 60.0
+
+Write the financial performance summary now:",Revenue $201M up 4.2% -- significant deceleration|Gross margin 72.1% healthy|Operating income $30.1M 15% margin|ARR $780M up 5.5%|NRR 101% barely positive|$60M share buyback capital return|Growth deceleration and adjacent market expansion
+UC8_019,Technology,hard,train,Phalanx Cloud,Q2 2025,"{""revenue_m"": 156.4, ""revenue_growth_yoy_pct"": 38.1, ""gross_margin_pct"": 55.8, ""operating_income_m"": -42.0, ""operating_margin_pct"": -26.8, ""net_income_m"": -46.3, ""eps"": -2.74, ""arr_m"": 590.0, ""arr_growth_yoy_pct"": 44.0, ""net_revenue_retention_pct"": 129, ""customer_count"": 3210, ""free_cash_flow_m"": -48.5, ""cash_and_equivalents_m"": 198.0, ""note"": ""Infrastructure-heavy business model suppresses gross margins; company pursuing GPU capacity build-out worth $120M over next 18 months""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Phalanx Cloud
+Period   : Q2 2025
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 156.4
+  Revenue Growth Yoy (%): 38.1
+  Gross ($M)Argin (%): 55.8
+  Operating Income ($M): -42.0
+  Operating ($M)Argin (%): -26.8
+  Net Income ($M): -46.3
+  Eps: -2.7
+  Arr ($M): 590.0
+  Arr Growth Yoy (%): 44.0
+  Net Revenue Retention (%): 129
+  Customer Count: 3,210
+  Free Cash Flow ($M): -48.5
+  Cash And Equivalents ($M): 198.0
+
+Write the financial performance summary now:",Revenue $156.4M up 38.1%|Gross margin 55.8% infrastructure costs|Operating loss -$42M -26.8% margin -- investment phase|Net loss -$46.3M|ARR $590M up 44%|NRR 129%|FCF -$48.5M|$198M cash|$120M GPU build-out capex context
+UC8_020,Technology,hard,train,Virtex Platform,Q3 2024,"{""revenue_m"": 112.7, ""revenue_growth_yoy_pct"": 2.1, ""gross_margin_pct"": 63.9, ""operating_income_m"": 4.5, ""operating_margin_pct"": 4.0, ""net_income_m"": 2.8, ""eps"": 0.17, ""arr_m"": 432.0, ""arr_growth_yoy_pct"": 3.0, ""net_revenue_retention_pct"": 99, ""customer_count"": 3780, ""free_cash_flow_m"": 6.2, ""cash_and_equivalents_m"": 80.0, ""note"": ""Legacy product revenue declining; new product transition underway; large deal delays pushed $18M of ARR to Q4""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Virtex Platform
+Period   : Q3 2024
+Sector   : Technology
+
+Financial Data:
+  Revenue ($M): 112.7
+  Revenue Growth Yoy (%): 2.1
+  Gross ($M)Argin (%): 63.9
+  Operating Income ($M): 4.5
+  Operating ($M)Argin (%): 4.0
+  Net Income ($M): 2.8
+  Eps: 0.2
+  Arr ($M): 432.0
+  Arr Growth Yoy (%): 3.0
+  Net Revenue Retention (%): 99
+  Customer Count: 3,780
+  Free Cash Flow ($M): 6.2
+  Cash And Equivalents ($M): 80.0
+
+Write the financial performance summary now:",Revenue $112.7M up 2.1% near-stagnant|Gross margin 63.9%|Operating income $4.5M 4% margin|ARR $432M up 3% NRR 99% slightly below 100|Legacy product decline transition risk|$18M ARR deal slippage to Q4
+UC8_021,Retail,easy,test,Velora Commerce,Q4 2024,"{""revenue_m"": 892.4, ""revenue_growth_yoy_pct"": 14.3, ""gross_margin_pct"": 38.2, ""operating_income_m"": 98.7, ""operating_margin_pct"": 11.1, ""net_income_m"": 76.3, ""eps"": 3.82, ""comparable_store_sales_growth_pct"": 9.8, ""e_commerce_revenue_m"": 312.0, ""e_commerce_growth_pct"": 28.4, ""store_count"": 415, ""new_stores_opened"": 12, ""inventory_turnover"": 6.4, ""free_cash_flow_m"": 112.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Velora Commerce
+Period   : Q4 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 892.4
+  Revenue Growth Yoy (%): 14.3
+  Gross ($M)Argin (%): 38.2
+  Operating Income ($M): 98.7
+  Operating ($M)Argin (%): 11.1
+  Net Income ($M): 76.3
+  Eps: 3.8
+  Comparable Store Sales Growth (%): 9.8
+  E Commerce Revenue ($M): 312.0
+  E Commerce Growth (%): 28.4
+  Store Count: 415
+  New Stores Opened: 12
+  Inventory Turnover: 6.4
+  Free Cash Flow ($M): 112.0
+
+Write the financial performance summary now:",Revenue $892.4M up 14.3%|Gross margin 38.2%|Operating income $98.7M 11.1% margin|Comp sales +9.8%|E-commerce $312M up 28.4%|415 stores 12 new openings|Inventory turnover 6.4x|FCF $112M
+UC8_022,Retail,easy,test,Stratum Retail Group,Q3 2024,"{""revenue_m"": 621.8, ""revenue_growth_yoy_pct"": 11.7, ""gross_margin_pct"": 41.5, ""operating_income_m"": 74.6, ""operating_margin_pct"": 12.0, ""net_income_m"": 58.4, ""eps"": 2.92, ""comparable_store_sales_growth_pct"": 7.4, ""e_commerce_revenue_m"": 186.5, ""e_commerce_growth_pct"": 22.0, ""store_count"": 289, ""free_cash_flow_m"": 83.2}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Stratum Retail Group
+Period   : Q3 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 621.8
+  Revenue Growth Yoy (%): 11.7
+  Gross ($M)Argin (%): 41.5
+  Operating Income ($M): 74.6
+  Operating ($M)Argin (%): 12.0
+  Net Income ($M): 58.4
+  Eps: 2.9
+  Comparable Store Sales Growth (%): 7.4
+  E Commerce Revenue ($M): 186.5
+  E Commerce Growth (%): 22.0
+  Store Count: 289
+  Free Cash Flow ($M): 83.2
+
+Write the financial performance summary now:",Revenue $621.8M up 11.7%|Gross margin 41.5%|Operating income $74.6M 12% margin|Comp sales +7.4%|E-commerce $186.5M up 22%|289 stores|FCF $83.2M
+UC8_023,Retail,easy,train,Harmon Lifestyle,Q2 2025,"{""revenue_m"": 445.0, ""revenue_growth_yoy_pct"": 10.2, ""gross_margin_pct"": 39.8, ""operating_income_m"": 49.0, ""operating_margin_pct"": 11.0, ""net_income_m"": 38.2, ""eps"": 1.91, ""comparable_store_sales_growth_pct"": 6.1, ""e_commerce_revenue_m"": 133.5, ""e_commerce_growth_pct"": 19.5, ""store_count"": 218, ""free_cash_flow_m"": 58.3}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Harmon Lifestyle
+Period   : Q2 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 445.0
+  Revenue Growth Yoy (%): 10.2
+  Gross ($M)Argin (%): 39.8
+  Operating Income ($M): 49.0
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 38.2
+  Eps: 1.9
+  Comparable Store Sales Growth (%): 6.1
+  E Commerce Revenue ($M): 133.5
+  E Commerce Growth (%): 19.5
+  Store Count: 218
+  Free Cash Flow ($M): 58.3
+
+Write the financial performance summary now:",Revenue $445M up 10.2%|Gross margin 39.8%|Operating income $49M 11% margin|Comp sales +6.1%|E-commerce $133.5M up 19.5%|218 stores|FCF $58.3M
+UC8_024,Retail,easy,train,Crestview Brands,Q1 2025,"{""revenue_m"": 337.4, ""revenue_growth_yoy_pct"": 13.0, ""gross_margin_pct"": 43.2, ""operating_income_m"": 44.1, ""operating_margin_pct"": 13.1, ""net_income_m"": 34.7, ""eps"": 1.73, ""comparable_store_sales_growth_pct"": 8.5, ""e_commerce_revenue_m"": 101.2, ""e_commerce_growth_pct"": 25.3, ""store_count"": 162, ""free_cash_flow_m"": 51.4}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Crestview Brands
+Period   : Q1 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 337.4
+  Revenue Growth Yoy (%): 13.0
+  Gross ($M)Argin (%): 43.2
+  Operating Income ($M): 44.1
+  Operating ($M)Argin (%): 13.1
+  Net Income ($M): 34.7
+  Eps: 1.7
+  Comparable Store Sales Growth (%): 8.5
+  E Commerce Revenue ($M): 101.2
+  E Commerce Growth (%): 25.3
+  Store Count: 162
+  Free Cash Flow ($M): 51.4
+
+Write the financial performance summary now:",Revenue $337.4M up 13%|Gross margin 43.2%|Operating income $44.1M 13.1% margin|Comp sales +8.5%|E-commerce $101.2M up 25.3%|162 stores
+UC8_025,Retail,easy,train,Luxora Home,Q4 2025,"{""revenue_m"": 758.1, ""revenue_growth_yoy_pct"": 12.5, ""gross_margin_pct"": 37.6, ""operating_income_m"": 82.5, ""operating_margin_pct"": 10.9, ""net_income_m"": 64.3, ""eps"": 3.21, ""comparable_store_sales_growth_pct"": 8.0, ""e_commerce_revenue_m"": 265.3, ""e_commerce_growth_pct"": 21.0, ""store_count"": 368, ""free_cash_flow_m"": 97.4}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Luxora Home
+Period   : Q4 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 758.1
+  Revenue Growth Yoy (%): 12.5
+  Gross ($M)Argin (%): 37.6
+  Operating Income ($M): 82.5
+  Operating ($M)Argin (%): 10.9
+  Net Income ($M): 64.3
+  Eps: 3.2
+  Comparable Store Sales Growth (%): 8.0
+  E Commerce Revenue ($M): 265.3
+  E Commerce Growth (%): 21.0
+  Store Count: 368
+  Free Cash Flow ($M): 97.4
+
+Write the financial performance summary now:",Revenue $758.1M up 12.5%|Gross margin 37.6%|Operating income $82.5M 10.9% margin|Comp sales +8%|E-commerce $265.3M up 21%|368 stores
+UC8_026,Retail,easy,train,Pinnacle Goods,Q3 2025,"{""revenue_m"": 512.0, ""revenue_growth_yoy_pct"": 9.8, ""gross_margin_pct"": 40.1, ""operating_income_m"": 56.3, ""operating_margin_pct"": 11.0, ""net_income_m"": 43.9, ""eps"": 2.19, ""comparable_store_sales_growth_pct"": 5.9, ""e_commerce_revenue_m"": 153.6, ""e_commerce_growth_pct"": 17.8, ""store_count"": 248, ""free_cash_flow_m"": 66.8}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Pinnacle Goods
+Period   : Q3 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 512.0
+  Revenue Growth Yoy (%): 9.8
+  Gross ($M)Argin (%): 40.1
+  Operating Income ($M): 56.3
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 43.9
+  Eps: 2.2
+  Comparable Store Sales Growth (%): 5.9
+  E Commerce Revenue ($M): 153.6
+  E Commerce Growth (%): 17.8
+  Store Count: 248
+  Free Cash Flow ($M): 66.8
+
+Write the financial performance summary now:",Revenue $512M up 9.8%|Gross margin 40.1%|Operating income $56.3M 11% margin|Comp sales +5.9%|E-commerce $153.6M up 17.8%|248 stores
+UC8_027,Retail,easy,train,Denmore Retail,Q2 2024,"{""revenue_m"": 289.6, ""revenue_growth_yoy_pct"": 11.4, ""gross_margin_pct"": 42.7, ""operating_income_m"": 34.8, ""operating_margin_pct"": 12.0, ""net_income_m"": 27.2, ""eps"": 1.36, ""comparable_store_sales_growth_pct"": 7.0, ""e_commerce_revenue_m"": 86.9, ""e_commerce_growth_pct"": 20.8, ""store_count"": 143, ""free_cash_flow_m"": 41.5}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Denmore Retail
+Period   : Q2 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 289.6
+  Revenue Growth Yoy (%): 11.4
+  Gross ($M)Argin (%): 42.7
+  Operating Income ($M): 34.8
+  Operating ($M)Argin (%): 12.0
+  Net Income ($M): 27.2
+  Eps: 1.4
+  Comparable Store Sales Growth (%): 7.0
+  E Commerce Revenue ($M): 86.9
+  E Commerce Growth (%): 20.8
+  Store Count: 143
+  Free Cash Flow ($M): 41.5
+
+Write the financial performance summary now:",Revenue $289.6M up 11.4%|Gross margin 42.7%|Operating income $34.8M 12% margin|Comp sales +7%|E-commerce $86.9M up 20.8%|143 stores
+UC8_028,Retail,medium,test,Vantage Apparel,Q1 2025,"{""revenue_m"": 478.3, ""revenue_growth_yoy_pct"": 3.8, ""gross_margin_pct"": 34.1, ""gross_margin_prev_year_pct"": 39.2, ""operating_income_m"": 28.7, ""operating_margin_pct"": 6.0, ""net_income_m"": 21.5, ""eps"": 1.07, ""comparable_store_sales_growth_pct"": 1.2, ""e_commerce_revenue_m"": 143.5, ""e_commerce_growth_pct"": 12.0, ""store_count"": 231, ""stores_closed"": 8, ""inventory_excess_m"": 42.0, ""markdown_impact_m"": 18.5, ""free_cash_flow_m"": 34.1, ""note"": ""Gross margin pressure from inventory markdown of $18.5M; 8 underperforming stores closed; tariff headwinds impacting COGS""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vantage Apparel
+Period   : Q1 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 478.3
+  Revenue Growth Yoy (%): 3.8
+  Gross ($M)Argin (%): 34.1
+  Gross ($M)Argin Prev Year (%): 39.2
+  Operating Income ($M): 28.7
+  Operating ($M)Argin (%): 6.0
+  Net Income ($M): 21.5
+  Eps: 1.1
+  Comparable Store Sales Growth (%): 1.2
+  E Commerce Revenue ($M): 143.5
+  E Commerce Growth (%): 12.0
+  Store Count: 231
+  Stores Closed: 8
+  Inventory Excess ($M): 42.0
+  Markdown Impact ($M): 18.5
+  Free Cash Flow ($M): 34.1
+
+Write the financial performance summary now:",Revenue $478.3M up 3.8% growth slowdown|Gross margin 34.1% down from 39.2%|$18.5M markdown impact|Operating income $28.7M 6% margin|Comp sales +1.2% decelerated|E-commerce $143.5M up 12%|8 store closures rationalisation|Inventory excess $42M tariff headwinds
+UC8_029,Retail,medium,test,Eastbrook Home Goods,Q2 2025,"{""revenue_m"": 394.7, ""revenue_growth_yoy_pct"": 6.1, ""gross_margin_pct"": 36.8, ""operating_income_m"": 35.5, ""operating_margin_pct"": 9.0, ""net_income_m"": 27.3, ""eps"": 1.37, ""comparable_store_sales_growth_pct"": 3.5, ""e_commerce_revenue_m"": 118.4, ""e_commerce_growth_pct"": 18.5, ""store_count"": 196, ""new_stores_opened"": 5, ""loyalty_members_m"": 2.4, ""loyalty_revenue_pct"": 68, ""free_cash_flow_m"": 43.2, ""note"": ""Loyalty programme driving 68% of revenue; new loyalty tier launched driving 14% increase in average order value""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Eastbrook Home Goods
+Period   : Q2 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 394.7
+  Revenue Growth Yoy (%): 6.1
+  Gross ($M)Argin (%): 36.8
+  Operating Income ($M): 35.5
+  Operating ($M)Argin (%): 9.0
+  Net Income ($M): 27.3
+  Eps: 1.4
+  Comparable Store Sales Growth (%): 3.5
+  E Commerce Revenue ($M): 118.4
+  E Commerce Growth (%): 18.5
+  Store Count: 196
+  New Stores Opened: 5
+  Loyalty ($M)Embers ($M): 2.4
+  Loyalty Revenue (%): 68
+  Free Cash Flow ($M): 43.2
+
+Write the financial performance summary now:",Revenue $394.7M up 6.1%|Gross margin 36.8%|Operating income $35.5M 9% margin|Comp sales +3.5%|E-commerce $118.4M up 18.5%|Loyalty 68% of revenue 2.4M members|AOV up 14%|5 new stores
+UC8_030,Retail,medium,train,Radleigh Fashion,Q3 2025,"{""revenue_m"": 567.1, ""revenue_growth_yoy_pct"": 5.3, ""gross_margin_pct"": 35.7, ""operating_income_m"": 45.4, ""operating_margin_pct"": 8.0, ""net_income_m"": 35.2, ""eps"": 1.76, ""comparable_store_sales_growth_pct"": 2.8, ""e_commerce_revenue_m"": 170.1, ""e_commerce_growth_pct"": 15.0, ""store_count"": 275, ""free_cash_flow_m"": 52.8, ""note"": ""Promotional activity increased to clear seasonal inventory; freight costs elevated 12% YoY""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Radleigh Fashion
+Period   : Q3 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 567.1
+  Revenue Growth Yoy (%): 5.3
+  Gross ($M)Argin (%): 35.7
+  Operating Income ($M): 45.4
+  Operating ($M)Argin (%): 8.0
+  Net Income ($M): 35.2
+  Eps: 1.8
+  Comparable Store Sales Growth (%): 2.8
+  E Commerce Revenue ($M): 170.1
+  E Commerce Growth (%): 15.0
+  Store Count: 275
+  Free Cash Flow ($M): 52.8
+
+Write the financial performance summary now:",Revenue $567.1M up 5.3%|Gross margin 35.7% pressure from promotions|Operating income $45.4M 8% margin|Comp sales +2.8%|E-commerce $170.1M up 15%|Freight costs elevated 12%
+UC8_031,Retail,medium,train,Summit Outdoors,Q1 2024,"{""revenue_m"": 312.4, ""revenue_growth_yoy_pct"": 4.6, ""gross_margin_pct"": 38.1, ""operating_income_m"": 28.1, ""operating_margin_pct"": 9.0, ""net_income_m"": 21.7, ""eps"": 1.09, ""comparable_store_sales_growth_pct"": 2.0, ""e_commerce_revenue_m"": 93.7, ""e_commerce_growth_pct"": 14.2, ""store_count"": 152, ""free_cash_flow_m"": 33.5, ""note"": ""Consumer discretionary spending softening in core demographic; average transaction value flat""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Summit Outdoors
+Period   : Q1 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 312.4
+  Revenue Growth Yoy (%): 4.6
+  Gross ($M)Argin (%): 38.1
+  Operating Income ($M): 28.1
+  Operating ($M)Argin (%): 9.0
+  Net Income ($M): 21.7
+  Eps: 1.1
+  Comparable Store Sales Growth (%): 2.0
+  E Commerce Revenue ($M): 93.7
+  E Commerce Growth (%): 14.2
+  Store Count: 152
+  Free Cash Flow ($M): 33.5
+
+Write the financial performance summary now:",Revenue $312.4M up 4.6%|Gross margin 38.1%|Operating income $28.1M 9% margin|Comp sales +2% slowdown|Consumer spending softening|E-commerce $93.7M up 14.2%|152 stores
+UC8_032,Retail,medium,train,Tressbridge Grocers,Q4 2024,"{""revenue_m"": 1240.0, ""revenue_growth_yoy_pct"": 7.5, ""gross_margin_pct"": 26.3, ""operating_income_m"": 62.0, ""operating_margin_pct"": 5.0, ""net_income_m"": 48.4, ""eps"": 2.42, ""comparable_store_sales_growth_pct"": 5.1, ""e_commerce_delivery_revenue_m"": 148.8, ""e_commerce_growth_pct"": 31.0, ""store_count"": 512, ""own_brand_revenue_pct"": 34, ""free_cash_flow_m"": 78.0, ""note"": ""Own-brand penetration reached 34%; delivery orders up 31%; fuel price deflation aided gross margin""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Tressbridge Grocers
+Period   : Q4 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 1,240.0
+  Revenue Growth Yoy (%): 7.5
+  Gross ($M)Argin (%): 26.3
+  Operating Income ($M): 62.0
+  Operating ($M)Argin (%): 5.0
+  Net Income ($M): 48.4
+  Eps: 2.4
+  Comparable Store Sales Growth (%): 5.1
+  E Commerce Delivery Revenue ($M): 148.8
+  E Commerce Growth (%): 31.0
+  Store Count: 512
+  Own ($B)Rand Revenue (%): 34
+  Free Cash Flow ($M): 78.0
+
+Write the financial performance summary now:",Revenue $1.24B up 7.5%|Gross margin 26.3%|Operating income $62M 5% margin|Comp sales +5.1%|Own-brand 34% penetration|Delivery revenue $148.8M up 31%|512 stores|FCF $78M
+UC8_033,Retail,medium,train,Holbrook Electronics,Q3 2024,"{""revenue_m"": 687.2, ""revenue_growth_yoy_pct"": 4.0, ""gross_margin_pct"": 31.8, ""operating_income_m"": 41.2, ""operating_margin_pct"": 6.0, ""net_income_m"": 31.6, ""eps"": 1.58, ""comparable_store_sales_growth_pct"": 1.9, ""e_commerce_revenue_m"": 206.2, ""e_commerce_growth_pct"": 16.0, ""store_count"": 334, ""free_cash_flow_m"": 49.5, ""note"": ""Services (warranty, installation) revenue grew 22%; device revenue soft due to elongated upgrade cycles""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Holbrook Electronics
+Period   : Q3 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 687.2
+  Revenue Growth Yoy (%): 4.0
+  Gross ($M)Argin (%): 31.8
+  Operating Income ($M): 41.2
+  Operating ($M)Argin (%): 6.0
+  Net Income ($M): 31.6
+  Eps: 1.6
+  Comparable Store Sales Growth (%): 1.9
+  E Commerce Revenue ($M): 206.2
+  E Commerce Growth (%): 16.0
+  Store Count: 334
+  Free Cash Flow ($M): 49.5
+
+Write the financial performance summary now:",Revenue $687.2M up 4%|Gross margin 31.8%|Operating income $41.2M 6% margin|Comp sales +1.9%|E-commerce $206.2M up 16%|Services revenue grew 22%|Device revenue soft upgrade cycle elongation
+UC8_034,Retail,medium,train,Alderton Sports,Q2 2024,"{""revenue_m"": 421.6, ""revenue_growth_yoy_pct"": 5.8, ""gross_margin_pct"": 37.4, ""operating_income_m"": 38.0, ""operating_margin_pct"": 9.0, ""net_income_m"": 29.4, ""eps"": 1.47, ""comparable_store_sales_growth_pct"": 3.2, ""e_commerce_revenue_m"": 126.5, ""e_commerce_growth_pct"": 15.8, ""store_count"": 207, ""free_cash_flow_m"": 44.7, ""note"": ""Private label margin uplift partially offset by promotional pricing in team sports category""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Alderton Sports
+Period   : Q2 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 421.6
+  Revenue Growth Yoy (%): 5.8
+  Gross ($M)Argin (%): 37.4
+  Operating Income ($M): 38.0
+  Operating ($M)Argin (%): 9.0
+  Net Income ($M): 29.4
+  Eps: 1.5
+  Comparable Store Sales Growth (%): 3.2
+  E Commerce Revenue ($M): 126.5
+  E Commerce Growth (%): 15.8
+  Store Count: 207
+  Free Cash Flow ($M): 44.7
+
+Write the financial performance summary now:",Revenue $421.6M up 5.8%|Gross margin 37.4%|Operating income $38M 9% margin|Comp sales +3.2%|E-commerce $126.5M up 15.8%|207 stores|Private label uplift vs promotions trade-off
+UC8_035,Retail,hard,test,Ashford Department Stores,Q3 2025,"{""revenue_m"": 1820.0, ""revenue_growth_yoy_pct"": -6.3, ""gross_margin_pct"": 28.4, ""gross_margin_prev_year_pct"": 33.8, ""operating_income_m"": -45.2, ""operating_margin_pct"": -2.5, ""net_income_m"": -68.4, ""eps"": -3.42, ""comparable_store_sales_growth_pct"": -8.1, ""e_commerce_revenue_m"": 273.0, ""e_commerce_growth_pct"": 5.2, ""store_count"": 289, ""stores_closed"": 22, ""inventory_writedown_m"": 65.0, ""debt_m"": 1240.0, ""interest_expense_m"": 41.0, ""free_cash_flow_m"": -82.0, ""note"": ""Accelerated store rationalisation; $65M inventory writedown on clearance; debt service burden constraining investment; management pursuing strategic alternatives including potential partial brand sale""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Ashford Department Stores
+Period   : Q3 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 1,820.0
+  Revenue Growth Yoy (%): -6.3
+  Gross ($M)Argin (%): 28.4
+  Gross ($M)Argin Prev Year (%): 33.8
+  Operating Income ($M): -45.2
+  Operating ($M)Argin (%): -2.5
+  Net Income ($M): -68.4
+  Eps: -3.4
+  Comparable Store Sales Growth (%): -8.1
+  E Commerce Revenue ($M): 273.0
+  E Commerce Growth (%): 5.2
+  Store Count: 289
+  Stores Closed: 22
+  Inventory Writedown ($M): 65.0
+  Debt ($M): 1,240.0
+  Interest Expense ($M): 41.0
+  Free Cash Flow ($M): -82.0
+
+Write the financial performance summary now:",Revenue $1.82B down 6.3%|Gross margin 28.4% down from 33.8%|Operating loss -$45.2M -2.5% margin|Net loss -$68.4M|Comp sales -8.1% sustained decline|E-commerce $273M up 5.2% insufficient to offset store decline|22 store closures rationalisation|$65M inventory writedown|$1.24B debt interest burden $41M|FCF -$82M|Strategic alternatives including brand sale -- multiple severe signals must all be reported
+UC8_036,Retail,hard,test,Meridian Marketplaces,Q4 2025,"{""revenue_m"": 2340.0, ""revenue_growth_yoy_pct"": 18.6, ""gross_margin_pct"": 22.1, ""operating_income_m"": 93.6, ""operating_margin_pct"": 4.0, ""net_income_m"": 68.2, ""eps"": 3.41, ""gmv_b"": 8.4, ""gmv_growth_pct"": 31.0, ""take_rate_pct"": 27.9, ""active_sellers"": 142000, ""active_buyers_m"": 18.2, ""fulfillment_expense_m"": 420.0, ""fulfillment_pct_revenue"": 17.9, ""advertising_revenue_m"": 280.8, ""advertising_growth_pct"": 44.0, ""free_cash_flow_m"": 187.0, ""note"": ""Marketplace model: product revenue mix shifting; advertising becoming material segment (12% of revenue); GMV growth substantially exceeds revenue growth due to mix shift toward lower take-rate categories; fulfillment cost improvement programme on track""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Meridian Marketplaces
+Period   : Q4 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 2,340.0
+  Revenue Growth Yoy (%): 18.6
+  Gross ($M)Argin (%): 22.1
+  Operating Income ($M): 93.6
+  Operating ($M)Argin (%): 4.0
+  Net Income ($M): 68.2
+  Eps: 3.4
+  Gmv ($B): 8.4
+  Gmv Growth (%): 31.0
+  Take Rate (%): 27.9
+  Active Sellers: 142,000
+  Active ($B)Uyers ($M): 18.2
+  Fulfillment Expense ($M): 420.0
+  Fulfillment (%) Revenue: 17.9
+  Advertising Revenue ($M): 280.8
+  Advertising Growth (%): 44.0
+  Free Cash Flow ($M): 187.0
+
+Write the financial performance summary now:",Revenue $2.34B up 18.6%|GMV $8.4B up 31% exceeds revenue growth -- mix shift|Take rate 27.9%|Gross margin 22.1% marketplace model|Operating income $93.6M 4% margin|Advertising $280.8M up 44% 12% of revenue material segment|Active buyers 18.2M sellers 142K|Fulfillment $420M 17.9% of revenue|FCF $187M strong|GMV vs revenue divergence must be explained
+UC8_037,Retail,hard,train,Prism Fashion Group,Q1 2025,"{""revenue_m"": 643.8, ""revenue_growth_yoy_pct"": -4.8, ""gross_margin_pct"": 30.2, ""operating_income_m"": -32.1, ""operating_margin_pct"": -5.0, ""net_income_m"": -41.5, ""eps"": -2.07, ""comparable_store_sales_growth_pct"": -7.2, ""e_commerce_revenue_m"": 96.6, ""e_commerce_growth_pct"": 8.5, ""store_count"": 312, ""stores_closed"": 18, ""free_cash_flow_m"": -38.4, ""note"": ""Brand refresh underway; spring collection underperformed; inventory aged at 14 weeks vs target of 9 weeks""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Prism Fashion Group
+Period   : Q1 2025
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 643.8
+  Revenue Growth Yoy (%): -4.8
+  Gross ($M)Argin (%): 30.2
+  Operating Income ($M): -32.1
+  Operating ($M)Argin (%): -5.0
+  Net Income ($M): -41.5
+  Eps: -2.1
+  Comparable Store Sales Growth (%): -7.2
+  E Commerce Revenue ($M): 96.6
+  E Commerce Growth (%): 8.5
+  Store Count: 312
+  Stores Closed: 18
+  Free Cash Flow ($M): -38.4
+
+Write the financial performance summary now:",Revenue $643.8M down 4.8%|Gross margin 30.2%|Operating loss -$32.1M|Comp sales -7.2%|E-commerce only bright spot up 8.5%|18 store closures|Aged inventory 14 weeks vs 9 target|Brand refresh underway
+UC8_038,Retail,hard,train,Veritas Luxury,Q2 2024,"{""revenue_m"": 189.4, ""revenue_growth_yoy_pct"": 9.3, ""gross_margin_pct"": 62.8, ""operating_income_m"": 44.2, ""operating_margin_pct"": 23.4, ""net_income_m"": 35.7, ""eps"": 5.96, ""comparable_store_sales_growth_pct"": 6.1, ""china_revenue_pct"": 28, ""china_revenue_growth_pct"": -11.0, ""europe_revenue_growth_pct"": 18.5, ""us_revenue_growth_pct"": 12.1, ""store_count"": 84, ""free_cash_flow_m"": 52.0, ""note"": ""China slowdown notable given prior-year double-digit growth; European and US demand remain robust; FX headwind of 3pp on reported revenue""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Veritas Luxury
+Period   : Q2 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 189.4
+  Revenue Growth Yoy (%): 9.3
+  Gross ($M)Argin (%): 62.8
+  Operating Income ($M): 44.2
+  Operating ($M)Argin (%): 23.4
+  Net Income ($M): 35.7
+  Eps: 6.0
+  Comparable Store Sales Growth (%): 6.1
+  China Revenue (%): 28
+  China Revenue Growth (%): -11.0
+  Europe Revenue Growth (%): 18.5
+  Us Revenue Growth (%): 12.1
+  Store Count: 84
+  Free Cash Flow ($M): 52.0
+
+Write the financial performance summary now:",Revenue $189.4M up 9.3%|Gross margin 62.8% luxury premium|Operating income $44.2M 23.4% margin|Comp sales +6.1%|China 28% of revenue DOWN 11% -- significant|Europe +18.5% US +12.1% offsetting|FX 3pp headwind|84 stores
+UC8_039,Retail,hard,train,Vortex Grocery Chain,Q3 2024,"{""revenue_m"": 3120.0, ""revenue_growth_yoy_pct"": 3.2, ""gross_margin_pct"": 24.8, ""operating_income_m"": 93.6, ""operating_margin_pct"": 3.0, ""net_income_m"": 71.8, ""eps"": 3.59, ""comparable_store_sales_growth_pct"": 1.8, ""food_inflation_impact_pct"": 2.5, ""volume_growth_pct"": -0.7, ""store_count"": 718, ""new_stores_opened"": 14, ""stores_closed"": 6, ""own_brand_pct"": 31, ""free_cash_flow_m"": 112.0, ""note"": ""Volume declined 0.7% -- consumers trading down; food inflation of 2.5% masking underlying demand weakness; own-brand outperforming national brands""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vortex Grocery Chain
+Period   : Q3 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 3,120.0
+  Revenue Growth Yoy (%): 3.2
+  Gross ($M)Argin (%): 24.8
+  Operating Income ($M): 93.6
+  Operating ($M)Argin (%): 3.0
+  Net Income ($M): 71.8
+  Eps: 3.6
+  Comparable Store Sales Growth (%): 1.8
+  Food Inflation Impact (%): 2.5
+  Volume Growth (%): -0.7
+  Store Count: 718
+  New Stores Opened: 14
+  Stores Closed: 6
+  Own ($B)Rand (%): 31
+  Free Cash Flow ($M): 112.0
+
+Write the financial performance summary now:",Revenue $3.12B up 3.2%|Gross margin 24.8%|Operating income $93.6M 3% margin|Comp sales +1.8% driven by inflation 2.5% not volume|Volume -0.7% trade-down pressure|Own-brand 31% outperforming|718 stores net 8 new|FCF $112M
+UC8_040,Retail,hard,train,Kestrel Direct,Q1 2024,"{""revenue_m"": 1128.0, ""revenue_growth_yoy_pct"": 21.4, ""gross_margin_pct"": 19.8, ""operating_income_m"": -33.8, ""operating_margin_pct"": -3.0, ""net_income_m"": -42.6, ""eps"": -2.13, ""return_rate_pct"": 24.8, ""return_cost_m"": 88.0, ""customer_acquisition_cost"": 48, ""ltv_cac_ratio"": 2.1, ""active_customers_m"": 6.8, ""free_cash_flow_m"": -55.0, ""note"": ""High return rate eating into margins; LTV:CAC improving; management expects path to profitability by Q4 2025; $55M FCF burn rate""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Kestrel Direct
+Period   : Q1 2024
+Sector   : Retail
+
+Financial Data:
+  Revenue ($M): 1,128.0
+  Revenue Growth Yoy (%): 21.4
+  Gross ($M)Argin (%): 19.8
+  Operating Income ($M): -33.8
+  Operating ($M)Argin (%): -3.0
+  Net Income ($M): -42.6
+  Eps: -2.1
+  Return Rate (%): 24.8
+  Return Cost ($M): 88.0
+  Customer Acquisition Cost: 48
+  Ltv Cac Ratio: 2.1
+  Active Customers ($M): 6.8
+  Free Cash Flow ($M): -55.0
+
+Write the financial performance summary now:",Revenue $1.13B up 21.4%|Gross margin 19.8%|Operating loss -$33.8M -3% margin|Return rate 24.8% -- major margin headwind $88M cost|LTV:CAC 2.1 improving|FCF -$55M burn|Path to profitability Q4 2025 guidance
+UC8_041,Healthcare,easy,test,Meridian Health Systems,Q2 2025,"{""revenue_m"": 1840.0, ""revenue_growth_yoy_pct"": 8.4, ""patient_service_revenue_m"": 1656.0, ""other_revenue_m"": 184.0, ""operating_income_m"": 184.0, ""operating_margin_pct"": 10.0, ""net_income_m"": 138.0, ""eps"": 6.9, ""adjusted_ebitda_m"": 294.4, ""adjusted_ebitda_margin_pct"": 16.0, ""patient_volume_growth_pct"": 5.2, ""same_facility_revenue_growth_pct"": 7.1, ""beds"": 4280, ""admissions"": 68400, ""new_facilities"": 2, ""free_cash_flow_m"": 221.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Meridian Health Systems
+Period   : Q2 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 1,840.0
+  Revenue Growth Yoy (%): 8.4
+  Patient Service Revenue ($M): 1,656.0
+  Other Revenue ($M): 184.0
+  Operating Income ($M): 184.0
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 138.0
+  Eps: 6.9
+  Adjusted Ebitda ($M): 294.4
+  Adjusted Ebitda ($M)Argin (%): 16.0
+  Patient Volume Growth (%): 5.2
+  Same Facility Revenue Growth (%): 7.1
+  Beds: 4,280
+  Admissions: 68,400
+  New Facilities: 2
+  Free Cash Flow ($M): 221.0
+
+Write the financial performance summary now:",Revenue $1.84B up 8.4%|Patient service revenue $1.656B|Operating income $184M 10% margin|Adjusted EBITDA $294.4M 16% margin|Patient volume +5.2%|Same-facility +7.1%|68400 admissions 4280 beds|2 new facilities|FCF $221M
+UC8_042,Healthcare,easy,test,Clearpath Medical Group,Q1 2025,"{""revenue_m"": 924.0, ""revenue_growth_yoy_pct"": 9.6, ""patient_service_revenue_m"": 831.6, ""other_revenue_m"": 92.4, ""operating_income_m"": 102.7, ""operating_margin_pct"": 11.1, ""net_income_m"": 78.5, ""eps"": 3.92, ""adjusted_ebitda_m"": 157.1, ""adjusted_ebitda_margin_pct"": 17.0, ""patient_volume_growth_pct"": 6.3, ""same_facility_revenue_growth_pct"": 8.4, ""beds"": 2190, ""admissions"": 34200, ""free_cash_flow_m"": 119.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Clearpath Medical Group
+Period   : Q1 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 924.0
+  Revenue Growth Yoy (%): 9.6
+  Patient Service Revenue ($M): 831.6
+  Other Revenue ($M): 92.4
+  Operating Income ($M): 102.7
+  Operating ($M)Argin (%): 11.1
+  Net Income ($M): 78.5
+  Eps: 3.9
+  Adjusted Ebitda ($M): 157.1
+  Adjusted Ebitda ($M)Argin (%): 17.0
+  Patient Volume Growth (%): 6.3
+  Same Facility Revenue Growth (%): 8.4
+  Beds: 2,190
+  Admissions: 34,200
+  Free Cash Flow ($M): 119.0
+
+Write the financial performance summary now:",Revenue $924M up 9.6%|Patient service revenue $831.6M|Operating income $102.7M 11.1% margin|Adjusted EBITDA $157.1M 17% margin|Patient volume +6.3%|Same-facility +8.4%|34200 admissions|FCF $119M
+UC8_043,Healthcare,easy,train,Talbot Physician Network,Q3 2024,"{""revenue_m"": 618.0, ""revenue_growth_yoy_pct"": 7.2, ""patient_service_revenue_m"": 556.2, ""operating_income_m"": 61.8, ""operating_margin_pct"": 10.0, ""net_income_m"": 47.4, ""eps"": 2.37, ""adjusted_ebitda_m"": 98.9, ""adjusted_ebitda_margin_pct"": 16.0, ""patient_volume_growth_pct"": 4.8, ""same_facility_revenue_growth_pct"": 6.1, ""free_cash_flow_m"": 78.2}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Talbot Physician Network
+Period   : Q3 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 618.0
+  Revenue Growth Yoy (%): 7.2
+  Patient Service Revenue ($M): 556.2
+  Operating Income ($M): 61.8
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 47.4
+  Eps: 2.4
+  Adjusted Ebitda ($M): 98.9
+  Adjusted Ebitda ($M)Argin (%): 16.0
+  Patient Volume Growth (%): 4.8
+  Same Facility Revenue Growth (%): 6.1
+  Free Cash Flow ($M): 78.2
+
+Write the financial performance summary now:",Revenue $618M up 7.2%|Operating income $61.8M 10% margin|Adjusted EBITDA $98.9M 16%|Patient volume +4.8%|Same-facility +6.1%|FCF $78.2M
+UC8_044,Healthcare,easy,train,Elara Health Partners,Q4 2024,"{""revenue_m"": 1120.0, ""revenue_growth_yoy_pct"": 10.1, ""operating_income_m"": 123.2, ""operating_margin_pct"": 11.0, ""net_income_m"": 94.1, ""eps"": 4.71, ""adjusted_ebitda_m"": 179.2, ""adjusted_ebitda_margin_pct"": 16.0, ""patient_volume_growth_pct"": 6.5, ""same_facility_revenue_growth_pct"": 8.8, ""free_cash_flow_m"": 148.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Elara Health Partners
+Period   : Q4 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 1,120.0
+  Revenue Growth Yoy (%): 10.1
+  Operating Income ($M): 123.2
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 94.1
+  Eps: 4.7
+  Adjusted Ebitda ($M): 179.2
+  Adjusted Ebitda ($M)Argin (%): 16.0
+  Patient Volume Growth (%): 6.5
+  Same Facility Revenue Growth (%): 8.8
+  Free Cash Flow ($M): 148.0
+
+Write the financial performance summary now:",Revenue $1.12B up 10.1%|Operating income $123.2M 11% margin|EBITDA $179.2M 16%|Patient volume +6.5%|Same-facility +8.8%|FCF $148M
+UC8_045,Healthcare,easy,train,Novus Diagnostics,Q2 2024,"{""revenue_m"": 412.0, ""revenue_growth_yoy_pct"": 8.9, ""operating_income_m"": 49.4, ""operating_margin_pct"": 12.0, ""net_income_m"": 38.3, ""eps"": 1.91, ""test_volume_growth_pct"": 7.4, ""revenue_per_test_growth_pct"": 1.4, ""free_cash_flow_m"": 58.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Novus Diagnostics
+Period   : Q2 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 412.0
+  Revenue Growth Yoy (%): 8.9
+  Operating Income ($M): 49.4
+  Operating ($M)Argin (%): 12.0
+  Net Income ($M): 38.3
+  Eps: 1.9
+  Test Volume Growth (%): 7.4
+  Revenue Per Test Growth (%): 1.4
+  Free Cash Flow ($M): 58.0
+
+Write the financial performance summary now:",Revenue $412M up 8.9%|Operating income $49.4M 12% margin|Test volume +7.4%|Revenue per test +1.4%|FCF $58M
+UC8_046,Healthcare,easy,train,Cascade Wellness Group,Q3 2025,"{""revenue_m"": 782.0, ""revenue_growth_yoy_pct"": 7.8, ""operating_income_m"": 86.0, ""operating_margin_pct"": 11.0, ""net_income_m"": 66.0, ""eps"": 3.3, ""adjusted_ebitda_m"": 125.1, ""adjusted_ebitda_margin_pct"": 16.0, ""patient_volume_growth_pct"": 5.0, ""free_cash_flow_m"": 102.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Cascade Wellness Group
+Period   : Q3 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 782.0
+  Revenue Growth Yoy (%): 7.8
+  Operating Income ($M): 86.0
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 66.0
+  Eps: 3.3
+  Adjusted Ebitda ($M): 125.1
+  Adjusted Ebitda ($M)Argin (%): 16.0
+  Patient Volume Growth (%): 5.0
+  Free Cash Flow ($M): 102.0
+
+Write the financial performance summary now:",Revenue $782M up 7.8%|Operating income $86M 11% margin|EBITDA $125.1M 16%|Patient volume +5%|FCF $102M
+UC8_047,Healthcare,easy,train,Keystone Medical Centers,Q1 2024,"{""revenue_m"": 534.0, ""revenue_growth_yoy_pct"": 6.4, ""operating_income_m"": 58.7, ""operating_margin_pct"": 11.0, ""net_income_m"": 44.8, ""eps"": 2.24, ""adjusted_ebitda_m"": 85.4, ""adjusted_ebitda_margin_pct"": 16.0, ""patient_volume_growth_pct"": 4.1, ""free_cash_flow_m"": 69.8}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Keystone Medical Centers
+Period   : Q1 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 534.0
+  Revenue Growth Yoy (%): 6.4
+  Operating Income ($M): 58.7
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 44.8
+  Eps: 2.2
+  Adjusted Ebitda ($M): 85.4
+  Adjusted Ebitda ($M)Argin (%): 16.0
+  Patient Volume Growth (%): 4.1
+  Free Cash Flow ($M): 69.8
+
+Write the financial performance summary now:",Revenue $534M up 6.4%|Operating income $58.7M 11% margin|EBITDA $85.4M 16%|Patient volume +4.1%|FCF $69.8M
+UC8_048,Healthcare,medium,test,Apex Health Network,Q1 2025,"{""revenue_m"": 2140.0, ""revenue_growth_yoy_pct"": 5.1, ""operating_income_m"": 149.8, ""operating_margin_pct"": 7.0, ""net_income_m"": 107.0, ""eps"": 5.35, ""adjusted_ebitda_m"": 278.2, ""adjusted_ebitda_margin_pct"": 13.0, ""patient_volume_growth_pct"": 2.8, ""same_facility_revenue_growth_pct"": 4.6, ""nursing_vacancy_rate_pct"": 14.2, ""agency_staffing_spend_m"": 142.0, ""agency_pct_revenue"": 6.6, ""free_cash_flow_m"": 178.0, ""note"": ""Agency staffing costs elevated at 6.6% of revenue due to nursing vacancy rate of 14.2%; management targeting 10% vacancy rate by year-end through recruitment programme""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Apex Health Network
+Period   : Q1 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 2,140.0
+  Revenue Growth Yoy (%): 5.1
+  Operating Income ($M): 149.8
+  Operating ($M)Argin (%): 7.0
+  Net Income ($M): 107.0
+  Eps: 5.3
+  Adjusted Ebitda ($M): 278.2
+  Adjusted Ebitda ($M)Argin (%): 13.0
+  Patient Volume Growth (%): 2.8
+  Same Facility Revenue Growth (%): 4.6
+  Nursing Vacancy Rate (%): 14.2
+  Agency Staffing Spend ($M): 142.0
+  Agency (%) Revenue: 6.6
+  Free Cash Flow ($M): 178.0
+
+Write the financial performance summary now:",Revenue $2.14B up 5.1%|Operating income $149.8M 7% margin -- compressed|EBITDA $278.2M 13% margin|Patient volume +2.8%|Agency staffing $142M 6.6% revenue headwind|Nursing vacancy 14.2%|Recruitment programme targeting 10%|FCF $178M
+UC8_049,Healthcare,medium,test,Sunridge Medical,Q3 2025,"{""revenue_m"": 876.0, ""revenue_growth_yoy_pct"": 6.8, ""operating_income_m"": 70.1, ""operating_margin_pct"": 8.0, ""net_income_m"": 51.7, ""eps"": 2.58, ""adjusted_ebitda_m"": 131.4, ""adjusted_ebitda_margin_pct"": 15.0, ""patient_volume_growth_pct"": 4.2, ""malpractice_settlement_m"": 28.0, ""insurance_recoverable_m"": 16.0, ""government_reimbursement_rate_change_pct"": -1.8, ""free_cash_flow_m"": 92.0, ""note"": ""Malpractice settlement of $28M ($16M covered by insurance, $12M net charge); government reimbursement rates reduced 1.8% effective Q2""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Sunridge Medical
+Period   : Q3 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 876.0
+  Revenue Growth Yoy (%): 6.8
+  Operating Income ($M): 70.1
+  Operating ($M)Argin (%): 8.0
+  Net Income ($M): 51.7
+  Eps: 2.6
+  Adjusted Ebitda ($M): 131.4
+  Adjusted Ebitda ($M)Argin (%): 15.0
+  Patient Volume Growth (%): 4.2
+  Malpractice Settlement ($M): 28.0
+  Insurance Recoverable ($M): 16.0
+  Government Reimbursement Rate Change (%): -1.8
+  Free Cash Flow ($M): 92.0
+
+Write the financial performance summary now:",Revenue $876M up 6.8%|Operating income $70.1M 8% margin impacted by settlement|EBITDA $131.4M 15%|Patient volume +4.2%|$28M malpractice settlement net $12M after $16M insurance|Government reimbursement -1.8% headwind|FCF $92M
+UC8_050,Healthcare,medium,train,Holloway Hospital Group,Q4 2024,"{""revenue_m"": 1580.0, ""revenue_growth_yoy_pct"": 4.3, ""operating_income_m"": 110.6, ""operating_margin_pct"": 7.0, ""net_income_m"": 79.0, ""eps"": 3.95, ""adjusted_ebitda_m"": 205.4, ""adjusted_ebitda_margin_pct"": 13.0, ""patient_volume_growth_pct"": 2.1, ""payer_mix_government_pct"": 62, ""payer_mix_private_pct"": 38, ""free_cash_flow_m"": 130.0, ""note"": ""Government payer mix at 62% constraining revenue per visit; private payer volumes grew 8% offsetting government reimbursement pressure""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Holloway Hospital Group
+Period   : Q4 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 1,580.0
+  Revenue Growth Yoy (%): 4.3
+  Operating Income ($M): 110.6
+  Operating ($M)Argin (%): 7.0
+  Net Income ($M): 79.0
+  Eps: 4.0
+  Adjusted Ebitda ($M): 205.4
+  Adjusted Ebitda ($M)Argin (%): 13.0
+  Patient Volume Growth (%): 2.1
+  Payer ($M)Ix Government (%): 62
+  Payer ($M)Ix Private (%): 38
+  Free Cash Flow ($M): 130.0
+
+Write the financial performance summary now:",Revenue $1.58B up 4.3%|Operating income $110.6M 7% margin|EBITDA $205.4M 13%|Patient volume +2.1%|Government payer 62% constraining revenue|Private payer volume +8%|FCF $130M
+UC8_051,Healthcare,medium,train,Vertex Pharma Services,Q2 2025,"{""revenue_m"": 354.0, ""revenue_growth_yoy_pct"": 11.4, ""operating_income_m"": 42.5, ""operating_margin_pct"": 12.0, ""net_income_m"": 32.7, ""eps"": 1.64, ""backlog_m"": 1240.0, ""backlog_growth_pct"": 18.0, ""book_to_bill_ratio"": 1.24, ""free_cash_flow_m"": 47.2, ""note"": ""Contract research organisation; backlog grew 18% to $1.24B; book-to-bill of 1.24 signals continued pipeline growth""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vertex Pharma Services
+Period   : Q2 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 354.0
+  Revenue Growth Yoy (%): 11.4
+  Operating Income ($M): 42.5
+  Operating ($M)Argin (%): 12.0
+  Net Income ($M): 32.7
+  Eps: 1.6
+  Backlog ($M): 1,240.0
+  Backlog Growth (%): 18.0
+  Book To ($B)Ill Ratio: 1.2
+  Free Cash Flow ($M): 47.2
+
+Write the financial performance summary now:",Revenue $354M up 11.4%|Operating income $42.5M 12% margin|Backlog $1.24B up 18%|Book-to-bill 1.24 strong pipeline signal|FCF $47.2M
+UC8_052,Healthcare,medium,train,Brightway Behavioral Health,Q1 2024,"{""revenue_m"": 228.0, ""revenue_growth_yoy_pct"": 14.2, ""operating_income_m"": 27.4, ""operating_margin_pct"": 12.0, ""net_income_m"": 20.8, ""eps"": 1.04, ""patient_volume_growth_pct"": 11.5, ""occupancy_rate_pct"": 82.4, ""new_facilities_opened"": 4, ""free_cash_flow_m"": 31.4, ""note"": ""Expansion into telehealth driving volume growth; occupancy at 82.4% with target of 88%; four new facilities increased capacity by 340 beds""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Brightway Behavioral Health
+Period   : Q1 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 228.0
+  Revenue Growth Yoy (%): 14.2
+  Operating Income ($M): 27.4
+  Operating ($M)Argin (%): 12.0
+  Net Income ($M): 20.8
+  Eps: 1.0
+  Patient Volume Growth (%): 11.5
+  Occupancy Rate (%): 82.4
+  New Facilities Opened: 4
+  Free Cash Flow ($M): 31.4
+
+Write the financial performance summary now:",Revenue $228M up 14.2%|Operating income $27.4M 12% margin|Patient volume +11.5%|Occupancy 82.4% target 88%|4 new facilities 340 beds|Telehealth expansion driver|FCF $31.4M
+UC8_053,Healthcare,medium,train,Indus Medical Devices,Q3 2024,"{""revenue_m"": 612.0, ""revenue_growth_yoy_pct"": 9.1, ""gross_margin_pct"": 58.4, ""operating_income_m"": 79.6, ""operating_margin_pct"": 13.0, ""net_income_m"": 62.0, ""eps"": 3.1, ""r_and_d_m"": 67.3, ""r_and_d_pct_revenue"": 11.0, ""pipeline_products_phase_3"": 3, ""free_cash_flow_m"": 88.4, ""note"": ""Three products in Phase 3 trials; R&D spend elevated at 11% of revenue; gross margin expansion driven by premium product mix""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Indus Medical Devices
+Period   : Q3 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 612.0
+  Revenue Growth Yoy (%): 9.1
+  Gross ($M)Argin (%): 58.4
+  Operating Income ($M): 79.6
+  Operating ($M)Argin (%): 13.0
+  Net Income ($M): 62.0
+  Eps: 3.1
+  R And D ($M): 67.3
+  R And D (%) Revenue: 11.0
+  Pipeline Products Phase 3: 3
+  Free Cash Flow ($M): 88.4
+
+Write the financial performance summary now:",Revenue $612M up 9.1%|Gross margin 58.4%|Operating income $79.6M 13% margin|R&D $67.3M 11% revenue|3 Phase 3 pipeline products|FCF $88.4M
+UC8_054,Healthcare,medium,train,Solara Health IT,Q4 2025,"{""revenue_m"": 198.0, ""revenue_growth_yoy_pct"": 12.7, ""gross_margin_pct"": 67.2, ""operating_income_m"": 29.7, ""operating_margin_pct"": 15.0, ""net_income_m"": 22.8, ""eps"": 1.14, ""arr_m"": 762.0, ""arr_growth_pct"": 14.0, ""net_revenue_retention_pct"": 112, ""free_cash_flow_m"": 34.7, ""note"": ""Health IT software; hospital system consolidation creating larger deal sizes""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Solara Health IT
+Period   : Q4 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 198.0
+  Revenue Growth Yoy (%): 12.7
+  Gross ($M)Argin (%): 67.2
+  Operating Income ($M): 29.7
+  Operating ($M)Argin (%): 15.0
+  Net Income ($M): 22.8
+  Eps: 1.1
+  Arr ($M): 762.0
+  Arr Growth (%): 14.0
+  Net Revenue Retention (%): 112
+  Free Cash Flow ($M): 34.7
+
+Write the financial performance summary now:",Revenue $198M up 12.7%|Gross margin 67.2%|Operating income $29.7M 15% margin|ARR $762M up 14%|NRR 112%|FCF $34.7M|Consolidation tailwind
+UC8_055,Healthcare,hard,test,Talbot Health Corporation,Q2 2024,"{""revenue_m"": 3420.0, ""revenue_growth_yoy_pct"": 1.8, ""operating_income_m"": -68.4, ""operating_margin_pct"": -2.0, ""net_income_m"": -112.0, ""eps"": -5.6, ""adjusted_ebitda_m"": 171.0, ""adjusted_ebitda_margin_pct"": 5.0, ""patient_volume_growth_pct"": -1.2, ""labor_cost_pct_revenue"": 58.4, ""labor_cost_prev_year_pct"": 54.1, ""cpi_adjustment_shortfall_m"": 82.0, ""impairment_charges_m"": 148.0, ""goodwill_impairment_m"": 104.0, ""debt_m"": 2840.0, ""interest_expense_m"": 91.0, ""free_cash_flow_m"": 42.0, ""note"": ""Operating loss driven by $148M impairment charges ($104M goodwill); labor cost inflation 4.3pp exceeding government reimbursement CPI adjustment by $82M; patient volume decline reflects community health centre competition; debt covenants under review""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Talbot Health Corporation
+Period   : Q2 2024
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 3,420.0
+  Revenue Growth Yoy (%): 1.8
+  Operating Income ($M): -68.4
+  Operating ($M)Argin (%): -2.0
+  Net Income ($M): -112.0
+  Eps: -5.6
+  Adjusted Ebitda ($M): 171.0
+  Adjusted Ebitda ($M)Argin (%): 5.0
+  Patient Volume Growth (%): -1.2
+  Labor Cost (%) Revenue: 58.4
+  Labor Cost Prev Year (%): 54.1
+  Cpi Adjustment Shortfall ($M): 82.0
+  Impairment Charges ($M): 148.0
+  Goodwill Impairment ($M): 104.0
+  Debt ($M): 2,840.0
+  Interest Expense ($M): 91.0
+  Free Cash Flow ($M): 42.0
+
+Write the financial performance summary now:",Revenue $3.42B up 1.8% near-flat|Operating loss -$68.4M -2% margin|Net loss -$112M|$148M impairment $104M goodwill|EBITDA $171M 5% excluding impairment|Labor cost 58.4% up from 54.1% -- major margin headwind|Government CPI shortfall $82M|Patient volume -1.2%|Debt $2.84B covenants review|Interest $91M|FCF $42M positive despite net loss -- must explain gap|Multiple compounding pressures all required
+UC8_056,Healthcare,hard,test,Pharos Genomics,Q3 2025,"{""revenue_m"": 84.2, ""revenue_growth_yoy_pct"": 48.6, ""gross_margin_pct"": 71.4, ""operating_income_m"": -62.1, ""operating_margin_pct"": -73.8, ""net_income_m"": -68.4, ""eps"": -3.42, ""r_and_d_m"": 95.6, ""r_and_d_pct_revenue"": 113.5, ""clinical_trials_active"": 7, ""fda_pdu_applications"": 2, ""cash_and_equivalents_m"": 312.0, ""cash_runway_quarters"": 5.8, ""partnership_milestone_revenue_m"": 38.0, ""product_revenue_m"": 46.2, ""note"": ""Genomics company with two FDA applications pending; R&D exceeds revenue at 113.5%; $38M of revenue from partnership milestone payments (one-time in nature); product revenue of $46.2M growing at 68% organically; cash runway of ~5.8 quarters requiring capital raise or partnership monetisation""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Pharos Genomics
+Period   : Q3 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 84.2
+  Revenue Growth Yoy (%): 48.6
+  Gross ($M)Argin (%): 71.4
+  Operating Income ($M): -62.1
+  Operating ($M)Argin (%): -73.8
+  Net Income ($M): -68.4
+  Eps: -3.4
+  R And D ($M): 95.6
+  R And D (%) Revenue: 113.5
+  Clinical Trials Active: 7
+  Fda Pdu Applications: 2
+  Cash And Equivalents ($M): 312.0
+  Cash Runway Quarters: 5.8
+  Partnership ($M)Ilestone Revenue ($M): 38.0
+  Product Revenue ($M): 46.2
+
+Write the financial performance summary now:",Revenue $84.2M up 48.6% -- include milestone vs product split|Product revenue $46.2M up 68% organic growth|Partnership milestones $38M one-time|Gross margin 71.4%|Operating loss -$62.1M -73.8% margin|R&D $95.6M 113.5% of revenue|Net loss -$68.4M|7 active trials 2 FDA applications|Cash $312M runway 5.8 quarters -- capital raise risk|Distinction between one-time and recurring revenue essential
+UC8_057,Healthcare,hard,train,Caduceus Hospital Group,Q4 2025,"{""revenue_m"": 4180.0, ""revenue_growth_yoy_pct"": -2.1, ""operating_income_m"": -125.4, ""operating_margin_pct"": -3.0, ""net_income_m"": -196.0, ""eps"": -9.8, ""adjusted_ebitda_m"": 209.0, ""adjusted_ebitda_margin_pct"": 5.0, ""divestiture_proceeds_m"": 340.0, ""divestiture_facilities"": 8, ""debt_m"": 3620.0, ""free_cash_flow_m"": 125.0, ""note"": ""Divested 8 underperforming facilities for $340M proceeds; restructuring ongoing; management targeting positive GAAP income by Q3 2026""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Caduceus Hospital Group
+Period   : Q4 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 4,180.0
+  Revenue Growth Yoy (%): -2.1
+  Operating Income ($M): -125.4
+  Operating ($M)Argin (%): -3.0
+  Net Income ($M): -196.0
+  Eps: -9.8
+  Adjusted Ebitda ($M): 209.0
+  Adjusted Ebitda ($M)Argin (%): 5.0
+  Divestiture Proceeds ($M): 340.0
+  Divestiture Facilities: 8
+  Debt ($M): 3,620.0
+  Free Cash Flow ($M): 125.0
+
+Write the financial performance summary now:",Revenue $4.18B down 2.1%|Operating loss -$125.4M -3% margin|Net loss -$196M|EBITDA $209M 5% margin -- positive on adjusted basis|Divested 8 facilities $340M proceeds|Debt $3.62B|FCF +$125M despite net loss|Restructuring Q3 2026 profitability target
+UC8_058,Healthcare,hard,train,Ardent Biosciences,Q1 2025,"{""revenue_m"": 128.0, ""revenue_growth_yoy_pct"": -18.4, ""gross_margin_pct"": 78.1, ""operating_income_m"": -44.8, ""operating_margin_pct"": -35.0, ""net_income_m"": -51.2, ""eps"": -2.56, ""key_product_revenue_decline_pct"": -32, ""generic_competition_products"": 2, ""pipeline_nda_submissions"": 1, ""cash_m"": 285.0, ""free_cash_flow_m"": -48.0, ""note"": ""Revenue decline driven by generic competition on two legacy products; new NDA submission for next-generation compound; cash runway ~6 quarters""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Ardent Biosciences
+Period   : Q1 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 128.0
+  Revenue Growth Yoy (%): -18.4
+  Gross ($M)Argin (%): 78.1
+  Operating Income ($M): -44.8
+  Operating ($M)Argin (%): -35.0
+  Net Income ($M): -51.2
+  Eps: -2.6
+  Key Product Revenue Decline (%): -32
+  Generic Competition Products: 2
+  Pipeline Nda Submissions: 1
+  Cash ($M): 285.0
+  Free Cash Flow ($M): -48.0
+
+Write the financial performance summary now:",Revenue $128M down 18.4%|Gross margin 78.1%|Operating loss -$44.8M -35% margin|Generic competition on 2 products|1 NDA submission pipeline|Cash $285M runway 6 quarters|FCF -$48M|Revenue decline must be contextualised with pipeline
+UC8_059,Healthcare,hard,train,Vitalis Care Network,Q2 2025,"{""revenue_m"": 1920.0, ""revenue_growth_yoy_pct"": 14.8, ""organic_growth_pct"": 6.2, ""acquisition_contribution_pct"": 8.6, ""operating_income_m"": 134.4, ""operating_margin_pct"": 7.0, ""net_income_m"": 76.8, ""eps"": 3.84, ""debt_from_acquisitions_m"": 680.0, ""leverage_ratio"": 3.4, ""free_cash_flow_m"": 153.0, ""note"": ""Growth includes 8.6pp from recent acquisition; organic growth 6.2%; leverage ratio of 3.4x elevated following acquisition financing""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vitalis Care Network
+Period   : Q2 2025
+Sector   : Healthcare
+
+Financial Data:
+  Revenue ($M): 1,920.0
+  Revenue Growth Yoy (%): 14.8
+  Organic Growth (%): 6.2
+  Acquisition Contribution (%): 8.6
+  Operating Income ($M): 134.4
+  Operating ($M)Argin (%): 7.0
+  Net Income ($M): 76.8
+  Eps: 3.8
+  Debt From Acquisitions ($M): 680.0
+  Leverage Ratio: 3.4
+  Free Cash Flow ($M): 153.0
+
+Write the financial performance summary now:",Revenue $1.92B up 14.8%|Organic growth 6.2% acquisition 8.6%|Operating income $134.4M 7% margin|Net income $76.8M|Leverage 3.4x elevated acquisition debt $680M|FCF $153M|Must distinguish organic vs inorganic growth
+UC8_060,Healthcare,hard,train,Pinnacle Payer Solutions,Q3 2025,"{""premium_revenue_m"": 6840.0, ""premium_growth_pct"": 12.3, ""medical_loss_ratio_pct"": 87.4, ""mlr_prev_year_pct"": 83.2, ""admin_expense_ratio_pct"": 7.8, ""operating_income_m"": 335.2, ""operating_margin_pct"": 4.9, ""net_income_m"": 261.4, ""eps"": 13.07, ""members_m"": 4.8, ""member_growth_pct"": 8.2, ""free_cash_flow_m"": 412.0, ""note"": ""Medical loss ratio deterioration of 4.2pp due to elevated utilisation in Medicare Advantage segment; admin efficiency improving; prior year benefited from favourable claims development of $95M not repeated""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Pinnacle Payer Solutions
+Period   : Q3 2025
+Sector   : Healthcare
+
+Financial Data:
+  Premium Revenue ($M): 6,840.0
+  Premium Growth (%): 12.3
+  Medical Loss Ratio (%): 87.4
+  Mlr Prev Year (%): 83.2
+  Admin Expense Ratio (%): 7.8
+  Operating Income ($M): 335.2
+  Operating ($M)Argin (%): 4.9
+  Net Income ($M): 261.4
+  Eps: 13.1
+  Members ($M): 4.8
+  Member Growth (%): 8.2
+  Free Cash Flow ($M): 412.0
+
+Write the financial performance summary now:",Revenue $6.84B up 12.3%|MLR 87.4% up from 83.2% -- 4.2pp deterioration Medicare Advantage utilisation|Admin ratio 7.8% efficient|Operating income $335.2M 4.9% margin|Net income $261.4M|4.8M members +8.2%|Prior year $95M favourable development not repeated|FCF $412M|MLR deterioration is primary concern
+UC8_061,Manufacturing,easy,test,Fortis Industrial,Q3 2025,"{""revenue_m"": 2840.0, ""revenue_growth_yoy_pct"": 9.2, ""gross_margin_pct"": 32.4, ""operating_income_m"": 312.4, ""operating_margin_pct"": 11.0, ""net_income_m"": 240.0, ""eps"": 12.0, ""organic_growth_pct"": 9.2, ""volume_growth_pct"": 6.8, ""price_mix_pct"": 2.4, ""backlog_b"": 14.2, ""backlog_growth_pct"": 14.5, ""capacity_utilisation_pct"": 84, ""free_cash_flow_m"": 354.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Fortis Industrial
+Period   : Q3 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 2,840.0
+  Revenue Growth Yoy (%): 9.2
+  Gross ($M)Argin (%): 32.4
+  Operating Income ($M): 312.4
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 240.0
+  Eps: 12.0
+  Organic Growth (%): 9.2
+  Volume Growth (%): 6.8
+  Price ($M)Ix (%): 2.4
+  Backlog ($B): 14.2
+  Backlog Growth (%): 14.5
+  Capacity Utilisation (%): 84
+  Free Cash Flow ($M): 354.0
+
+Write the financial performance summary now:",Revenue $2.84B up 9.2%|Gross margin 32.4%|Operating income $312.4M 11% margin|Volume +6.8% price/mix +2.4%|Backlog $14.2B up 14.5%|Capacity utilisation 84%|FCF $354M
+UC8_062,Manufacturing,easy,test,Vantage Precision Parts,Q2 2025,"{""revenue_m"": 1120.0, ""revenue_growth_yoy_pct"": 11.8, ""gross_margin_pct"": 29.6, ""operating_income_m"": 112.0, ""operating_margin_pct"": 10.0, ""net_income_m"": 84.0, ""eps"": 4.2, ""organic_growth_pct"": 11.8, ""volume_growth_pct"": 8.4, ""price_mix_pct"": 3.4, ""backlog_m"": 4200.0, ""capacity_utilisation_pct"": 81, ""free_cash_flow_m"": 138.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vantage Precision Parts
+Period   : Q2 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 1,120.0
+  Revenue Growth Yoy (%): 11.8
+  Gross ($M)Argin (%): 29.6
+  Operating Income ($M): 112.0
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 84.0
+  Eps: 4.2
+  Organic Growth (%): 11.8
+  Volume Growth (%): 8.4
+  Price ($M)Ix (%): 3.4
+  Backlog ($M): 4,200.0
+  Capacity Utilisation (%): 81
+  Free Cash Flow ($M): 138.0
+
+Write the financial performance summary now:",Revenue $1.12B up 11.8%|Gross margin 29.6%|Operating income $112M 10% margin|Volume +8.4% price/mix +3.4%|Backlog $4.2B|Capacity 81%|FCF $138M
+UC8_063,Manufacturing,easy,train,Apex Composites,Q1 2025,"{""revenue_m"": 780.0, ""revenue_growth_yoy_pct"": 8.5, ""gross_margin_pct"": 31.0, ""operating_income_m"": 85.8, ""operating_margin_pct"": 11.0, ""net_income_m"": 64.4, ""eps"": 3.22, ""volume_growth_pct"": 6.2, ""price_mix_pct"": 2.3, ""backlog_m"": 2900.0, ""free_cash_flow_m"": 104.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Apex Composites
+Period   : Q1 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 780.0
+  Revenue Growth Yoy (%): 8.5
+  Gross ($M)Argin (%): 31.0
+  Operating Income ($M): 85.8
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 64.4
+  Eps: 3.2
+  Volume Growth (%): 6.2
+  Price ($M)Ix (%): 2.3
+  Backlog ($M): 2,900.0
+  Free Cash Flow ($M): 104.0
+
+Write the financial performance summary now:",Revenue $780M up 8.5%|Gross margin 31%|Operating income $85.8M 11% margin|Volume +6.2% price/mix +2.3%|Backlog $2.9B|FCF $104M
+UC8_064,Manufacturing,easy,train,Delta Engineering Works,Q4 2024,"{""revenue_m"": 1560.0, ""revenue_growth_yoy_pct"": 10.3, ""gross_margin_pct"": 33.1, ""operating_income_m"": 171.6, ""operating_margin_pct"": 11.0, ""net_income_m"": 128.7, ""eps"": 6.44, ""volume_growth_pct"": 7.5, ""price_mix_pct"": 2.8, ""backlog_b"": 6.8, ""free_cash_flow_m"": 196.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Delta Engineering Works
+Period   : Q4 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 1,560.0
+  Revenue Growth Yoy (%): 10.3
+  Gross ($M)Argin (%): 33.1
+  Operating Income ($M): 171.6
+  Operating ($M)Argin (%): 11.0
+  Net Income ($M): 128.7
+  Eps: 6.4
+  Volume Growth (%): 7.5
+  Price ($M)Ix (%): 2.8
+  Backlog ($B): 6.8
+  Free Cash Flow ($M): 196.0
+
+Write the financial performance summary now:",Revenue $1.56B up 10.3%|Gross margin 33.1%|Operating income $171.6M 11% margin|Volume +7.5% price +2.8%|Backlog $6.8B|FCF $196M
+UC8_065,Manufacturing,easy,train,Ironclad Systems,Q3 2024,"{""revenue_m"": 956.0, ""revenue_growth_yoy_pct"": 9.8, ""gross_margin_pct"": 28.4, ""operating_income_m"": 95.6, ""operating_margin_pct"": 10.0, ""net_income_m"": 71.7, ""eps"": 3.59, ""volume_growth_pct"": 7.0, ""price_mix_pct"": 2.8, ""backlog_m"": 3800.0, ""free_cash_flow_m"": 117.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Ironclad Systems
+Period   : Q3 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 956.0
+  Revenue Growth Yoy (%): 9.8
+  Gross ($M)Argin (%): 28.4
+  Operating Income ($M): 95.6
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 71.7
+  Eps: 3.6
+  Volume Growth (%): 7.0
+  Price ($M)Ix (%): 2.8
+  Backlog ($M): 3,800.0
+  Free Cash Flow ($M): 117.0
+
+Write the financial performance summary now:",Revenue $956M up 9.8%|Gross margin 28.4%|Operating income $95.6M 10% margin|Volume +7% price +2.8%|Backlog $3.8B|FCF $117M
+UC8_066,Manufacturing,easy,train,Thorngate Pumps,Q2 2024,"{""revenue_m"": 642.0, ""revenue_growth_yoy_pct"": 7.4, ""gross_margin_pct"": 30.2, ""operating_income_m"": 64.2, ""operating_margin_pct"": 10.0, ""net_income_m"": 48.2, ""eps"": 2.41, ""volume_growth_pct"": 5.1, ""price_mix_pct"": 2.3, ""backlog_m"": 2400.0, ""free_cash_flow_m"": 79.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Thorngate Pumps
+Period   : Q2 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 642.0
+  Revenue Growth Yoy (%): 7.4
+  Gross ($M)Argin (%): 30.2
+  Operating Income ($M): 64.2
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 48.2
+  Eps: 2.4
+  Volume Growth (%): 5.1
+  Price ($M)Ix (%): 2.3
+  Backlog ($M): 2,400.0
+  Free Cash Flow ($M): 79.0
+
+Write the financial performance summary now:",Revenue $642M up 7.4%|Gross margin 30.2%|Operating income $64.2M 10% margin|Volume +5.1% price +2.3%|Backlog $2.4B|FCF $79M
+UC8_067,Manufacturing,easy,train,Keystone Metals,Q1 2024,"{""revenue_m"": 492.0, ""revenue_growth_yoy_pct"": 8.1, ""gross_margin_pct"": 29.8, ""operating_income_m"": 49.2, ""operating_margin_pct"": 10.0, ""net_income_m"": 36.9, ""eps"": 1.85, ""volume_growth_pct"": 5.8, ""price_mix_pct"": 2.3, ""backlog_m"": 1840.0, ""free_cash_flow_m"": 60.4}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Keystone Metals
+Period   : Q1 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 492.0
+  Revenue Growth Yoy (%): 8.1
+  Gross ($M)Argin (%): 29.8
+  Operating Income ($M): 49.2
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 36.9
+  Eps: 1.9
+  Volume Growth (%): 5.8
+  Price ($M)Ix (%): 2.3
+  Backlog ($M): 1,840.0
+  Free Cash Flow ($M): 60.4
+
+Write the financial performance summary now:",Revenue $492M up 8.1%|Gross margin 29.8%|Operating income $49.2M 10% margin|Volume +5.8% price +2.3%|Backlog $1.84B|FCF $60.4M
+UC8_068,Manufacturing,medium,test,Regulus Aerospace,Q2 2025,"{""revenue_m"": 4820.0, ""revenue_growth_yoy_pct"": 7.3, ""gross_margin_pct"": 14.8, ""gross_margin_prev_year_pct"": 18.2, ""operating_income_m"": 193.0, ""operating_margin_pct"": 4.0, ""net_income_m"": 134.0, ""eps"": 6.7, ""backlog_b"": 64.0, ""backlog_growth_pct"": 11.0, ""supply_chain_premium_costs_m"": 182.0, ""capacity_utilisation_pct"": 92, ""deliveries"": 124, ""delivery_target"": 135, ""free_cash_flow_m"": -210.0, ""note"": ""Production ramp constrained by titanium and engine supply shortages; $182M in supply chain premium costs absorbed; 11 aircraft deliveries below target; FCF negative due to inventory build; backlog at record $64B provides long-term visibility""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Regulus Aerospace
+Period   : Q2 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 4,820.0
+  Revenue Growth Yoy (%): 7.3
+  Gross ($M)Argin (%): 14.8
+  Gross ($M)Argin Prev Year (%): 18.2
+  Operating Income ($M): 193.0
+  Operating ($M)Argin (%): 4.0
+  Net Income ($M): 134.0
+  Eps: 6.7
+  Backlog ($B): 64.0
+  Backlog Growth (%): 11.0
+  Supply Chain Premium Costs ($M): 182.0
+  Capacity Utilisation (%): 92
+  Deliveries: 124
+  Delivery Target: 135
+  Free Cash Flow ($M): -210.0
+
+Write the financial performance summary now:",Revenue $4.82B up 7.3%|Gross margin 14.8% down from 18.2% -- supply chain $182M premium cost|Operating income $193M 4% margin|Deliveries 124 vs 135 target -- supply shortfall|Backlog $64B up 11% record|Capacity 92%|FCF -$210M inventory build|Supply constraints primary theme must be addressed
+UC8_069,Manufacturing,medium,test,Harmon Heavy Industries,Q1 2024,"{""revenue_m"": 3120.0, ""revenue_growth_yoy_pct"": 5.8, ""gross_margin_pct"": 22.4, ""operating_income_m"": 218.4, ""operating_margin_pct"": 7.0, ""net_income_m"": 156.0, ""eps"": 7.8, ""steel_input_cost_change_pct"": 14.2, ""price_realization_pct"": 6.8, ""volume_growth_pct"": -1.0, ""backlog_b"": 18.4, ""free_cash_flow_m"": 265.0, ""note"": ""Steel input costs increased 14.2% YoY; company captured only 6.8% through pricing, resulting in margin compression; volume declined 1% due to delayed infrastructure project starts""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Harmon Heavy Industries
+Period   : Q1 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 3,120.0
+  Revenue Growth Yoy (%): 5.8
+  Gross ($M)Argin (%): 22.4
+  Operating Income ($M): 218.4
+  Operating ($M)Argin (%): 7.0
+  Net Income ($M): 156.0
+  Eps: 7.8
+  Steel Input Cost Change (%): 14.2
+  Price Realization (%): 6.8
+  Volume Growth (%): -1.0
+  Backlog ($B): 18.4
+  Free Cash Flow ($M): 265.0
+
+Write the financial performance summary now:",Revenue $3.12B up 5.8%|Gross margin 22.4% compressed|Steel costs +14.2% price recovery 6.8% -- margin headwind|Operating income $218.4M 7% margin|Volume -1% project delays|Backlog $18.4B|FCF $265M|Input cost vs pricing gap is key finding
+UC8_070,Manufacturing,medium,train,Pinnacle Defense Systems,Q3 2025,"{""revenue_m"": 5640.0, ""revenue_growth_yoy_pct"": 8.1, ""gross_margin_pct"": 16.2, ""operating_income_m"": 394.8, ""operating_margin_pct"": 7.0, ""net_income_m"": 282.0, ""eps"": 14.1, ""funded_backlog_b"": 28.4, ""total_backlog_b"": 48.6, ""cost_growth_contracts_pct_portfolio"": 18, ""free_cash_flow_m"": 412.0, ""note"": ""18% of contract portfolio experiencing cost growth; mix of firm fixed-price and cost-reimbursable contracts; cost growth on two major fixed-price programmes impacting margins""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Pinnacle Defense Systems
+Period   : Q3 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 5,640.0
+  Revenue Growth Yoy (%): 8.1
+  Gross ($M)Argin (%): 16.2
+  Operating Income ($M): 394.8
+  Operating ($M)Argin (%): 7.0
+  Net Income ($M): 282.0
+  Eps: 14.1
+  Funded ($B)Acklog ($B): 28.4
+  Total ($B)Acklog ($B): 48.6
+  Cost Growth Contracts (%) Portfolio: 18
+  Free Cash Flow ($M): 412.0
+
+Write the financial performance summary now:",Revenue $5.64B up 8.1%|Gross margin 16.2%|Operating income $394.8M 7% margin|Funded backlog $28.4B total $48.6B|18% portfolio cost growth fixed-price risk|FCF $412M
+UC8_071,Manufacturing,medium,train,Arcum Automotive,Q2 2024,"{""revenue_m"": 6840.0, ""revenue_growth_yoy_pct"": 4.2, ""gross_margin_pct"": 18.8, ""operating_income_m"": 479.0, ""operating_margin_pct"": 7.0, ""net_income_m"": 342.0, ""eps"": 17.1, ""ev_revenue_pct"": 18, ""ev_revenue_growth_pct"": 42, ""ice_revenue_growth_pct"": -2, ""warranty_provision_m"": 84.0, ""free_cash_flow_m"": 521.0, ""note"": ""EV segment now 18% of revenue growing 42%; ICE revenue declining 2%; $84M warranty provision for software recall on model year 2023 vehicles""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Arcum Automotive
+Period   : Q2 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 6,840.0
+  Revenue Growth Yoy (%): 4.2
+  Gross ($M)Argin (%): 18.8
+  Operating Income ($M): 479.0
+  Operating ($M)Argin (%): 7.0
+  Net Income ($M): 342.0
+  Eps: 17.1
+  Ev Revenue (%): 18
+  Ev Revenue Growth (%): 42
+  Ice Revenue Growth (%): -2
+  Warranty Provision ($M): 84.0
+  Free Cash Flow ($M): 521.0
+
+Write the financial performance summary now:",Revenue $6.84B up 4.2%|Gross margin 18.8%|Operating income $479M 7% margin|EV 18% of revenue up 42%|ICE down 2%|$84M warranty provision software recall|FCF $521M|EV transition and ICE decline dynamic required
+UC8_072,Manufacturing,medium,train,Stratford Chemical Corp,Q4 2024,"{""revenue_m"": 2240.0, ""revenue_growth_yoy_pct"": 3.1, ""gross_margin_pct"": 26.8, ""operating_income_m"": 179.2, ""operating_margin_pct"": 8.0, ""net_income_m"": 134.4, ""eps"": 6.72, ""volume_growth_pct"": 5.4, ""price_pct"": -2.3, ""raw_material_cost_change_pct"": -8.0, ""capacity_utilisation_pct"": 76, ""free_cash_flow_m"": 212.0, ""note"": ""Selling price declined 2.3% reflecting feedstock cost pass-through in contract structures; raw materials 8% lower YoY benefiting margins; capacity at 76% below target of 85%""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Stratford Chemical Corp
+Period   : Q4 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 2,240.0
+  Revenue Growth Yoy (%): 3.1
+  Gross ($M)Argin (%): 26.8
+  Operating Income ($M): 179.2
+  Operating ($M)Argin (%): 8.0
+  Net Income ($M): 134.4
+  Eps: 6.7
+  Volume Growth (%): 5.4
+  Price (%): -2.3
+  Raw ($M)Aterial Cost Change (%): -8.0
+  Capacity Utilisation (%): 76
+  Free Cash Flow ($M): 212.0
+
+Write the financial performance summary now:",Revenue $2.24B up 3.1%|Gross margin 26.8%|Operating income $179.2M 8% margin|Volume +5.4% price -2.3%|Raw materials -8% tailwind|Capacity 76% below 85% target|FCF $212M
+UC8_073,Manufacturing,medium,train,Axion Power Systems,Q1 2025,"{""revenue_m"": 1840.0, ""revenue_growth_yoy_pct"": 12.2, ""gross_margin_pct"": 24.5, ""operating_income_m"": 184.0, ""operating_margin_pct"": 10.0, ""net_income_m"": 138.0, ""eps"": 6.9, ""renewable_segment_growth_pct"": 38, ""traditional_segment_growth_pct"": 2, ""order_intake_m"": 2640.0, ""backlog_b"": 9.2, ""free_cash_flow_m"": 218.0, ""note"": ""Renewable energy segment growing 38% now 32% of revenue; order intake of $2.64B book-to-bill of 1.43""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Axion Power Systems
+Period   : Q1 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 1,840.0
+  Revenue Growth Yoy (%): 12.2
+  Gross ($M)Argin (%): 24.5
+  Operating Income ($M): 184.0
+  Operating ($M)Argin (%): 10.0
+  Net Income ($M): 138.0
+  Eps: 6.9
+  Renewable Segment Growth (%): 38
+  Traditional Segment Growth (%): 2
+  Order Intake ($M): 2,640.0
+  Backlog ($B): 9.2
+  Free Cash Flow ($M): 218.0
+
+Write the financial performance summary now:",Revenue $1.84B up 12.2%|Gross margin 24.5%|Operating income $184M 10% margin|Renewable 38% growth 32% of revenue|Traditional +2%|Order intake $2.64B book-to-bill 1.43|Backlog $9.2B|FCF $218M
+UC8_074,Manufacturing,medium,train,Crestwood Packaging,Q3 2024,"{""revenue_m"": 1124.0, ""revenue_growth_yoy_pct"": 2.8, ""gross_margin_pct"": 22.1, ""operating_income_m"": 90.0, ""operating_margin_pct"": 8.0, ""net_income_m"": 67.4, ""eps"": 3.37, ""volume_growth_pct"": 4.2, ""price_pct"": -1.4, ""sustainability_packaging_pct"": 42, ""free_cash_flow_m"": 106.0, ""note"": ""Sustainable packaging now 42% of product portfolio; price pressure from overcapacity in conventional segment""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Crestwood Packaging
+Period   : Q3 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 1,124.0
+  Revenue Growth Yoy (%): 2.8
+  Gross ($M)Argin (%): 22.1
+  Operating Income ($M): 90.0
+  Operating ($M)Argin (%): 8.0
+  Net Income ($M): 67.4
+  Eps: 3.4
+  Volume Growth (%): 4.2
+  Price (%): -1.4
+  Sustainability Packaging (%): 42
+  Free Cash Flow ($M): 106.0
+
+Write the financial performance summary now:",Revenue $1.12B up 2.8%|Gross margin 22.1%|Operating income $90M 8% margin|Volume +4.2% price -1.4%|Sustainable packaging 42% portfolio|FCF $106M
+UC8_075,Manufacturing,hard,test,Quorum Semiconductors,Q1 2025,"{""revenue_m"": 3480.0, ""revenue_growth_yoy_pct"": -12.4, ""gross_margin_pct"": 38.2, ""gross_margin_prev_year_pct"": 52.1, ""operating_income_m"": -124.0, ""operating_margin_pct"": -3.6, ""net_income_m"": -168.0, ""eps"": -8.4, ""inventory_m"": 2840.0, ""inventory_weeks"": 38, ""channel_inventory_overhang_m"": 640.0, ""capex_m"": 980.0, ""depreciation_m"": 620.0, ""revenue_ai_segment_growth_pct"": 84, ""revenue_pc_segment_decline_pct"": -38, ""free_cash_flow_m"": -820.0, ""note"": ""PC segment in severe downturn; AI chip segment growing 84% but insufficient to offset; 38 weeks of inventory on hand; channel destocking ongoing; $980M capex commitment for advanced process node ramp; management expects revenue trough in Q2""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Quorum Semiconductors
+Period   : Q1 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 3,480.0
+  Revenue Growth Yoy (%): -12.4
+  Gross ($M)Argin (%): 38.2
+  Gross ($M)Argin Prev Year (%): 52.1
+  Operating Income ($M): -124.0
+  Operating ($M)Argin (%): -3.6
+  Net Income ($M): -168.0
+  Eps: -8.4
+  Inventory ($M): 2,840.0
+  Inventory Weeks: 38
+  Channel Inventory Overhang ($M): 640.0
+  Capex ($M): 980.0
+  Depreciation ($M): 620.0
+  Revenue Ai Segment Growth (%): 84
+  Revenue Pc Segment Decline (%): -38
+  Free Cash Flow ($M): -820.0
+
+Write the financial performance summary now:",Revenue $3.48B down 12.4%|Gross margin 38.2% down sharply from 52.1%|Operating loss -$124M -3.6% margin|Net loss -$168M|Inventory 38 weeks vs normal 12 channel overhang $640M|AI segment +84% offset by PC -38%|Capex $980M node ramp commitment|FCF -$820M severe cash burn|Revenue trough Q2 guidance|Cyclical downturn context vs structural AI growth required
+UC8_076,Manufacturing,hard,test,Albion Automotive Group,Q4 2025,"{""revenue_m"": 38400.0, ""revenue_growth_yoy_pct"": 1.4, ""gross_margin_pct"": 12.8, ""operating_income_m"": 768.0, ""operating_margin_pct"": 2.0, ""net_income_m"": 384.0, ""eps"": 19.2, ""ev_unit_sales"": 142000, ""ice_unit_sales"": 1184000, ""total_units"": 1326000, ""ev_unit_growth_pct"": 28, ""ice_unit_growth_pct"": -4, ""ev_gross_margin_pct"": -8.4, ""ice_gross_margin_pct"": 16.2, ""ev_investment_ytd_m"": 3840.0, ""uaw_wage_increase_m"": 620.0, ""free_cash_flow_m"": 1140.0, ""note"": ""EV segment gross margin at -8.4% dragging blended margin; legacy ICE profitability subsidising EV ramp; UAW wage settlement adding $620M annually; EV unit sales growing but pricing pressure from Chinese OEMs; management reaffirmed path to EV profitability at 400K units annually""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Albion Automotive Group
+Period   : Q4 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 38,400.0
+  Revenue Growth Yoy (%): 1.4
+  Gross ($M)Argin (%): 12.8
+  Operating Income ($M): 768.0
+  Operating ($M)Argin (%): 2.0
+  Net Income ($M): 384.0
+  Eps: 19.2
+  Ev Unit Sales: 142,000
+  Ice Unit Sales: 1,184,000
+  Total Units: 1,326,000
+  Ev Unit Growth (%): 28
+  Ice Unit Growth (%): -4
+  Ev Gross ($M)Argin (%): -8.4
+  Ice Gross ($M)Argin (%): 16.2
+  Ev Investment Ytd ($M): 3,840.0
+  Uaw Wage Increase ($M): 620.0
+  Free Cash Flow ($M): 1,140.0
+
+Write the financial performance summary now:",Revenue $38.4B up 1.4%|Gross margin 12.8%|Operating income $768M 2% margin|EV 142K units up 28% gross margin -8.4% -- loss-making|ICE 1.184M units down 4% gross margin 16.2% profitable|EV investment $3.84B YTD|UAW settlement $620M annual cost|FCF $1.14B|Cross-subsidy dynamic -- ICE profits funding EV losses -- is key insight required|Path to EV profitability 400K unit threshold
+UC8_077,Manufacturing,hard,train,Nova Shipbuilding,Q2 2025,"{""revenue_m"": 2140.0, ""revenue_growth_yoy_pct"": 8.4, ""gross_margin_pct"": 8.2, ""operating_income_m"": 64.2, ""operating_margin_pct"": 3.0, ""net_income_m"": 38.5, ""eps"": 1.93, ""backlog_b"": 22.4, ""cost_overrun_programmes_m"": 284.0, ""cost_overrun_charges_m"": 148.0, ""free_cash_flow_m"": 87.0, ""note"": ""Two fixed-price naval contracts experienced $284M cost overruns; $148M charges taken in quarter; backlog of $22.4B provides long-term visibility""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Nova Shipbuilding
+Period   : Q2 2025
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 2,140.0
+  Revenue Growth Yoy (%): 8.4
+  Gross ($M)Argin (%): 8.2
+  Operating Income ($M): 64.2
+  Operating ($M)Argin (%): 3.0
+  Net Income ($M): 38.5
+  Eps: 1.9
+  Backlog ($B): 22.4
+  Cost Overrun Programmes ($M): 284.0
+  Cost Overrun Charges ($M): 148.0
+  Free Cash Flow ($M): 87.0
+
+Write the financial performance summary now:",Revenue $2.14B up 8.4%|Gross margin 8.2% compressed by overruns|Operating income $64.2M 3% margin|$284M cost overruns $148M charges|Backlog $22.4B visibility|FCF $87M|Fixed-price contract risk highlighted
+UC8_078,Manufacturing,hard,train,Trident Industrials,Q3 2024,"{""revenue_m"": 8420.0, ""revenue_growth_yoy_pct"": -6.8, ""gross_margin_pct"": 20.4, ""operating_income_m"": 252.6, ""operating_margin_pct"": 3.0, ""net_income_m"": 168.4, ""eps"": 8.42, ""china_exposure_pct"": 34, ""tariff_impact_m"": 312.0, ""restructuring_m"": 185.0, ""free_cash_flow_m"": 302.0, ""note"": ""Revenue decline driven by tariff impact of $312M on China-exposed segments (34% of sales); restructuring charge of $185M for supply chain relocalisation programme""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Trident Industrials
+Period   : Q3 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 8,420.0
+  Revenue Growth Yoy (%): -6.8
+  Gross ($M)Argin (%): 20.4
+  Operating Income ($M): 252.6
+  Operating ($M)Argin (%): 3.0
+  Net Income ($M): 168.4
+  Eps: 8.4
+  China Exposure (%): 34
+  Tariff Impact ($M): 312.0
+  Restructuring ($M): 185.0
+  Free Cash Flow ($M): 302.0
+
+Write the financial performance summary now:",Revenue $8.42B down 6.8%|Gross margin 20.4%|Operating income $252.6M 3% margin|China 34% revenue exposure|Tariff impact $312M|Restructuring $185M supply chain relocalisation|FCF $302M|Trade policy risk central finding
+UC8_079,Manufacturing,hard,train,Paragon Heavy Equipment,Q1 2024,"{""revenue_m"": 5640.0, ""revenue_growth_yoy_pct"": -3.2, ""gross_margin_pct"": 24.6, ""operating_income_m"": 282.0, ""operating_margin_pct"": 5.0, ""net_income_m"": 197.4, ""eps"": 9.87, ""mining_segment_decline_pct"": -18, ""construction_segment_growth_pct"": 7, ""infrastructure_segment_growth_pct"": 14, ""dealer_inventory_overhang_weeks"": 22, ""free_cash_flow_m"": 338.0, ""note"": ""Mining segment decline of 18% driven by weak commodity prices; construction and infrastructure offsetting; dealer inventory elevated at 22 weeks requiring production cuts""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Paragon Heavy Equipment
+Period   : Q1 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 5,640.0
+  Revenue Growth Yoy (%): -3.2
+  Gross ($M)Argin (%): 24.6
+  Operating Income ($M): 282.0
+  Operating ($M)Argin (%): 5.0
+  Net Income ($M): 197.4
+  Eps: 9.9
+  Mining Segment Decline (%): -18
+  Construction Segment Growth (%): 7
+  Infrastructure Segment Growth (%): 14
+  Dealer Inventory Overhang Weeks: 22
+  Free Cash Flow ($M): 338.0
+
+Write the financial performance summary now:",Revenue $5.64B down 3.2%|Gross margin 24.6%|Operating income $282M 5% margin|Mining -18% commodity price weakness|Construction +7% infrastructure +14%|Dealer inventory 22 weeks production cuts|FCF $338M|Segment mix analysis essential
+UC8_080,Manufacturing,hard,train,Colossus Energy Equipment,Q4 2024,"{""revenue_m"": 3820.0, ""revenue_growth_yoy_pct"": 21.4, ""gross_margin_pct"": 18.4, ""operating_income_m"": 229.2, ""operating_margin_pct"": 6.0, ""net_income_m"": 152.8, ""eps"": 7.64, ""backlog_b"": 16.8, ""book_to_bill"": 1.38, ""renewable_order_intake_pct_total"": 58, ""working_capital_build_m"": 420.0, ""free_cash_flow_m"": -180.0, ""note"": ""Strong orders but FCF negative due to $420M working capital build supporting ramp; 58% of new orders renewable energy; book-to-bill 1.38 signals continued growth""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Colossus Energy Equipment
+Period   : Q4 2024
+Sector   : Manufacturing
+
+Financial Data:
+  Revenue ($M): 3,820.0
+  Revenue Growth Yoy (%): 21.4
+  Gross ($M)Argin (%): 18.4
+  Operating Income ($M): 229.2
+  Operating ($M)Argin (%): 6.0
+  Net Income ($M): 152.8
+  Eps: 7.6
+  Backlog ($B): 16.8
+  Book To ($B)Ill: 1.4
+  Renewable Order Intake (%) Total: 58
+  Working Capital ($B)Uild ($M): 420.0
+  Free Cash Flow ($M): -180.0
+
+Write the financial performance summary now:",Revenue $3.82B up 21.4%|Gross margin 18.4%|Operating income $229.2M 6% margin|Backlog $16.8B book-to-bill 1.38|Renewable 58% of new orders|FCF -$180M working capital build $420M|Strong earnings vs negative FCF divergence must be explained
+UC8_081,Financial,easy,test,Meridian Capital Bank,Q2 2025,"{""net_interest_income_m"": 842.0, ""net_interest_margin_pct"": 3.42, ""non_interest_income_m"": 284.0, ""total_revenue_m"": 1126.0, ""revenue_growth_yoy_pct"": 9.8, ""provision_for_credit_losses_m"": 112.6, ""operating_income_m"": 450.4, ""operating_margin_pct"": 40.0, ""net_income_m"": 348.0, ""eps"": 5.8, ""roa_pct"": 1.18, ""roe_pct"": 14.2, ""npl_ratio_pct"": 0.82, ""cet1_capital_ratio_pct"": 13.4, ""loan_growth_yoy_pct"": 8.2, ""deposit_growth_yoy_pct"": 6.8, ""efficiency_ratio_pct"": 52.4, ""free_cash_flow_m"": 412.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Meridian Capital Bank
+Period   : Q2 2025
+Sector   : Financial
+
+Financial Data:
+  Net Interest Income ($M): 842.0
+  Net Interest ($M)Argin (%): 3.4
+  Non Interest Income ($M): 284.0
+  Total Revenue ($M): 1,126.0
+  Revenue Growth Yoy (%): 9.8
+  Provision For Credit Losses ($M): 112.6
+  Operating Income ($M): 450.4
+  Operating ($M)Argin (%): 40.0
+  Net Income ($M): 348.0
+  Eps: 5.8
+  Roa (%): 1.2
+  Roe (%): 14.2
+  Npl Ratio (%): 0.8
+  Cet1 Capital Ratio (%): 13.4
+  Loan Growth Yoy (%): 8.2
+  Deposit Growth Yoy (%): 6.8
+  Efficiency Ratio (%): 52.4
+  Free Cash Flow ($M): 412.0
+
+Write the financial performance summary now:",Revenue $1.126B up 9.8%|NII $842M NIM 3.42%|Non-interest income $284M|Provision $112.6M|Operating income $450.4M 40% margin|ROA 1.18% ROE 14.2%|NPL ratio 0.82% healthy|CET1 13.4% well-capitalised|Loans +8.2% deposits +6.8%|Efficiency ratio 52.4%
+UC8_082,Financial,easy,test,Harborne Asset Management,Q1 2025,"{""aum_b"": 284.0, ""aum_growth_yoy_pct"": 18.4, ""net_flows_b"": 12.4, ""market_appreciation_b"": 31.2, ""management_fee_revenue_m"": 568.0, ""revenue_growth_yoy_pct"": 16.8, ""operating_income_m"": 227.2, ""operating_margin_pct"": 40.0, ""net_income_m"": 181.8, ""eps"": 9.09, ""avg_fee_rate_bps"": 42, ""equity_pct_aum"": 64, ""fixed_income_pct_aum"": 28, ""alternatives_pct_aum"": 8, ""free_cash_flow_m"": 198.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Harborne Asset Management
+Period   : Q1 2025
+Sector   : Financial
+
+Financial Data:
+  Aum ($B): 284.0
+  Aum Growth Yoy (%): 18.4
+  Net Flows ($B): 12.4
+  Market Appreciation ($B): 31.2
+  Management Fee Revenue ($M): 568.0
+  Revenue Growth Yoy (%): 16.8
+  Operating Income ($M): 227.2
+  Operating ($M)Argin (%): 40.0
+  Net Income ($M): 181.8
+  Eps: 9.1
+  Avg Fee Rate ($B)Ps: 42
+  Equity (%) Aum: 64
+  Fixed Income (%) Aum: 28
+  Alternatives (%) Aum: 8
+  Free Cash Flow ($M): 198.0
+
+Write the financial performance summary now:",AUM $284B up 18.4%|Net flows $12.4B market appreciation $31.2B|Revenue $568M up 16.8%|Operating income $227.2M 40% margin|Net income $181.8M|Avg fee 42bps|Equity 64% fixed income 28% alternatives 8%|FCF $198M
+UC8_083,Financial,easy,train,Axon Regional Bank,Q3 2025,"{""net_interest_income_m"": 412.0, ""net_interest_margin_pct"": 3.28, ""total_revenue_m"": 548.0, ""revenue_growth_yoy_pct"": 7.4, ""net_income_m"": 162.0, ""eps"": 2.7, ""roa_pct"": 1.12, ""roe_pct"": 12.8, ""cet1_capital_ratio_pct"": 12.9, ""loan_growth_yoy_pct"": 7.0, ""efficiency_ratio_pct"": 54.2}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Axon Regional Bank
+Period   : Q3 2025
+Sector   : Financial
+
+Financial Data:
+  Net Interest Income ($M): 412.0
+  Net Interest ($M)Argin (%): 3.3
+  Total Revenue ($M): 548.0
+  Revenue Growth Yoy (%): 7.4
+  Net Income ($M): 162.0
+  Eps: 2.7
+  Roa (%): 1.1
+  Roe (%): 12.8
+  Cet1 Capital Ratio (%): 12.9
+  Loan Growth Yoy (%): 7.0
+  Efficiency Ratio (%): 54.2
+
+Write the financial performance summary now:",Revenue $548M up 7.4%|NII $412M NIM 3.28%|Net income $162M|ROA 1.12% ROE 12.8%|CET1 12.9%|Loans +7%|Efficiency 54.2%
+UC8_084,Financial,easy,train,Prism Insurance Group,Q2 2024,"{""premium_revenue_m"": 3420.0, ""premium_growth_pct"": 11.2, ""combined_ratio_pct"": 91.4, ""underwriting_income_m"": 294.0, ""investment_income_m"": 184.0, ""net_income_m"": 352.0, ""eps"": 17.6, ""loss_ratio_pct"": 62.8, ""expense_ratio_pct"": 28.6, ""return_on_equity_pct"": 15.4}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Prism Insurance Group
+Period   : Q2 2024
+Sector   : Financial
+
+Financial Data:
+  Premium Revenue ($M): 3,420.0
+  Premium Growth (%): 11.2
+  Combined Ratio (%): 91.4
+  Underwriting Income ($M): 294.0
+  Investment Income ($M): 184.0
+  Net Income ($M): 352.0
+  Eps: 17.6
+  Loss Ratio (%): 62.8
+  Expense Ratio (%): 28.6
+  Return On Equity (%): 15.4
+
+Write the financial performance summary now:",Premium $3.42B up 11.2%|Combined ratio 91.4% profitable|Loss ratio 62.8% expense ratio 28.6%|Underwriting income $294M|Investment income $184M|Net income $352M|ROE 15.4%
+UC8_085,Financial,easy,train,Clarity Wealth Management,Q4 2024,"{""aum_b"": 128.0, ""aum_growth_yoy_pct"": 14.8, ""net_flows_b"": 6.4, ""revenue_m"": 256.0, ""revenue_growth_pct"": 13.2, ""operating_income_m"": 102.4, ""operating_margin_pct"": 40.0, ""net_income_m"": 81.9, ""eps"": 4.1}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Clarity Wealth Management
+Period   : Q4 2024
+Sector   : Financial
+
+Financial Data:
+  Aum ($B): 128.0
+  Aum Growth Yoy (%): 14.8
+  Net Flows ($B): 6.4
+  Revenue ($M): 256.0
+  Revenue Growth (%): 13.2
+  Operating Income ($M): 102.4
+  Operating ($M)Argin (%): 40.0
+  Net Income ($M): 81.9
+  Eps: 4.1
+
+Write the financial performance summary now:",AUM $128B up 14.8%|Net flows $6.4B|Revenue $256M up 13.2%|Operating income $102.4M 40% margin|Net income $81.9M
+UC8_086,Financial,easy,train,Westgate Savings Bank,Q1 2024,"{""net_interest_income_m"": 284.0, ""net_interest_margin_pct"": 3.15, ""total_revenue_m"": 368.0, ""revenue_growth_yoy_pct"": 6.8, ""net_income_m"": 110.4, ""eps"": 1.84, ""roa_pct"": 1.08, ""roe_pct"": 11.6, ""cet1_capital_ratio_pct"": 12.4, ""loan_growth_yoy_pct"": 6.2, ""efficiency_ratio_pct"": 56.8}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Westgate Savings Bank
+Period   : Q1 2024
+Sector   : Financial
+
+Financial Data:
+  Net Interest Income ($M): 284.0
+  Net Interest ($M)Argin (%): 3.1
+  Total Revenue ($M): 368.0
+  Revenue Growth Yoy (%): 6.8
+  Net Income ($M): 110.4
+  Eps: 1.8
+  Roa (%): 1.1
+  Roe (%): 11.6
+  Cet1 Capital Ratio (%): 12.4
+  Loan Growth Yoy (%): 6.2
+  Efficiency Ratio (%): 56.8
+
+Write the financial performance summary now:",Revenue $368M up 6.8%|NII $284M NIM 3.15%|Net income $110.4M|ROA 1.08% ROE 11.6%|CET1 12.4%|Loans +6.2%|Efficiency 56.8%
+UC8_087,Financial,easy,train,Northland Insurance Co,Q3 2024,"{""premium_revenue_m"": 1840.0, ""premium_growth_pct"": 9.4, ""combined_ratio_pct"": 93.2, ""net_income_m"": 184.0, ""eps"": 9.2, ""loss_ratio_pct"": 64.8, ""expense_ratio_pct"": 28.4, ""roe_pct"": 13.4}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Northland Insurance Co
+Period   : Q3 2024
+Sector   : Financial
+
+Financial Data:
+  Premium Revenue ($M): 1,840.0
+  Premium Growth (%): 9.4
+  Combined Ratio (%): 93.2
+  Net Income ($M): 184.0
+  Eps: 9.2
+  Loss Ratio (%): 64.8
+  Expense Ratio (%): 28.4
+  Roe (%): 13.4
+
+Write the financial performance summary now:",Premium $1.84B up 9.4%|Combined ratio 93.2% profitable|Loss ratio 64.8% expense 28.4%|Net income $184M|ROE 13.4%
+UC8_088,Financial,medium,test,Oaktree Commercial Bank,Q3 2025,"{""net_interest_income_m"": 1124.0, ""net_interest_margin_pct"": 2.84, ""nim_prev_year_pct"": 3.41, ""non_interest_income_m"": 384.0, ""total_revenue_m"": 1508.0, ""revenue_growth_yoy_pct"": 2.4, ""provision_for_credit_losses_m"": 302.0, ""provision_prev_year_m"": 148.0, ""net_income_m"": 420.0, ""eps"": 7.0, ""npl_ratio_pct"": 2.14, ""cet1_capital_ratio_pct"": 12.1, ""cre_exposure_pct_tier1"": 284, ""office_cre_npl_pct"": 8.4, ""deposit_beta_pct"": 62, ""free_cash_flow_m"": 387.0, ""note"": ""NIM compressed 57bps from peak due to deposit repricing; provisions doubled YoY; office CRE NPL ratio at 8.4% -- elevated; commercial real estate exposure at 284% of Tier 1 capital above regulatory comfort threshold""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Oaktree Commercial Bank
+Period   : Q3 2025
+Sector   : Financial
+
+Financial Data:
+  Net Interest Income ($M): 1,124.0
+  Net Interest ($M)Argin (%): 2.8
+  Nim Prev Year (%): 3.4
+  Non Interest Income ($M): 384.0
+  Total Revenue ($M): 1,508.0
+  Revenue Growth Yoy (%): 2.4
+  Provision For Credit Losses ($M): 302.0
+  Provision Prev Year ($M): 148.0
+  Net Income ($M): 420.0
+  Eps: 7.0
+  Npl Ratio (%): 2.1
+  Cet1 Capital Ratio (%): 12.1
+  Cre Exposure (%) Tier1: 284
+  Office Cre Npl (%): 8.4
+  Deposit ($B)Eta (%): 62
+  Free Cash Flow ($M): 387.0
+
+Write the financial performance summary now:",Revenue $1.508B up 2.4% weak growth|NII $1.124B NIM 2.84% down from 3.41%|Provision $302M doubled from $148M -- credit quality deterioration|Office CRE NPL 8.4% elevated|CRE exposure 284% Tier 1 above threshold|CET1 12.1% manageable|Deposit beta 62%|Net income $420M|FCF $387M|NIM compression and credit quality are key findings
+UC8_089,Financial,medium,test,Meridian Investment Bank,Q2 2024,"{""total_revenue_m"": 2840.0, ""revenue_growth_yoy_pct"": 7.2, ""advisory_revenue_m"": 624.0, ""advisory_growth_pct"": -18.0, ""ecm_revenue_m"": 412.0, ""ecm_growth_pct"": 42.0, ""dcm_revenue_m"": 684.0, ""dcm_growth_pct"": 28.0, ""trading_revenue_m"": 980.0, ""trading_growth_pct"": 4.2, ""operating_income_m"": 568.0, ""operating_margin_pct"": 20.0, ""net_income_m"": 440.0, ""eps"": 22.0, ""rote_pct"": 12.8, ""vwap_normalized_var_m"": 84.0, ""free_cash_flow_m"": 512.0, ""note"": ""Advisory down 18% on M&A drought; ECM up 42% as IPO market reopens; DCM strong on refinancing wave; trading steady""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Meridian Investment Bank
+Period   : Q2 2024
+Sector   : Financial
+
+Financial Data:
+  Total Revenue ($M): 2,840.0
+  Revenue Growth Yoy (%): 7.2
+  Advisory Revenue ($M): 624.0
+  Advisory Growth (%): -18.0
+  Ecm Revenue ($M): 412.0
+  Ecm Growth (%): 42.0
+  Dcm Revenue ($M): 684.0
+  Dcm Growth (%): 28.0
+  Trading Revenue ($M): 980.0
+  Trading Growth (%): 4.2
+  Operating Income ($M): 568.0
+  Operating ($M)Argin (%): 20.0
+  Net Income ($M): 440.0
+  Eps: 22.0
+  Rote (%): 12.8
+  Vwap Normalized Var ($M): 84.0
+  Free Cash Flow ($M): 512.0
+
+Write the financial performance summary now:",Revenue $2.84B up 7.2%|Advisory $624M down 18% M&A drought|ECM $412M up 42% IPO recovery|DCM $684M up 28% refinancing wave|Trading $980M up 4.2%|Operating income $568M 20% margin|ROTE 12.8%|Mix shift must be explained not just total revenue
+UC8_090,Financial,medium,train,Beacon Fintech Corp,Q1 2025,"{""revenue_m"": 482.0, ""revenue_growth_yoy_pct"": 24.8, ""gross_margin_pct"": 58.4, ""operating_income_m"": 86.8, ""operating_margin_pct"": 18.0, ""net_income_m"": 67.5, ""eps"": 3.37, ""payment_volume_b"": 28.4, ""payment_volume_growth_pct"": 32.0, ""take_rate_bps"": 17, ""user_growth_pct"": 18.4, ""chargeback_rate_pct"": 0.08, ""note"": ""Payment volume growing faster than revenue due to take rate compression from enterprise client negotiations""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Beacon Fintech Corp
+Period   : Q1 2025
+Sector   : Financial
+
+Financial Data:
+  Revenue ($M): 482.0
+  Revenue Growth Yoy (%): 24.8
+  Gross ($M)Argin (%): 58.4
+  Operating Income ($M): 86.8
+  Operating ($M)Argin (%): 18.0
+  Net Income ($M): 67.5
+  Eps: 3.4
+  Payment Volume ($B): 28.4
+  Payment Volume Growth (%): 32.0
+  Take Rate ($B)Ps: 17
+  User Growth (%): 18.4
+  Chargeback Rate (%): 0.1
+
+Write the financial performance summary now:",Revenue $482M up 24.8%|Payment volume $28.4B up 32% -- exceeds revenue growth|Take rate 17bps compression|Gross margin 58.4%|Operating income $86.8M 18% margin|Users +18.4%|Chargeback 0.08% low fraud|FCF implied
+UC8_091,Financial,medium,train,Solent Insurance Group,Q3 2024,"{""premium_revenue_m"": 5840.0, ""premium_growth_pct"": 14.2, ""combined_ratio_pct"": 98.4, ""underwriting_income_m"": 93.4, ""investment_income_m"": 380.6, ""net_income_m"": 354.0, ""eps"": 17.7, ""catastrophe_losses_m"": 284.0, ""cat_loss_impact_combined_pct"": 4.9, ""ex_cat_combined_ratio_pct"": 93.5, ""note"": ""Cat losses of $284M added 4.9pp to combined ratio; ex-cat combined ratio of 93.5% demonstrates underlying profitability""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Solent Insurance Group
+Period   : Q3 2024
+Sector   : Financial
+
+Financial Data:
+  Premium Revenue ($M): 5,840.0
+  Premium Growth (%): 14.2
+  Combined Ratio (%): 98.4
+  Underwriting Income ($M): 93.4
+  Investment Income ($M): 380.6
+  Net Income ($M): 354.0
+  Eps: 17.7
+  Catastrophe Losses ($M): 284.0
+  Cat Loss Impact Combined (%): 4.9
+  Ex Cat Combined Ratio (%): 93.5
+
+Write the financial performance summary now:",Premium $5.84B up 14.2%|Combined ratio 98.4% near 100%|Cat losses $284M 4.9pp impact|Ex-cat combined ratio 93.5% strong underlying|Underwriting income $93.4M|Investment income $380.6M|Net income $354M|Cat impact must be distinguished from underlying
+UC8_092,Financial,medium,train,Stratus Capital Partners,Q2 2025,"{""fee_revenue_m"": 284.0, ""fee_revenue_growth_pct"": 18.2, ""carried_interest_m"": 148.0, ""total_revenue_m"": 432.0, ""operating_income_m"": 173.0, ""operating_margin_pct"": 40.0, ""net_income_m"": 138.4, ""eps"": 6.92, ""aum_b"": 42.4, ""aum_growth_pct"": 22.0, ""dry_powder_b"": 8.2, ""deals_closed"": 4, ""realizations_m"": 620.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Stratus Capital Partners
+Period   : Q2 2025
+Sector   : Financial
+
+Financial Data:
+  Fee Revenue ($M): 284.0
+  Fee Revenue Growth (%): 18.2
+  Carried Interest ($M): 148.0
+  Total Revenue ($M): 432.0
+  Operating Income ($M): 173.0
+  Operating ($M)Argin (%): 40.0
+  Net Income ($M): 138.4
+  Eps: 6.9
+  Aum ($B): 42.4
+  Aum Growth (%): 22.0
+  Dry Powder ($B): 8.2
+  Deals Closed: 4
+  Realizations ($M): 620.0
+
+Write the financial performance summary now:",Fee revenue $284M up 18.2% recurring|Carried interest $148M performance|Total revenue $432M|Operating income $173M 40% margin|AUM $42.4B up 22%|Dry powder $8.2B deployable|4 deals closed|Realisations $620M|Fee vs carry distinction important
+UC8_093,Financial,medium,train,Aldgate Leasing Corp,Q4 2024,"{""revenue_m"": 684.0, ""revenue_growth_yoy_pct"": 9.1, ""net_interest_margin_pct"": 4.82, ""operating_income_m"": 154.0, ""operating_margin_pct"": 22.5, ""net_income_m"": 116.0, ""eps"": 5.8, ""portfolio_size_b"": 14.2, ""delinquency_90plus_pct"": 1.84, ""net_charge_off_rate_pct"": 0.64, ""allowance_coverage_ratio_pct"": 284, ""note"": ""Delinquency rate elevated vs prior year 1.42%; management increased allowance coverage to 284%""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Aldgate Leasing Corp
+Period   : Q4 2024
+Sector   : Financial
+
+Financial Data:
+  Revenue ($M): 684.0
+  Revenue Growth Yoy (%): 9.1
+  Net Interest ($M)Argin (%): 4.8
+  Operating Income ($M): 154.0
+  Operating ($M)Argin (%): 22.5
+  Net Income ($M): 116.0
+  Eps: 5.8
+  Portfolio Size ($B): 14.2
+  Delinquency 90Plus (%): 1.8
+  Net Charge Off Rate (%): 0.6
+  Allowance Coverage Ratio (%): 284
+
+Write the financial performance summary now:",Revenue $684M up 9.1%|NIM 4.82%|Operating income $154M 22.5% margin|Portfolio $14.2B|Delinquency 1.84% up from 1.42%|Net charge-off 0.64%|Allowance coverage 284% conservative|Credit quality trend important
+UC8_094,Financial,medium,train,Pinnacle Exchange Corp,Q1 2024,"{""trading_revenue_m"": 284.0, ""trading_revenue_growth_pct"": 14.8, ""data_revenue_m"": 124.0, ""data_revenue_growth_pct"": 9.2, ""total_revenue_m"": 408.0, ""revenue_growth_yoy_pct"": 12.8, ""operating_income_m"": 204.0, ""operating_margin_pct"": 50.0, ""net_income_m"": 163.2, ""eps"": 8.16, ""adv_contracts_m"": 8.4, ""adv_growth_pct"": 12.1, ""market_share_pct"": 24.8, ""free_cash_flow_m"": 188.0}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Pinnacle Exchange Corp
+Period   : Q1 2024
+Sector   : Financial
+
+Financial Data:
+  Trading Revenue ($M): 284.0
+  Trading Revenue Growth (%): 14.8
+  Data Revenue ($M): 124.0
+  Data Revenue Growth (%): 9.2
+  Total Revenue ($M): 408.0
+  Revenue Growth Yoy (%): 12.8
+  Operating Income ($M): 204.0
+  Operating ($M)Argin (%): 50.0
+  Net Income ($M): 163.2
+  Eps: 8.2
+  Adv Contracts ($M): 8.4
+  Adv Growth (%): 12.1
+  Market Share (%): 24.8
+  Free Cash Flow ($M): 188.0
+
+Write the financial performance summary now:",Revenue $408M up 12.8%|Trading $284M up 14.8% data $124M up 9.2%|Operating income $204M 50% margin -- exchange economics|ADV 8.4M up 12.1%|Market share 24.8%|FCF $188M
+UC8_095,Financial,hard,test,Cormorant Bank plc,Q1 2025,"{""net_interest_income_m"": 2840.0, ""net_interest_margin_pct"": 1.84, ""nim_prev_peak_pct"": 2.42, ""non_interest_income_m"": 984.0, ""total_revenue_m"": 3824.0, ""revenue_growth_yoy_pct"": -4.2, ""provision_for_credit_losses_m"": 764.0, ""provision_prev_year_m"": 384.0, ""net_income_m"": 812.0, ""eps"": 40.6, ""cet1_capital_ratio_pct"": 13.8, ""target_cet1_pct"": 13.0, ""npl_ratio_pct"": 3.42, ""stage_3_loans_pct"": 4.18, ""rote_pct"": 9.8, ""rote_target_pct"": 12.0, ""dividend_per_share"": 1.82, ""buyback_programme_m"": 1200.0, ""fca_investigation_provision_m"": 280.0, ""cost_of_risk_bps"": 62, ""free_cash_flow_m"": 1420.0, ""note"": ""NIM compressed 58bps from cycle peak; provisions nearly doubled on SME sector deterioration; FCA investigation provision $280M related to historical product sales practices; ROTE 9.8% below 12% target; $1.2B buyback programme announced offsetting negative sentiment; CET1 above target providing capital flexibility""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Cormorant Bank plc
+Period   : Q1 2025
+Sector   : Financial
+
+Financial Data:
+  Net Interest Income ($M): 2,840.0
+  Net Interest ($M)Argin (%): 1.8
+  Nim Prev Peak (%): 2.4
+  Non Interest Income ($M): 984.0
+  Total Revenue ($M): 3,824.0
+  Revenue Growth Yoy (%): -4.2
+  Provision For Credit Losses ($M): 764.0
+  Provision Prev Year ($M): 384.0
+  Net Income ($M): 812.0
+  Eps: 40.6
+  Cet1 Capital Ratio (%): 13.8
+  Target Cet1 (%): 13.0
+  Npl Ratio (%): 3.4
+  Stage 3 Loans (%): 4.2
+  Rote (%): 9.8
+  Rote Target (%): 12.0
+  Dividend Per Share: 1.8
+  Buyback Programme ($M): 1,200.0
+  Fca Investigation Provision ($M): 280.0
+  Cost Of Risk ($B)Ps: 62
+  Free Cash Flow ($M): 1,420.0
+
+Write the financial performance summary now:",Revenue $3.824B down 4.2%|NII $2.84B NIM 1.84% down 58bps from 2.42%|Provision $764M nearly doubled from $384M|FCA investigation $280M provision|NPL 3.42% Stage 3 4.18%|ROTE 9.8% below 12% target|CET1 13.8% above 13% target -- buffer|$1.2B buyback capital return|Dividend $1.82|FCF $1.42B|NIM compression credit deterioration FCA provision -- three compounding pressures must all be addressed
+UC8_096,Financial,hard,test,Nexus Digital Bank,Q2 2025,"{""revenue_m"": 284.0, ""revenue_growth_yoy_pct"": 62.4, ""net_interest_margin_pct"": 6.84, ""customer_deposits_b"": 4.2, ""deposit_growth_pct"": 84.0, ""loan_book_b"": 2.8, ""loan_growth_pct"": 112.0, ""net_income_m"": -48.4, ""eps"": -2.42, ""cet1_capital_ratio_pct"": 14.8, ""npl_ratio_pct"": 1.84, ""customer_acquisition_cost"": 48, ""monthly_active_users_m"": 3.8, ""mau_growth_pct"": 94.0, ""nps_score"": 72, ""cost_income_ratio_pct"": 118, ""free_cash_flow_m"": -62.0, ""note"": ""Digital challenger bank investing aggressively in growth; cost-income ratio of 118% as fixed cost base not yet leveraged against revenue; strong unit economics expected at scale (NIM 6.84% on unsecured personal lending, NPS 72); management targeting profitability at 5M MAU (currently 3.8M)""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Nexus Digital Bank
+Period   : Q2 2025
+Sector   : Financial
+
+Financial Data:
+  Revenue ($M): 284.0
+  Revenue Growth Yoy (%): 62.4
+  Net Interest ($M)Argin (%): 6.8
+  Customer Deposits ($B): 4.2
+  Deposit Growth (%): 84.0
+  Loan ($B)Ook ($B): 2.8
+  Loan Growth (%): 112.0
+  Net Income ($M): -48.4
+  Eps: -2.4
+  Cet1 Capital Ratio (%): 14.8
+  Npl Ratio (%): 1.8
+  Customer Acquisition Cost: 48
+  Monthly Active Users ($M): 3.8
+  Mau Growth (%): 94.0
+  Nps Score: 72
+  Cost Income Ratio (%): 118
+  Free Cash Flow ($M): -62.0
+
+Write the financial performance summary now:",Revenue $284M up 62.4%|NIM 6.84% -- premium on personal lending|Deposits $4.2B up 84% loans $2.8B up 112%|Net loss -$48.4M|Cost-income 118% not yet leveraged|CET1 14.8% well-capitalised|MAU 3.8M up 94%|NPS 72 high|FCF -$62M|Profitability at 5M MAU 1.2M users away|Both growth potential and current losses required
+UC8_097,Financial,hard,train,Fortis Bancorp,Q4 2025,"{""total_revenue_m"": 5840.0, ""revenue_growth_yoy_pct"": -8.4, ""net_interest_income_m"": 3840.0, ""nim_pct"": 2.14, ""provision_m"": 1168.0, ""net_income_m"": 812.0, ""eps"": 4.06, ""cet1_pct"": 11.4, ""npl_pct"": 4.82, ""exposure_commercial_property_b"": 84.0, ""commercial_property_impairment_m"": 420.0, ""doj_settlement_m"": 280.0, ""free_cash_flow_m"": 924.0, ""note"": ""Commercial property impairment $420M on office portfolio; DOJ settlement $280M on historical lending practices; NIM under pressure; capital ratio above minimum but below peer median""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Fortis Bancorp
+Period   : Q4 2025
+Sector   : Financial
+
+Financial Data:
+  Total Revenue ($M): 5,840.0
+  Revenue Growth Yoy (%): -8.4
+  Net Interest Income ($M): 3,840.0
+  Nim (%): 2.1
+  Provision ($M): 1,168.0
+  Net Income ($M): 812.0
+  Eps: 4.1
+  Cet1 (%): 11.4
+  Npl (%): 4.8
+  Exposure Commercial Property ($B): 84.0
+  Commercial Property Impairment ($M): 420.0
+  Doj Settlement ($M): 280.0
+  Free Cash Flow ($M): 924.0
+
+Write the financial performance summary now:",Revenue $5.84B down 8.4%|NII $3.84B NIM 2.14%|Provision $1.168B elevated|$420M commercial property impairment|$280M DOJ settlement|NPL 4.82% elevated|CET1 11.4% above minimum but below peers|Net income $812M|FCF $924M
+UC8_098,Financial,hard,train,Solaris Asset Management,Q3 2025,"{""aum_b"": 184.0, ""aum_decline_pct"": -12.8, ""net_outflows_b"": -18.4, ""market_appreciation_b"": 4.8, ""revenue_m"": 312.0, ""revenue_decline_pct"": -14.2, ""operating_income_m"": 87.4, ""operating_margin_pct"": 28.0, ""net_income_m"": 68.2, ""eps"": 3.41, ""flagship_fund_performance_pct"": -4.8, ""benchmark_return_pct"": 6.2, ""redemption_notices_b"": 8.4, ""note"": ""Flagship fund down 4.8% vs benchmark +6.2%; net outflows of $18.4B driven by institutional redemptions; $8.4B in redemption notices for Q3 settlement""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Solaris Asset Management
+Period   : Q3 2025
+Sector   : Financial
+
+Financial Data:
+  Aum ($B): 184.0
+  Aum Decline (%): -12.8
+  Net Outflows ($B): -18.4
+  Market Appreciation ($B): 4.8
+  Revenue ($M): 312.0
+  Revenue Decline (%): -14.2
+  Operating Income ($M): 87.4
+  Operating ($M)Argin (%): 28.0
+  Net Income ($M): 68.2
+  Eps: 3.4
+  Flagship Fund Performance (%): -4.8
+  Benchmark Return (%): 6.2
+  Redemption Notices ($B): 8.4
+
+Write the financial performance summary now:",AUM $184B down 12.8%|Outflows $18.4B market appreciation $4.8B|Revenue $312M down 14.2%|Operating income $87.4M 28% margin|Flagship fund -4.8% vs benchmark +6.2% -- performance drag|$8.4B pending redemptions|Revenue and AUM decline context with performance underperformance as driver
+UC8_099,Financial,hard,train,Pinnacle Reinsurance,Q2 2024,"{""premium_revenue_m"": 2840.0, ""premium_growth_pct"": 22.4, ""combined_ratio_pct"": 107.4, ""underwriting_loss_m"": -210.1, ""investment_income_m"": 284.0, ""net_income_m"": 52.4, ""eps"": 2.62, ""catastrophe_losses_m"": 684.0, ""nat_cat_event"": ""North Atlantic hurricane season"", ""prior_year_reserve_release_m"": 48.0, ""rate_change_pct"": 18.4, ""note"": ""Hurricane season cat losses $684M driving combined above 100%; reserve release of $48M from prior years partially offsetting; rate hardening of 18.4% improving prospective economics; investment income provides earnings floor""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Pinnacle Reinsurance
+Period   : Q2 2024
+Sector   : Financial
+
+Financial Data:
+  Premium Revenue ($M): 2,840.0
+  Premium Growth (%): 22.4
+  Combined Ratio (%): 107.4
+  Underwriting Loss ($M): -210.1
+  Investment Income ($M): 284.0
+  Net Income ($M): 52.4
+  Eps: 2.6
+  Catastrophe Losses ($M): 684.0
+  Nat Cat Event: North Atlantic hurricane season
+  Prior Year Reserve Release ($M): 48.0
+  Rate Change (%): 18.4
+
+Write the financial performance summary now:",Premium $2.84B up 22.4%|Combined ratio 107.4% -- underwriting loss|Cat losses $684M hurricane season|Prior year reserve release $48M|Underwriting loss -$210.1M|Investment income $284M provides floor|Net income $52.4M barely positive|Rate hardening 18.4% prospective improvement|Must distinguish cat impact from underlying rate cycle
+UC8_100,Financial,hard,train,Vantage Crypto Exchange,Q1 2025,"{""trading_revenue_m"": 684.0, ""trading_revenue_growth_pct"": 184.0, ""staking_revenue_m"": 84.0, ""other_revenue_m"": 48.0, ""total_revenue_m"": 816.0, ""total_growth_pct"": 162.0, ""operating_income_m"": 326.4, ""operating_margin_pct"": 40.0, ""net_income_m"": 244.8, ""eps"": 12.24, ""transaction_volume_b"": 284.0, ""volume_growth_pct"": 224.0, ""retail_volume_pct"": 72, ""institutional_volume_pct"": 28, ""take_rate_bps"": 24, ""take_rate_decline_bps"": -6, ""regulatory_reserve_requirement_m"": 180.0, ""note"": ""Revenue highly volatile -- correlates with crypto market cycles; Q1 2025 benefited from bull market conditions; trading volume growing faster than revenue due to take rate compression from institutional clients; regulatory reserve of $180M maintained for customer asset protection""}","You are a financial analyst preparing a quarterly earnings summary for internal reporting.
+
+Based on the quarterly financial data below, write a professional financial performance summary (2-3 paragraphs) suitable for inclusion in an earnings report. Your summary should:
+  1. Report revenue performance with year-over-year context
+  2. Address profitability (gross margin, operating income, net income where available)
+  3. Highlight key business drivers, segment performance, or notable items
+  4. Maintain a neutral, professional financial reporting tone
+
+Do not add information not present in the data. Report figures accurately.
+
+Company  : Vantage Crypto Exchange
+Period   : Q1 2025
+Sector   : Financial
+
+Financial Data:
+  Trading Revenue ($M): 684.0
+  Trading Revenue Growth (%): 184.0
+  Staking Revenue ($M): 84.0
+  Other Revenue ($M): 48.0
+  Total Revenue ($M): 816.0
+  Total Growth (%): 162.0
+  Operating Income ($M): 326.4
+  Operating ($M)Argin (%): 40.0
+  Net Income ($M): 244.8
+  Eps: 12.2
+  Transaction Volume ($B): 284.0
+  Volume Growth (%): 224.0
+  Retail Volume (%): 72
+  Institutional Volume (%): 28
+  Take Rate ($B)Ps: 24
+  Take Rate Decline ($B)Ps: -6
+  Regulatory Reserve Requirement ($M): 180.0
+
+Write the financial performance summary now:",Revenue $816M up 162%|Trading $684M up 184%|Operating income $326.4M 40% margin|Volume $284B up 224% -- exceeds revenue growth|Take rate 24bps down 6bps institutional compression|Staking $84M|Regulatory reserve $180M|Revenue volatility and crypto market cycle dependency essential -- not sustainable at this growth rate without cycle context

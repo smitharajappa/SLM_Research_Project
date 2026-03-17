@@ -1,0 +1,209 @@
+model_name,tier,params,item_id,sector,difficulty,seed,d1_accuracy,d2_depth,d3_tone,d4_completeness,composite_raw,composite_pct,latency_ms,judge_rationale
+Llama-3.3-70B,LLM,70B,UC8_001,Technology,easy,42,5,5,5,5,5.00,100.0,1196,"The summary accurately cites all key figures with appropriate context, provides in-depth analysis of the company's performance, maintains a professional tone throughout, and addresses all gold-checkli"
+Llama-3.3-70B,LLM,70B,UC8_002,Technology,easy,42,5,5,5,5,5.00,100.0,1200,"The summary accurately reports all key financial figures and provides in-depth analysis of the company's performance, including trends and drivers, while maintaining a professional tone throughout and"
+Llama-3.3-70B,LLM,70B,UC8_008,Technology,medium,42,5,4,5,5,4.75,93.8,1207,"The summary accurately reports all key financial figures and provides some analysis of the trends and drivers, while maintaining a professional tone throughout and covering all gold-checklist criteria"
+Llama-3.3-70B,LLM,70B,UC8_009,Technology,medium,42,4,5,5,5,4.75,93.8,1243,"The summary accurately reports key financial figures, provides in-depth analysis of the company's performance, and maintains a professional tone throughout, covering all gold-checklist criteria except"
+Llama-3.3-70B,LLM,70B,UC8_015,Technology,hard,42,5,4,5,5,4.75,93.8,1390,"The summary accurately reports all key financial figures and addresses all gold-checklist criteria, providing a clear and professional overview of the company's performance. It also offers some analys"
+Llama-3.3-70B,LLM,70B,UC8_016,Technology,hard,42,5,4,5,5,4.75,93.8,1460,"The summary accurately reports all key financial figures and provides some analysis of the company's growth prospects and challenges, while maintaining a professional tone throughout."
+Llama-3.3-70B,LLM,70B,UC8_021,Retail,easy,42,5,5,5,5,5.00,100.0,1235,"The summary accurately cites all key figures with appropriate context, provides in-depth analysis of the company's performance, maintains a professional tone throughout, and addresses all gold-checkli"
+Llama-3.3-70B,LLM,70B,UC8_022,Retail,easy,42,5,5,5,5,5.00,100.0,1470,"The summary accurately cites all key figures, provides in-depth analysis of trends and drivers, maintains a professional tone, and covers all gold-checklist criteria, demonstrating a high-quality summ"
+Llama-3.3-70B,LLM,70B,UC8_028,Retail,medium,42,4,4,5,4,4.25,81.2,1371,"The summary accurately reports most key figures, provides some analysis beyond the numbers, and maintains a professional tone throughout, but contains a minor error in EPS and does not fully address a"
+Llama-3.3-70B,LLM,70B,UC8_029,Retail,medium,42,5,4,5,4,4.50,87.5,1385,"The summary accurately reports all key financial figures and provides some analysis of trends and drivers, but misses the 14% increase in average order value due to the new loyalty tier launch. The to"
+Llama-3.3-70B,LLM,70B,UC8_035,Retail,hard,42,5,4,5,5,4.75,93.8,1279,"The summary accurately reports all key financial figures and provides some analysis of the trends and implications, while maintaining a professional tone throughout and covering all gold-checklist cri"
+Llama-3.3-70B,LLM,70B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,1398,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_041,Healthcare,easy,42,5,5,5,5,5.00,100.0,1337,"The summary accurately reports all key financial figures and provides insightful analysis of the company's performance, while maintaining a professional tone throughout and covering all gold checklist"
+Llama-3.3-70B,LLM,70B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,1250,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_048,Healthcare,medium,42,5,4,5,5,4.75,93.8,1347,"The summary accurately cites all key figures and provides some analysis beyond restating numbers, demonstrating a polished and professional tone throughout, while covering all gold checklist criteria."
+Llama-3.3-70B,LLM,70B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,1276,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_055,Healthcare,hard,42,5,4,5,5,4.75,93.8,1520,"The summary accurately cites all key financial figures and provides a clear analysis of the company's performance, addressing all points on the gold checklist, while maintaining a professional tone th"
+Llama-3.3-70B,LLM,70B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,1384,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_061,Manufacturing,easy,42,5,5,5,5,5.00,100.0,1223,"The summary accurately reports all key financial figures and provides in-depth analysis of the company's performance, including drivers of revenue growth and operational efficiency, while maintaining "
+Llama-3.3-70B,LLM,70B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,1401,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_068,Manufacturing,medium,42,5,4,5,5,4.75,93.8,1302,"The summary accurately reports all key financial figures and addresses all points from the gold checklist, providing a polished and professional tone, while also offering some analysis beyond the numb"
+Llama-3.3-70B,LLM,70B,UC8_069,Manufacturing,medium,42,3,3,3,3,3.00,50.0,1419,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_075,Manufacturing,hard,42,5,4,5,5,4.75,93.8,1367,"The summary accurately reports all key financial figures and provides some analysis of the company's segment performance and market trends, while maintaining a professional tone throughout and coverin"
+Llama-3.3-70B,LLM,70B,UC8_081,Financial,easy,42,3,3,3,3,3.00,50.0,1401,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_082,Financial,easy,42,5,5,5,5,5.00,100.0,1075,"The summary accurately cites all key figures, provides in-depth analysis of the company's performance, maintains a professional tone, and covers all gold-checklist criteria."
+Llama-3.3-70B,LLM,70B,UC8_088,Financial,medium,42,3,3,3,3,3.00,50.0,1348,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.3-70B,LLM,70B,UC8_089,Financial,medium,42,5,4,5,5,4.75,93.8,1308,"The summary accurately reports all key financial figures and provides some analysis of trends and drivers, while maintaining a professional tone throughout and covering all gold-checklist criteria."
+Llama-3.3-70B,LLM,70B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,1303,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_001,Technology,easy,42,5,4,5,5,4.75,93.8,12111,"The summary accurately reports all key financial figures and provides some analysis of the drivers behind the numbers, while maintaining a professional tone throughout and covering all gold-checklist "
+Llama-3.2-3B,SLM,3B,UC8_002,Technology,easy,42,3,3,3,3,3.00,50.0,9487,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_008,Technology,medium,42,2,2,4,2,2.50,37.5,9041,"The summary contains several inaccuracies, such as stating the gross margin remained stable and not mentioning the $8.5M restructuring charge, and it lacks depth in analysis, but maintains a professio"
+Llama-3.2-3B,SLM,3B,UC8_009,Technology,medium,42,3,3,3,3,3.00,50.0,7731,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_015,Technology,hard,42,5,4,5,4,4.50,87.5,10471,"The summary accurately reports all key financial figures and provides some analysis of the company's performance, but could delve deeper into the implications of the negative trends and the company's "
+Llama-3.2-3B,SLM,3B,UC8_016,Technology,hard,42,3,3,3,3,3.00,50.0,8733,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_021,Retail,easy,42,5,5,5,5,5.00,100.0,9417,"The summary accurately cites all key financial figures, provides in-depth analysis of the company's performance, maintains a professional tone throughout, and covers all gold-checklist criteria."
+Llama-3.2-3B,SLM,3B,UC8_022,Retail,easy,42,3,3,3,3,3.00,50.0,7188,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_028,Retail,medium,42,4,4,5,4,4.25,81.2,10246,"The summary accurately reports most key figures, provides some analysis beyond restating numbers, and maintains a professional tone throughout, but contains a minor error in EPS and omits explicit men"
+Llama-3.2-3B,SLM,3B,UC8_029,Retail,medium,42,3,3,3,3,3.00,50.0,8087,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_035,Retail,hard,42,5,4,5,4,4.50,87.5,9131,"The summary accurately reports key financial figures and provides some analysis of trends and drivers, but misses discussing debt and interest expense in detail, as well as the exploration of strategi"
+Llama-3.2-3B,SLM,3B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,8873,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_041,Healthcare,easy,42,5,4,5,5,4.75,93.8,8634,"The summary accurately cites all key figures and provides some analysis beyond restating numbers, demonstrating a polished and professional tone throughout, while covering all gold checklist criteria."
+Llama-3.2-3B,SLM,3B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,9371,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_048,Healthcare,medium,42,5,4,5,5,4.75,93.8,127714,"The summary accurately cites all key financial figures and provides some analysis beyond restating numbers, while maintaining a polished and professional tone throughout, covering all gold checklist c"
+Llama-3.2-3B,SLM,3B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,9056,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_055,Healthcare,hard,42,4,3,5,3,3.75,68.8,9058,"The summary accurately reports most key figures, but misinterprets patient volume growth as a driver of revenue increase, and fails to address debt covenants review and the gap between net loss and po"
+Llama-3.2-3B,SLM,3B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,9590,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_061,Manufacturing,easy,42,5,5,5,5,5.00,100.0,7458,"The summary accurately cites all key figures with appropriate context, provides in-depth analysis of trends and drivers, maintains a professional tone, and covers all gold-checklist criteria."
+Llama-3.2-3B,SLM,3B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,8841,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.2-3B,SLM,3B,UC8_068,Manufacturing,medium,42,4,4,5,4,4.25,81.2,272709,"The summary accurately reports key financial figures and provides some analysis, but omits the specific comparison of deliveries to target and misrepresents the delivery performance as 'in line' with "
+Llama-3.2-3B,SLM,3B,UC8_069,Manufacturing,medium,42,5,4,5,5,4.75,93.8,9082,"The summary accurately reports all key financial figures and provides some analysis on the drivers of the company's performance, including the impact of steel input costs and price realization on gros"
+Llama-3.2-3B,SLM,3B,UC8_075,Manufacturing,hard,42,5,4,5,4,4.50,87.5,9873,"The summary accurately reports all key financial figures and provides some analysis of trends and drivers, but could delve deeper into implications and cyclical vs structural growth context."
+Llama-3.2-3B,SLM,3B,UC8_076,Manufacturing,hard,42,5,3,5,3,4.00,75.0,8490,"The summary accurately reports key financial figures, but lacks depth in analysis, particularly regarding the cross-subsidy dynamic between EV and ICE segments, and does not fully address all gold che"
+Llama-3.2-3B,SLM,3B,UC8_081,Financial,easy,42,5,4,5,5,4.75,93.8,10082,"The summary accurately cites key financial figures and provides some analysis beyond restating numbers, demonstrating a polished and professional tone while covering all gold-checklist criteria."
+Llama-3.2-3B,SLM,3B,UC8_082,Financial,easy,42,5,5,5,5,5.00,100.0,8913,"The summary accurately cites all key figures, provides in-depth analysis of the company's performance, maintains a professional tone, and covers all gold-checklist criteria."
+Llama-3.2-3B,SLM,3B,UC8_088,Financial,medium,42,4,3,5,3,3.75,68.8,10457,"The summary accurately reports most key figures, but omits some context such as NIM compression and provision doubling. It provides some analysis, but mostly restates numbers. The tone is polished and"
+Llama-3.2-3B,SLM,3B,UC8_089,Financial,medium,42,5,4,5,4,4.50,87.5,8660,"The summary accurately reports key financial figures and provides some analysis of trends and drivers, but misses explicit mentions of DCM revenue growth and ROTE percentage in the context of return o"
+Llama-3.2-3B,SLM,3B,UC8_095,Financial,hard,42,5,4,5,4,4.50,87.5,9492,"The summary accurately reports key financial figures and provides some analysis, but misses addressing the NPL and Stage 3 loan ratios, as well as the ROTE target and its implications, to achieve full"
+Llama-3.2-3B,SLM,3B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,8107,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_001,Technology,easy,42,3,3,3,3,3.00,50.0,14068,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_002,Technology,easy,42,3,3,3,3,3.00,50.0,15231,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_008,Technology,medium,42,3,3,3,3,3.00,50.0,12976,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_009,Technology,medium,42,3,3,3,3,3.00,50.0,11691,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_015,Technology,hard,42,3,3,3,3,3.00,50.0,14851,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_016,Technology,hard,42,3,3,3,3,3.00,50.0,18234,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_021,Retail,easy,42,5,5,5,5,5.00,100.0,12713,"The summary accurately cites all key figures with appropriate context, provides in-depth analysis of trends and drivers, maintains a polished and professional tone, and addresses all gold-checklist cr"
+Phi4-Mini,SLM,3.8B,UC8_022,Retail,easy,42,3,3,3,3,3.00,50.0,12789,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_028,Retail,medium,42,3,3,3,3,3.00,50.0,11210,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_029,Retail,medium,42,3,3,3,3,3.00,50.0,11779,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_035,Retail,hard,42,3,3,3,3,3.00,50.0,15647,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,12796,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_041,Healthcare,easy,42,3,3,3,3,3.00,50.0,13319,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,13314,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_048,Healthcare,medium,42,3,3,3,3,3.00,50.0,14092,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,12425,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_055,Healthcare,hard,42,3,3,3,3,3.00,50.0,13800,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,15395,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_061,Manufacturing,easy,42,3,3,3,3,3.00,50.0,10841,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,11195,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_068,Manufacturing,medium,42,3,3,3,3,3.00,50.0,13069,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_069,Manufacturing,medium,42,3,3,3,3,3.00,50.0,13508,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_075,Manufacturing,hard,42,3,3,3,3,3.00,50.0,12659,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_076,Manufacturing,hard,42,3,3,3,3,3.00,50.0,15814,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_081,Financial,easy,42,3,3,3,3,3.00,50.0,16244,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_082,Financial,easy,42,3,3,3,3,3.00,50.0,13122,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_088,Financial,medium,42,3,3,3,3,3.00,50.0,17998,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_089,Financial,medium,42,3,3,3,3,3.00,50.0,12795,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_095,Financial,hard,42,3,3,3,3,3.00,50.0,17117,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Phi4-Mini,SLM,3.8B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,315537,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_001,Technology,easy,42,3,3,3,3,3.00,50.0,11204,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_002,Technology,easy,42,3,3,3,3,3.00,50.0,9078,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_008,Technology,medium,42,3,3,3,3,3.00,50.0,9248,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_009,Technology,medium,42,3,3,3,3,3.00,50.0,8732,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_015,Technology,hard,42,3,3,3,3,3.00,50.0,10155,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_016,Technology,hard,42,3,3,3,3,3.00,50.0,9251,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_021,Retail,easy,42,3,3,3,3,3.00,50.0,7804,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_022,Retail,easy,42,3,3,3,3,3.00,50.0,7721,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_028,Retail,medium,42,3,3,3,3,3.00,50.0,8416,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_029,Retail,medium,42,3,3,3,3,3.00,50.0,8520,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_035,Retail,hard,42,5,4,5,5,4.75,93.8,9705,"The summary accurately reports all key financial figures and provides some analysis of the trends and drivers behind the numbers, while maintaining a professional tone throughout and covering all gold"
+Gemma3-4B,SLM,4B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,9004,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_041,Healthcare,easy,42,3,3,3,3,3.00,50.0,8100,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,8705,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_048,Healthcare,medium,42,3,3,3,3,3.00,50.0,8093,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,7889,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_055,Healthcare,hard,42,3,3,3,3,3.00,50.0,10568,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,9327,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_061,Manufacturing,easy,42,3,3,3,3,3.00,50.0,8073,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,7619,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_068,Manufacturing,medium,42,3,3,3,3,3.00,50.0,8538,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_069,Manufacturing,medium,42,3,3,3,3,3.00,50.0,7827,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_075,Manufacturing,hard,42,3,3,3,3,3.00,50.0,10299,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_076,Manufacturing,hard,42,3,3,3,3,3.00,50.0,10065,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_081,Financial,easy,42,3,3,3,3,3.00,50.0,9390,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_082,Financial,easy,42,3,3,3,3,3.00,50.0,9037,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_088,Financial,medium,42,3,3,3,3,3.00,50.0,10205,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_089,Financial,medium,42,3,3,3,3,3.00,50.0,8994,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_095,Financial,hard,42,3,3,3,3,3.00,50.0,10791,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Gemma3-4B,SLM,4B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,10216,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_001,Technology,easy,42,3,3,3,3,3.00,50.0,14749,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_002,Technology,easy,42,3,3,3,3,3.00,50.0,12318,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_008,Technology,medium,42,3,3,3,3,3.00,50.0,14427,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_009,Technology,medium,42,3,3,3,3,3.00,50.0,15386,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_015,Technology,hard,42,3,3,3,3,3.00,50.0,16088,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_016,Technology,hard,42,3,3,3,3,3.00,50.0,15071,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_021,Retail,easy,42,3,3,3,3,3.00,50.0,13612,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_022,Retail,easy,42,5,5,5,5,5.00,100.0,11437,"The summary accurately cites all key figures with appropriate context, provides in-depth analysis of the company's performance, maintains a professional tone throughout, and addresses all gold-checkli"
+Qwen2.5-7B,SLM,7B,UC8_028,Retail,medium,42,3,3,3,3,3.00,50.0,11939,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_029,Retail,medium,42,3,3,3,3,3.00,50.0,11933,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_035,Retail,hard,42,3,3,3,3,3.00,50.0,13318,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,13512,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_041,Healthcare,easy,42,3,3,3,3,3.00,50.0,12965,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,13126,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_048,Healthcare,medium,42,3,3,3,3,3.00,50.0,13830,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,12417,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_055,Healthcare,hard,42,3,3,3,3,3.00,50.0,16116,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,13855,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_061,Manufacturing,easy,42,3,3,3,3,3.00,50.0,12669,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,11796,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_068,Manufacturing,medium,42,3,3,3,3,3.00,50.0,13352,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_069,Manufacturing,medium,42,3,3,3,3,3.00,50.0,12856,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_075,Manufacturing,hard,42,3,3,3,3,3.00,50.0,15040,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_076,Manufacturing,hard,42,3,3,3,3,3.00,50.0,15296,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_081,Financial,easy,42,3,3,3,3,3.00,50.0,15168,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_082,Financial,easy,42,3,3,3,3,3.00,50.0,12401,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_088,Financial,medium,42,3,3,3,3,3.00,50.0,12708,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_089,Financial,medium,42,3,3,3,3,3.00,50.0,12953,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_095,Financial,hard,42,3,3,3,3,3.00,50.0,16332,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Qwen2.5-7B,SLM,7B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,14925,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_001,Technology,easy,42,3,3,3,3,3.00,50.0,19376,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_002,Technology,easy,42,3,3,3,3,3.00,50.0,13406,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_008,Technology,medium,42,3,3,3,3,3.00,50.0,18256,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_009,Technology,medium,42,3,3,3,3,3.00,50.0,17843,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_015,Technology,hard,42,3,3,3,3,3.00,50.0,18436,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_016,Technology,hard,42,3,3,3,3,3.00,50.0,18330,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_021,Retail,easy,42,3,3,3,3,3.00,50.0,15437,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_022,Retail,easy,42,3,3,3,3,3.00,50.0,14741,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_028,Retail,medium,42,3,3,3,3,3.00,50.0,17973,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_029,Retail,medium,42,3,3,3,3,3.00,50.0,17292,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_035,Retail,hard,42,3,3,3,3,3.00,50.0,16510,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,16947,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_041,Healthcare,easy,42,3,3,3,3,3.00,50.0,13280,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,17548,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_048,Healthcare,medium,42,3,3,3,3,3.00,50.0,17616,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,18106,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_055,Healthcare,hard,42,3,3,3,3,3.00,50.0,20275,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,16314,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_061,Manufacturing,easy,42,3,3,3,3,3.00,50.0,16774,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,14852,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_068,Manufacturing,medium,42,3,3,3,3,3.00,50.0,17348,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_069,Manufacturing,medium,42,3,3,3,3,3.00,50.0,15078,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_075,Manufacturing,hard,42,3,3,3,3,3.00,50.0,16163,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_076,Manufacturing,hard,42,3,3,3,3,3.00,50.0,13649,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_081,Financial,easy,42,3,3,3,3,3.00,50.0,20381,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_082,Financial,easy,42,3,3,3,3,3.00,50.0,13688,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_088,Financial,medium,42,3,3,3,3,3.00,50.0,18414,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_089,Financial,medium,42,3,3,3,3,3.00,50.0,15758,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_095,Financial,hard,42,3,3,3,3,3.00,50.0,20919,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Mistral-7B,SLM,7B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,18670,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_001,Technology,easy,42,3,3,3,3,3.00,50.0,22178,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_002,Technology,easy,42,3,3,3,3,3.00,50.0,19186,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_008,Technology,medium,42,3,3,3,3,3.00,50.0,21939,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_009,Technology,medium,42,3,3,3,3,3.00,50.0,21621,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_015,Technology,hard,42,3,3,3,3,3.00,50.0,19398,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_016,Technology,hard,42,3,3,3,3,3.00,50.0,21305,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_021,Retail,easy,42,3,3,3,3,3.00,50.0,17911,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_022,Retail,easy,42,3,3,3,3,3.00,50.0,16074,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_028,Retail,medium,42,3,3,3,3,3.00,50.0,19983,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_029,Retail,medium,42,3,3,3,3,3.00,50.0,17914,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_035,Retail,hard,42,3,3,3,3,3.00,50.0,19166,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_036,Retail,hard,42,3,3,3,3,3.00,50.0,21243,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_041,Healthcare,easy,42,3,3,3,3,3.00,50.0,18116,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_042,Healthcare,easy,42,3,3,3,3,3.00,50.0,18862,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_048,Healthcare,medium,42,3,3,3,3,3.00,50.0,209832,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_049,Healthcare,medium,42,3,3,3,3,3.00,50.0,18101,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_055,Healthcare,hard,42,3,3,3,3,3.00,50.0,21172,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_056,Healthcare,hard,42,3,3,3,3,3.00,50.0,21889,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_061,Manufacturing,easy,42,3,3,3,3,3.00,50.0,19864,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_062,Manufacturing,easy,42,3,3,3,3,3.00,50.0,19607,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_068,Manufacturing,medium,42,3,3,3,3,3.00,50.0,23321,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_069,Manufacturing,medium,42,3,3,3,3,3.00,50.0,18669,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_075,Manufacturing,hard,42,3,3,3,3,3.00,50.0,23072,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_076,Manufacturing,hard,42,3,3,3,3,3.00,50.0,21086,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_081,Financial,easy,42,3,3,3,3,3.00,50.0,20392,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_082,Financial,easy,42,3,3,3,3,3.00,50.0,19484,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_088,Financial,medium,42,3,3,3,3,3.00,50.0,20479,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_089,Financial,medium,42,3,3,3,3,3.00,50.0,20312,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_095,Financial,hard,42,3,3,3,3,3.00,50.0,25830,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+Llama-3.1-8B,SLM,8B,UC8_096,Financial,hard,42,3,3,3,3,3.00,50.0,22738,JUDGE_ERROR: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions

@@ -1,0 +1,77 @@
+{
+  "slm_group": [
+    {
+      "name": "Llama-3.1-8B",
+      "model_id": "llama-3.1-8b-instant",
+      "provider": "groq",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_env": "GROQ_API_KEY",
+      "tier": "SLM",
+      "params_billions": 8,
+      "daily_limit": 14400
+    },
+    {
+      "name": "Gemma-3-27B",
+      "model_id": "google/gemma-3-27b-it:free",
+      "provider": "openrouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "tier": "SLM",
+      "params_billions": 27,
+      "daily_limit": 200
+    },
+    {
+      "name": "Mistral-Small-3.1-24B",
+      "model_id": "mistralai/mistral-small-3.1-24b-instruct:free",
+      "provider": "openrouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "tier": "SLM",
+      "params_billions": 24,
+      "daily_limit": 200
+    },
+    {
+      "name": "Qwen3-4B",
+      "model_id": "qwen/qwen3-4b:free",
+      "provider": "openrouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "tier": "SLM",
+      "params_billions": 4,
+      "daily_limit": 200
+    }
+  ],
+  "llm_group": [
+    {
+      "name": "Llama-3.3-70B",
+      "model_id": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_env": "GROQ_API_KEY",
+      "tier": "LLM",
+      "params_billions": 70,
+      "daily_limit": 14400
+    },
+    {
+      "name": "Llama-3.3-70B-OR",
+      "model_id": "meta-llama/llama-3.3-70b-instruct:free",
+      "provider": "openrouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "tier": "LLM",
+      "params_billions": 70,
+      "daily_limit": 200
+    },
+    {
+      "name": "Gemini-2.0-Flash",
+      "model_id": "gemini-2.0-flash",
+      "provider": "google",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "api_key_env": "GOOGLE_API_KEY",
+      "tier": "LLM-VALIDATE",
+      "params_billions": null,
+      "daily_limit": 20,
+      "note": "VALIDATION ONLY — 20 req/day limit"
+    }
+  ]
+}

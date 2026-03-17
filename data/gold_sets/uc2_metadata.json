@@ -1,0 +1,65 @@
+{
+  "use_case": "UC2 \u2014 Invoice Field Extraction",
+  "locked_date": "2026-03-10",
+  "s3_score_preregistered": 2.75,
+  "s3_score_corrected_denominator": 2.56,
+  "s3_prediction": "Pure SLM",
+  "s3_threshold_pure_slm": 3.2,
+  "dimensions": {
+    "TC_task_complexity": {
+      "score": 1,
+      "weight": 1.0,
+      "note": "Structured extraction, no reasoning"
+    },
+    "OS_output_structure": {
+      "score": 4,
+      "weight": 0.8,
+      "note": "Strict JSON schema with 6 fields"
+    },
+    "SK_stakes": {
+      "score": 2,
+      "weight": 1.2,
+      "note": "Financial error \u2014 correctable, auditable"
+    },
+    "DS_data_sensitivity": {
+      "score": 4,
+      "weight": 0.8,
+      "note": "Financial documents, on-prem preferred"
+    },
+    "LT_latency": {
+      "score": 1,
+      "weight": 1.0,
+      "note": "Batch processing, no real-time SLA"
+    },
+    "VL_volume": {
+      "score": 5,
+      "weight": 0.6,
+      "note": "High volume AP/AR workflows"
+    }
+  },
+  "hypotheses": {
+    "H2.1": "Best SLM achieves \u226590% of LLM field-level accuracy",
+    "H2.2": "Best SLM P95 latency < 4000ms (JSON output is longer than single-label)",
+    "H2.3": "UC2 graduates to Pure SLM \u2014 SLMs achieve \u226595% LLM parity on structured extraction",
+    "H2.4": "line_item_count and tax_amount are the hardest fields (most model errors)"
+  },
+  "comparison_baseline": "No direct recent paper comparison. Zhang et al. 2024 (ICML) shows SLMs near-parity with LLMs on structured extraction. This benchmark provides the first controlled measurement on invoice-domain field extraction.",
+  "build_date": "2026-03-10T11:26:18.054199",
+  "total_items": 100,
+  "train_items": 70,
+  "test_items": 30,
+  "category_distribution": {
+    "tech_services": 25,
+    "office_supplies": 23,
+    "professional_services": 17,
+    "utilities": 18,
+    "software_saas": 17
+  },
+  "difficulty_distribution": {
+    "easy": 37,
+    "medium": 42,
+    "hard": 21
+  },
+  "null_date_count": 6,
+  "null_tax_count": 15
+}

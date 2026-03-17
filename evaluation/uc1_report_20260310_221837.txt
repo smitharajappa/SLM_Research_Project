@@ -1,0 +1,107 @@
+======================================================================
+  UC1 EVALUATION REPORT — SMS Threat Detection
+  Generated: 2026-03-10 22:18:37
+  Pre-registration date: 2026-03-02  |  Version: 1.0
+======================================================================
+
+  TABLE 1 — Per-Model Classification Metrics
+  ------------------------------------------------------------------
+  Model                Tier     Acc   Prec    Rec     F1  Halluc    P50     P95
+  ------------------------------------------------------------------
+  Mistral-7B           SLM    90.0%  87.5% 100.0%  93.3%    0.0%   155ms    418ms
+  Llama-3.3-70B        LLM    90.0% 100.0%  85.7%  92.3%    0.0%   319ms   2428ms ← LLM baseline
+  Phi4-Mini            SLM    80.0% 100.0%  71.4%  83.3%    0.0%   222ms    899ms
+  Gemma3-4B            SLM    76.7% 100.0%  66.7%  80.0%    0.0%   311ms    565ms
+  Llama-3.1-8B         SLM    66.7% 100.0%  52.4%  68.8%    0.0%   331ms   2413ms
+  Qwen2.5-7B           SLM    60.0% 100.0%  42.9%  60.0%    0.0%   221ms    525ms
+  Llama-3.2-3B         SLM    56.7% 100.0%  38.1%  55.2%    0.0%   210ms    978ms
+  ------------------------------------------------------------------
+
+  TABLE 2 — Confusion Matrices
+  --------------------------------------------------
+  Model                   TP    FP    TN    FN
+  --------------------------------------------------
+  Llama-3.2-3B            24     0    27    39
+  Phi4-Mini               45     0    27    18
+  Gemma3-4B               42     0    27    21
+  Qwen2.5-7B              27     0    27    36
+  Mistral-7B              63     9    18     0
+  Llama-3.1-8B            33     0    27    30
+  Llama-3.3-70B           54     0    27     9
+
+  TABLE 3 — Accuracy by Difficulty Level
+  --------------------------------------------------
+  Model                   Easy   Medium    Hard
+  --------------------------------------------------
+  Llama-3.2-3B           80.0%    69.2%   33.3%
+  Phi4-Mini              80.0%    84.6%   75.0%
+  Gemma3-4B              80.0%    84.6%   66.7%
+  Qwen2.5-7B             80.0%    84.6%   25.0%
+  Mistral-7B             60.0%    92.3%  100.0%
+  Llama-3.1-8B           80.0%    84.6%   41.7%
+  Llama-3.3-70B          80.0%   100.0%   83.3%
+
+  TABLE 4 — Accuracy by Threat Category (Best SLM vs LLM)
+  ------------------------------------------------------------
+  Category                    Mistral-7B (SLM) Llama-3.3-70B (LLM)
+  ------------------------------------------------------------
+  Phishing                               0.0%              0.0% ✅
+  Financial Fraud                        0.0%              0.0% ✅
+  Account Takeover                     100.0%            100.0% ✅
+  Malware Links                        100.0%             70.0% ✅
+  Social Engineering                   100.0%            100.0% ✅
+  Legitimate Bank                        0.0%              0.0% ✅
+  Personal Messages                      0.0%              0.0% ✅
+  Legitimate Promo                      66.7%            100.0% (-33%)
+
+  S³ HYPOTHESIS VALIDATION
+  ------------------------------------------------------------
+  Llama-3.2-3B         F1= 55.2%  vs LLM 92.31%  (60%)  ❌ Below threshold
+  Phi4-Mini            F1= 83.3%  vs LLM 92.31%  (90%)  ⭐ Strong SLM (≥90% F1 parity)
+  Gemma3-4B            F1= 80.0%  vs LLM 92.31%  (87%)  ⚠️  Partial (≥80% F1 parity)
+  Qwen2.5-7B           F1= 60.0%  vs LLM 92.31%  (65%)  ❌ Below threshold
+  Mistral-7B           F1= 93.3%  vs LLM 92.31%  (101%)  ✅ PURE SLM CANDIDATE (≥95% F1 parity)
+  Llama-3.1-8B         F1= 68.8%  vs LLM 92.31%  (74%)  ❌ Below threshold
+
+  COMPARISON WITH ELZEMITY ET AL. 2026
+  (Agentic Knowledge Distillation — University of Kent)
+  ------------------------------------------------------------
+  Method                                     Acc     Rec      F1
+  ------------------------------------------------------------
+  ElZemity: Zero-shot Qwen2.5-0.5B         49.8%    0.3%    0.5%
+  ElZemity: Best fine-tuned (Claude+Qwen)   94.3%   96.3%   94.4%
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  Mistral-7B (zero-shot, this study)       90.0%  100.0%   93.3%
+  Llama-3.3-70B (zero-shot, this study)    90.0%   85.7%   92.3%
+  Phi4-Mini (zero-shot, this study)        80.0%   71.4%   83.3%
+  Gemma3-4B (zero-shot, this study)        76.7%   66.7%   80.0%
+  Llama-3.1-8B (zero-shot, this study)     66.7%   52.4%   68.8%
+  Qwen2.5-7B (zero-shot, this study)       60.0%   42.9%   60.0%
+  Llama-3.2-3B (zero-shot, this study)     56.7%   38.1%   55.2%
+
+  Key insight: Best zero-shot SLM (this study) achieves comparable
+  performance to ElZemity fine-tuned models, with zero training cost.
+
+  LATENCY ANALYSIS — Production Viability
+  SLA target for real-time SMS threat detection: P95 < 2000ms
+  --------------------------------------------------
+  Llama-3.2-3B         P50:  210ms  P95:   978ms  ✅ MEETS SLA
+  Phi4-Mini            P50:  222ms  P95:   899ms  ✅ MEETS SLA
+  Gemma3-4B            P50:  311ms  P95:   565ms  ✅ MEETS SLA
+  Qwen2.5-7B           P50:  221ms  P95:   525ms  ✅ MEETS SLA
+  Mistral-7B           P50:  155ms  P95:   418ms  ✅ MEETS SLA
+  Llama-3.1-8B         P50:  331ms  P95:  2413ms  ⚠️  EXCEEDS SLA
+  Llama-3.3-70B        P50:  319ms  P95:  2428ms  ⚠️  EXCEEDS SLA
+
+  PRE-REGISTERED HYPOTHESIS OUTCOMES
+  ------------------------------------------------------------
+  H1.1 (SLM >= 90% of LLM accuracy): SUPPORTED
+        Best SLM accuracy: 90.0%  LLM: 90.0%  Ratio: 100%
+  H1.2 (SLM P95 < 2000ms): SUPPORTED
+        Best SLM P95: 418ms
+  H1.4 (UC1 stays Hybrid due to Stakes=4): SUPPORTED
+        Security domain requires LLM fallback for edge cases
+
+======================================================================
+  END OF UC1 EVALUATION REPORT
+======================================================================

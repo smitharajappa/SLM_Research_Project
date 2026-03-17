@@ -1,0 +1,87 @@
+{
+  "use_case": "UC3",
+  "name": "Support Ticket Routing",
+  "pre_registration_date": "2026-03-02",
+  "version": "1.0",
+  "s3_score": 2.67,
+  "s3_prediction": "Pure SLM",
+  "s3_dimensions": {
+    "Task_Complexity": {
+      "score": 2,
+      "weight": 1.0,
+      "rationale": "Simple intent classification, well-defined categories"
+    },
+    "Output_Structure": {
+      "score": 3,
+      "weight": 0.8,
+      "rationale": "Single label from 6 fixed routing categories"
+    },
+    "Stakes": {
+      "score": 2,
+      "weight": 1.2,
+      "rationale": "Misrouting causes delay, easily correctable, no irreversible harm"
+    },
+    "Data_Sensitivity": {
+      "score": 2,
+      "weight": 0.8,
+      "rationale": "Standard customer data, no financial/health records"
+    },
+    "Latency_Requirement": {
+      "score": 3,
+      "weight": 1.0,
+      "rationale": "Near-real-time preferred, not millisecond-critical"
+    },
+    "Volume": {
+      "score": 5,
+      "weight": 0.6,
+      "rationale": "Enterprise: thousands of support tickets daily"
+    }
+  },
+  "s3_formula": {
+    "weighted_sum": 14.4,
+    "denominator": 27.0,
+    "formula": "S3 = weighted_sum / 27.0 * 5",
+    "result": 2.67
+  },
+  "total_items": 100,
+  "label_distribution": {
+    "BILLING": 17,
+    "TECHNICAL": 17,
+    "ACCOUNT": 17,
+    "SHIPPING": 17,
+    "RETURNS": 16,
+    "GENERAL": 16
+  },
+  "routing_categories": [
+    "BILLING",
+    "TECHNICAL",
+    "ACCOUNT",
+    "SHIPPING",
+    "RETURNS",
+    "GENERAL"
+  ],
+  "difficulty_distribution": {
+    "easy": 47,
+    "medium": 45,
+    "hard": 8
+  },
+  "split": {
+    "train": 70,
+    "test": 30
+  },
+  "split_method": "last_5_per_category_as_test",
+  "evaluation_metrics": [
+    "Accuracy",
+    "Macro F1",
+    "Per-class F1 (all 6 categories)",
+    "6x6 Confusion Matrix",
+    "Hallucination Rate",
+    "Latency P50/P95"
+  ],
+  "pre_registered_hypotheses": [
+    "H3.1: Best SLM achieves >= 90% of LLM accuracy on UC3",
+    "H3.2: Best SLM P95 latency < 2000ms",
+    "H3.3: UC3 graduates to Pure SLM (S3=2.67, Stakes=2)",
+    "H3.4: GENERAL category will have lowest per-class F1 (most semantically ambiguous)"
+  ]
+}

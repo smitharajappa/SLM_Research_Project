@@ -1,0 +1,22 @@
+{
+  "locked_date": "2026-03-02",
+  "version": "1.0",
+  "parameters": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "seeds": [42, 43, 44],
+    "runs_per_item": 3
+  },
+  "max_tokens_by_category": {
+    "C1": 128,
+    "C2": 512,
+    "C3": 1024
+  },
+  "rate_limit_delay_seconds": {
+    "groq": 1.5,
+    "openrouter": 2.0,
+    "google": 3.0
+  },
+  "retry_attempts": 3,
+  "retry_delay_seconds": 5
+}

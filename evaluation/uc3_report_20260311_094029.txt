@@ -1,0 +1,140 @@
+========================================================================
+  UC3 EVALUATION REPORT — Support Ticket Routing
+  Generated : 2026-03-11 09:40:29
+  Pre-reg   : 2026-03-02  |  S³ Score: 2.67  |  Prediction: Pure SLM
+========================================================================
+
+  TABLE 1 — Overall Classification Metrics
+  --------------------------------------------------------------------
+  Model                Tier     Acc  MacroF1  Halluc    P50     P95
+  --------------------------------------------------------------------
+  Llama-3.1-8B         SLM    86.7%    86.8%    0.0%   371ms   1411ms
+  Qwen2.5-7B           SLM    86.7%    86.1%    0.0%   225ms    431ms
+  Gemma3-4B            SLM    86.7%    85.4%    0.0%   290ms    521ms
+  Llama-3.2-3B         SLM    86.7%    85.2%    0.0%   195ms    684ms
+  Mistral-7B           SLM    83.3%    83.6%    0.0%   177ms    459ms
+  Llama-3.3-70B        LLM    83.3%    83.4%    0.0%   324ms   2432ms ← LLM baseline
+  Phi4-Mini            SLM    73.3%    73.1%    0.0%   252ms    823ms
+  --------------------------------------------------------------------
+
+  TABLE 2 — Per-Class F1 Score
+  ------------------------------------------------------------------------
+  Model                  BILL   TECH   ACCT   SHIP    RET    GEN  Lowest class
+  ------------------------------------------------------------------------
+  Llama-3.1-8B          88.9%  76.9% 100.0%  88.9%  90.9%  75.0%  GENERAL
+  Qwen2.5-7B            83.3%  83.3% 100.0% 100.0%  75.0%  75.0%  RETURNS
+  Gemma3-4B             88.9% 100.0% 100.0%  57.1%  83.3%  83.3%  SHIPPING
+  Llama-3.2-3B         100.0% 100.0%  90.9%  57.1%  83.3%  80.0%  SHIPPING
+  Mistral-7B            80.0%  76.9%  88.9% 100.0%  88.9%  66.7%  GENERAL
+  Llama-3.3-70B         90.9%  76.9%  88.9%  88.9%  80.0%  75.0%  GENERAL
+  Phi4-Mini             57.1%  57.1%  90.9%  75.0%  83.3%  75.0%  BILLING
+  ------------------------------------------------------------------------
+
+  TABLE 3 — 6×6 Confusion Matrices (all runs combined)
+
+  Llama-3.1-8B (SLM · 8B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL             12      3      0      0      0      0
+  TECH              0     15      0      0      0      0
+  ACCT              0      0     15      0      0      0
+  SHIP              0      0      0     12      3      0
+  RET               0      0      0      0     15      0
+  GEN               0      6      0      0      0      9
+
+  Qwen2.5-7B (SLM · 7B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL             15      0      0      0      0      0
+  TECH              0     15      0      0      0      0
+  ACCT              0      0     15      0      0      0
+  SHIP              0      0      0     15      0      0
+  RET               6      0      0      0      9      0
+  GEN               0      6      0      0      0      9
+
+  Gemma3-4B (SLM · 4B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL             12      0      0      0      0      3
+  TECH              0     15      0      0      0      0
+  ACCT              0      0     15      0      0      0
+  SHIP              0      0      0      6      6      3
+  RET               0      0      0      0     15      0
+  GEN               0      0      0      0      0     15
+
+  Llama-3.2-3B (SLM · 3B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL             15      0      0      0      0      0
+  TECH              0     15      0      0      0      0
+  ACCT              0      0     15      0      0      0
+  SHIP              0      0      0      6      6      3
+  RET               0      0      0      0     15      0
+  GEN               0      0      3      0      0     12
+
+  Mistral-7B (SLM · 7B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL             12      0      0      0      0      3
+  TECH              0     15      0      0      0      0
+  ACCT              0      3     12      0      0      0
+  SHIP              0      0      0     15      0      0
+  RET               3      0      0      0     12      0
+  GEN               0      6      0      0      0      9
+
+  Llama-3.3-70B (LLM · 70B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL             15      0      0      0      0      0
+  TECH              0     15      0      0      0      0
+  ACCT              0      3     12      0      0      0
+  SHIP              0      0      0     12      3      0
+  RET               3      0      0      0     12      0
+  GEN               0      6      0      0      0      9
+
+  Phi4-Mini (SLM · 3.8B):
+                 BILL   TECH   ACCT   SHIP   RET    GEN 
+  BILL              6      9      0      0      0      0
+  TECH              0     12      3      0      0      0
+  ACCT              0      0     15      0      0      0
+  SHIP              0      0      0      9      6      0
+  RET               0      0      0      0     15      0
+  GEN               0      6      0      0      0      9
+
+  TABLE 4 — Cross Use-Case Comparison: UC1 → UC4 → UC3
+  S³: UC1=3.10 (Hybrid)  UC4=2.10 (Pure SLM)  UC3=2.67 (Pure SLM)
+  ------------------------------------------------------------------------
+  Model                 UC1 Acc  UC4 Acc  UC3 Acc   Δ UC1→3   UC1 F1   UC3 F1
+  ------------------------------------------------------------------------
+  Llama-3.1-8B            66.7%    93.3%    86.7%    +20.0pp    68.8%    86.8%
+  Qwen2.5-7B              60.0%    90.0%    86.7%    +26.7pp    60.0%    86.1%
+  Gemma3-4B               76.7%    90.0%    86.7%    +10.0pp    80.0%    85.4%
+  Llama-3.2-3B            56.7%    93.3%    86.7%    +30.0pp    55.2%    85.2%
+  Mistral-7B              90.0%    95.5%    83.3%     -6.7pp    93.3%    83.6%
+  Llama-3.3-70B           90.0%    96.7%    83.3%     -6.7pp    92.3%    83.4%
+  Phi4-Mini               80.0%    86.7%    73.3%     -6.7pp    83.3%    73.1%
+  ------------------------------------------------------------------------
+
+  GENERAL CLASS ANALYSIS (H3.4 — expected lowest F1)
+  --------------------------------------------------------------------
+  Llama-3.1-8B         GENERAL F1:  75.0%   Avg other classes:  89.1%   Gap: +14.1pp
+  Qwen2.5-7B           GENERAL F1:  75.0%   Avg other classes:  88.3%   Gap: +13.3pp
+  Gemma3-4B            GENERAL F1:  83.3%   Avg other classes:  85.9%   Gap:  +2.6pp
+  Llama-3.2-3B         GENERAL F1:  80.0%   Avg other classes:  86.3%   Gap:  +6.3pp
+  Mistral-7B           GENERAL F1:  66.7%   Avg other classes:  86.9%   Gap: +20.2pp
+  Llama-3.3-70B        GENERAL F1:  75.0%   Avg other classes:  85.1%   Gap: +10.1pp
+  Phi4-Mini            GENERAL F1:  75.0%   Avg other classes:  72.7%   Gap:  -2.3pp
+
+  Higher gap = GENERAL harder than other classes for that model
+
+  PRE-REGISTERED HYPOTHESIS OUTCOMES
+  --------------------------------------------------------------------
+  H3.1 (Best SLM >= 90% LLM accuracy) : SUPPORTED
+        Best SLM: 86.7%  LLM: 83.3%  Ratio: 104%
+
+  H3.2 (Best SLM P95 < 2000ms)         : SUPPORTED
+        Best SLM P95: 431ms
+
+  H3.3 (UC3 graduates to Pure SLM)      : SUPPORTED
+        Best SLM 86.7% >= 95% of LLM 83.3%
+
+  H3.4 (GENERAL class lowest F1)        : SUPPORTED
+        3 of 6 SLMs show GENERAL as hardest class
+
+========================================================================
+  END OF UC3 EVALUATION REPORT
+========================================================================
