@@ -1,0 +1,470 @@
+id,text,label,category,subcategory,difficulty,source,notes,split
+UC5_001,"def get_user(name):
+    query = ""SELECT * FROM users WHERE name = '"" + name + ""'""
+    return db.execute(query)",SECURITY,SEC_Injection,SQL Injection,easy,synthetic,Classic SQL injection via string concatenation — Python,train
+UC5_002,"app.get('/user', (req, res) => {
+    const q = `SELECT * FROM users WHERE id = ${req.query.id}`;
+    db.query(q, (err, rows) => res.json(rows));
+});",SECURITY,SEC_Injection,SQL Injection,easy,synthetic,SQL injection via template literal — Node.js,train
+UC5_003,"def ping_host(host):
+    import os
+    os.system('ping -c 1 ' + host)",SECURITY,SEC_Injection,Command Injection,easy,synthetic,OS command injection via os.system — Python,train
+UC5_004,"AWS_SECRET_KEY = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
+s3 = boto3.client('s3', aws_secret_access_key=AWS_SECRET_KEY)",SECURITY,SEC_Secrets,Hardcoded Secret,easy,synthetic,Hardcoded AWS secret key — Python,train
+UC5_005,"app.get('/search', (req, res) => {
+    res.send(`<h1>Results for: ${req.query.q}</h1>`);
+});",SECURITY,SEC_XSS,Reflected XSS,easy,synthetic,Reflected XSS — unsanitized query param rendered in HTML — Node.js,train
+UC5_006,"def calculate(expression):
+    return eval(expression)",SECURITY,SEC_Injection,Code Injection,easy,synthetic,Arbitrary code execution via eval on user input — Python,train
+UC5_007,"const jwt = require('jsonwebtoken');
+const token = jwt.sign(payload, 'my-super-secret-key-123');",SECURITY,SEC_Secrets,Hardcoded Secret,easy,synthetic,Hardcoded JWT signing secret — Node.js,train
+UC5_008,"def is_admin(request):
+    return request.cookies.get('is_admin') == 'true'",SECURITY,SEC_Auth,Auth Bypass,medium,synthetic,Auth bypass — trusting client-side cookie for admin check — Python,train
+UC5_009,"String query = ""SELECT * FROM orders WHERE status = '"" + status
+    + ""' AND user_id = "" + userId;
+Statement stmt = conn.createStatement();
+ResultSet rs = stmt.executeQuery(query);",SECURITY,SEC_Injection,SQL Injection,medium,synthetic,SQL injection via Statement instead of PreparedStatement — Java,train
+UC5_010,"function Comment({ text }) {
+    return <div dangerouslySetInnerHTML={{ __html: text }} />;
+}",SECURITY,SEC_XSS,Stored XSS,medium,synthetic,Stored XSS via dangerouslySetInnerHTML with user content — React,train
+UC5_011,"app.get('/file', (req, res) => {
+    const filepath = path.join('/uploads', req.query.name);
+    res.sendFile(filepath);
+});",SECURITY,SEC_Injection,Path Traversal,medium,synthetic,Path traversal — user controls filename without sanitization — Node.js,train
+UC5_012,"def verify_token(user_token, real_token):
+    return user_token == real_token",SECURITY,SEC_Auth,Insecure Comparison,medium,synthetic,Timing attack — should use hmac.compare_digest — Python,train
+UC5_013,"def fetch_url(url):
+    return requests.get(url).text
+
+@app.route('/proxy')
+def proxy():
+    return fetch_url(request.args['url'])",SECURITY,SEC_Injection,SSRF,medium,synthetic,SSRF — user-controlled URL with no validation — Flask,train
+UC5_014,"def get_db_connection():
+    return psycopg2.connect(
+        host='prod-db.internal', user='admin', password='Pr0d_p@ss!')",SECURITY,SEC_Secrets,Hardcoded Credential,medium,synthetic,Hardcoded database credentials with production host — Python,train
+UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req.body, { new: true })
+        .then(user => res.json(user));
+});",SECURITY,SEC_Auth,Mass Assignment,hard,synthetic,"Mass assignment — entire req.body passed to update, user could set role — Node.js",test
+UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in filters.items()]
+    query = 'SELECT * FROM products WHERE ' + ' AND '.join(where_clauses)
+    return db.execute(query)",SECURITY,SEC_Injection,SQL Injection,hard,synthetic,SQL injection via dynamic filter construction — both keys and values injectable — Python,test
+UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_id):
+    invoice = Invoice.query.get(invoice_id)
+    return jsonify(invoice.to_dict())",SECURITY,SEC_Auth,IDOR,hard,synthetic,IDOR — authenticated but no ownership check on invoice — Flask,test
+UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(data))",SECURITY,SEC_Injection,Deserialization,hard,synthetic,Insecure deserialization — pickle.loads on user-supplied data — Python,test
+UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.getElementById('greeting').innerHTML = 'Hello, ' + name;",SECURITY,SEC_XSS,DOM XSS,hard,synthetic,DOM-based XSS via innerHTML with URL parameter — JavaScript,test
+UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if (decoded.role === 'admin') grantAccess();",SECURITY,SEC_Auth,JWT None Algorithm,hard,synthetic,JWT 'none' algorithm allowed — attacker can forge unsigned tokens — Node.js,test
+UC5_021,"def get_last_n(items, n):
+    return items[len(items) - n - 1:]",LOGIC_ERROR,LOGIC_Boundary,Off By One,easy,synthetic,"Off-by-one — subtracts extra 1, returns n-1 items — Python",train
+UC5_022,"function getUserName(user) {
+    return user.profile.name;
+}",LOGIC_ERROR,LOGIC_Null,Null Dereference,easy,synthetic,No null check — crashes if user or profile is null — JavaScript,train
+UC5_023,"def is_valid_age(age):
+    return age > 0 or age < 150",LOGIC_ERROR,LOGIC_Condition,Wrong Operator,easy,synthetic,Should be 'and' not 'or' — condition is always True — Python,train
+UC5_024,"for (int i = 0; i <= arr.length; i++) {
+    System.out.println(arr[i]);
+}",LOGIC_ERROR,LOGIC_Boundary,Off By One,easy,synthetic,Off-by-one — <= causes ArrayIndexOutOfBoundsException — Java,train
+UC5_025,"def find_max(numbers):
+    max_val = 0
+    for n in numbers:
+        if n > max_val:
+            max_val = n
+    return max_val",LOGIC_ERROR,LOGIC_Condition,Wrong Condition,easy,synthetic,Fails for all-negative lists — initializes to 0 instead of float('-inf') — Python,train
+UC5_026,"let i = 10;
+while (i > 0) {
+    console.log(i);
+    i++;
+}",LOGIC_ERROR,LOGIC_Loop,Infinite Loop,easy,synthetic,Infinite loop — increments instead of decrements — JavaScript,train
+UC5_027,"const config = JSON.parse(fs.readFileSync('config.json'));
+console.log(config.database.host.trim());",LOGIC_ERROR,LOGIC_Null,Undefined Access,easy,synthetic,No check if database or host exists — TypeError on undefined — Node.js,train
+UC5_028,"def can_access(user):
+    if not user.is_active and user.is_verified:
+        return True
+    return False",LOGIC_ERROR,LOGIC_Condition,Boolean Logic,medium,synthetic,"Precedence bug — 'not' only applies to is_active, should be not (is_active and is_verified) or needs parens — Python",train
+UC5_029,"def average(scores):
+    return sum(scores) / len(scores)",LOGIC_ERROR,LOGIC_Boundary,Empty Collection,medium,synthetic,ZeroDivisionError when scores is empty — Python,train
+UC5_030,"function isEqual(a, b) {
+    return a == b;
+}
+console.log(isEqual('0', false));  // true",LOGIC_ERROR,LOGIC_Condition,Type Coercion,medium,synthetic,Type coercion bug — should use === for strict equality — JavaScript,train
+UC5_031,"Map<String, List<String>> groups = getGroups();
+int count = groups.get(key).size();",LOGIC_ERROR,LOGIC_Null,Optional Chaining Missing,medium,synthetic,NullPointerException if key not in map — Java,train
+UC5_032,"def remove_negatives(numbers):
+    for n in numbers:
+        if n < 0:
+            numbers.remove(n)
+    return numbers",LOGIC_ERROR,LOGIC_Loop,Mutation During Iteration,medium,synthetic,Modifying list during iteration — skips elements — Python,train
+UC5_033,"function validate(input) {
+    if (input.length > 0 || input !== null) {
+        return process(input);
+    }
+}",LOGIC_ERROR,LOGIC_Condition,Short Circuit,medium,synthetic,"Wrong order — checks length before null check, and should use && not || — JavaScript",train
+UC5_034,"def count_days_between(start, end):
+    delta = end - start
+    return delta.days + 1",LOGIC_ERROR,LOGIC_Boundary,Fence Post,medium,synthetic,Fence-post error — off by one depending on inclusive/exclusive semantics — Python,train
+UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+        from_acct.balance -= amount
+        to_acct.balance += amount",LOGIC_ERROR,LOGIC_Race,TOCTOU,hard,synthetic,TOCTOU race condition — no locking between check and update — Python,test
+UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,Mutable Default,hard,synthetic,Mutable default argument — list persists across calls — Python,test
+UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) => {
+        const val = await db.get(id);
+        await db.set(id, val + 1);
+        counter++;
+    });
+}",LOGIC_ERROR,LOGIC_Race,Race Condition,hard,synthetic,"Race condition — concurrent async ops in forEach, counter not atomic — Node.js",test
+UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i);
+    }, 100);
+}",LOGIC_ERROR,LOGIC_Condition,Closure Bug,hard,synthetic,Closure over var — prints 5 five times instead of 0-4 — JavaScript,test
+UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const data = await resp.json();
+    return data.results.map(r => r.name);
+}",LOGIC_ERROR,LOGIC_Null,Promise Rejection,hard,synthetic,"No check on resp.ok, no try/catch, crashes if results is null — JavaScript",test
+UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    if final == 29.99:
+        return 'Special offer!'
+    return f'${final:.2f}'",LOGIC_ERROR,LOGIC_Condition,Float Comparison,hard,synthetic,Floating point comparison — 29.990000000000002 != 29.99 — Python,test
+UC5_041,"def has_duplicates(items):
+    for i in range(len(items)):
+        for j in range(len(items)):
+            if i != j and items[i] == items[j]:
+                return True
+    return False",PERFORMANCE,PERF_Complexity,Quadratic,easy,synthetic,O(n^2) duplicate check — should use set — Python,train
+UC5_042,"def get_order_details(orders):
+    result = []
+    for order in orders:
+        items = OrderItem.objects.filter(order_id=order.id)
+        result.append({'order': order, 'items': list(items)})
+    return result",PERFORMANCE,PERF_Query,N+1 Query,easy,synthetic,N+1 query — should use select_related or prefetch_related — Django,train
+UC5_043,"def build_report(records):
+    output = ''
+    for r in records:
+        output += f'{r.name}: {r.value}\n'
+    return output",PERFORMANCE,PERF_Allocation,String Concatenation,easy,synthetic,String concatenation in loop — O(n^2) — should use join or list — Python,train
+UC5_044,"function findCommon(arr1, arr2) {
+    return arr1.filter(item => arr2.includes(item));
+}",PERFORMANCE,PERF_Complexity,Repeated Computation,easy,synthetic,O(n*m) — arr2.includes is linear; should convert arr2 to Set — JavaScript,train
+UC5_045,"def count_words(text):
+    words = list(text.split())
+    return len(words)",PERFORMANCE,PERF_Allocation,Unnecessary Copy,easy,synthetic,Unnecessary list() copy — split already returns a list — Python,train
+UC5_046,"def get_user_email(user_id):
+    user = User.objects.filter(id=user_id).first()
+    return user.email if user else None",PERFORMANCE,PERF_Query,Select All,easy,synthetic,Fetches all columns when only email is needed — should use .values_list or .only — Django,train
+UC5_047,"def count_by_category(items):
+    categories = set(i.category for i in items)
+    return {c: len([i for i in items if i.category == c]) for c in categories}",PERFORMANCE,PERF_Complexity,Repeated Lookup,easy,synthetic,O(n*k) — iterates full list per category; should use Counter or single pass — Python,train
+UC5_048,"app.get('/data', async (req, res) => {
+    const data = fs.readFileSync('/tmp/cache.json');
+    res.json(JSON.parse(data));
+});",PERFORMANCE,PERF_IO,Blocking IO,medium,synthetic,Blocking readFileSync in async Express handler — blocks event loop — Node.js,train
+UC5_049,"const users = await User.findAll();
+for (const user of users) {
+    user.posts = await Post.findAll({ where: { userId: user.id } });
+}",PERFORMANCE,PERF_Query,N+1 Query,medium,synthetic,N+1 query — should use eager loading with include — Sequelize/Node.js,train
+UC5_050,"def process_large_file(path):
+    data = open(path).read()
+    for line in data.split('\n'):
+        process(line)",PERFORMANCE,PERF_Allocation,Memory Waste,medium,synthetic,Reads entire file into memory — should iterate line by line — Python,train
+UC5_051,"def get_top_score(scores):
+    sorted_scores = sorted(scores, reverse=True)
+    return sorted_scores[0]",PERFORMANCE,PERF_Complexity,Unnecessary Sort,medium,synthetic,O(n log n) sort to find max — should use max() which is O(n) — Python,train
+UC5_052,"def find_recent_orders(email):
+    return Order.objects.filter(
+        customer_email=email,
+        created_at__gte=datetime.now() - timedelta(days=30)
+    ).order_by('-created_at')",PERFORMANCE,PERF_Query,Missing Index,medium,synthetic,Filter + sort on unindexed fields — full table scan on large table — Django,train
+UC5_053,"def extract_emails(texts):
+    results = []
+    for text in texts:
+        matches = re.findall(r'[\w.]+@[\w.]+', text)
+        results.extend(matches)
+    return results",PERFORMANCE,PERF_Allocation,Regex Recompile,medium,synthetic,Regex recompiled every iteration — should compile once outside loop — Python,train
+UC5_054,"async function loadDashboard(userId) {
+    const profile = await fetchProfile(userId);
+    const orders = await fetchOrders(userId);
+    const notifications = await fetchNotifications(userId);
+    return { profile, orders, notifications };
+}",PERFORMANCE,PERF_IO,Sequential Awaits,medium,synthetic,Sequential awaits — three independent requests should use Promise.all — JavaScript,train
+UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> result = new ArrayList<>();
+    for (String s : input) {
+        if (!result.contains(s)) result.add(s);
+    }
+    return result;
+}",PERFORMANCE,PERF_Complexity,Quadratic,hard,synthetic,O(n^2) — ArrayList.contains is O(n); should use LinkedHashSet — Java,test
+UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        await db.collection('items').insertOne(record);
+    }
+}",PERFORMANCE,PERF_IO,Unbatched Writes,hard,synthetic,Unbatched inserts — should use insertMany for bulk operation — MongoDB/Node.js,test
+UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in list_b if a.key == b.key]
+    return pairs",PERFORMANCE,PERF_Allocation,Cartesian Join,hard,synthetic,O(n*m) nested comprehension — should use dict lookup for O(n+m) — Python,test
+UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)",PERFORMANCE,PERF_Complexity,Exponential Recursion,hard,synthetic,O(2^n) naive recursion — should use memoization or iterative — Python,test
+UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuilder sb = new StringBuilder();
+    for (String url : urls) {
+        HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+        sb.append(new String(conn.getInputStream().readAllBytes()));
+    }
+    return sb.toString();
+}",PERFORMANCE,PERF_IO,Blocking IO,hard,synthetic,Sequential blocking HTTP calls — should use CompletableFuture or virtual threads — Java,test
+UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name, 'email': u.email} for u in users]",PERFORMANCE,PERF_Query,Over Fetching,hard,synthetic,Loads all model fields + all rows into memory; should use .only().iterator() — Django,test
+UC5_061,"def f(x, y):
+    return x * y * 0.0825",BEST_PRACTICE,BP_Naming,Poor Naming,easy,synthetic,"Poor naming — f, x, y meaningless; 0.0825 is a magic number (tax rate) — Python",train
+UC5_062,"if (response.status === 422) {
+    showError('Validation failed');
+} else if (response.status === 429) {
+    retry();
+}",BEST_PRACTICE,BP_Magic,Magic Number,easy,synthetic,Magic numbers — HTTP status codes should be named constants — JavaScript,train
+UC5_063,"try:
+    process_payment(order)
+except:
+    pass",BEST_PRACTICE,BP_ErrorHandling,Bare Except,easy,synthetic,Bare except with pass — silently swallows all errors including SystemExit — Python,train
+UC5_064,"try {
+    connection.close();
+} catch (SQLException e) {
+    // TODO: handle this
+}",BEST_PRACTICE,BP_ErrorHandling,Empty Catch,easy,synthetic,Empty catch block — silently ignores SQL errors — Java,train
+UC5_065,"def get_users():
+    users = User.objects.all()
+    for u in users:
+        u.last_login = datetime.now()
+        u.save()
+    return users",BEST_PRACTICE,BP_Naming,Misleading Name,easy,synthetic,Misleading name — get_users has side effect of updating last_login — Django,train
+UC5_066,"app.post('/register', (req, res) => {
+    const { email, password } = req.body;
+    User.create({ email, password });
+    res.status(201).send('Created');
+});",BEST_PRACTICE,BP_Validation,No Input Validation,easy,synthetic,"No input validation — no email format check, no password strength check — Node.js",train
+UC5_067,"def process_order(order):
+    if order.status == 'pndg':
+        order.status = 'proc'
+    elif order.status == 'proc':
+        order.status = 'shpd'",BEST_PRACTICE,BP_Magic,Magic String,easy,synthetic,Magic strings with unclear abbreviations — should use enum or constants — Python,train
+UC5_068,"class OrderService {
+    process(order) {
+        const tax = order.items.reduce((s, i) => s + i.price * 0.08, 0);
+        new EmailService().send(order.email, `Total: $${order.total + tax}`);
+        new InventoryDB().decrement(order.items);
+    }
+}",BEST_PRACTICE,BP_Coupling,Tight Coupling,medium,synthetic,Tight coupling — directly instantiates EmailService and InventoryDB — JavaScript,train
+UC5_069,"def parse_config(path):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception as e:
+        return {}",BEST_PRACTICE,BP_ErrorHandling,Broad Exception,medium,synthetic,Catches Exception too broadly — hides FileNotFoundError vs JSONDecodeError — Python,train
+UC5_070,"public void updatePrice(int productId, double newPrice) {
+    Product p = productRepo.findById(productId).orElse(null);
+    p.setPrice(newPrice);
+    productRepo.save(p);
+}",BEST_PRACTICE,BP_Validation,No Return Validation,medium,synthetic,No null check after orElse(null) — NullPointerException if product missing — Java,train
+UC5_071,"const data = checkPermission(user, resource);
+if (!data) {
+    throw new Error('Forbidden');
+}",BEST_PRACTICE,BP_Naming,Boolean Naming,medium,synthetic,"Poor naming — 'data' for a boolean return, 'check' should be 'has' or 'can' — JavaScript",train
+UC5_072,"def handle_request(request):
+    validate(request)
+    user = authenticate(request)
+    data = fetch_data(user)
+    transformed = transform(data)
+    result = compute(transformed)
+    cache_result(result)
+    log_request(request, result)
+    return format_response(result)",BEST_PRACTICE,BP_Coupling,God Function,medium,synthetic,God function — orchestrates too many concerns; violates SRP — Python,train
+UC5_073,"def calculate_shipping(weight):
+    if weight < 5:
+        return 4.99
+    elif weight < 20:
+        return 9.99
+    else:
+        return 14.99 + (weight - 20) * 0.50",BEST_PRACTICE,BP_Magic,Magic Number,medium,synthetic,Multiple magic numbers for weight thresholds and prices — Python,train
+UC5_074,"Connection conn = DriverManager.getConnection(url);
+try {
+    Statement stmt = conn.createStatement();
+    ResultSet rs = stmt.executeQuery(sql);
+    return processResults(rs);
+} catch (SQLException e) {
+    logger.error(e);
+    return null;
+}",BEST_PRACTICE,BP_ErrorHandling,Missing Finally,medium,synthetic,Connection never closed — missing finally or try-with-resources — Java,train
+UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+    return 'Unknown';
+}",BEST_PRACTICE,BP_Validation,Truthy Checking,hard,synthetic,Truthy check fails for age=0 which is a valid age — should check !== undefined — JavaScript,test
+UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.objects.raw(
+            'SELECT * FROM auth_user WHERE is_active = 1 AND last_login > NOW() - INTERVAL 30 DAY')",BEST_PRACTICE,BP_Coupling,Leaky Abstraction,hard,synthetic,"Raw SQL in repository — leaks DB dialect, breaks portability, bypasses ORM — Django",test
+UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+        return { success: true };
+    } catch (e) {
+        console.log('save failed');
+        return { success: false };
+    }
+}",BEST_PRACTICE,BP_ErrorHandling,Swallowed Error,hard,synthetic,Swallows error details — caller cannot distinguish duplicate key vs connection failure — Node.js,test
+UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): ...
+    def SaveResults(self): ...
+    def CLEANUP(self): ...",BEST_PRACTICE,BP_Naming,Inconsistent Convention,hard,synthetic,"Four different naming conventions in one class — camelCase, snake_case, PascalCase, UPPER — Python",test
+UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in cart.items)
+    tax = subtotal * cart.tax_rate
+    discount = subtotal * cart.discount_pct
+    shipping = 5.99 if subtotal < cart.free_ship_min else 0
+    return subtotal + tax - discount + shipping",BEST_PRACTICE,BP_Coupling,Feature Envy,hard,synthetic,Feature envy — function accesses too many cart internals; should be a method on Cart — Python,test
+UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this.finalPrice = this.basePrice * (1 - percent / 100);
+}",BEST_PRACTICE,BP_Validation,Missing Boundary Check,hard,synthetic,No boundary validation — negative percent or >100 produces nonsensical prices — Java,test
+UC5_081,"def is_palindrome(s: str) -> bool:
+    cleaned = s.lower().strip()
+    return cleaned == cleaned[::-1]",CLEAN,CLEAN_Pythonic,Simple Function,easy,synthetic,"Clean — simple, well-named, type-hinted palindrome check — Python",train
+UC5_082,"const getActiveEmails = (users) =>
+    users.filter(u => u.isActive).map(u => u.email);",CLEAN,CLEAN_JS,Array Operation,easy,synthetic,"Clean — concise functional chain, descriptive name — JavaScript",train
+UC5_083,"public Optional<User> findByEmail(String email) {
+    return Optional.ofNullable(userMap.get(email));
+}",CLEAN,CLEAN_Java,Null Safety,easy,synthetic,"Clean — uses Optional correctly, clear naming — Java",train
+UC5_084,"def read_config(path: str) -> dict:
+    with open(path, 'r') as f:
+        return json.load(f)",CLEAN,CLEAN_Pythonic,Context Manager,easy,synthetic,"Clean — proper context manager, type hints, simple — Python",train
+UC5_085,"const formatUser = ({ name, email, role }) => ({
+    displayName: name,
+    contact: email,
+    isAdmin: role === 'admin',
+});",CLEAN,CLEAN_JS,Destructuring,easy,synthetic,"Clean — destructuring, clear naming, pure function — JavaScript",train
+UC5_086,"def get_even_squares(numbers: list[int]) -> list[int]:
+    return [n ** 2 for n in numbers if n % 2 == 0]",CLEAN,CLEAN_Pythonic,List Comprehension,easy,synthetic,"Clean — idiomatic list comprehension, typed, readable — Python",train
+UC5_087,"public List<String> getActiveUserNames(List<User> users) {
+    return users.stream()
+        .filter(User::isActive)
+        .map(User::getName)
+        .collect(Collectors.toList());
+}",CLEAN,CLEAN_Java,Stream API,easy,synthetic,"Clean — idiomatic Java Streams, method references, descriptive name — Java",train
+UC5_088,"def safe_divide(a: float, b: float) -> float | None:
+    if b == 0:
+        logger.warning('Division by zero attempted: a=%s', a)
+        return None
+    return a / b",CLEAN,CLEAN_Pythonic,Error Handling,medium,synthetic,"Clean — guards against division by zero, logs warning, typed — Python",train
+UC5_089,"async function fetchUserData(userId) {
+    const [profile, orders] = await Promise.all([
+        fetchProfile(userId),
+        fetchOrders(userId),
+    ]);
+    return { profile, orders };
+}",CLEAN,CLEAN_JS,Async Pattern,medium,synthetic,"Clean — parallel async with Promise.all, destructuring — JavaScript",train
+UC5_090,"public List<String> readLines(Path path) throws IOException {
+    try (BufferedReader reader = Files.newBufferedReader(path)) {
+        return reader.lines().collect(Collectors.toList());
+    }
+}",CLEAN,CLEAN_Java,Try With Resources,medium,synthetic,"Clean — try-with-resources, streams, proper exception declaration — Java",train
+UC5_091,"@dataclass(frozen=True)
+class Money:
+    amount: Decimal
+    currency: str = 'USD'
+
+    def __add__(self, other: 'Money') -> 'Money':
+        if self.currency != other.currency:
+            raise ValueError(f'Cannot add {self.currency} and {other.currency}')
+        return Money(self.amount + other.amount, self.currency)",CLEAN,CLEAN_Pythonic,Dataclass,medium,synthetic,"Clean — frozen dataclass, Decimal for money, currency validation — Python",train
+UC5_092,"const rateLimit = (maxRequests, windowMs) => {
+    const hits = new Map();
+    return (req, res, next) => {
+        const key = req.ip;
+        const now = Date.now();
+        const record = hits.get(key) || { count: 0, start: now };
+        if (now - record.start > windowMs) {
+            record.count = 0; record.start = now;
+        }
+        if (++record.count > maxRequests) return res.status(429).end();
+        hits.set(key, record);
+        next();
+    };
+};",CLEAN,CLEAN_JS,Middleware Pattern,medium,synthetic,"Clean — rate limiter middleware with sliding window, parameterized — Node.js",train
+UC5_093,"def chunked(iterable, size: int):
+    it = iter(iterable)
+    while chunk := list(islice(it, size)):
+        yield chunk",CLEAN,CLEAN_Pythonic,Generator,medium,synthetic,Clean — memory-efficient chunking with generator and walrus operator — Python,train
+UC5_094,"HttpRequest request = HttpRequest.newBuilder()
+    .uri(URI.create(url))
+    .header(""Authorization"", ""Bearer "" + token)
+    .timeout(Duration.ofSeconds(10))
+    .GET()
+    .build();",CLEAN,CLEAN_Java,Builder Pattern,medium,synthetic,"Clean — builder pattern, timeout set, clear fluent API usage — Java",train
+UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(max_attempts):
+                try:
+                    return func(*args, **kwargs)
+                except Exception:
+                    if attempt == max_attempts - 1:
+                        raise
+                    time.sleep(delay * (2 ** attempt))
+        return wrapper
+    return decorator",CLEAN,CLEAN_Pythonic,Decorator,hard,synthetic,"Clean — retry decorator with exponential backoff, preserves metadata — Python",test
+UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    static getDerivedStateFromError(error) { return { error }; }
+    componentDidCatch(error, info) { logService.report(error, info); }
+    render() {
+        return this.state.error
+            ? <FallbackUI error={this.state.error} />
+            : this.props.children;
+    }
+}",CLEAN,CLEAN_JS,Error Boundary,hard,synthetic,Clean — proper React error boundary with logging and fallback UI — React,test
+UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHashMap<>();
+
+public long increment(String key) {
+    return counters.computeIfAbsent(key, k -> new AtomicLong(0)).incrementAndGet();
+}",CLEAN,CLEAN_Java,Concurrency,hard,synthetic,Clean — thread-safe counter with ConcurrentHashMap and AtomicLong — Java,test
+UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg.create_pool(dsn=self.dsn, min_size=2, max_size=10)
+        return self.pool
+
+    async def __aexit__(self, *exc):
+        await self.pool.close()",CLEAN,CLEAN_Pythonic,Async Context Manager,hard,synthetic,Clean — async context manager for connection pool lifecycle — Python,test
+UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn.apply(this, args), ms);
+    };
+}",CLEAN,CLEAN_JS,Debounce,hard,synthetic,"Clean — classic debounce implementation, concise and correct — JavaScript",test
+UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+        if (page < 0) throw new IllegalArgumentException(""page must be >= 0"");
+        if (size < 1 || size > 100) throw new IllegalArgumentException(""size must be 1-100"");
+    }
+    public int offset() { return page * size; }
+}",CLEAN,CLEAN_Java,Immutable Record,hard,synthetic,Clean — Java record with compact constructor validation and derived method — Java,test

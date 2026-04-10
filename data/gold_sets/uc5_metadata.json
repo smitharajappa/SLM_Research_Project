@@ -1,0 +1,113 @@
+{
+  "use_case": "UC5",
+  "name": "Automated Code Review",
+  "task": "5-way classification of code snippet primary issue type",
+  "pre_registration_date": "2026-03-02",
+  "version": "1.0",
+  "total_items": 100,
+  "label_distribution": {
+    "SECURITY": 20,
+    "LOGIC_ERROR": 20,
+    "PERFORMANCE": 20,
+    "BEST_PRACTICE": 20,
+    "CLEAN": 20
+  },
+  "labels": [
+    "SECURITY \u2014 SQL injection, XSS, command injection, hardcoded secrets, auth bypass",
+    "LOGIC_ERROR \u2014 Off-by-one, null/undefined access, wrong condition, infinite loop, race condition",
+    "PERFORMANCE \u2014 N+1 queries, unnecessary allocation, blocking I/O in async, quadratic complexity",
+    "BEST_PRACTICE \u2014 Magic numbers, poor naming, missing error handling, tight coupling, no validation",
+    "CLEAN \u2014 No issues (well-written code)"
+  ],
+  "languages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "category_breakdown": {
+    "SEC_Injection": 9,
+    "SEC_Secrets": 3,
+    "SEC_XSS": 3,
+    "SEC_Auth": 5,
+    "LOGIC_Boundary": 4,
+    "LOGIC_Null": 4,
+    "LOGIC_Condition": 8,
+    "LOGIC_Loop": 2,
+    "LOGIC_Race": 2,
+    "PERF_Complexity": 6,
+    "PERF_Query": 5,
+    "PERF_Allocation": 5,
+    "PERF_IO": 4,
+    "BP_Naming": 4,
+    "BP_Magic": 3,
+    "BP_ErrorHandling": 5,
+    "BP_Coupling": 4,
+    "BP_Validation": 4,
+    "CLEAN_Pythonic": 8,
+    "CLEAN_JS": 6,
+    "CLEAN_Java": 6
+  },
+  "difficulty_distribution": {
+    "easy": 35,
+    "medium": 35,
+    "hard": 30
+  },
+  "train_test_split": {
+    "train": 70,
+    "test": 30
+  },
+  "s3_score": {
+    "value": 3.33,
+    "tier": "Hybrid",
+    "note": "First formula-only Hybrid case in the study (no Flag Rule triggered)",
+    "dimensions": {
+      "task_complexity": {
+        "score": 4,
+        "weight": 3,
+        "rationale": "Multi-step code analysis"
+      },
+      "output_structure": {
+        "score": 3,
+        "weight": 2,
+        "rationale": "Single classification label from closed set"
+      },
+      "stakes": {
+        "score": 3,
+        "weight": 4,
+        "rationale": "Missed bugs reach production, but software can be patched"
+      },
+      "data_sensitivity": {
+        "score": 3,
+        "weight": 2,
+        "rationale": "Proprietary source code"
+      },
+      "latency_requirement": {
+        "score": 4,
+        "weight": 3,
+        "rationale": "Near real-time, developer waiting for PR review"
+      },
+      "volume": {
+        "score": 2,
+        "weight": 1,
+        "rationale": "Hundreds per day"
+      }
+    },
+    "calculation": "((4*3)+(3*2)+(3*4)+(3*2)+(4*3)+(2*1)) / (5*(3+2+4+2+3+1)) * 5 = 50/75 * 5 = 3.33",
+    "flag_rule": "NO Flag Rule triggered (Stakes=3 < 4)"
+  },
+  "evaluation_metrics": [
+    "Exact Match Rate (accuracy)",
+    "Macro F1 Score (5-class)",
+    "Per-Class Precision / Recall",
+    "Confusion Matrix",
+    "Latency P50/P95 (ms)",
+    "Cost Per Successful Task (CPS)"
+  ],
+  "pre_registered_hypotheses": [
+    "H5.1: Best SLM achieves >= 85% of LLM accuracy on code review classification",
+    "H5.2: Best SLM P95 latency < 4000ms (batch processing SLA)",
+    "H5.3: UC5 validates as Hybrid tier \u2014 no SLM achieves >= 95% LLM parity (confirming S3=3.33 prediction)",
+    "H5.4: SECURITY class will have highest SLM-LLM gap (requires domain-specific reasoning)"
+  ],
+  "created_at": "2026-04-02T19:08:13.991205"
+}
