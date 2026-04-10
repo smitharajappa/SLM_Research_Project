@@ -1,0 +1,97 @@
+{
+  "use_case": "UC7",
+  "name": "Legal Contract Clause Analysis",
+  "task": "4-way risk classification of legal contract clauses",
+  "pre_registration_date": "2026-03-02",
+  "version": "1.0",
+  "total_items": 100,
+  "label_distribution": {
+    "HIGH_RISK": 25,
+    "MEDIUM_RISK": 25,
+    "LOW_RISK": 25,
+    "STANDARD": 25
+  },
+  "categories": {
+    "Confidentiality": 5,
+    "Data Privacy": 8,
+    "Force Majeure": 5,
+    "General Provisions": 30,
+    "Governing Law": 5,
+    "IP Rights": 5,
+    "Indemnification": 5,
+    "Liability": 10,
+    "Non-Compete": 10,
+    "Payment": 5,
+    "Termination": 7,
+    "Warranty": 5
+  },
+  "difficulty_distribution": {
+    "easy": 32,
+    "medium": 37,
+    "hard": 31
+  },
+  "train_test_split": {
+    "train": 70,
+    "test": 30
+  },
+  "s3_score": {
+    "overall": 3.6,
+    "tier": "Hybrid",
+    "flag_rule": "SK>=4 enforces minimum Hybrid tier",
+    "dimensions": {
+      "task_complexity": {
+        "value": 4,
+        "weight": 3,
+        "rationale": "Reasoning about legal implications and obligations"
+      },
+      "output_structure": {
+        "value": 4,
+        "weight": 2,
+        "rationale": "Strict classification from closed 4-class vocabulary"
+      },
+      "stakes": {
+        "value": 4,
+        "weight": 4,
+        "rationale": "Legal consequences of wrong analysis \u2014 contracts are binding"
+      },
+      "data_sensitivity": {
+        "value": 4,
+        "weight": 2,
+        "rationale": "Privileged legal documents, regulated"
+      },
+      "latency_requirement": {
+        "value": 3,
+        "weight": 3,
+        "rationale": "Interactive, lawyer workflow"
+      },
+      "volume": {
+        "value": 1,
+        "weight": 1,
+        "rationale": "Dozens per day"
+      }
+    },
+    "formula": "54/75 x 5 = 3.60 -> Hybrid (formula) + Flag Rule (SK=4)"
+  },
+  "evaluation_metrics": [
+    "Exact Match Rate (Accuracy)",
+    "Macro F1 Score",
+    "Per-Class Precision / Recall / F1",
+    "Confusion Matrix",
+    "Latency P50/P95 (ms)",
+    "Cost Per Successful Task (CPS)",
+    "Hallucination Rate"
+  ],
+  "pre_registered_hypotheses": [
+    "H7.1: Best SLM achieves >= 80% of LLM accuracy on legal clause risk classification",
+    "H7.2: Best SLM P95 latency < 4000ms",
+    "H7.3: UC7 validates as Hybrid tier \u2014 SK=4 Flag Rule correctly enforces minimum Hybrid tier",
+    "H7.4: HIGH_RISK class will have highest SLM-LLM gap (requires nuanced legal reasoning)"
+  ],
+  "label_definitions": {
+    "HIGH_RISK": "Unlimited liability, broad indemnification, unilateral termination rights, non-compete without geographic limit, uncapped damages",
+    "MEDIUM_RISK": "Capped liability (reasonable caps), mutual non-compete with limits, limited warranty disclaimers, liquidated damages clauses",
+    "LOW_RISK": "Standard payment terms (net-30/60), standard notice periods, choice of law/venue, standard confidentiality with reasonable duration",
+    "STANDARD": "Boilerplate definitions, recitals, entire agreement, severability, counterparts, headings clause"
+  },
+  "created_at": "2026-04-02T19:08:26.040359"
+}
