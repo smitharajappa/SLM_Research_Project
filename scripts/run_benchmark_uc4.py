@@ -13,6 +13,7 @@ import os, csv, json, time, re, httpx
 from openai import OpenAI
 from dotenv import load_dotenv
 from datetime import datetime
+from benchmark_utils import log_memory_state, check_memory, unload_ollama_model, warm_up_inference
 
 load_dotenv()
 
@@ -162,9 +163,26 @@ if __name__ == "__main__":
     summary_rows = []
     llm_accuracy = None
 
-    for model_cfg in MODELS:
+    for model_idx, model_cfg in enumerate(MODELS):
+        # Infrastructure: memory check before loading model
+        check_memory(min_available_mb=2048)
+        log_memory_state(f"Before {model_cfg['name']}")
+
+        # Infrastructure: warm-up inference (discarded)
+        if model_cfg["provider"] == "ollama":
+            print(f"     Warming up {model_cfg['name']}...")
+            warmup_client = OpenAI(
+                api_key=model_cfg["api_key"],
+                base_url=model_cfg["base_url"],
+                timeout=httpx.Timeout(model_cfg["timeout"], connect=10.0)
+            )
+            warm_up_inference(warmup_client, model_cfg["model_id"], SYSTEM_PROMPT, None)
+
         raw_rows, accuracy, p50, p95 = run_model_benchmark(model_cfg, test_items)
         all_rows.extend(raw_rows)
+
+        log_memory_state(f"After {model_cfg['name']}")
+
         summary_rows.append({
             "model_name":       model_cfg["name"],
             "tier":             model_cfg["tier"],
@@ -179,6 +197,10 @@ if __name__ == "__main__":
             llm_accuracy = accuracy
         save_csv(RAW_FILE, all_rows)
         save_csv(SUMMARY_FILE, summary_rows)
+
+        # Infrastructure: unload Ollama model to free RAM before next model
+        if model_cfg["provider"] == "ollama":
+            unload_ollama_model(model_cfg["model_id"])
 
     # ── Results table ──────────────────────────────────────────
     print()

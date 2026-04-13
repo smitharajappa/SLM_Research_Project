@@ -27,6 +27,7 @@ from pathlib import Path
 import httpx
 from dotenv import load_dotenv
 from openai import OpenAI
+from benchmark_utils import log_memory_state, check_memory, unload_ollama_model, warm_up_inference
 
 load_dotenv()
 
@@ -238,8 +239,25 @@ def main():
 
     all_raw, summaries = [], []
 
-    for model_cfg in MODELS:
+    for model_idx, model_cfg in enumerate(MODELS):
+        # Infrastructure: memory check before loading model
+        check_memory(min_available_mb=2048)
+        log_memory_state(f"Before {model_cfg['name']}")
+
+        # Infrastructure: warm-up inference (discarded)
+        if model_cfg["provider"] == "ollama":
+            print(f"     Warming up {model_cfg['name']}...")
+            warmup_client = OpenAI(
+                api_key="ollama",
+                base_url=OLLAMA_BASE,
+                timeout=httpx.Timeout(300.0, connect=10.0)
+            )
+            warm_up_inference(warmup_client, model_cfg["model"], SYSTEM_PROMPT, None)
+
         rows, overall_acc, json_valid, total_run = run_model(model_cfg, test_items)
+
+        log_memory_state(f"After {model_cfg['name']}")
+
         for r in rows:
             r.update({"model": model_cfg["name"], "tier": model_cfg["tier"], "params": model_cfg["params"]})
         all_raw.extend(rows)
@@ -264,6 +282,10 @@ def main():
 
         if model_cfg["provider"] == "ollama":
             time.sleep(8)
+
+        # Infrastructure: unload Ollama model to free RAM before next model
+        if model_cfg["provider"] == "ollama":
+            unload_ollama_model(model_cfg["model"])
 
     os.makedirs("data/raw_outputs", exist_ok=True)
     os.makedirs("data/results", exist_ok=True)

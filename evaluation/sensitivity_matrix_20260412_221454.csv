@@ -1,0 +1,9 @@
+use_case,Default_s3,Default_tier,Security-First_s3,Security-First_tier,Latency-First_s3,Latency-First_tier,Balanced_s3,Balanced_tier,Volume-Heavy_s3,Volume-Heavy_tier
+UC1_SMS_Threat,3.1333,Pure SLM,2.7857,Pure SLM,3.4,Hybrid,3.1667,Pure SLM,3.2222,Hybrid
+UC2_Email_Priority,2.8,Pure SLM,2.5,Pure SLM,3.1333,Pure SLM,3.0,Pure SLM,3.1111,Pure SLM
+UC3_Sentiment,2.8667,Pure SLM,2.7143,Pure SLM,2.9333,Pure SLM,2.8333,Pure SLM,2.8889,Pure SLM
+UC4_Clinical_Summary,3.0667,Hybrid,3.2857,Hybrid,2.6,Hybrid,2.8333,Hybrid,2.6667,Hybrid
+UC5_Code_Review,3.3333,Hybrid,3.1429,Pure SLM,3.2667,Hybrid,3.1667,Pure SLM,3.0556,Pure SLM
+UC6_Resume_Screen,2.8,Pure SLM,2.8571,Pure SLM,2.6667,Pure SLM,2.6667,Pure SLM,2.6111,Pure SLM
+UC7_Legal_Contract,3.6,Hybrid,3.7143,Hybrid,3.0667,Hybrid,3.3333,Hybrid,2.9444,Hybrid
+UC8_Threat_Intel,3.4667,LLM Only,3.9286,LLM Only,2.6,LLM Only,3.0,LLM Only,2.6667,LLM Only

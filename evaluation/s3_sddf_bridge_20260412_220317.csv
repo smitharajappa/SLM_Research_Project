@@ -1,0 +1,9 @@
+task,TC,OS,SK,DS,LT,VL,s3_score,s3_tier,tier_rule,sddf_best_slm,sddf_coverage,sddf_sys_acc,sddf_always_slm_acc,sddf_avg_capability,sddf_cap_threshold,sddf_risk_threshold,agreement
+classification,2,5,2,2,4,4,2.93,Pure SLM,Formula,qwen2.5_3b,0.0,0.6833,0.6417,0.5635363802104789,0.75,0.2,PARTIAL
+information_extraction,3,4,2,3,3,3,2.87,Pure SLM,Formula,qwen2.5_7b,0.0,0.7632,0.7237,0.8004795585208601,0.75,0.25,AGREE
+summarization,3,2,2,2,3,3,2.47,Pure SLM,Formula,qwen2.5_0.5b,0.7984,0.7016,0.7258,0.7260950492481835,0.65,0.35,AGREE
+retrieval_grounded,3,3,3,3,3,3,3.0,Pure SLM,Formula,qwen2.5_3b,0.284,0.7101,0.645,0.6113930602896718,0.7,0.3,PARTIAL
+instruction_following,3,2,2,2,3,3,2.47,Pure SLM,Formula,qwen2.5_3b,0.0,0.791,0.6642,0.7126070666463888,0.7,0.3,AGREE
+maths,4,3,3,1,3,2,2.87,Pure SLM,Formula,qwen2.5_3b,0.0,0.773,0.6319,0.6927642277928221,0.65,0.35,AGREE
+text_generation,4,1,3,2,2,2,2.53,Pure SLM,Formula,qwen2.5_7b,0.0,1.0,0.6883,0.6881647489553687,0.7,0.3,AGREE
+code_generation,5,3,4,3,2,2,3.4,LLM Only,"Hard Rule 2 (TC=5, SK>=4)",qwen2.5_0.5b,0.6894,0.5682,0.5606,0.484218287580722,0.55,0.4,DISAGREE

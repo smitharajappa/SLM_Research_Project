@@ -26,7 +26,10 @@ import time
 import argparse
 from datetime import datetime
 
+import httpx
 import requests
+from openai import OpenAI
+from benchmark_utils import log_memory_state, check_memory, unload_ollama_model, warm_up_inference
 
 # ---------------------------------------------------------------------------
 # INFERENCE CONFIG (locked 2026-03-02)
@@ -182,7 +185,21 @@ def run_benchmark(resume: bool = False):
         if write_header:
             writer.writeheader()
 
-        for model_cfg in MODELS:
+        for model_idx, model_cfg in enumerate(MODELS):
+            # Infrastructure: memory check before loading model
+            check_memory(min_available_mb=2048)
+            log_memory_state(f"Before {model_cfg['name']}")
+
+            # Infrastructure: warm-up inference (discarded)
+            if model_cfg["provider"] == "ollama":
+                print(f"     Warming up {model_cfg['name']}...")
+                warmup_client = OpenAI(
+                    api_key="ollama",
+                    base_url=OLLAMA_BASE_URL + "/v1",
+                    timeout=httpx.Timeout(180.0, connect=10.0)
+                )
+                warm_up_inference(warmup_client, model_cfg["model_tag"], None, None)
+
             model_name = model_cfg["name"]
             print(f"\n  Model: {model_name} ({model_cfg['tier']} · {model_cfg['params']})")
             print(f"  {'─' * 50}")
@@ -233,6 +250,12 @@ def run_benchmark(resume: bool = False):
                     # Paced delay after every Groq call
                     if model_cfg["provider"] == "groq":
                         time.sleep(GROQ_INTER_CALL_DELAY)
+
+            log_memory_state(f"After {model_cfg['name']}")
+
+            # Infrastructure: unload Ollama model to free RAM before next model
+            if model_cfg["provider"] == "ollama":
+                unload_ollama_model(model_cfg["model_tag"])
 
     # Summary
     valid_count = error_count = invalid_count = 0

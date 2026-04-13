@@ -1,8 +1,8 @@
 """
-run_benchmark_uc1.py
-Runs all models against UC1 test set (30 items × 7 models × 3 runs = 630 inferences)
-Saves raw outputs to: data/raw_outputs/uc1_raw_results.csv
-Saves summary to:     data/results/uc1_results_summary.csv
+run_benchmark_uc7.py
+Runs all models against UC7 test set (30 items × 7 models × 3 runs = 630 inferences)
+Saves raw outputs to: data/raw_outputs/uc7_raw_results.csv
+Saves summary to:     data/results/uc7_results_summary.csv
 
 Pre-registered config:
   temperature = 0.0
@@ -25,15 +25,15 @@ from benchmark_utils import log_memory_state, check_memory, unload_ollama_model,
 load_dotenv()
 
 # ── Paths ──────────────────────────────────────────────────────
-GOLD_SET_PATH  = "data/gold_sets/uc1_sms_threat_detection.csv"
+GOLD_SET_PATH  = "data/gold_sets/uc7_legal_contract_analysis.csv"
 RAW_OUTPUT_DIR = "data/raw_outputs"
 RESULTS_DIR    = "data/results"
 os.makedirs(RAW_OUTPUT_DIR, exist_ok=True)
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 TIMESTAMP      = datetime.now().strftime("%Y%m%d_%H%M%S")
-RAW_FILE       = os.path.join(RAW_OUTPUT_DIR, f"uc1_raw_{TIMESTAMP}.csv")
-SUMMARY_FILE   = os.path.join(RESULTS_DIR,    f"uc1_summary_{TIMESTAMP}.csv")
+RAW_FILE       = os.path.join(RAW_OUTPUT_DIR, f"uc7_raw_{TIMESTAMP}.csv")
+SUMMARY_FILE   = os.path.join(RESULTS_DIR,    f"uc7_summary_{TIMESTAMP}.csv")
 
 # ── Locked inference config ────────────────────────────────────
 TEMPERATURE  = 0.0
@@ -125,10 +125,11 @@ MODELS = [
 ]
 
 SYSTEM_PROMPT = (
-    "You are a security classification system. "
-    "Classify the SMS message as THREAT or BENIGN. "
-    "Reply with exactly ONE word: THREAT or BENIGN. "
-    "No explanation. No punctuation. Just one word."
+    "You are a legal contract risk classifier. "
+    "Classify the contract clause into exactly ONE risk level: "
+    "HIGH_RISK, MEDIUM_RISK, LOW_RISK, or STANDARD. "
+    "Reply with exactly ONE phrase from that list. "
+    "No explanation. No punctuation."
 )
 
 
@@ -144,13 +145,25 @@ def load_test_items():
 
 
 def clean_response(raw: str) -> str:
-    """Normalize model output to THREAT or BENIGN."""
+    """Normalize model output to HIGH_RISK, MEDIUM_RISK, LOW_RISK, or STANDARD."""
     cleaned = re.sub(r'<think>.*?</think>', '', raw, flags=re.DOTALL)
     cleaned = cleaned.strip().upper()
-    if "THREAT" in cleaned:
-        return "THREAT"
-    if "BENIGN" in cleaned:
-        return "BENIGN"
+    # Check full labels first
+    if "HIGH_RISK" in cleaned:
+        return "HIGH_RISK"
+    if "MEDIUM_RISK" in cleaned:
+        return "MEDIUM_RISK"
+    if "LOW_RISK" in cleaned:
+        return "LOW_RISK"
+    if "STANDARD" in cleaned:
+        return "STANDARD"
+    # Partial matches
+    if "HIGH" in cleaned:
+        return "HIGH_RISK"
+    if "MEDIUM" in cleaned:
+        return "MEDIUM_RISK"
+    if "LOW" in cleaned:
+        return "LOW_RISK"
     return "INVALID"
 
 
@@ -162,7 +175,7 @@ def run_inference(model_cfg, item, run_idx):
             base_url=model_cfg["base_url"],
             timeout=httpx.Timeout(model_cfg["timeout"], connect=10.0)
         )
-        user_msg = f"Classify this SMS: {item['text']}"
+        user_msg = f"Classify this contract clause: {item['text']}"
 
         start = time.time()
         response = client.chat.completions.create(
@@ -189,7 +202,7 @@ def is_correct(predicted, gold_label):
 
 
 def run_model_benchmark(model_cfg, test_items):
-    """Run a model against all test items × 3 runs. Returns list of raw result rows."""
+    """Run a model against all test items x 3 runs. Returns list of raw result rows."""
     print(f"\n  ── {model_cfg['name']} ({model_cfg['tier']} · {model_cfg['params']}) ──")
     print(f"     {len(test_items)} items × {RUNS} runs = {len(test_items)*RUNS} inferences")
 
@@ -229,7 +242,7 @@ def run_model_benchmark(model_cfg, test_items):
 
             # Progress dot
             icon = "✓" if correct else "✗" if result != "ERROR" else "E"
-            print(f"     [{item['id']}] run{run_idx+1}: {result:<8} {icon}  ({latency}ms)", end="\r")
+            print(f"     [{item['id']}] run{run_idx+1}: {result:<12} {icon}  ({latency}ms)", end="\r")
 
         correct_counts.append(all(run_results))
         time.sleep(model_cfg["delay"])
@@ -238,7 +251,7 @@ def run_model_benchmark(model_cfg, test_items):
     total_inferences = len(test_items) * RUNS
     total_correct    = sum(1 for r in rows if r["correct"])
     # NOTE: quick-run accuracy only — includes INVALID in denominator.
-    # For paper figures always use evaluate_uc4.py output, not this summary CSV.
+    # For paper figures always use evaluate_uc7.py output, not this summary CSV.
     accuracy         = round(total_correct / total_inferences * 100, 1)
     valid_latencies  = [r["latency_ms"] for r in rows if r["latency_ms"] > 0]
     p50              = sorted(valid_latencies)[len(valid_latencies)//2] if valid_latencies else 0
@@ -273,7 +286,7 @@ def save_summary(summary_rows):
 if __name__ == "__main__":
     print()
     print("=" * 65)
-    print("  UC1 BENCHMARK — SMS Threat Detection")
+    print("  UC7 BENCHMARK — Legal Contract Clause Analysis")
     print("  7 models × 30 test items × 3 runs = 630 inferences")
     print(f"  Config: temp={TEMPERATURE}, max_tokens={MAX_TOKENS}")
     print(f"  Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -338,7 +351,7 @@ if __name__ == "__main__":
     # ── Final results table ────────────────────────────────────
     print()
     print("=" * 65)
-    print("  UC1 BENCHMARK RESULTS")
+    print("  UC7 BENCHMARK RESULTS")
     print("=" * 65)
     print(f"  {'Model':<20} {'Tier':<5} {'Params':<6} {'Accuracy':>9} {'P50(ms)':>9} {'P95(ms)':>9}")
     print(f"  {'-'*20} {'-'*5} {'-'*6} {'-'*9} {'-'*9} {'-'*9}")
@@ -366,12 +379,17 @@ if __name__ == "__main__":
         print(f"  LLM baseline accuracy : {llm_accuracy}%")
         print(f"  SLMs at >= 95% parity : {len(pure_slm)}/{len(slm_rows)}")
         print()
+        print("  S³ PREDICTION: Hybrid (Flag Rule SK=4, S³=3.60)")
+        print("  Hybrid means SLMs partially capable but need LLM fallback.")
+        print("  Even if some SLMs reach 95% parity, the SK=4 flag rule")
+        print("  enforces Hybrid as a safety measure for 4-way classification.")
         if pure_slm:
-            print("  ✅ S³ HYPOTHESIS SUPPORTED:")
-            print("     SLMs achieve statistical parity with LLM on UC1")
-            print("     → Category 1 structured tasks confirmed SLM-sufficient")
+            print()
+            print(f"  ⭐ {len(pure_slm)} SLM(s) reached >=95% parity,")
+            print("     but Hybrid is still recommended per flag rule.")
         else:
-            print("  ⚠️  Review results — check raw outputs for patterns")
+            print()
+            print("  ⚠️  No SLMs at 95% parity — Hybrid prediction confirmed")
 
     print()
     print("  Files saved:")
@@ -379,7 +397,7 @@ if __name__ == "__main__":
     print(f"    {SUMMARY_FILE}")
     print()
     print("  NEXT STEP:")
-    print("  → python3 scripts/evaluate_uc1.py")
+    print("  → python3 scripts/evaluate_uc7.py")
     print("  → Computes F1, precision, recall, hallucination rate")
     print("=" * 65)
     print()
