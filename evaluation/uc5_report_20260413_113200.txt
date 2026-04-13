@@ -1,0 +1,134 @@
+========================================================================
+  UC5 EVALUATION REPORT — Automated Code Review
+  Generated : 2026-04-13 11:32:00
+  Pre-reg   : 2026-03-02  |  S³ Score: 3.33  |  Prediction: Hybrid
+========================================================================
+
+  TABLE 1 — Overall Classification Metrics
+  --------------------------------------------------------------------
+  Model                Tier     Acc  MacroF1  Halluc    P50     P95
+  --------------------------------------------------------------------
+  Llama-3.3-70B        LLM    61.1%    59.1%    0.0%   352ms   2407ms ← LLM baseline
+  Llama-3.1-8B         SLM    46.7%    46.0%    0.0%   489ms   3661ms
+  Gemma3-4B            SLM    33.3%    28.5%    0.0%   358ms    755ms
+  Qwen2.5-7B           SLM    33.3%    25.7%    0.0%   221ms    699ms
+  Llama-3.2-3B         SLM    26.7%    16.9%    0.0%   272ms   1448ms
+  Mistral-7B           SLM    13.3%    12.8%    0.0%   259ms   1037ms
+  Phi4-Mini            SLM    20.0%     7.3%    0.0%   307ms   1433ms
+  --------------------------------------------------------------------
+
+  TABLE 2 — Per-Class F1 Score
+  ------------------------------------------------------------------------
+  Model                   SEC  LOGIC   PERF   BEST  CLEAN  Lowest class
+  ------------------------------------------------------------------------
+  Llama-3.3-70B         69.6%  60.0%  80.0%  22.2%  63.8%  BEST_PRACTICE
+  Llama-3.1-8B          55.6%  72.7%  50.0%  33.3%  18.2%  CLEAN
+  Gemma3-4B             61.5%  48.0%   0.0%  18.2%  15.0%  PERFORMANCE
+  Qwen2.5-7B            60.0%   0.0%  28.6%   0.0%  40.0%  LOGIC_ERROR
+  Llama-3.2-3B           0.0%  50.0%   0.0%  34.5%   0.0%  SECURITY
+  Mistral-7B             0.0%  30.8%  33.3%   0.0%   0.0%  SECURITY
+  Phi4-Mini              0.0%  36.4%   0.0%   0.0%   0.0%  SECURITY
+  ------------------------------------------------------------------------
+
+  TABLE 3 — 5×5 Confusion Matrices (all runs combined)
+
+  Llama-3.3-70B (LLM · 70B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC              16      0      0      0      2
+  LOGIC             3      9      0      3      3
+  PERF              3      3     12      0      0
+  BEST              6      0      0      3      9
+  CLEAN             0      0      0      3     15
+
+  Llama-3.1-8B (SLM · 8B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC              15      0      0      3      0
+  LOGIC             3     12      0      0      3
+  PERF              3      3      6      3      3
+  BEST              6      0      0      6      6
+  CLEAN             9      0      0      6      3
+
+  Gemma3-4B (SLM · 4B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC              12      0      0      0      6
+  LOGIC             0     12      0      0      6
+  PERF              6     11      0      0      1
+  BEST              0      9      0      3      6
+  CLEAN             3      0      0     12      3
+
+  Qwen2.5-7B (SLM · 7B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC              18      0      0      0      0
+  LOGIC             9      0      0      6      3
+  PERF              3      0      3      6      6
+  BEST              6      3      0      0      9
+  CLEAN             6      0      0      3      9
+
+  Llama-3.2-3B (SLM · 3B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC               0      3      0     15      0
+  LOGIC             0      9      0      9      0
+  PERF              0      6      0     12      0
+  BEST              3      0      0     15      0
+  CLEAN             0      0      0     18      0
+
+  Mistral-7B (SLM · 7B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC               0      6      6      6      0
+  LOGIC             0      6      3      0      9
+  PERF              3      3      6      0      6
+  BEST              0      6      3      0      9
+  CLEAN             0      0      0     18      0
+
+  Phi4-Mini (SLM · 3.8B):
+                  SEC  LOGIC   PERF   BEST  CLEAN
+  SEC               0     18      0      0      0
+  LOGIC             0     18      0      0      0
+  PERF              0     18      0      0      0
+  BEST              0     15      0      0      3
+  CLEAN             0     12      0      6      0
+
+  TABLE 4 — Cross Use-Case Comparison: UC1 → UC4 → UC5
+  S³: UC1=3.10 (Hybrid)  UC4=2.10 (Pure SLM)  UC5=3.33 (Hybrid)
+  ------------------------------------------------------------------------
+  Model                 UC1 Acc  UC4 Acc  UC5 Acc   Δ UC1→5   UC1 F1   UC5 F1
+  ------------------------------------------------------------------------
+  Llama-3.3-70B           90.0%    96.7%    61.1%    -28.9pp    92.3%    59.1%
+  Llama-3.1-8B            66.7%    93.3%    46.7%    -20.0pp    68.8%    46.0%
+  Gemma3-4B               76.7%    90.0%    33.3%    -43.4pp    80.0%    28.5%
+  Qwen2.5-7B              60.0%    90.0%    33.3%    -26.7pp    60.0%    25.7%
+  Llama-3.2-3B            56.7%    93.3%    26.7%    -30.0pp    55.2%    16.9%
+  Mistral-7B              90.0%    95.5%    13.3%    -76.7pp    93.3%    12.8%
+  Phi4-Mini               80.0%    86.7%    20.0%    -60.0pp    83.3%     7.3%
+  ------------------------------------------------------------------------
+
+  SECURITY CLASS ANALYSIS (H5.4 — expected highest SLM-vs-LLM gap)
+  --------------------------------------------------------------------
+  Llama-3.3-70B        SECURITY F1:  69.6%   Avg other classes:  56.5%   Gap: -13.1pp
+  Llama-3.1-8B         SECURITY F1:  55.6%   Avg other classes:  43.5%   Gap: -12.1pp
+  Gemma3-4B            SECURITY F1:  61.5%   Avg other classes:  20.3%   Gap: -41.2pp
+  Qwen2.5-7B           SECURITY F1:  60.0%   Avg other classes:  17.1%   Gap: -42.9pp
+  Llama-3.2-3B         SECURITY F1:   0.0%   Avg other classes:  21.1%   Gap: +21.1pp
+  Mistral-7B           SECURITY F1:   0.0%   Avg other classes:  16.0%   Gap: +16.0pp
+  Phi4-Mini            SECURITY F1:   0.0%   Avg other classes:   9.1%   Gap:  +9.1pp
+
+  Higher gap = SECURITY harder than other classes for that model
+
+  PRE-REGISTERED HYPOTHESIS OUTCOMES
+  --------------------------------------------------------------------
+  H5.1 (LLM accuracy >= 85%)              : NOT SUPPORTED
+        LLM accuracy: 61.1%
+
+  H5.2 (Best SLM P95 < 4000ms)            : SUPPORTED
+        Best SLM P95: 699ms
+
+  H5.3 (Best SLM < 95% LLM parity)        : SUPPORTED
+        Best SLM 46.7% vs LLM 61.1%  Ratio: 76%
+        Validates Hybrid — SLMs need LLM fallback
+
+  H5.4 (SECURITY highest SLM-vs-LLM gap)  : NOT SUPPORTED
+        1 of 6 SLMs show SECURITY as largest gap class
+
+========================================================================
+  END OF UC5 EVALUATION REPORT
+========================================================================
