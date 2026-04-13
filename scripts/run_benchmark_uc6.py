@@ -20,6 +20,7 @@ from pathlib import Path
 import httpx
 from dotenv import load_dotenv
 from openai import OpenAI
+from benchmark_utils import log_memory_state, check_memory, unload_ollama_model, warm_up_inference
 
 load_dotenv()
 
@@ -202,7 +203,21 @@ def main():
         if file_mode == "w":
             writer.writeheader()
 
-        for m in MODELS:
+        for model_idx, m in enumerate(MODELS):
+            # Infrastructure: memory check before loading model
+            check_memory(min_available_mb=2048)
+            log_memory_state(f"Before {m['name']}")
+
+            # Infrastructure: warm-up inference (discarded)
+            if m["provider"] == "ollama":
+                print(f"     Warming up {m['name']}...")
+                warmup_client = OpenAI(
+                    api_key="ollama",
+                    base_url=OLLAMA_BASE,
+                    timeout=httpx.Timeout(120.0, connect=10.0)
+                )
+                warm_up_inference(warmup_client, m["model"], SYSTEM_PROMPT, None)
+
             model_printed = False
             client = get_client(m["provider"])
 
@@ -253,8 +268,14 @@ def main():
                             "pred_label": "ERROR", "is_valid": False,
                             "is_correct": False, "latency_ms": 0,
                         })
+            log_memory_state(f"After {m['name']}")
+
             if model_printed:
                 print()
+
+            # Infrastructure: unload Ollama model to free RAM before next model
+            if m["provider"] == "ollama":
+                unload_ollama_model(m["model"])
 
     print(f"  Results saved → {out_path}")
     print()

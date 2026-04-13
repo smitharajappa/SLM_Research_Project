@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-04-12T22:15:52.153661",
+  "system": {
+    "os": "Darwin",
+    "os_version": "26.3.1",
+    "architecture": "arm64",
+    "hostname": "Smithas-MacBook-Pro.local"
+  },
+  "cpu": {
+    "model": "Apple M2 Pro",
+    "cores": 10
+  },
+  "memory": {
+    "total_gb": 16.0,
+    "swap_info": "total = 11264.00M  used = 10111.62M  free = 1152.38M  (encrypted)"
+  },
+  "gpu": {
+    "model": "Apple M2 Pro"
+  },
+  "software": {
+    "python_version": "3.13.9",
+    "ollama_version": "ollama version is 0.18.2"
+  },
+  "notes": "All SLM benchmarks run locally via Ollama. LLM baseline via Groq API."
+}

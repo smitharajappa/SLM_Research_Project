@@ -1,8 +1,8 @@
 """
-run_benchmark_uc1.py
-Runs all models against UC1 test set (30 items × 7 models × 3 runs = 630 inferences)
-Saves raw outputs to: data/raw_outputs/uc1_raw_results.csv
-Saves summary to:     data/results/uc1_results_summary.csv
+run_benchmark_uc5.py
+Runs all models against UC5 test set (30 items × 7 models × 3 runs = 630 inferences)
+Saves raw outputs to: data/raw_outputs/uc5_raw_results.csv
+Saves summary to:     data/results/uc5_results_summary.csv
 
 Pre-registered config:
   temperature = 0.0
@@ -25,15 +25,15 @@ from benchmark_utils import log_memory_state, check_memory, unload_ollama_model,
 load_dotenv()
 
 # ── Paths ──────────────────────────────────────────────────────
-GOLD_SET_PATH  = "data/gold_sets/uc1_sms_threat_detection.csv"
+GOLD_SET_PATH  = "data/gold_sets/uc5_code_review.csv"
 RAW_OUTPUT_DIR = "data/raw_outputs"
 RESULTS_DIR    = "data/results"
 os.makedirs(RAW_OUTPUT_DIR, exist_ok=True)
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 TIMESTAMP      = datetime.now().strftime("%Y%m%d_%H%M%S")
-RAW_FILE       = os.path.join(RAW_OUTPUT_DIR, f"uc1_raw_{TIMESTAMP}.csv")
-SUMMARY_FILE   = os.path.join(RESULTS_DIR,    f"uc1_summary_{TIMESTAMP}.csv")
+RAW_FILE       = os.path.join(RAW_OUTPUT_DIR, f"uc5_raw_{TIMESTAMP}.csv")
+SUMMARY_FILE   = os.path.join(RESULTS_DIR,    f"uc5_summary_{TIMESTAMP}.csv")
 
 # ── Locked inference config ────────────────────────────────────
 TEMPERATURE  = 0.0
@@ -125,10 +125,11 @@ MODELS = [
 ]
 
 SYSTEM_PROMPT = (
-    "You are a security classification system. "
-    "Classify the SMS message as THREAT or BENIGN. "
-    "Reply with exactly ONE word: THREAT or BENIGN. "
-    "No explanation. No punctuation. Just one word."
+    "You are a code review classifier. "
+    "Classify the code snippet into exactly ONE category: "
+    "SECURITY, LOGIC_ERROR, PERFORMANCE, BEST_PRACTICE, or CLEAN. "
+    "Reply with exactly ONE word from that list. "
+    "No explanation. No punctuation."
 )
 
 
@@ -144,13 +145,24 @@ def load_test_items():
 
 
 def clean_response(raw: str) -> str:
-    """Normalize model output to THREAT or BENIGN."""
+    """Normalize model output to one of 5 valid labels."""
     cleaned = re.sub(r'<think>.*?</think>', '', raw, flags=re.DOTALL)
     cleaned = cleaned.strip().upper()
-    if "THREAT" in cleaned:
-        return "THREAT"
-    if "BENIGN" in cleaned:
-        return "BENIGN"
+    if "BEST_PRACTICE" in cleaned or "BEST PRACTICE" in cleaned:
+        return "BEST_PRACTICE"
+    if "LOGIC_ERROR" in cleaned or "LOGIC ERROR" in cleaned:
+        return "LOGIC_ERROR"
+    if "SECURITY" in cleaned:
+        return "SECURITY"
+    if "PERFORMANCE" in cleaned:
+        return "PERFORMANCE"
+    if "CLEAN" in cleaned:
+        return "CLEAN"
+    # Partial matches
+    if "LOGIC" in cleaned:
+        return "LOGIC_ERROR"
+    if "BEST" in cleaned:
+        return "BEST_PRACTICE"
     return "INVALID"
 
 
@@ -162,7 +174,7 @@ def run_inference(model_cfg, item, run_idx):
             base_url=model_cfg["base_url"],
             timeout=httpx.Timeout(model_cfg["timeout"], connect=10.0)
         )
-        user_msg = f"Classify this SMS: {item['text']}"
+        user_msg = f"Classify this code snippet: {item['text']}"
 
         start = time.time()
         response = client.chat.completions.create(
@@ -229,7 +241,7 @@ def run_model_benchmark(model_cfg, test_items):
 
             # Progress dot
             icon = "✓" if correct else "✗" if result != "ERROR" else "E"
-            print(f"     [{item['id']}] run{run_idx+1}: {result:<8} {icon}  ({latency}ms)", end="\r")
+            print(f"     [{item['id']}] run{run_idx+1}: {result:<15} {icon}  ({latency}ms)", end="\r")
 
         correct_counts.append(all(run_results))
         time.sleep(model_cfg["delay"])
@@ -238,7 +250,7 @@ def run_model_benchmark(model_cfg, test_items):
     total_inferences = len(test_items) * RUNS
     total_correct    = sum(1 for r in rows if r["correct"])
     # NOTE: quick-run accuracy only — includes INVALID in denominator.
-    # For paper figures always use evaluate_uc4.py output, not this summary CSV.
+    # For paper figures always use evaluate_uc5.py output, not this summary CSV.
     accuracy         = round(total_correct / total_inferences * 100, 1)
     valid_latencies  = [r["latency_ms"] for r in rows if r["latency_ms"] > 0]
     p50              = sorted(valid_latencies)[len(valid_latencies)//2] if valid_latencies else 0
@@ -273,9 +285,10 @@ def save_summary(summary_rows):
 if __name__ == "__main__":
     print()
     print("=" * 65)
-    print("  UC1 BENCHMARK — SMS Threat Detection")
+    print("  UC5 BENCHMARK — Automated Code Review")
     print("  7 models × 30 test items × 3 runs = 630 inferences")
     print(f"  Config: temp={TEMPERATURE}, max_tokens={MAX_TOKENS}")
+    print(f"  S³ prediction: Hybrid (formula-only, S³=3.33)")
     print(f"  Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 65)
 
@@ -338,7 +351,7 @@ if __name__ == "__main__":
     # ── Final results table ────────────────────────────────────
     print()
     print("=" * 65)
-    print("  UC1 BENCHMARK RESULTS")
+    print("  UC5 BENCHMARK RESULTS")
     print("=" * 65)
     print(f"  {'Model':<20} {'Tier':<5} {'Params':<6} {'Accuracy':>9} {'P50(ms)':>9} {'P95(ms)':>9}")
     print(f"  {'-'*20} {'-'*5} {'-'*6} {'-'*9} {'-'*9} {'-'*9}")
@@ -348,10 +361,10 @@ if __name__ == "__main__":
         flag = ""
         if row["tier"] == "SLM" and llm_accuracy:
             ratio = row["accuracy_pct"] / llm_accuracy if llm_accuracy > 0 else 0
-            if ratio >= 0.95:
-                flag = " ✅ Pure SLM candidate"
-            elif ratio >= 0.90:
-                flag = " ⭐ Strong SLM"
+            if ratio >= 0.85:
+                flag = " ⭐ Hybrid candidate"
+            elif ratio >= 0.80:
+                flag = " ⚡ Approaching parity"
         if row["tier"] == "LLM":
             flag = " ← baseline"
 
@@ -362,16 +375,24 @@ if __name__ == "__main__":
     print()
     if llm_accuracy:
         slm_rows = [r for r in summary_rows if r["tier"] == "SLM"]
-        pure_slm = [r for r in slm_rows if r["accuracy_pct"] / llm_accuracy >= 0.95]
+        hybrid_slm = [r for r in slm_rows if r["accuracy_pct"] / llm_accuracy >= 0.85]
+        pure_slm   = [r for r in slm_rows if r["accuracy_pct"] / llm_accuracy >= 0.95]
         print(f"  LLM baseline accuracy : {llm_accuracy}%")
+        print(f"  SLMs at >= 85% parity : {len(hybrid_slm)}/{len(slm_rows)}")
         print(f"  SLMs at >= 95% parity : {len(pure_slm)}/{len(slm_rows)}")
         print()
         if pure_slm:
+            print("  ⚠️  S³ PREDICTION MISMATCH:")
+            print("     Some SLMs achieve Pure SLM parity (>= 95%)")
+            print("     S³ predicted Hybrid — review whether fallback is needed")
+        elif hybrid_slm:
             print("  ✅ S³ HYPOTHESIS SUPPORTED:")
-            print("     SLMs achieve statistical parity with LLM on UC1")
-            print("     → Category 1 structured tasks confirmed SLM-sufficient")
+            print("     SLMs approach but do not reach full parity with LLM")
+            print("     → Hybrid assignment validated (SLMs need LLM fallback)")
         else:
-            print("  ⚠️  Review results — check raw outputs for patterns")
+            print("  ❌ S³ CONCERN:")
+            print("     No SLMs reach even 85% parity with LLM")
+            print("     → Task may require full LLM delegation")
 
     print()
     print("  Files saved:")
@@ -379,7 +400,7 @@ if __name__ == "__main__":
     print(f"    {SUMMARY_FILE}")
     print()
     print("  NEXT STEP:")
-    print("  → python3 scripts/evaluate_uc1.py")
+    print("  → python3 scripts/evaluate_uc5.py")
     print("  → Computes F1, precision, recall, hallucination rate")
     print("=" * 65)
     print()
