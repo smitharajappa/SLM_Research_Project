@@ -181,8 +181,6 @@ Eight pre-registered enterprise use cases spanning all three deployment tiers:
 | UC7 | Legal Contract Analysis | 4-way risk classification | 3.60 | Hybrid | SK=4 Flag Rule | Pending |
 | UC8 | Financial Report Drafting | Free-form generation | 3.80 | Hybrid | None (formula only) | Confirmed |
 
-**Pre-registration date**: 2 March 2026 (ID: S3-UTD-2026-03-02). All hypotheses, metrics, and gold sets were locked before any inference, following Gelman and Loken (2014).
-
 ---
 
 ## Project Structure
