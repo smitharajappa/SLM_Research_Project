@@ -1,0 +1,9 @@
+use_case,Default_s3,Default_tier,Security-First_s3,Security-First_tier,Latency-First_s3,Latency-First_tier,Balanced_s3,Balanced_tier,Volume-Heavy_s3,Volume-Heavy_tier
+UC1_SMS_Threat,3.4,Hybrid,3.1429,Hybrid,3.5333,Hybrid,3.3333,Hybrid,3.3889,Hybrid
+UC2_Invoice_Extract,2.6,Pure SLM,2.3571,Pure SLM,2.8,Pure SLM,2.6667,Pure SLM,2.7222,Pure SLM
+UC3_Ticket_Routing,2.6667,Pure SLM,2.3571,Pure SLM,2.9333,Pure SLM,2.8333,Pure SLM,2.8333,Pure SLM
+UC4_Review_Sentiment,2.0667,Pure SLM,1.6429,Pure SLM,2.4,Pure SLM,2.3333,Pure SLM,2.3333,Pure SLM
+UC5_Code_Review,3.2667,Hybrid,2.9286,Pure SLM,3.1333,Pure SLM,3.1667,Pure SLM,2.9444,Pure SLM
+UC6_Clinical_Triage,4.2667,LLM Only,4.2857,LLM Only,3.8667,LLM Only,4.0,LLM Only,3.7222,LLM Only
+UC7_Legal_Contract,3.2,Hybrid,3.2857,Hybrid,2.6667,Hybrid,3.0,Hybrid,2.6111,Hybrid
+UC8_Financial_Report,3.0667,LLM Only,3.2857,LLM Only,2.4,LLM Only,2.6667,LLM Only,2.3889,LLM Only

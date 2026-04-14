@@ -1,0 +1,8 @@
+model_name,tier,params,provider,accuracy_pct,latency_p50,latency_p95,total_inferences
+Llama-3.2-3B,SLM,3B,ollama,26.7,272,1448,90
+Phi4-Mini,SLM,3.8B,ollama,20.0,307,1433,90
+Gemma3-4B,SLM,4B,ollama,33.3,358,755,90
+Qwen2.5-7B,SLM,7B,ollama,33.3,221,699,90
+Mistral-7B,SLM,7B,ollama,13.3,259,1037,90
+Llama-3.1-8B,SLM,8B,ollama,46.7,489,3661,90
+Llama-3.3-70B,LLM,70B,groq,61.1,352,2407,90

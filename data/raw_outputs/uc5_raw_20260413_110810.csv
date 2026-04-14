@@ -1,0 +1,1856 @@
+timestamp,model_name,model_tier,model_params,provider,item_id,item_text,gold_label,category,difficulty,run_number,prediction,correct,latency_ms,raw_output,error
+2026-04-13T11:08:35.165833,Llama-3.2-3B,SLM,3B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,BEST_PRACTICE,False,1100,BEST_PRACTICE,
+2026-04-13T11:08:35.411258,Llama-3.2-3B,SLM,3B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,BEST_PRACTICE,False,232,BEST_PRACTICE,
+2026-04-13T11:08:35.656402,Llama-3.2-3B,SLM,3B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,BEST_PRACTICE,False,233,BEST_PRACTICE,
+2026-04-13T11:08:37.844745,Llama-3.2-3B,SLM,3B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,LOGIC_ERROR,False,1172,LOGIC_ERROR,
+2026-04-13T11:08:38.067843,Llama-3.2-3B,SLM,3B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,LOGIC_ERROR,False,213,LOGIC_ERROR,
+2026-04-13T11:08:38.293695,Llama-3.2-3B,SLM,3B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,LOGIC_ERROR,False,216,LOGIC_ERROR,
+2026-04-13T11:08:40.402975,Llama-3.2-3B,SLM,3B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,BEST_PRACTICE,False,1092,BEST_PRACTICE,
+2026-04-13T11:08:40.654147,Llama-3.2-3B,SLM,3B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,BEST_PRACTICE,False,242,BEST_PRACTICE,
+2026-04-13T11:08:40.921875,Llama-3.2-3B,SLM,3B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,BEST_PRACTICE,False,258,BEST_PRACTICE,
+2026-04-13T11:08:42.775287,Llama-3.2-3B,SLM,3B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,BEST_PRACTICE,False,838,BEST_PRACTICE,
+2026-04-13T11:08:43.041846,Llama-3.2-3B,SLM,3B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,BEST_PRACTICE,False,257,BEST_PRACTICE,
+2026-04-13T11:08:43.315842,Llama-3.2-3B,SLM,3B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,BEST_PRACTICE,False,265,BEST_PRACTICE,
+2026-04-13T11:08:45.433385,Llama-3.2-3B,SLM,3B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,BEST_PRACTICE,False,1101,BEST_PRACTICE,
+2026-04-13T11:08:45.686369,Llama-3.2-3B,SLM,3B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,BEST_PRACTICE,False,243,BEST_PRACTICE,
+2026-04-13T11:08:46.019871,Llama-3.2-3B,SLM,3B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,BEST_PRACTICE,False,325,BEST_PRACTICE,
+2026-04-13T11:08:48.152884,Llama-3.2-3B,SLM,3B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,BEST_PRACTICE,False,1118,BEST_PRACTICE,
+2026-04-13T11:08:48.397206,Llama-3.2-3B,SLM,3B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,BEST_PRACTICE,False,235,BEST_PRACTICE,
+2026-04-13T11:08:48.647432,Llama-3.2-3B,SLM,3B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,BEST_PRACTICE,False,238,BEST_PRACTICE,
+2026-04-13T11:08:50.775141,Llama-3.2-3B,SLM,3B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,BEST_PRACTICE,False,1111,BEST_PRACTICE,
+2026-04-13T11:08:51.013760,Llama-3.2-3B,SLM,3B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,BEST_PRACTICE,False,227,BEST_PRACTICE,
+2026-04-13T11:08:51.260421,Llama-3.2-3B,SLM,3B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,BEST_PRACTICE,False,233,BEST_PRACTICE,
+2026-04-13T11:08:53.021312,Llama-3.2-3B,SLM,3B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,743,LOGIC_ERROR,
+2026-04-13T11:08:53.273110,Llama-3.2-3B,SLM,3B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,239,LOGIC_ERROR,
+2026-04-13T11:08:53.506501,Llama-3.2-3B,SLM,3B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,221,LOGIC_ERROR,
+2026-04-13T11:08:55.925527,Llama-3.2-3B,SLM,3B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,LOGIC_ERROR,True,1407,LOGIC_ERROR,
+2026-04-13T11:08:56.228740,Llama-3.2-3B,SLM,3B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,LOGIC_ERROR,True,295,LOGIC_ERROR,
+2026-04-13T11:08:56.538955,Llama-3.2-3B,SLM,3B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,LOGIC_ERROR,True,302,LOGIC_ERROR,
+2026-04-13T11:08:58.765672,Llama-3.2-3B,SLM,3B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,1211,LOGIC_ERROR,
+2026-04-13T11:08:59.010334,Llama-3.2-3B,SLM,3B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,236,LOGIC_ERROR,
+2026-04-13T11:08:59.247685,Llama-3.2-3B,SLM,3B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,229,LOGIC_ERROR,
+2026-04-13T11:09:01.506705,Llama-3.2-3B,SLM,3B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,BEST_PRACTICE,False,1237,BEST_PRACTICE,
+2026-04-13T11:09:01.776814,Llama-3.2-3B,SLM,3B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,BEST_PRACTICE,False,262,BEST_PRACTICE,
+2026-04-13T11:09:02.035752,Llama-3.2-3B,SLM,3B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,BEST_PRACTICE,False,250,BEST_PRACTICE,
+2026-04-13T11:09:04.218836,Llama-3.2-3B,SLM,3B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,BEST_PRACTICE,False,1166,BEST_PRACTICE,
+2026-04-13T11:09:04.461854,Llama-3.2-3B,SLM,3B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,BEST_PRACTICE,False,231,BEST_PRACTICE,
+2026-04-13T11:09:04.706807,Llama-3.2-3B,SLM,3B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,BEST_PRACTICE,False,232,BEST_PRACTICE,
+2026-04-13T11:09:07.369047,Llama-3.2-3B,SLM,3B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,BEST_PRACTICE,False,1623,BEST_PRACTICE,
+2026-04-13T11:09:07.670958,Llama-3.2-3B,SLM,3B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,BEST_PRACTICE,False,294,BEST_PRACTICE,
+2026-04-13T11:09:07.950089,Llama-3.2-3B,SLM,3B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,BEST_PRACTICE,False,270,BEST_PRACTICE,
+2026-04-13T11:09:10.415286,Llama-3.2-3B,SLM,3B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,BEST_PRACTICE,False,1445,BEST_PRACTICE,
+2026-04-13T11:09:10.688207,Llama-3.2-3B,SLM,3B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,BEST_PRACTICE,False,259,BEST_PRACTICE,
+2026-04-13T11:09:10.950628,Llama-3.2-3B,SLM,3B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,BEST_PRACTICE,False,253,BEST_PRACTICE,
+2026-04-13T11:09:13.128217,Llama-3.2-3B,SLM,3B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,BEST_PRACTICE,False,1158,BEST_PRACTICE,
+2026-04-13T11:09:13.371885,Llama-3.2-3B,SLM,3B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,BEST_PRACTICE,False,236,BEST_PRACTICE,
+2026-04-13T11:09:13.630614,Llama-3.2-3B,SLM,3B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,BEST_PRACTICE,False,245,BEST_PRACTICE,
+2026-04-13T11:09:15.763510,Llama-3.2-3B,SLM,3B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,LOGIC_ERROR,False,1117,LOGIC_ERROR,
+2026-04-13T11:09:15.972195,Llama-3.2-3B,SLM,3B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,LOGIC_ERROR,False,201,LOGIC_ERROR,
+2026-04-13T11:09:16.198915,Llama-3.2-3B,SLM,3B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,LOGIC_ERROR,False,215,LOGIC_ERROR,
+2026-04-13T11:09:18.345561,Llama-3.2-3B,SLM,3B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,LOGIC_ERROR,False,1132,LOGIC_ERROR,
+2026-04-13T11:09:18.562460,Llama-3.2-3B,SLM,3B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,LOGIC_ERROR,False,205,LOGIC_ERROR,
+2026-04-13T11:09:18.816008,Llama-3.2-3B,SLM,3B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,LOGIC_ERROR,False,244,LOGIC_ERROR,
+2026-04-13T11:09:20.935670,Llama-3.2-3B,SLM,3B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,BEST_PRACTICE,False,1102,BEST_PRACTICE,
+2026-04-13T11:09:21.185365,Llama-3.2-3B,SLM,3B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,BEST_PRACTICE,False,240,BEST_PRACTICE,
+2026-04-13T11:09:21.433740,Llama-3.2-3B,SLM,3B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,BEST_PRACTICE,False,240,BEST_PRACTICE,
+2026-04-13T11:09:23.554498,Llama-3.2-3B,SLM,3B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,BEST_PRACTICE,True,1100,BEST_PRACTICE,
+2026-04-13T11:09:23.804013,Llama-3.2-3B,SLM,3B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,BEST_PRACTICE,True,240,BEST_PRACTICE,
+2026-04-13T11:09:24.058106,Llama-3.2-3B,SLM,3B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,BEST_PRACTICE,True,244,BEST_PRACTICE,
+2026-04-13T11:09:26.126935,Llama-3.2-3B,SLM,3B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,SECURITY,False,1056,SECURITY,
+2026-04-13T11:09:26.390602,Llama-3.2-3B,SLM,3B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,SECURITY,False,250,SECURITY,
+2026-04-13T11:09:26.602494,Llama-3.2-3B,SLM,3B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,SECURITY,False,197,SECURITY,
+2026-04-13T11:09:28.875318,Llama-3.2-3B,SLM,3B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,BEST_PRACTICE,True,1256,BEST_PRACTICE,
+2026-04-13T11:09:29.251728,Llama-3.2-3B,SLM,3B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,BEST_PRACTICE,True,364,BEST_PRACTICE,
+2026-04-13T11:09:29.544387,Llama-3.2-3B,SLM,3B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,BEST_PRACTICE,True,285,BEST_PRACTICE,
+2026-04-13T11:09:31.773383,Llama-3.2-3B,SLM,3B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,BEST_PRACTICE,True,1210,BEST_PRACTICE,
+2026-04-13T11:09:32.049176,Llama-3.2-3B,SLM,3B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,BEST_PRACTICE,True,265,BEST_PRACTICE,
+2026-04-13T11:09:32.301883,Llama-3.2-3B,SLM,3B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,BEST_PRACTICE,True,242,BEST_PRACTICE,
+2026-04-13T11:09:34.838407,Llama-3.2-3B,SLM,3B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,BEST_PRACTICE,True,1525,BEST_PRACTICE,
+2026-04-13T11:09:35.143379,Llama-3.2-3B,SLM,3B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,BEST_PRACTICE,True,297,BEST_PRACTICE,
+2026-04-13T11:09:35.442285,Llama-3.2-3B,SLM,3B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,BEST_PRACTICE,True,291,BEST_PRACTICE,
+2026-04-13T11:09:37.743684,Llama-3.2-3B,SLM,3B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,BEST_PRACTICE,True,1285,BEST_PRACTICE,
+2026-04-13T11:09:38.000127,Llama-3.2-3B,SLM,3B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,BEST_PRACTICE,True,248,BEST_PRACTICE,
+2026-04-13T11:09:38.263957,Llama-3.2-3B,SLM,3B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,BEST_PRACTICE,True,250,BEST_PRACTICE,
+2026-04-13T11:09:40.884594,Llama-3.2-3B,SLM,3B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,1603,BEST_PRACTICE,
+2026-04-13T11:09:41.149133,Llama-3.2-3B,SLM,3B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,253,BEST_PRACTICE,
+2026-04-13T11:09:41.570303,Llama-3.2-3B,SLM,3B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,413,BEST_PRACTICE,
+2026-04-13T11:09:44.025245,Llama-3.2-3B,SLM,3B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,1438,BEST_PRACTICE,
+2026-04-13T11:09:44.287038,Llama-3.2-3B,SLM,3B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,249,BEST_PRACTICE,
+2026-04-13T11:09:44.572959,Llama-3.2-3B,SLM,3B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,272,BEST_PRACTICE,
+2026-04-13T11:09:47.032133,Llama-3.2-3B,SLM,3B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,1448,BEST_PRACTICE,
+2026-04-13T11:09:47.336225,Llama-3.2-3B,SLM,3B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,292,BEST_PRACTICE,
+2026-04-13T11:09:47.597465,Llama-3.2-3B,SLM,3B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,250,BEST_PRACTICE,
+2026-04-13T11:09:49.844237,Llama-3.2-3B,SLM,3B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,1233,BEST_PRACTICE,
+2026-04-13T11:09:50.102718,Llama-3.2-3B,SLM,3B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,245,BEST_PRACTICE,
+2026-04-13T11:09:50.356407,Llama-3.2-3B,SLM,3B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,243,BEST_PRACTICE,
+2026-04-13T11:09:52.695562,Llama-3.2-3B,SLM,3B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,1326,BEST_PRACTICE,
+2026-04-13T11:09:53.073476,Llama-3.2-3B,SLM,3B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,365,BEST_PRACTICE,
+2026-04-13T11:09:53.518929,Llama-3.2-3B,SLM,3B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,438,BEST_PRACTICE,
+2026-04-13T11:09:56.072308,Llama-3.2-3B,SLM,3B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,1536,BEST_PRACTICE,
+2026-04-13T11:09:56.392887,Llama-3.2-3B,SLM,3B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,311,BEST_PRACTICE,
+2026-04-13T11:09:56.719182,Llama-3.2-3B,SLM,3B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,313,BEST_PRACTICE,
+2026-04-13T11:10:09.134225,Phi4-Mini,SLM,3.8B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,LOGIC_ERROR,False,1057,LOGIC_ERROR,
+2026-04-13T11:10:09.409281,Phi4-Mini,SLM,3.8B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,LOGIC_ERROR,False,262,LOGIC_ERROR,
+2026-04-13T11:10:09.695550,Phi4-Mini,SLM,3.8B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,LOGIC_ERROR,False,272,LOGIC_ERROR,
+2026-04-13T11:10:11.908691,Phi4-Mini,SLM,3.8B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,LOGIC_ERROR,False,1195,LOGIC_ERROR,
+2026-04-13T11:10:12.176287,Phi4-Mini,SLM,3.8B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,LOGIC_ERROR,False,256,LOGIC_ERROR,
+2026-04-13T11:10:12.442042,Phi4-Mini,SLM,3.8B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,LOGIC_ERROR,False,252,LOGIC_ERROR,
+2026-04-13T11:10:14.608501,Phi4-Mini,SLM,3.8B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,LOGIC_ERROR,False,1152,LOGIC_ERROR,
+2026-04-13T11:10:14.880005,Phi4-Mini,SLM,3.8B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,LOGIC_ERROR,False,259,LOGIC_ERROR,
+2026-04-13T11:10:15.144534,Phi4-Mini,SLM,3.8B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,LOGIC_ERROR,False,255,LOGIC_ERROR,
+2026-04-13T11:10:16.968634,Phi4-Mini,SLM,3.8B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,LOGIC_ERROR,False,803,LOGIC_ERROR,
+2026-04-13T11:10:17.238222,Phi4-Mini,SLM,3.8B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,LOGIC_ERROR,False,262,LOGIC_ERROR,
+2026-04-13T11:10:17.564271,Phi4-Mini,SLM,3.8B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,LOGIC_ERROR,False,318,LOGIC_ERROR,
+2026-04-13T11:10:19.831355,Phi4-Mini,SLM,3.8B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,LOGIC_ERROR,False,1242,LOGIC_ERROR,
+2026-04-13T11:10:20.096562,Phi4-Mini,SLM,3.8B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,LOGIC_ERROR,False,257,LOGIC_ERROR,
+2026-04-13T11:10:20.363197,Phi4-Mini,SLM,3.8B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,LOGIC_ERROR,False,255,LOGIC_ERROR,
+2026-04-13T11:10:22.659709,Phi4-Mini,SLM,3.8B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,LOGIC_ERROR,False,1277,LOGIC_ERROR,
+2026-04-13T11:10:22.940722,Phi4-Mini,SLM,3.8B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,LOGIC_ERROR,False,272,LOGIC_ERROR,
+2026-04-13T11:10:23.203151,Phi4-Mini,SLM,3.8B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,LOGIC_ERROR,False,250,LOGIC_ERROR,
+2026-04-13T11:10:25.424029,Phi4-Mini,SLM,3.8B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,LOGIC_ERROR,True,1207,LOGIC_ERROR,
+2026-04-13T11:10:25.690683,Phi4-Mini,SLM,3.8B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,LOGIC_ERROR,True,255,LOGIC_ERROR,
+2026-04-13T11:10:25.947105,Phi4-Mini,SLM,3.8B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,LOGIC_ERROR,True,244,LOGIC_ERROR,
+2026-04-13T11:10:27.768299,Phi4-Mini,SLM,3.8B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,803,LOGIC_ERROR,
+2026-04-13T11:10:28.040019,Phi4-Mini,SLM,3.8B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,259,LOGIC_ERROR,
+2026-04-13T11:10:28.313208,Phi4-Mini,SLM,3.8B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,262,LOGIC_ERROR,
+2026-04-13T11:10:30.728977,Phi4-Mini,SLM,3.8B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,LOGIC_ERROR,True,1404,LOGIC_ERROR,
+2026-04-13T11:10:31.103415,Phi4-Mini,SLM,3.8B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,LOGIC_ERROR,True,365,LOGIC_ERROR,
+2026-04-13T11:10:31.411349,Phi4-Mini,SLM,3.8B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,LOGIC_ERROR,True,300,LOGIC_ERROR,
+2026-04-13T11:10:33.825595,Phi4-Mini,SLM,3.8B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,1398,LOGIC_ERROR,
+2026-04-13T11:10:34.277885,Phi4-Mini,SLM,3.8B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,439,LOGIC_ERROR,
+2026-04-13T11:10:34.573141,Phi4-Mini,SLM,3.8B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,284,LOGIC_ERROR,
+2026-04-13T11:10:36.919173,Phi4-Mini,SLM,3.8B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,LOGIC_ERROR,True,1333,LOGIC_ERROR,
+2026-04-13T11:10:37.209102,Phi4-Mini,SLM,3.8B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,LOGIC_ERROR,True,281,LOGIC_ERROR,
+2026-04-13T11:10:37.477015,Phi4-Mini,SLM,3.8B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,LOGIC_ERROR,True,260,LOGIC_ERROR,
+2026-04-13T11:10:39.713410,Phi4-Mini,SLM,3.8B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,1222,LOGIC_ERROR,
+2026-04-13T11:10:39.994126,Phi4-Mini,SLM,3.8B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,272,LOGIC_ERROR,
+2026-04-13T11:10:40.309931,Phi4-Mini,SLM,3.8B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,307,LOGIC_ERROR,
+2026-04-13T11:10:42.749076,Phi4-Mini,SLM,3.8B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,LOGIC_ERROR,False,1420,LOGIC_ERROR,
+2026-04-13T11:10:43.074713,Phi4-Mini,SLM,3.8B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,LOGIC_ERROR,False,318,LOGIC_ERROR,
+2026-04-13T11:10:43.344546,Phi4-Mini,SLM,3.8B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,LOGIC_ERROR,False,262,LOGIC_ERROR,
+2026-04-13T11:10:45.541166,Phi4-Mini,SLM,3.8B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,LOGIC_ERROR,False,1181,LOGIC_ERROR,
+2026-04-13T11:10:45.826058,Phi4-Mini,SLM,3.8B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,LOGIC_ERROR,False,273,LOGIC_ERROR,
+2026-04-13T11:10:46.125595,Phi4-Mini,SLM,3.8B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,LOGIC_ERROR,False,288,LOGIC_ERROR,
+2026-04-13T11:10:48.388976,Phi4-Mini,SLM,3.8B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,LOGIC_ERROR,False,1254,LOGIC_ERROR,
+2026-04-13T11:10:48.656693,Phi4-Mini,SLM,3.8B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,LOGIC_ERROR,False,256,LOGIC_ERROR,
+2026-04-13T11:10:48.930978,Phi4-Mini,SLM,3.8B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,LOGIC_ERROR,False,266,LOGIC_ERROR,
+2026-04-13T11:10:51.003111,Phi4-Mini,SLM,3.8B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,LOGIC_ERROR,False,1055,LOGIC_ERROR,
+2026-04-13T11:10:51.296423,Phi4-Mini,SLM,3.8B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,LOGIC_ERROR,False,284,LOGIC_ERROR,
+2026-04-13T11:10:51.567162,Phi4-Mini,SLM,3.8B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,LOGIC_ERROR,False,262,LOGIC_ERROR,
+2026-04-13T11:10:54.059341,Phi4-Mini,SLM,3.8B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,LOGIC_ERROR,False,1478,LOGIC_ERROR,
+2026-04-13T11:10:54.334707,Phi4-Mini,SLM,3.8B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,LOGIC_ERROR,False,267,LOGIC_ERROR,
+2026-04-13T11:10:54.596531,Phi4-Mini,SLM,3.8B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,LOGIC_ERROR,False,251,LOGIC_ERROR,
+2026-04-13T11:10:56.787613,Phi4-Mini,SLM,3.8B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,LOGIC_ERROR,False,1173,LOGIC_ERROR,
+2026-04-13T11:10:57.072560,Phi4-Mini,SLM,3.8B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,LOGIC_ERROR,False,273,LOGIC_ERROR,
+2026-04-13T11:10:57.361270,Phi4-Mini,SLM,3.8B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,LOGIC_ERROR,False,280,LOGIC_ERROR,
+2026-04-13T11:10:59.391409,Phi4-Mini,SLM,3.8B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,LOGIC_ERROR,False,1012,LOGIC_ERROR,
+2026-04-13T11:10:59.659823,Phi4-Mini,SLM,3.8B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,LOGIC_ERROR,False,257,LOGIC_ERROR,
+2026-04-13T11:10:59.935905,Phi4-Mini,SLM,3.8B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,LOGIC_ERROR,False,264,LOGIC_ERROR,
+2026-04-13T11:11:02.336505,Phi4-Mini,SLM,3.8B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,LOGIC_ERROR,False,1388,LOGIC_ERROR,
+2026-04-13T11:11:02.658482,Phi4-Mini,SLM,3.8B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,LOGIC_ERROR,False,314,LOGIC_ERROR,
+2026-04-13T11:11:03.008708,Phi4-Mini,SLM,3.8B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,LOGIC_ERROR,False,342,LOGIC_ERROR,
+2026-04-13T11:11:06.386278,Phi4-Mini,SLM,3.8B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,LOGIC_ERROR,False,2366,LOGIC_ERROR,
+2026-04-13T11:11:06.838217,Phi4-Mini,SLM,3.8B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,LOGIC_ERROR,False,437,LOGIC_ERROR,
+2026-04-13T11:11:07.167296,Phi4-Mini,SLM,3.8B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,LOGIC_ERROR,False,321,LOGIC_ERROR,
+2026-04-13T11:11:09.545747,Phi4-Mini,SLM,3.8B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,CLEAN,False,1364,CLEAN,
+2026-04-13T11:11:09.794862,Phi4-Mini,SLM,3.8B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,CLEAN,False,239,CLEAN,
+2026-04-13T11:11:10.030416,Phi4-Mini,SLM,3.8B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,CLEAN,False,225,CLEAN,
+2026-04-13T11:11:12.594743,Phi4-Mini,SLM,3.8B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,LOGIC_ERROR,False,1548,LOGIC_ERROR,
+2026-04-13T11:11:12.899029,Phi4-Mini,SLM,3.8B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,LOGIC_ERROR,False,293,LOGIC_ERROR,
+2026-04-13T11:11:13.176900,Phi4-Mini,SLM,3.8B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,LOGIC_ERROR,False,268,LOGIC_ERROR,
+2026-04-13T11:11:15.488417,Phi4-Mini,SLM,3.8B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,LOGIC_ERROR,False,1290,LOGIC_ERROR,
+2026-04-13T11:11:15.755367,Phi4-Mini,SLM,3.8B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,LOGIC_ERROR,False,257,LOGIC_ERROR,
+2026-04-13T11:11:16.048419,Phi4-Mini,SLM,3.8B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,LOGIC_ERROR,False,284,LOGIC_ERROR,
+2026-04-13T11:11:18.500882,Phi4-Mini,SLM,3.8B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,LOGIC_ERROR,False,1433,LOGIC_ERROR,
+2026-04-13T11:11:18.778828,Phi4-Mini,SLM,3.8B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,LOGIC_ERROR,False,269,LOGIC_ERROR,
+2026-04-13T11:11:19.061288,Phi4-Mini,SLM,3.8B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,LOGIC_ERROR,False,275,LOGIC_ERROR,
+2026-04-13T11:11:21.441927,Phi4-Mini,SLM,3.8B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,LOGIC_ERROR,False,1363,LOGIC_ERROR,
+2026-04-13T11:11:21.704791,Phi4-Mini,SLM,3.8B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,LOGIC_ERROR,False,249,LOGIC_ERROR,
+2026-04-13T11:11:21.965570,Phi4-Mini,SLM,3.8B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,LOGIC_ERROR,False,247,LOGIC_ERROR,
+2026-04-13T11:11:24.189660,Phi4-Mini,SLM,3.8B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,1206,BEST_PRACTICE,
+2026-04-13T11:11:24.554688,Phi4-Mini,SLM,3.8B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,353,BEST_PRACTICE,
+2026-04-13T11:11:24.928168,Phi4-Mini,SLM,3.8B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,361,BEST_PRACTICE,
+2026-04-13T11:11:27.367952,Phi4-Mini,SLM,3.8B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,LOGIC_ERROR,False,1423,LOGIC_ERROR,
+2026-04-13T11:11:27.704435,Phi4-Mini,SLM,3.8B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,LOGIC_ERROR,False,325,LOGIC_ERROR,
+2026-04-13T11:11:27.978493,Phi4-Mini,SLM,3.8B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,LOGIC_ERROR,False,263,LOGIC_ERROR,
+2026-04-13T11:11:30.337225,Phi4-Mini,SLM,3.8B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,1343,BEST_PRACTICE,
+2026-04-13T11:11:30.758624,Phi4-Mini,SLM,3.8B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,409,BEST_PRACTICE,
+2026-04-13T11:11:31.274617,Phi4-Mini,SLM,3.8B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,507,BEST_PRACTICE,
+2026-04-13T11:11:35.311853,Phi4-Mini,SLM,3.8B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,LOGIC_ERROR,False,3023,LOGIC_ERROR,
+2026-04-13T11:11:35.638046,Phi4-Mini,SLM,3.8B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,LOGIC_ERROR,False,310,LOGIC_ERROR,
+2026-04-13T11:11:35.910137,Phi4-Mini,SLM,3.8B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,LOGIC_ERROR,False,262,LOGIC_ERROR,
+2026-04-13T11:11:46.844312,Gemma3-4B,SLM,4B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,SECURITY,True,558,"SECURITY
+",
+2026-04-13T11:11:47.126398,Gemma3-4B,SLM,4B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,SECURITY,True,272,"SECURITY
+",
+2026-04-13T11:11:47.420508,Gemma3-4B,SLM,4B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,SECURITY,True,287,"SECURITY
+",
+2026-04-13T11:11:49.103841,Gemma3-4B,SLM,4B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,SECURITY,True,661,"SECURITY
+",
+2026-04-13T11:11:49.392178,Gemma3-4B,SLM,4B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,SECURITY,True,280,"SECURITY
+",
+2026-04-13T11:11:49.720245,Gemma3-4B,SLM,4B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,SECURITY,True,313,"SECURITY
+",
+2026-04-13T11:11:51.318048,Gemma3-4B,SLM,4B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,CLEAN,False,580,CLEAN,
+2026-04-13T11:11:51.604668,Gemma3-4B,SLM,4B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,CLEAN,False,275,CLEAN,
+2026-04-13T11:11:51.888257,Gemma3-4B,SLM,4B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,CLEAN,False,276,CLEAN,
+2026-04-13T11:11:53.466406,Gemma3-4B,SLM,4B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,SECURITY,True,560,"SECURITY
+",
+2026-04-13T11:11:53.751611,Gemma3-4B,SLM,4B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,SECURITY,True,274,"SECURITY
+",
+2026-04-13T11:11:54.048612,Gemma3-4B,SLM,4B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,SECURITY,True,289,"SECURITY
+",
+2026-04-13T11:11:55.632816,Gemma3-4B,SLM,4B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,CLEAN,False,573,CLEAN,
+2026-04-13T11:11:55.915452,Gemma3-4B,SLM,4B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,CLEAN,False,271,CLEAN,
+2026-04-13T11:11:56.196159,Gemma3-4B,SLM,4B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,CLEAN,False,272,CLEAN,
+2026-04-13T11:11:57.878115,Gemma3-4B,SLM,4B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,SECURITY,True,655,"SECURITY
+",
+2026-04-13T11:11:58.170990,Gemma3-4B,SLM,4B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,SECURITY,True,281,"SECURITY
+",
+2026-04-13T11:11:58.455885,Gemma3-4B,SLM,4B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,SECURITY,True,277,"SECURITY
+",
+2026-04-13T11:11:59.950423,Gemma3-4B,SLM,4B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,CLEAN,False,476,CLEAN,
+2026-04-13T11:12:00.244314,Gemma3-4B,SLM,4B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,CLEAN,False,281,CLEAN,
+2026-04-13T11:12:00.546001,Gemma3-4B,SLM,4B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,CLEAN,False,283,CLEAN,
+2026-04-13T11:12:02.363165,Gemma3-4B,SLM,4B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,796,"LOGIC_ERROR
+",
+2026-04-13T11:12:02.716896,Gemma3-4B,SLM,4B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,345,"LOGIC_ERROR
+",
+2026-04-13T11:12:03.074977,Gemma3-4B,SLM,4B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,350,"LOGIC_ERROR
+",
+2026-04-13T11:12:04.764245,Gemma3-4B,SLM,4B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,LOGIC_ERROR,True,673,LOGIC_ERROR,
+2026-04-13T11:12:05.305133,Gemma3-4B,SLM,4B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,LOGIC_ERROR,True,527,LOGIC_ERROR,
+2026-04-13T11:12:05.691368,Gemma3-4B,SLM,4B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,LOGIC_ERROR,True,378,LOGIC_ERROR,
+2026-04-13T11:12:07.461586,Gemma3-4B,SLM,4B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,755,"LOGIC_ERROR
+",
+2026-04-13T11:12:07.948883,Gemma3-4B,SLM,4B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,477,"LOGIC_ERROR
+",
+2026-04-13T11:12:08.322432,Gemma3-4B,SLM,4B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,361,"LOGIC_ERROR
+",
+2026-04-13T11:12:09.956701,Gemma3-4B,SLM,4B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,CLEAN,False,611,CLEAN,
+2026-04-13T11:12:10.236000,Gemma3-4B,SLM,4B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,CLEAN,False,270,CLEAN,
+2026-04-13T11:12:10.518004,Gemma3-4B,SLM,4B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,CLEAN,False,274,CLEAN,
+2026-04-13T11:12:12.198061,Gemma3-4B,SLM,4B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,641,LOGIC_ERROR,
+2026-04-13T11:12:12.524264,Gemma3-4B,SLM,4B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,316,LOGIC_ERROR,
+2026-04-13T11:12:12.885237,Gemma3-4B,SLM,4B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,350,LOGIC_ERROR,
+2026-04-13T11:12:14.554284,Gemma3-4B,SLM,4B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,LOGIC_ERROR,False,652,"LOGIC_ERROR
+",
+2026-04-13T11:12:14.906358,Gemma3-4B,SLM,4B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,LOGIC_ERROR,False,343,"LOGIC_ERROR
+",
+2026-04-13T11:12:15.263494,Gemma3-4B,SLM,4B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,LOGIC_ERROR,False,347,"LOGIC_ERROR
+",
+2026-04-13T11:12:16.975705,Gemma3-4B,SLM,4B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,SECURITY,False,698,"SECURITY
+",
+2026-04-13T11:12:17.272335,Gemma3-4B,SLM,4B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,SECURITY,False,288,"SECURITY
+",
+2026-04-13T11:12:17.572210,Gemma3-4B,SLM,4B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,SECURITY,False,287,"SECURITY
+",
+2026-04-13T11:12:19.319791,Gemma3-4B,SLM,4B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,LOGIC_ERROR,False,731,"LOGIC_ERROR
+",
+2026-04-13T11:12:19.661246,Gemma3-4B,SLM,4B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,LOGIC_ERROR,False,332,"LOGIC_ERROR
+",
+2026-04-13T11:12:20.029303,Gemma3-4B,SLM,4B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,LOGIC_ERROR,False,361,"LOGIC_ERROR
+",
+2026-04-13T11:12:21.753358,Gemma3-4B,SLM,4B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,LOGIC_ERROR,False,708,"LOGIC_ERROR
+",
+2026-04-13T11:12:22.087643,Gemma3-4B,SLM,4B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,LOGIC_ERROR,False,326,LOGIC_ERROR,
+2026-04-13T11:12:22.442027,Gemma3-4B,SLM,4B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,LOGIC_ERROR,False,345,LOGIC_ERROR,
+2026-04-13T11:12:24.075274,Gemma3-4B,SLM,4B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,SECURITY,False,617,"SECURITY
+",
+2026-04-13T11:12:24.366085,Gemma3-4B,SLM,4B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,SECURITY,False,283,"SECURITY
+",
+2026-04-13T11:12:24.664150,Gemma3-4B,SLM,4B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,SECURITY,False,291,"SECURITY
+",
+2026-04-13T11:12:26.309928,Gemma3-4B,SLM,4B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,CLEAN,False,626,"CLEAN
+",
+2026-04-13T11:12:26.657782,Gemma3-4B,SLM,4B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,LOGIC_ERROR,False,339,"LOGIC_ERROR
+",
+2026-04-13T11:12:27.034419,Gemma3-4B,SLM,4B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,LOGIC_ERROR,False,365,"LOGIC_ERROR
+",
+2026-04-13T11:12:28.638894,Gemma3-4B,SLM,4B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,CLEAN,False,586,CLEAN,
+2026-04-13T11:12:28.929960,Gemma3-4B,SLM,4B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,CLEAN,False,282,CLEAN,
+2026-04-13T11:12:29.220909,Gemma3-4B,SLM,4B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,CLEAN,False,280,CLEAN,
+2026-04-13T11:12:30.841180,Gemma3-4B,SLM,4B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,LOGIC_ERROR,False,603,"LOGIC_ERROR
+",
+2026-04-13T11:12:31.191113,Gemma3-4B,SLM,4B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,LOGIC_ERROR,False,341,"LOGIC_ERROR
+",
+2026-04-13T11:12:31.556526,Gemma3-4B,SLM,4B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,LOGIC_ERROR,False,358,"LOGIC_ERROR
+",
+2026-04-13T11:12:33.345090,Gemma3-4B,SLM,4B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,LOGIC_ERROR,False,770,LOGIC_ERROR,
+2026-04-13T11:12:33.688838,Gemma3-4B,SLM,4B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,LOGIC_ERROR,False,332,LOGIC_ERROR,
+2026-04-13T11:12:34.024668,Gemma3-4B,SLM,4B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,LOGIC_ERROR,False,323,LOGIC_ERROR,
+2026-04-13T11:12:35.640484,Gemma3-4B,SLM,4B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,CLEAN,False,598,CLEAN,
+2026-04-13T11:12:35.942725,Gemma3-4B,SLM,4B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,CLEAN,False,290,CLEAN,
+2026-04-13T11:12:36.231090,Gemma3-4B,SLM,4B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,CLEAN,False,277,CLEAN,
+2026-04-13T11:12:37.767495,Gemma3-4B,SLM,4B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,LOGIC_ERROR,False,526,LOGIC_ERROR,
+2026-04-13T11:12:38.115984,Gemma3-4B,SLM,4B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,LOGIC_ERROR,False,340,LOGIC_ERROR,
+2026-04-13T11:12:38.446526,Gemma3-4B,SLM,4B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,LOGIC_ERROR,False,319,LOGIC_ERROR,
+2026-04-13T11:12:40.197912,Gemma3-4B,SLM,4B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,BEST_PRACTICE,True,733,"BEST_PRACTICE
+",
+2026-04-13T11:12:40.591357,Gemma3-4B,SLM,4B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,BEST_PRACTICE,True,386,"BEST_PRACTICE
+",
+2026-04-13T11:12:40.976541,Gemma3-4B,SLM,4B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,BEST_PRACTICE,True,378,"BEST_PRACTICE
+",
+2026-04-13T11:12:42.920998,Gemma3-4B,SLM,4B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,922,"BEST_PRACTICE
+",
+2026-04-13T11:12:43.305297,Gemma3-4B,SLM,4B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,376,"BEST_PRACTICE
+",
+2026-04-13T11:12:43.681673,Gemma3-4B,SLM,4B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,367,"BEST_PRACTICE
+",
+2026-04-13T11:12:45.442212,Gemma3-4B,SLM,4B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,SECURITY,False,743,SECURITY,
+2026-04-13T11:12:45.709219,Gemma3-4B,SLM,4B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,SECURITY,False,253,SECURITY,
+2026-04-13T11:12:45.979191,Gemma3-4B,SLM,4B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,SECURITY,False,258,SECURITY,
+2026-04-13T11:12:47.705045,Gemma3-4B,SLM,4B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,711,"BEST_PRACTICE
+",
+2026-04-13T11:12:48.082707,Gemma3-4B,SLM,4B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,369,"BEST_PRACTICE
+",
+2026-04-13T11:12:48.456897,Gemma3-4B,SLM,4B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,362,"BEST_PRACTICE
+",
+2026-04-13T11:12:50.186531,Gemma3-4B,SLM,4B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,CLEAN,True,711,CLEAN,
+2026-04-13T11:12:50.479500,Gemma3-4B,SLM,4B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,CLEAN,True,283,CLEAN,
+2026-04-13T11:12:50.765295,Gemma3-4B,SLM,4B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,CLEAN,True,276,CLEAN,
+2026-04-13T11:12:52.517458,Gemma3-4B,SLM,4B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,736,"BEST_PRACTICE
+",
+2026-04-13T11:12:52.893045,Gemma3-4B,SLM,4B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,367,"BEST_PRACTICE
+",
+2026-04-13T11:12:53.266745,Gemma3-4B,SLM,4B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,364,"BEST_PRACTICE
+",
+2026-04-13T11:12:55.039124,Gemma3-4B,SLM,4B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,757,BEST_PRACTICE,
+2026-04-13T11:12:55.389303,Gemma3-4B,SLM,4B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,343,BEST_PRACTICE,
+2026-04-13T11:12:55.744882,Gemma3-4B,SLM,4B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,344,BEST_PRACTICE,
+2026-04-13T11:13:05.137560,Qwen2.5-7B,SLM,7B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,SECURITY,True,521,SECURITY,
+2026-04-13T11:13:05.356503,Qwen2.5-7B,SLM,7B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,SECURITY,True,209,SECURITY,
+2026-04-13T11:13:05.736678,Qwen2.5-7B,SLM,7B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,SECURITY,True,357,SECURITY,
+2026-04-13T11:13:07.330800,Qwen2.5-7B,SLM,7B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,SECURITY,True,572,SECURITY,
+2026-04-13T11:13:07.556863,Qwen2.5-7B,SLM,7B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,SECURITY,True,214,SECURITY,
+2026-04-13T11:13:07.748501,Qwen2.5-7B,SLM,7B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,SECURITY,True,181,SECURITY,
+2026-04-13T11:13:09.371997,Qwen2.5-7B,SLM,7B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,SECURITY,True,609,SECURITY,
+2026-04-13T11:13:09.566548,Qwen2.5-7B,SLM,7B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,SECURITY,True,183,SECURITY,
+2026-04-13T11:13:09.776589,Qwen2.5-7B,SLM,7B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,SECURITY,True,197,SECURITY,
+2026-04-13T11:13:11.241965,Qwen2.5-7B,SLM,7B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,SECURITY,True,446,SECURITY,
+2026-04-13T11:13:11.437728,Qwen2.5-7B,SLM,7B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,SECURITY,True,187,SECURITY,
+2026-04-13T11:13:11.631826,Qwen2.5-7B,SLM,7B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,SECURITY,True,181,SECURITY,
+2026-04-13T11:13:13.230836,Qwen2.5-7B,SLM,7B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,SECURITY,True,586,SECURITY,
+2026-04-13T11:13:13.422228,Qwen2.5-7B,SLM,7B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,SECURITY,True,182,SECURITY,
+2026-04-13T11:13:13.614800,Qwen2.5-7B,SLM,7B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,SECURITY,True,181,SECURITY,
+2026-04-13T11:13:15.213914,Qwen2.5-7B,SLM,7B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,SECURITY,True,583,SECURITY,
+2026-04-13T11:13:15.405373,Qwen2.5-7B,SLM,7B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,SECURITY,True,182,SECURITY,
+2026-04-13T11:13:15.620653,Qwen2.5-7B,SLM,7B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,SECURITY,True,208,SECURITY,
+2026-04-13T11:13:17.191459,Qwen2.5-7B,SLM,7B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,SECURITY,False,551,SECURITY,
+2026-04-13T11:13:17.380427,Qwen2.5-7B,SLM,7B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,SECURITY,False,179,SECURITY,
+2026-04-13T11:13:17.571057,Qwen2.5-7B,SLM,7B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,SECURITY,False,179,SECURITY,
+2026-04-13T11:13:19.102813,Qwen2.5-7B,SLM,7B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,BEST_PRACTICE,False,513,BEST_PRACTICE,
+2026-04-13T11:13:19.361296,Qwen2.5-7B,SLM,7B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,BEST_PRACTICE,False,248,BEST_PRACTICE,
+2026-04-13T11:13:19.650912,Qwen2.5-7B,SLM,7B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,BEST_PRACTICE,False,278,BEST_PRACTICE,
+2026-04-13T11:13:21.218494,Qwen2.5-7B,SLM,7B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,SECURITY,False,553,SECURITY,
+2026-04-13T11:13:21.407898,Qwen2.5-7B,SLM,7B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,SECURITY,False,181,SECURITY,
+2026-04-13T11:13:21.604839,Qwen2.5-7B,SLM,7B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,SECURITY,False,185,SECURITY,
+2026-04-13T11:13:23.369577,Qwen2.5-7B,SLM,7B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,SECURITY,False,700,SECURITY,
+2026-04-13T11:13:23.637792,Qwen2.5-7B,SLM,7B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,SECURITY,False,255,SECURITY,
+2026-04-13T11:13:23.912087,Qwen2.5-7B,SLM,7B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,SECURITY,False,267,SECURITY,
+2026-04-13T11:13:25.629178,Qwen2.5-7B,SLM,7B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,CLEAN,False,703,CLEAN,
+2026-04-13T11:13:25.833653,Qwen2.5-7B,SLM,7B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,CLEAN,False,192,CLEAN,
+2026-04-13T11:13:26.037613,Qwen2.5-7B,SLM,7B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,CLEAN,False,190,CLEAN,
+2026-04-13T11:13:27.564468,Qwen2.5-7B,SLM,7B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,BEST_PRACTICE,False,509,BEST_PRACTICE,
+2026-04-13T11:13:27.840885,Qwen2.5-7B,SLM,7B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,BEST_PRACTICE,False,257,BEST_PRACTICE,
+2026-04-13T11:13:28.109648,Qwen2.5-7B,SLM,7B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,BEST_PRACTICE,False,255,BEST_PRACTICE,
+2026-04-13T11:13:29.766811,Qwen2.5-7B,SLM,7B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,BEST_PRACTICE,False,639,BEST_PRACTICE,
+2026-04-13T11:13:30.030321,Qwen2.5-7B,SLM,7B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,BEST_PRACTICE,False,247,BEST_PRACTICE,
+2026-04-13T11:13:30.296634,Qwen2.5-7B,SLM,7B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,BEST_PRACTICE,False,253,BEST_PRACTICE,
+2026-04-13T11:13:31.765166,Qwen2.5-7B,SLM,7B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,CLEAN,False,446,CLEAN,
+2026-04-13T11:13:31.958081,Qwen2.5-7B,SLM,7B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,CLEAN,False,184,CLEAN,
+2026-04-13T11:13:32.155770,Qwen2.5-7B,SLM,7B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,CLEAN,False,186,CLEAN,
+2026-04-13T11:13:33.784850,Qwen2.5-7B,SLM,7B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,BEST_PRACTICE,False,609,BEST_PRACTICE,
+2026-04-13T11:13:34.046746,Qwen2.5-7B,SLM,7B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,BEST_PRACTICE,False,250,BEST_PRACTICE,
+2026-04-13T11:13:34.408327,Qwen2.5-7B,SLM,7B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,BEST_PRACTICE,False,351,BEST_PRACTICE,
+2026-04-13T11:13:36.036360,Qwen2.5-7B,SLM,7B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,PERFORMANCE,True,614,PERFORMANCE,
+2026-04-13T11:13:36.238674,Qwen2.5-7B,SLM,7B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,PERFORMANCE,True,190,PERFORMANCE,
+2026-04-13T11:13:36.432662,Qwen2.5-7B,SLM,7B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,PERFORMANCE,True,185,PERFORMANCE,
+2026-04-13T11:13:38.147786,Qwen2.5-7B,SLM,7B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,SECURITY,False,699,SECURITY,
+2026-04-13T11:13:38.341793,Qwen2.5-7B,SLM,7B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,SECURITY,False,182,SECURITY,
+2026-04-13T11:13:38.538303,Qwen2.5-7B,SLM,7B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,SECURITY,False,183,SECURITY,
+2026-04-13T11:13:40.010751,Qwen2.5-7B,SLM,7B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,CLEAN,False,452,CLEAN,
+2026-04-13T11:13:40.214125,Qwen2.5-7B,SLM,7B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,CLEAN,False,193,CLEAN,
+2026-04-13T11:13:40.406656,Qwen2.5-7B,SLM,7B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,CLEAN,False,183,CLEAN,
+2026-04-13T11:13:42.010702,Qwen2.5-7B,SLM,7B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,CLEAN,False,586,CLEAN,
+2026-04-13T11:13:42.211260,Qwen2.5-7B,SLM,7B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,CLEAN,False,191,CLEAN,
+2026-04-13T11:13:42.404152,Qwen2.5-7B,SLM,7B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,CLEAN,False,184,CLEAN,
+2026-04-13T11:13:44.007957,Qwen2.5-7B,SLM,7B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,SECURITY,False,586,SECURITY,
+2026-04-13T11:13:44.203571,Qwen2.5-7B,SLM,7B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,SECURITY,False,187,SECURITY,
+2026-04-13T11:13:44.400453,Qwen2.5-7B,SLM,7B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,SECURITY,False,188,SECURITY,
+2026-04-13T11:13:45.841489,Qwen2.5-7B,SLM,7B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,SECURITY,False,422,SECURITY,
+2026-04-13T11:13:46.043027,Qwen2.5-7B,SLM,7B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,SECURITY,False,189,SECURITY,
+2026-04-13T11:13:46.237764,Qwen2.5-7B,SLM,7B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,SECURITY,False,182,SECURITY,
+2026-04-13T11:13:47.781928,Qwen2.5-7B,SLM,7B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,CLEAN,False,530,CLEAN,
+2026-04-13T11:13:47.979273,Qwen2.5-7B,SLM,7B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,CLEAN,False,187,CLEAN,
+2026-04-13T11:13:48.208456,Qwen2.5-7B,SLM,7B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,CLEAN,False,221,CLEAN,
+2026-04-13T11:13:49.940448,Qwen2.5-7B,SLM,7B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,CLEAN,False,718,CLEAN,
+2026-04-13T11:13:50.144872,Qwen2.5-7B,SLM,7B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,CLEAN,False,192,CLEAN,
+2026-04-13T11:13:50.341609,Qwen2.5-7B,SLM,7B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,CLEAN,False,183,CLEAN,
+2026-04-13T11:13:51.965673,Qwen2.5-7B,SLM,7B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,LOGIC_ERROR,False,614,LOGIC_ERROR,
+2026-04-13T11:13:52.194104,Qwen2.5-7B,SLM,7B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,LOGIC_ERROR,False,221,LOGIC_ERROR,
+2026-04-13T11:13:52.447647,Qwen2.5-7B,SLM,7B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,LOGIC_ERROR,False,235,LOGIC_ERROR,
+2026-04-13T11:13:54.287245,Qwen2.5-7B,SLM,7B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,822,BEST_PRACTICE,
+2026-04-13T11:13:54.578801,Qwen2.5-7B,SLM,7B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,281,BEST_PRACTICE,
+2026-04-13T11:13:54.852377,Qwen2.5-7B,SLM,7B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,263,BEST_PRACTICE,
+2026-04-13T11:13:56.547980,Qwen2.5-7B,SLM,7B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,CLEAN,True,684,CLEAN,
+2026-04-13T11:13:56.744261,Qwen2.5-7B,SLM,7B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,CLEAN,True,185,CLEAN,
+2026-04-13T11:13:56.940363,Qwen2.5-7B,SLM,7B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,CLEAN,True,182,CLEAN,
+2026-04-13T11:13:58.406447,Qwen2.5-7B,SLM,7B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,CLEAN,True,425,CLEAN,
+2026-04-13T11:13:58.623189,Qwen2.5-7B,SLM,7B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,CLEAN,True,205,CLEAN,
+2026-04-13T11:13:58.829251,Qwen2.5-7B,SLM,7B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,CLEAN,True,193,CLEAN,
+2026-04-13T11:14:00.533810,Qwen2.5-7B,SLM,7B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,SECURITY,False,692,SECURITY,
+2026-04-13T11:14:00.731609,Qwen2.5-7B,SLM,7B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,SECURITY,False,186,SECURITY,
+2026-04-13T11:14:00.929597,Qwen2.5-7B,SLM,7B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,SECURITY,False,185,SECURITY,
+2026-04-13T11:14:02.370003,Qwen2.5-7B,SLM,7B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,CLEAN,True,426,CLEAN,
+2026-04-13T11:14:02.558422,Qwen2.5-7B,SLM,7B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,CLEAN,True,180,CLEAN,
+2026-04-13T11:14:02.779123,Qwen2.5-7B,SLM,7B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,CLEAN,True,212,CLEAN,
+2026-04-13T11:14:04.374401,Qwen2.5-7B,SLM,7B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,SECURITY,False,579,SECURITY,
+2026-04-13T11:14:04.572273,Qwen2.5-7B,SLM,7B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,SECURITY,False,186,SECURITY,
+2026-04-13T11:14:04.787506,Qwen2.5-7B,SLM,7B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,SECURITY,False,202,SECURITY,
+2026-04-13T11:14:15.109177,Mistral-7B,SLM,7B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,BEST_PRACTICE,False,629, BEST_PRACTICE,
+2026-04-13T11:14:15.438957,Mistral-7B,SLM,7B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,BEST_PRACTICE,False,310, BEST_PRACTICE,
+2026-04-13T11:14:15.764929,Mistral-7B,SLM,7B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,BEST_PRACTICE,False,316, BEST_PRACTICE,
+2026-04-13T11:14:17.296448,Mistral-7B,SLM,7B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,PERFORMANCE,False,514, PERFORMANCE,
+2026-04-13T11:14:17.446725,Mistral-7B,SLM,7B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,PERFORMANCE,False,141, PERFORMANCE,
+2026-04-13T11:14:17.592919,Mistral-7B,SLM,7B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,PERFORMANCE,False,139, PERFORMANCE,
+2026-04-13T11:14:19.235822,Mistral-7B,SLM,7B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,BEST_PRACTICE,False,626, BEST_PRACTICE,
+2026-04-13T11:14:19.473362,Mistral-7B,SLM,7B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,BEST_PRACTICE,False,229, BEST_PRACTICE,
+2026-04-13T11:14:19.724491,Mistral-7B,SLM,7B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,BEST_PRACTICE,False,236, BEST_PRACTICE,
+2026-04-13T11:14:21.538333,Mistral-7B,SLM,7B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,PERFORMANCE,False,797, PERFORMANCE,
+2026-04-13T11:14:21.694222,Mistral-7B,SLM,7B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,PERFORMANCE,False,144, PERFORMANCE,
+2026-04-13T11:14:21.850928,Mistral-7B,SLM,7B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,PERFORMANCE,False,149, PERFORMANCE,
+2026-04-13T11:14:23.272375,Mistral-7B,SLM,7B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,LOGIC_ERROR,False,401, LOGIC,
+2026-04-13T11:14:23.410755,Mistral-7B,SLM,7B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,LOGIC_ERROR,False,128, LOGIC,
+2026-04-13T11:14:23.548645,Mistral-7B,SLM,7B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,LOGIC_ERROR,False,130, LOGIC,
+2026-04-13T11:14:25.064546,Mistral-7B,SLM,7B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,LOGIC_ERROR,False,487, LOGIC_ERROR,
+2026-04-13T11:14:25.321108,Mistral-7B,SLM,7B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,LOGIC_ERROR,False,245, LOGIC_ERROR,
+2026-04-13T11:14:25.530635,Mistral-7B,SLM,7B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,LOGIC_ERROR,False,202, LOGIC_ERROR,
+2026-04-13T11:14:26.964163,Mistral-7B,SLM,7B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,CLEAN,False,409, CLEAN,
+2026-04-13T11:14:27.094182,Mistral-7B,SLM,7B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,CLEAN,False,119, CLEAN,
+2026-04-13T11:14:27.218246,Mistral-7B,SLM,7B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,CLEAN,False,115, CLEAN,
+2026-04-13T11:14:28.771822,Mistral-7B,SLM,7B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,CLEAN,False,533, CLEAN,
+2026-04-13T11:14:28.900339,Mistral-7B,SLM,7B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,CLEAN,False,116, CLEAN,
+2026-04-13T11:14:29.039737,Mistral-7B,SLM,7B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,CLEAN,False,125, CLEAN,
+2026-04-13T11:14:30.525547,Mistral-7B,SLM,7B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,CLEAN,False,454, CLEAN,
+2026-04-13T11:14:30.723654,Mistral-7B,SLM,7B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,CLEAN,False,158, CLEAN,
+2026-04-13T11:14:30.950863,Mistral-7B,SLM,7B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,CLEAN,False,177, CLEAN,
+2026-04-13T11:14:32.617861,Mistral-7B,SLM,7B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,PERFORMANCE,False,618, PERFORMANCE,
+2026-04-13T11:14:32.773030,Mistral-7B,SLM,7B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,PERFORMANCE,False,146, PERFORMANCE,
+2026-04-13T11:14:32.924393,Mistral-7B,SLM,7B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,PERFORMANCE,False,143, PERFORMANCE,
+2026-04-13T11:14:35.084760,Mistral-7B,SLM,7B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,LOGIC_ERROR,True,1101, LOGIC_ERROR,
+2026-04-13T11:14:35.330061,Mistral-7B,SLM,7B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,LOGIC_ERROR,True,221, LOGIC_ERROR,
+2026-04-13T11:14:35.568764,Mistral-7B,SLM,7B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,LOGIC_ERROR,True,227, LOGIC_ERROR,
+2026-04-13T11:14:37.484637,Mistral-7B,SLM,7B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,885, LOGIC_ERROR,
+2026-04-13T11:14:37.751399,Mistral-7B,SLM,7B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,255, LOGIC_ERROR,
+2026-04-13T11:14:38.050793,Mistral-7B,SLM,7B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,226, LOGIC_ERROR,
+2026-04-13T11:14:40.177700,Mistral-7B,SLM,7B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,CLEAN,False,1015, CLEAN,
+2026-04-13T11:14:41.042124,Mistral-7B,SLM,7B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,CLEAN,False,819, CLEAN,
+2026-04-13T11:14:41.404037,Mistral-7B,SLM,7B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,CLEAN,False,290, CLEAN,
+2026-04-13T11:14:44.180270,Mistral-7B,SLM,7B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,PERFORMANCE,True,1534, PERFORMANCE,
+2026-04-13T11:14:44.533344,Mistral-7B,SLM,7B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,PERFORMANCE,True,329, PERFORMANCE,
+2026-04-13T11:14:44.738912,Mistral-7B,SLM,7B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,PERFORMANCE,True,184, PERFORMANCE,
+2026-04-13T11:14:46.759300,Mistral-7B,SLM,7B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,LOGIC_ERROR,False,962, LOGIC_ERROR,
+2026-04-13T11:14:47.241997,Mistral-7B,SLM,7B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,LOGIC_ERROR,False,378, LOGIC_ERROR,
+2026-04-13T11:14:47.540333,Mistral-7B,SLM,7B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,LOGIC_ERROR,False,259, LOGIC_ERROR,
+2026-04-13T11:14:49.616335,Mistral-7B,SLM,7B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,CLEAN,False,1052, CLEAN,
+2026-04-13T11:14:49.896135,Mistral-7B,SLM,7B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,CLEAN,False,188, CLEAN,
+2026-04-13T11:14:50.120331,Mistral-7B,SLM,7B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,CLEAN,False,195, CLEAN,
+2026-04-13T11:14:51.764561,Mistral-7B,SLM,7B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,PERFORMANCE,True,592, PERFORMANCE,
+2026-04-13T11:14:52.098159,Mistral-7B,SLM,7B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,PERFORMANCE,True,246, PERFORMANCE,
+2026-04-13T11:14:52.314874,Mistral-7B,SLM,7B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,PERFORMANCE,True,185, PERFORMANCE,
+2026-04-13T11:14:54.054240,Mistral-7B,SLM,7B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,SECURITY,False,710, SECURITY,
+2026-04-13T11:14:54.253909,Mistral-7B,SLM,7B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,SECURITY,False,184, SECURITY,
+2026-04-13T11:14:54.490264,Mistral-7B,SLM,7B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,SECURITY,False,191, SECURITY,
+2026-04-13T11:14:56.356614,Mistral-7B,SLM,7B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,CLEAN,False,843, CLEAN,
+2026-04-13T11:14:56.523487,Mistral-7B,SLM,7B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,CLEAN,False,145, CLEAN,
+2026-04-13T11:14:56.729132,Mistral-7B,SLM,7B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,CLEAN,False,173, CLEAN,
+2026-04-13T11:14:58.243299,Mistral-7B,SLM,7B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,LOGIC_ERROR,False,474, LOGIC_ERROR,
+2026-04-13T11:14:58.603394,Mistral-7B,SLM,7B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,LOGIC_ERROR,False,348, LOGIC_ERROR,
+2026-04-13T11:14:58.823602,Mistral-7B,SLM,7B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,LOGIC_ERROR,False,212, LOGIC_ERROR,
+2026-04-13T11:15:00.459112,Mistral-7B,SLM,7B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,CLEAN,False,611, CLEAN,
+2026-04-13T11:15:00.594204,Mistral-7B,SLM,7B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,CLEAN,False,124, CLEAN,
+2026-04-13T11:15:00.724673,Mistral-7B,SLM,7B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,CLEAN,False,120, CLEAN,
+2026-04-13T11:15:02.221468,Mistral-7B,SLM,7B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,CLEAN,False,464, CLEAN,
+2026-04-13T11:15:02.395566,Mistral-7B,SLM,7B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,CLEAN,False,149, CLEAN,
+2026-04-13T11:15:02.549237,Mistral-7B,SLM,7B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,CLEAN,False,146, CLEAN,
+2026-04-13T11:15:04.675873,Mistral-7B,SLM,7B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,LOGIC_ERROR,False,1037, LOGIC_ERROR,
+2026-04-13T11:15:04.882653,Mistral-7B,SLM,7B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,LOGIC_ERROR,False,194, LOGIC_ERROR,
+2026-04-13T11:15:05.108846,Mistral-7B,SLM,7B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,LOGIC_ERROR,False,211, LOGIC_ERROR,
+2026-04-13T11:15:06.941832,Mistral-7B,SLM,7B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,PERFORMANCE,False,742, PERFORMANCE,
+2026-04-13T11:15:07.148650,Mistral-7B,SLM,7B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,PERFORMANCE,False,183, PERFORMANCE,
+2026-04-13T11:15:07.344938,Mistral-7B,SLM,7B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,PERFORMANCE,False,179, PERFORMANCE,
+2026-04-13T11:15:09.866421,Mistral-7B,SLM,7B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,1503, BEST_PRACTICE,
+2026-04-13T11:15:10.190944,Mistral-7B,SLM,7B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,296, BEST_PRACTICE,
+2026-04-13T11:15:10.556760,Mistral-7B,SLM,7B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,321, BEST_PRACTICE,
+2026-04-13T11:15:12.347699,Mistral-7B,SLM,7B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,765, BEST_PRACTICE,
+2026-04-13T11:15:12.616834,Mistral-7B,SLM,7B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,259, BEST_PRACTICE,
+2026-04-13T11:15:12.906272,Mistral-7B,SLM,7B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,280, BEST_PRACTICE,
+2026-04-13T11:15:14.834294,Mistral-7B,SLM,7B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,889, BEST_PRACTICE,
+2026-04-13T11:15:15.344495,Mistral-7B,SLM,7B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,502, BEST_PRACTICE,
+2026-04-13T11:15:15.651960,Mistral-7B,SLM,7B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,299, BEST_PRACTICE,
+2026-04-13T11:15:17.571871,Mistral-7B,SLM,7B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,904, BEST_PRACTICE,
+2026-04-13T11:15:17.925794,Mistral-7B,SLM,7B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,339, BEST_PRACTICE,
+2026-04-13T11:15:18.278967,Mistral-7B,SLM,7B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,344, BEST_PRACTICE,
+2026-04-13T11:15:19.819481,Mistral-7B,SLM,7B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,525, BEST_PRACTICE,
+2026-04-13T11:15:20.077958,Mistral-7B,SLM,7B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,245, BEST_PRACTICE,
+2026-04-13T11:15:20.332006,Mistral-7B,SLM,7B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,240, BEST_PRACTICE,
+2026-04-13T11:15:21.983338,Mistral-7B,SLM,7B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,639, BEST_PRACTICE,
+2026-04-13T11:15:22.248737,Mistral-7B,SLM,7B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,255, BEST_PRACTICE,
+2026-04-13T11:15:22.503472,Mistral-7B,SLM,7B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,242, BEST_PRACTICE,
+2026-04-13T11:15:43.899729,Llama-3.1-8B,SLM,8B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,SECURITY,True,3521,SECURITY,
+2026-04-13T11:15:44.323178,Llama-3.1-8B,SLM,8B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,SECURITY,True,410,SECURITY,
+2026-04-13T11:15:44.691699,Llama-3.1-8B,SLM,8B,ollama,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,SECURITY,True,353,SECURITY,
+2026-04-13T11:15:48.909382,Llama-3.1-8B,SLM,8B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,SECURITY,True,3202,SECURITY,
+2026-04-13T11:15:49.601005,Llama-3.1-8B,SLM,8B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,SECURITY,True,652,SECURITY,
+2026-04-13T11:15:49.981329,Llama-3.1-8B,SLM,8B,ollama,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,SECURITY,True,369,SECURITY,
+2026-04-13T11:15:54.476940,Llama-3.1-8B,SLM,8B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,SECURITY,True,3471,SECURITY,
+2026-04-13T11:15:54.866814,Llama-3.1-8B,SLM,8B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,SECURITY,True,380,SECURITY,
+2026-04-13T11:15:55.244307,Llama-3.1-8B,SLM,8B,ollama,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,SECURITY,True,370,SECURITY,
+2026-04-13T11:15:58.156490,Llama-3.1-8B,SLM,8B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,SECURITY,True,1888,SECURITY,
+2026-04-13T11:15:58.686899,Llama-3.1-8B,SLM,8B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,SECURITY,True,518,SECURITY,
+2026-04-13T11:15:59.037494,Llama-3.1-8B,SLM,8B,ollama,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,SECURITY,True,338,SECURITY,
+2026-04-13T11:16:03.717227,Llama-3.1-8B,SLM,8B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,BEST_PRACTICE,False,3661,BEST_PRACTICE,
+2026-04-13T11:16:04.305172,Llama-3.1-8B,SLM,8B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,BEST_PRACTICE,False,577,BEST_PRACTICE,
+2026-04-13T11:16:04.872401,Llama-3.1-8B,SLM,8B,ollama,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,BEST_PRACTICE,False,558,BEST_PRACTICE,
+2026-04-13T11:16:10.748912,Llama-3.1-8B,SLM,8B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,SECURITY,True,4860,SECURITY,
+2026-04-13T11:16:11.703697,Llama-3.1-8B,SLM,8B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,SECURITY,True,795,SECURITY,
+2026-04-13T11:16:12.093072,Llama-3.1-8B,SLM,8B,ollama,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,SECURITY,True,376,SECURITY,
+2026-04-13T11:16:16.119727,Llama-3.1-8B,SLM,8B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,SECURITY,False,3008,SECURITY,
+2026-04-13T11:16:16.413705,Llama-3.1-8B,SLM,8B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,SECURITY,False,284,SECURITY,
+2026-04-13T11:16:16.731956,Llama-3.1-8B,SLM,8B,ollama,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,SECURITY,False,304,SECURITY,
+2026-04-13T11:16:19.625647,Llama-3.1-8B,SLM,8B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,1876,LOGIC_ERROR,
+2026-04-13T11:16:20.130256,Llama-3.1-8B,SLM,8B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,493,LOGIC_ERROR,
+2026-04-13T11:16:20.628155,Llama-3.1-8B,SLM,8B,ollama,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,489,LOGIC_ERROR,
+2026-04-13T11:16:24.959238,Llama-3.1-8B,SLM,8B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,LOGIC_ERROR,True,3315,LOGIC_ERROR,
+2026-04-13T11:16:25.349330,Llama-3.1-8B,SLM,8B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,LOGIC_ERROR,True,380,LOGIC_ERROR,
+2026-04-13T11:16:25.964191,Llama-3.1-8B,SLM,8B,ollama,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,LOGIC_ERROR,True,602,LOGIC_ERROR,
+2026-04-13T11:16:31.238460,Llama-3.1-8B,SLM,8B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,4260,LOGIC_ERROR,
+2026-04-13T11:16:31.736772,Llama-3.1-8B,SLM,8B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,486,LOGIC_ERROR,
+2026-04-13T11:16:32.083757,Llama-3.1-8B,SLM,8B,ollama,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,337,LOGIC_ERROR,
+2026-04-13T11:16:35.977368,Llama-3.1-8B,SLM,8B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,CLEAN,False,2884,CLEAN,
+2026-04-13T11:16:36.321348,Llama-3.1-8B,SLM,8B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,CLEAN,False,334,CLEAN,
+2026-04-13T11:16:36.632271,Llama-3.1-8B,SLM,8B,ollama,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,CLEAN,False,304,CLEAN,
+2026-04-13T11:16:40.517783,Llama-3.1-8B,SLM,8B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,2871,LOGIC_ERROR,
+2026-04-13T11:16:41.020484,Llama-3.1-8B,SLM,8B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,494,LOGIC_ERROR,
+2026-04-13T11:16:41.368653,Llama-3.1-8B,SLM,8B,ollama,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,337,LOGIC_ERROR,
+2026-04-13T11:16:45.335534,Llama-3.1-8B,SLM,8B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,LOGIC_ERROR,False,2945,LOGIC_ERROR,
+2026-04-13T11:16:45.709789,Llama-3.1-8B,SLM,8B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,LOGIC_ERROR,False,365,LOGIC_ERROR,
+2026-04-13T11:16:46.082183,Llama-3.1-8B,SLM,8B,ollama,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,LOGIC_ERROR,False,364,LOGIC_ERROR,
+2026-04-13T11:16:49.771978,Llama-3.1-8B,SLM,8B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,PERFORMANCE,True,2672,PERFORMANCE,
+2026-04-13T11:16:50.056536,Llama-3.1-8B,SLM,8B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,PERFORMANCE,True,276,PERFORMANCE,
+2026-04-13T11:16:50.331352,Llama-3.1-8B,SLM,8B,ollama,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,PERFORMANCE,True,260,PERFORMANCE,
+2026-04-13T11:16:53.966167,Llama-3.1-8B,SLM,8B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,BEST_PRACTICE,False,2619,BEST_PRACTICE,
+2026-04-13T11:16:54.436045,Llama-3.1-8B,SLM,8B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,BEST_PRACTICE,False,462,BEST_PRACTICE,
+2026-04-13T11:16:54.850074,Llama-3.1-8B,SLM,8B,ollama,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,BEST_PRACTICE,False,402,BEST_PRACTICE,
+2026-04-13T11:16:58.620984,Llama-3.1-8B,SLM,8B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,PERFORMANCE,True,2755,PERFORMANCE,
+2026-04-13T11:16:59.167346,Llama-3.1-8B,SLM,8B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,PERFORMANCE,True,537,PERFORMANCE,
+2026-04-13T11:16:59.457601,Llama-3.1-8B,SLM,8B,ollama,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,PERFORMANCE,True,279,PERFORMANCE,
+2026-04-13T11:17:03.734943,Llama-3.1-8B,SLM,8B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,SECURITY,False,3256,SECURITY,
+2026-04-13T11:17:04.095865,Llama-3.1-8B,SLM,8B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,SECURITY,False,340,SECURITY,
+2026-04-13T11:17:04.458505,Llama-3.1-8B,SLM,8B,ollama,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,SECURITY,False,336,SECURITY,
+2026-04-13T11:17:08.887261,Llama-3.1-8B,SLM,8B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,CLEAN,False,3408,CLEAN,
+2026-04-13T11:17:09.674001,Llama-3.1-8B,SLM,8B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,CLEAN,False,775,CLEAN,
+2026-04-13T11:17:10.126241,Llama-3.1-8B,SLM,8B,ollama,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,CLEAN,False,439,CLEAN,
+2026-04-13T11:17:14.028689,Llama-3.1-8B,SLM,8B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,BEST_PRACTICE,True,2874,BEST_PRACTICE,
+2026-04-13T11:17:14.526982,Llama-3.1-8B,SLM,8B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,BEST_PRACTICE,True,490,BEST_PRACTICE,
+2026-04-13T11:17:14.927217,Llama-3.1-8B,SLM,8B,ollama,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,BEST_PRACTICE,True,392,BEST_PRACTICE,
+2026-04-13T11:17:19.631490,Llama-3.1-8B,SLM,8B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,SECURITY,False,3691,SECURITY,
+2026-04-13T11:17:20.049963,Llama-3.1-8B,SLM,8B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,SECURITY,False,407,SECURITY,
+2026-04-13T11:17:20.518006,Llama-3.1-8B,SLM,8B,ollama,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,SECURITY,False,457,SECURITY,
+2026-04-13T11:17:24.386185,Llama-3.1-8B,SLM,8B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,CLEAN,False,2847,CLEAN,
+2026-04-13T11:17:24.771513,Llama-3.1-8B,SLM,8B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,CLEAN,False,375,CLEAN,
+2026-04-13T11:17:25.155748,Llama-3.1-8B,SLM,8B,ollama,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,CLEAN,False,376,CLEAN,
+2026-04-13T11:17:28.987964,Llama-3.1-8B,SLM,8B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,CLEAN,False,2812,CLEAN,
+2026-04-13T11:17:29.459427,Llama-3.1-8B,SLM,8B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,CLEAN,False,463,CLEAN,
+2026-04-13T11:17:29.943079,Llama-3.1-8B,SLM,8B,ollama,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,CLEAN,False,475,CLEAN,
+2026-04-13T11:17:34.256917,Llama-3.1-8B,SLM,8B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,SECURITY,False,3287,SECURITY,
+2026-04-13T11:17:34.706662,Llama-3.1-8B,SLM,8B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,SECURITY,False,442,SECURITY,
+2026-04-13T11:17:35.086666,Llama-3.1-8B,SLM,8B,ollama,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,SECURITY,False,371,SECURITY,
+2026-04-13T11:17:39.219272,Llama-3.1-8B,SLM,8B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,BEST_PRACTICE,True,3118,BEST_PRACTICE,
+2026-04-13T11:17:39.769720,Llama-3.1-8B,SLM,8B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,BEST_PRACTICE,True,540,BEST_PRACTICE,
+2026-04-13T11:17:40.349446,Llama-3.1-8B,SLM,8B,ollama,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,BEST_PRACTICE,True,568,BEST_PRACTICE,
+2026-04-13T11:17:45.131806,Llama-3.1-8B,SLM,8B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,SECURITY,False,3724,SECURITY,
+2026-04-13T11:17:45.591519,Llama-3.1-8B,SLM,8B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,SECURITY,False,450,SECURITY,
+2026-04-13T11:17:45.956112,Llama-3.1-8B,SLM,8B,ollama,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,SECURITY,False,356,SECURITY,
+2026-04-13T11:17:49.993619,Llama-3.1-8B,SLM,8B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,SECURITY,False,3023,SECURITY,
+2026-04-13T11:17:50.317352,Llama-3.1-8B,SLM,8B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,SECURITY,False,313,SECURITY,
+2026-04-13T11:17:50.614129,Llama-3.1-8B,SLM,8B,ollama,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,SECURITY,False,287,SECURITY,
+2026-04-13T11:17:54.388892,Llama-3.1-8B,SLM,8B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,BEST_PRACTICE,False,2759,BEST_PRACTICE,
+2026-04-13T11:17:54.831837,Llama-3.1-8B,SLM,8B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,BEST_PRACTICE,False,434,BEST_PRACTICE,
+2026-04-13T11:17:55.283703,Llama-3.1-8B,SLM,8B,ollama,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,BEST_PRACTICE,False,439,BEST_PRACTICE,
+2026-04-13T11:17:59.180413,Llama-3.1-8B,SLM,8B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,CLEAN,True,2882,CLEAN,
+2026-04-13T11:17:59.571071,Llama-3.1-8B,SLM,8B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,CLEAN,True,381,CLEAN,
+2026-04-13T11:17:59.871561,Llama-3.1-8B,SLM,8B,ollama,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,CLEAN,True,291,CLEAN,
+2026-04-13T11:18:03.660433,Llama-3.1-8B,SLM,8B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,BEST_PRACTICE,False,2778,BEST_PRACTICE,
+2026-04-13T11:18:04.288833,Llama-3.1-8B,SLM,8B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,BEST_PRACTICE,False,615,BEST_PRACTICE,
+2026-04-13T11:18:04.694773,Llama-3.1-8B,SLM,8B,ollama,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,BEST_PRACTICE,False,398,BEST_PRACTICE,
+2026-04-13T11:18:08.659316,Llama-3.1-8B,SLM,8B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,SECURITY,False,2947,SECURITY,
+2026-04-13T11:18:08.941184,Llama-3.1-8B,SLM,8B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,SECURITY,False,270,SECURITY,
+2026-04-13T11:18:09.227648,Llama-3.1-8B,SLM,8B,ollama,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,SECURITY,False,275,SECURITY,
+2026-04-13T11:18:13.041990,Llama-3.3-70B,LLM,70B,groq,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,1,SECURITY,True,369,SECURITY,
+2026-04-13T11:18:13.178777,Llama-3.3-70B,LLM,70B,groq,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,2,SECURITY,True,127,SECURITY,
+2026-04-13T11:18:13.511238,Llama-3.3-70B,LLM,70B,groq,UC5_015,"app.put('/profile', (req, res) => {
+    User.findByIdAndUpdate(req.user.id, req....",SECURITY,SEC_Auth,hard,3,SECURITY,True,320,SECURITY,
+2026-04-13T11:18:15.908785,Llama-3.3-70B,LLM,70B,groq,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,1,SECURITY,True,383,SECURITY,
+2026-04-13T11:18:16.277935,Llama-3.3-70B,LLM,70B,groq,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,2,SECURITY,True,356,SECURITY,
+2026-04-13T11:18:16.516254,Llama-3.3-70B,LLM,70B,groq,UC5_016,"def search_products(filters):
+    where_clauses = [f""{k} = '{v}'"" for k, v in fi...",SECURITY,SEC_Injection,hard,3,SECURITY,True,226,SECURITY,
+2026-04-13T11:18:18.753188,Llama-3.3-70B,LLM,70B,groq,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,1,SECURITY,True,229,SECURITY,
+2026-04-13T11:18:19.106821,Llama-3.3-70B,LLM,70B,groq,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,2,CLEAN,False,344,CLEAN,
+2026-04-13T11:18:19.503408,Llama-3.3-70B,LLM,70B,groq,UC5_017,"@app.route('/api/invoice/<invoice_id>')
+@login_required
+def get_invoice(invoice_...",SECURITY,SEC_Auth,hard,3,CLEAN,False,382,CLEAN,
+2026-04-13T11:18:21.806008,Llama-3.3-70B,LLM,70B,groq,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,1,SECURITY,True,290,SECURITY,
+2026-04-13T11:18:22.188513,Llama-3.3-70B,LLM,70B,groq,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,2,SECURITY,True,371,SECURITY,
+2026-04-13T11:18:22.469450,Llama-3.3-70B,LLM,70B,groq,UC5_018,"import pickle
+
+def load_session(data):
+    return pickle.loads(base64.b64decode(...",SECURITY,SEC_Injection,hard,3,SECURITY,True,274,SECURITY,
+2026-04-13T11:18:24.808613,Llama-3.3-70B,LLM,70B,groq,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,1,SECURITY,True,324,SECURITY,
+2026-04-13T11:18:25.143426,Llama-3.3-70B,LLM,70B,groq,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,2,SECURITY,True,327,SECURITY,
+2026-04-13T11:18:25.447646,Llama-3.3-70B,LLM,70B,groq,UC5_019,"const name = new URLSearchParams(window.location.search).get('name');
+document.g...",SECURITY,SEC_XSS,hard,3,SECURITY,True,293,SECURITY,
+2026-04-13T11:18:27.670529,Llama-3.3-70B,LLM,70B,groq,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,1,SECURITY,True,206,SECURITY,
+2026-04-13T11:18:27.961936,Llama-3.3-70B,LLM,70B,groq,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,2,SECURITY,True,277,SECURITY,
+2026-04-13T11:18:28.259595,Llama-3.3-70B,LLM,70B,groq,UC5_020,"const decoded = jwt.verify(token, SECRET, { algorithms: ['HS256', 'none'] });
+if...",SECURITY,SEC_Auth,hard,3,SECURITY,True,286,SECURITY,
+2026-04-13T11:18:30.569428,Llama-3.3-70B,LLM,70B,groq,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,1,SECURITY,False,296,SECURITY,
+2026-04-13T11:18:30.712724,Llama-3.3-70B,LLM,70B,groq,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,2,SECURITY,False,131,SECURITY,
+2026-04-13T11:18:31.099436,Llama-3.3-70B,LLM,70B,groq,UC5_035,"def transfer(from_acct, to_acct, amount):
+    if from_acct.balance >= amount:
+  ...",LOGIC_ERROR,LOGIC_Race,hard,3,SECURITY,False,374,SECURITY,
+2026-04-13T11:18:33.472570,Llama-3.3-70B,LLM,70B,groq,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,1,BEST_PRACTICE,False,354,BEST_PRACTICE,
+2026-04-13T11:18:33.618623,Llama-3.3-70B,LLM,70B,groq,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,2,BEST_PRACTICE,False,133,BEST_PRACTICE,
+2026-04-13T11:18:33.804648,Llama-3.3-70B,LLM,70B,groq,UC5_036,"def add_item(item, items=[]):
+    items.append(item)
+    return items",LOGIC_ERROR,LOGIC_Condition,hard,3,BEST_PRACTICE,False,175,BEST_PRACTICE,
+2026-04-13T11:18:36.097408,Llama-3.3-70B,LLM,70B,groq,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,1,LOGIC_ERROR,True,278,LOGIC_ERROR,
+2026-04-13T11:18:36.391987,Llama-3.3-70B,LLM,70B,groq,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,2,LOGIC_ERROR,True,282,LOGIC_ERROR,
+2026-04-13T11:18:36.688402,Llama-3.3-70B,LLM,70B,groq,UC5_037,"let counter = 0;
+async function incrementAll(ids) {
+    ids.forEach(async (id) =...",LOGIC_ERROR,LOGIC_Race,hard,3,LOGIC_ERROR,True,282,LOGIC_ERROR,
+2026-04-13T11:18:38.975728,Llama-3.3-70B,LLM,70B,groq,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,273,LOGIC_ERROR,
+2026-04-13T11:18:39.290322,Llama-3.3-70B,LLM,70B,groq,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,302,LOGIC_ERROR,
+2026-04-13T11:18:39.548246,Llama-3.3-70B,LLM,70B,groq,UC5_038,"for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i)...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,243,LOGIC_ERROR,
+2026-04-13T11:18:41.868306,Llama-3.3-70B,LLM,70B,groq,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,1,CLEAN,False,304,CLEAN,
+2026-04-13T11:18:42.156477,Llama-3.3-70B,LLM,70B,groq,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,2,CLEAN,False,279,CLEAN,
+2026-04-13T11:18:42.349742,Llama-3.3-70B,LLM,70B,groq,UC5_039,"async function loadData() {
+    const resp = await fetch('/api/data');
+    const...",LOGIC_ERROR,LOGIC_Null,hard,3,CLEAN,False,181,CLEAN,
+2026-04-13T11:18:44.567933,Llama-3.3-70B,LLM,70B,groq,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,1,LOGIC_ERROR,True,207,LOGIC_ERROR,
+2026-04-13T11:18:44.869849,Llama-3.3-70B,LLM,70B,groq,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,2,LOGIC_ERROR,True,289,LOGIC_ERROR,
+2026-04-13T11:18:45.171944,Llama-3.3-70B,LLM,70B,groq,UC5_040,"def apply_discount(price, discount):
+    final = price - (price * discount)
+    ...",LOGIC_ERROR,LOGIC_Condition,hard,3,LOGIC_ERROR,True,294,LOGIC_ERROR,
+2026-04-13T11:18:47.474778,Llama-3.3-70B,LLM,70B,groq,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,1,PERFORMANCE,True,284,PERFORMANCE,
+2026-04-13T11:18:47.682824,Llama-3.3-70B,LLM,70B,groq,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,2,PERFORMANCE,True,196,PERFORMANCE,
+2026-04-13T11:18:47.972712,Llama-3.3-70B,LLM,70B,groq,UC5_055,"public List<String> removeDuplicates(List<String> input) {
+    List<String> resu...",PERFORMANCE,PERF_Complexity,hard,3,PERFORMANCE,True,277,PERFORMANCE,
+2026-04-13T11:18:50.212913,Llama-3.3-70B,LLM,70B,groq,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,1,PERFORMANCE,True,223,PERFORMANCE,
+2026-04-13T11:18:50.644615,Llama-3.3-70B,LLM,70B,groq,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,2,PERFORMANCE,True,420,PERFORMANCE,
+2026-04-13T11:18:50.958277,Llama-3.3-70B,LLM,70B,groq,UC5_056,"async function saveAll(records) {
+    for (const record of records) {
+        aw...",PERFORMANCE,PERF_IO,hard,3,PERFORMANCE,True,300,PERFORMANCE,
+2026-04-13T11:18:53.411118,Llama-3.3-70B,LLM,70B,groq,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,1,LOGIC_ERROR,False,435,LOGIC_ERROR,
+2026-04-13T11:18:53.716402,Llama-3.3-70B,LLM,70B,groq,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,2,LOGIC_ERROR,False,293,LOGIC_ERROR,
+2026-04-13T11:18:56.377483,Llama-3.3-70B,LLM,70B,groq,UC5_057,"def match_pairs(list_a, list_b):
+    pairs = [(a, b) for a in list_a for b in li...",PERFORMANCE,PERF_Allocation,hard,3,LOGIC_ERROR,False,2647,LOGIC_ERROR,
+2026-04-13T11:18:58.702187,Llama-3.3-70B,LLM,70B,groq,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,1,PERFORMANCE,True,310,PERFORMANCE,
+2026-04-13T11:19:00.943648,Llama-3.3-70B,LLM,70B,groq,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,2,PERFORMANCE,True,2229,PERFORMANCE,
+2026-04-13T11:19:03.319589,Llama-3.3-70B,LLM,70B,groq,UC5_058,"def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + ...",PERFORMANCE,PERF_Complexity,hard,3,PERFORMANCE,True,2363,PERFORMANCE,
+2026-04-13T11:19:05.712692,Llama-3.3-70B,LLM,70B,groq,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,1,SECURITY,False,374,SECURITY,
+2026-04-13T11:19:08.076766,Llama-3.3-70B,LLM,70B,groq,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,2,SECURITY,False,2352,SECURITY,
+2026-04-13T11:19:10.525783,Llama-3.3-70B,LLM,70B,groq,UC5_059,"public String fetchAllData(List<String> urls) throws Exception {
+    StringBuild...",PERFORMANCE,PERF_IO,hard,3,SECURITY,False,2436,SECURITY,
+2026-04-13T11:19:12.761235,Llama-3.3-70B,LLM,70B,groq,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,1,PERFORMANCE,True,218,PERFORMANCE,
+2026-04-13T11:19:15.138303,Llama-3.3-70B,LLM,70B,groq,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,2,PERFORMANCE,True,2369,PERFORMANCE,
+2026-04-13T11:19:17.588006,Llama-3.3-70B,LLM,70B,groq,UC5_060,"def export_report():
+    users = User.objects.all()
+    return [{'name': u.name,...",PERFORMANCE,PERF_Query,hard,3,PERFORMANCE,True,2439,PERFORMANCE,
+2026-04-13T11:19:19.804729,Llama-3.3-70B,LLM,70B,groq,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,1,CLEAN,False,199,CLEAN,
+2026-04-13T11:19:22.195189,Llama-3.3-70B,LLM,70B,groq,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,2,CLEAN,False,2378,CLEAN,
+2026-04-13T11:19:24.601425,Llama-3.3-70B,LLM,70B,groq,UC5_075,"function processAge(age) {
+    if (age) {
+        return `Age: ${age}`;
+    }
+  ...",BEST_PRACTICE,BP_Validation,hard,3,CLEAN,False,2394,CLEAN,
+2026-04-13T11:19:26.927391,Llama-3.3-70B,LLM,70B,groq,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,1,SECURITY,False,312,SECURITY,
+2026-04-13T11:19:29.304443,Llama-3.3-70B,LLM,70B,groq,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,2,SECURITY,False,2364,SECURITY,
+2026-04-13T11:19:31.660211,Llama-3.3-70B,LLM,70B,groq,UC5_076,"class UserRepository:
+    def get_active_users(self):
+        return User.object...",BEST_PRACTICE,BP_Coupling,hard,3,SECURITY,False,2344,SECURITY,
+2026-04-13T11:19:34.027426,Llama-3.3-70B,LLM,70B,groq,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,1,SECURITY,False,357,SECURITY,
+2026-04-13T11:19:36.377386,Llama-3.3-70B,LLM,70B,groq,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,2,SECURITY,False,2341,SECURITY,
+2026-04-13T11:19:38.647631,Llama-3.3-70B,LLM,70B,groq,UC5_077,"async function saveUser(user) {
+    try {
+        await db.users.insert(user);
+ ...",BEST_PRACTICE,BP_ErrorHandling,hard,3,SECURITY,False,2259,SECURITY,
+2026-04-13T11:19:40.802432,Llama-3.3-70B,LLM,70B,groq,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,1,BEST_PRACTICE,True,138,BEST_PRACTICE,
+2026-04-13T11:19:42.962072,Llama-3.3-70B,LLM,70B,groq,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,2,BEST_PRACTICE,True,2148,BEST_PRACTICE,
+2026-04-13T11:19:45.312580,Llama-3.3-70B,LLM,70B,groq,UC5_078,"class DataProcessor:
+    def fetchData(self): ...
+    def process_data(self): .....",BEST_PRACTICE,BP_Naming,hard,3,BEST_PRACTICE,True,2339,BEST_PRACTICE,
+2026-04-13T11:19:47.681114,Llama-3.3-70B,LLM,70B,groq,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,1,CLEAN,False,352,CLEAN,
+2026-04-13T11:19:50.031836,Llama-3.3-70B,LLM,70B,groq,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,2,CLEAN,False,2340,CLEAN,
+2026-04-13T11:19:52.397190,Llama-3.3-70B,LLM,70B,groq,UC5_079,"def calculate_total(cart):
+    subtotal = sum(item.price * item.qty for item in ...",BEST_PRACTICE,BP_Coupling,hard,3,CLEAN,False,2353,CLEAN,
+2026-04-13T11:19:54.713606,Llama-3.3-70B,LLM,70B,groq,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,1,CLEAN,False,301,CLEAN,
+2026-04-13T11:19:57.103368,Llama-3.3-70B,LLM,70B,groq,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,2,CLEAN,False,2377,CLEAN,
+2026-04-13T11:19:59.470780,Llama-3.3-70B,LLM,70B,groq,UC5_080,"public void setDiscount(double percent) {
+    this.discount = percent;
+    this....",BEST_PRACTICE,BP_Validation,hard,3,CLEAN,False,2355,CLEAN,
+2026-04-13T11:20:01.646413,Llama-3.3-70B,LLM,70B,groq,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,1,BEST_PRACTICE,False,161,BEST_PRACTICE,
+2026-04-13T11:20:04.024558,Llama-3.3-70B,LLM,70B,groq,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,2,BEST_PRACTICE,False,2368,BEST_PRACTICE,
+2026-04-13T11:20:06.358027,Llama-3.3-70B,LLM,70B,groq,UC5_095,"def retry(max_attempts: int = 3, delay: float = 1.0):
+    def decorator(func):
+ ...",CLEAN,CLEAN_Pythonic,hard,3,BEST_PRACTICE,False,2321,BEST_PRACTICE,
+2026-04-13T11:20:08.861311,Llama-3.3-70B,LLM,70B,groq,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,1,CLEAN,True,487,CLEAN,
+2026-04-13T11:20:11.224746,Llama-3.3-70B,LLM,70B,groq,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,2,CLEAN,True,2351,CLEAN,
+2026-04-13T11:20:13.399604,Llama-3.3-70B,LLM,70B,groq,UC5_096,"class ErrorBoundary extends React.Component {
+    state = { error: null };
+    s...",CLEAN,CLEAN_JS,hard,3,CLEAN,True,2163,CLEAN,
+2026-04-13T11:20:15.673885,Llama-3.3-70B,LLM,70B,groq,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,1,CLEAN,True,262,CLEAN,
+2026-04-13T11:20:18.092856,Llama-3.3-70B,LLM,70B,groq,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,2,CLEAN,True,2407,CLEAN,
+2026-04-13T11:20:20.393687,Llama-3.3-70B,LLM,70B,groq,UC5_097,"private final ConcurrentHashMap<String, AtomicLong> counters = new ConcurrentHas...",CLEAN,CLEAN_Java,hard,3,CLEAN,True,2288,CLEAN,
+2026-04-13T11:20:22.686875,Llama-3.3-70B,LLM,70B,groq,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,1,CLEAN,True,276,CLEAN,
+2026-04-13T11:20:24.970251,Llama-3.3-70B,LLM,70B,groq,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,2,CLEAN,True,2272,CLEAN,
+2026-04-13T11:20:27.448648,Llama-3.3-70B,LLM,70B,groq,UC5_098,"class DBPool:
+    async def __aenter__(self):
+        self.pool = await asyncpg....",CLEAN,CLEAN_Pythonic,hard,3,CLEAN,True,2466,CLEAN,
+2026-04-13T11:20:29.659151,Llama-3.3-70B,LLM,70B,groq,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,1,CLEAN,True,196,CLEAN,
+2026-04-13T11:20:32.001531,Llama-3.3-70B,LLM,70B,groq,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,2,CLEAN,True,2330,CLEAN,
+2026-04-13T11:20:34.241155,Llama-3.3-70B,LLM,70B,groq,UC5_099,"function debounce(fn, ms) {
+    let timer;
+    return (...args) => {
+        cle...",CLEAN,CLEAN_JS,hard,3,CLEAN,True,2228,CLEAN,
+2026-04-13T11:20:36.735240,Llama-3.3-70B,LLM,70B,groq,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,1,CLEAN,True,478,CLEAN,
+2026-04-13T11:20:38.947067,Llama-3.3-70B,LLM,70B,groq,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,2,CLEAN,True,2197,CLEAN,
+2026-04-13T11:20:41.126486,Llama-3.3-70B,LLM,70B,groq,UC5_100,"public record PageRequest(int page, int size) {
+    public PageRequest {
+       ...",CLEAN,CLEAN_Java,hard,3,CLEAN,True,2168,CLEAN,

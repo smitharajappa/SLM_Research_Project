@@ -1,0 +1,137 @@
+========================================================================
+  UC7 EVALUATION REPORT — Legal Contract Clause Analysis
+  Generated : 2026-04-13 12:19:37
+  Pre-reg   : 2026-03-02  |  S³ Score: 3.60  |  Prediction: Hybrid
+  Flag Rule : SK=4 → Hybrid enforced (safety measure for 4-class risk)
+========================================================================
+
+  TABLE 1 — Overall Classification Metrics
+  --------------------------------------------------------------------
+  Model                Tier     Acc  MacroF1  Halluc    P50     P95
+  --------------------------------------------------------------------
+  Qwen2.5-7B           SLM    53.3%    52.2%    0.0%   260ms  16379ms
+  Llama-3.3-70B        LLM    57.8%    50.0%    0.0%   355ms   2513ms ← LLM baseline
+  Llama-3.1-8B         SLM    40.0%    33.9%    0.0%   408ms   2785ms
+  Phi4-Mini            SLM    36.7%    25.4%    0.0% 12350ms  17266ms
+  Gemma3-4B            SLM    26.7%    23.6%    0.0% 12009ms  24984ms
+  Llama-3.2-3B         SLM    26.7%    16.0%    0.0%   307ms   1739ms
+  Mistral-7B           SLM    20.0%    12.5%    0.0%   297ms    844ms
+  --------------------------------------------------------------------
+
+  TABLE 2 — Per-Class F1 Score
+  ------------------------------------------------------------------------
+  Model                  HIGH    MED    LOW    STD  Lowest class
+  ------------------------------------------------------------------------
+  Qwen2.5-7B            87.5%  71.4%  18.2%  31.6%  LOW_RISK
+  Llama-3.3-70B         78.4%  57.9%   0.0%  63.6%  LOW_RISK
+  Llama-3.1-8B          66.7%  42.1%  26.7%   0.0%  STANDARD
+  Phi4-Mini             66.7%  34.8%   0.0%   0.0%  LOW_RISK
+  Gemma3-4B             50.0%  22.2%   0.0%  22.2%  LOW_RISK
+  Llama-3.2-3B          25.0%  38.9%   0.0%   0.0%  LOW_RISK
+  Mistral-7B            50.0%   0.0%   0.0%   0.0%  MEDIUM_RISK
+  ------------------------------------------------------------------------
+
+  TABLE 3 — 4×4 Confusion Matrices (all runs combined)
+
+  Qwen2.5-7B (SLM · 7B):
+                 HIGH    MED    LOW    STD
+  HIGH             21      0      0      0
+  MED               3     15      0      3
+  LOW               0      0      3     21
+  STD               3      6      6      9
+
+  Llama-3.3-70B (LLM · 70B):
+                 HIGH    MED    LOW    STD
+  HIGH             20      1      0      0
+  MED               7     11      0      3
+  LOW               3      3      0     18
+  STD               0      2      1     21
+
+  Llama-3.1-8B (SLM · 8B):
+                 HIGH    MED    LOW    STD
+  HIGH             18      3      0      0
+  MED               9     12      0      0
+  LOW               6     12      6      0
+  STD               0      9     15      0
+
+  Phi4-Mini (SLM · 3.8B):
+                 HIGH    MED    LOW    STD
+  HIGH             21      0      0      0
+  MED               9     12      0      0
+  LOW               9     15      0      0
+  STD               3     21      0      0
+
+  Gemma3-4B (SLM · 4B):
+                 HIGH    MED    LOW    STD
+  HIGH             12      9      0      0
+  MED              12      9      0      0
+  LOW               3     21      0      0
+  STD               0     21      0      3
+
+  Llama-3.2-3B (SLM · 3B):
+                 HIGH    MED    LOW    STD
+  HIGH              3     18      0      0
+  MED               0     21      0      0
+  LOW               0     24      0      0
+  STD               0     24      0      0
+
+  Mistral-7B (SLM · 7B):
+                 HIGH    MED    LOW    STD
+  HIGH             18      3      0      0
+  MED              21      0      0      0
+  LOW               6     18      0      0
+  STD               6     15      3      0
+
+  TABLE 4 — Cross Use-Case Comparison: UC1 → UC4 → UC7
+  S³: UC1=3.10 (Hybrid)  UC4=2.10 (Pure SLM)  UC7=3.60 (Hybrid)
+  ------------------------------------------------------------------------
+  Model                 UC1 Acc  UC4 Acc  UC7 Acc   Δ UC1→7   UC1 F1   UC7 F1
+  ------------------------------------------------------------------------
+  Qwen2.5-7B              60.0%    90.0%    53.3%     -6.7pp    60.0%    52.2%
+  Llama-3.3-70B           90.0%    96.7%    57.8%    -32.2pp    92.3%    50.0%
+  Llama-3.1-8B            66.7%    93.3%    40.0%    -26.7pp    68.8%    33.9%
+  Phi4-Mini               80.0%    86.7%    36.7%    -43.3pp    83.3%    25.4%
+  Gemma3-4B               76.7%    90.0%    26.7%    -50.0pp    80.0%    23.6%
+  Llama-3.2-3B            56.7%    93.3%    26.7%    -30.0pp    55.2%    16.0%
+  Mistral-7B              90.0%    95.5%    20.0%    -70.0pp    93.3%    12.5%
+  ------------------------------------------------------------------------
+
+  HIGH_RISK CLASS ANALYSIS (H7.4 — expected highest SLM-vs-LLM gap)
+  --------------------------------------------------------------------
+  Qwen2.5-7B           HIGH_RISK F1:  87.5%   Avg other classes:  40.4%   Gap: -47.1pp
+  Llama-3.3-70B        HIGH_RISK F1:  78.4%   Avg other classes:  40.5%   Gap: -37.9pp
+  Llama-3.1-8B         HIGH_RISK F1:  66.7%   Avg other classes:  22.9%   Gap: -43.8pp
+  Phi4-Mini            HIGH_RISK F1:  66.7%   Avg other classes:  11.6%   Gap: -55.1pp
+  Gemma3-4B            HIGH_RISK F1:  50.0%   Avg other classes:  14.8%   Gap: -35.2pp
+  Llama-3.2-3B         HIGH_RISK F1:  25.0%   Avg other classes:  13.0%   Gap: -12.0pp
+  Mistral-7B           HIGH_RISK F1:  50.0%   Avg other classes:   0.0%   Gap: -50.0pp
+
+  Higher gap = HIGH_RISK harder than other classes for that model
+
+  FLAG RULE ANALYSIS — SK=4 Enforces Hybrid
+  --------------------------------------------------------------------
+  The S³ framework's flag rule triggers when SK >= 4.
+  UC7 has SK=4 (4-way risk classification), so even if SLM accuracy
+  is competitive, the gate rule enforces Hybrid as a safety measure.
+  This ensures safety-critical legal classifications receive LLM
+  verification when needed.
+
+  PRE-REGISTERED HYPOTHESIS OUTCOMES
+  --------------------------------------------------------------------
+  H7.1 (LLM accuracy >= 80%)              : NOT SUPPORTED
+        LLM accuracy: 57.8%
+
+  H7.2 (Best SLM P95 < 4000ms)            : SUPPORTED
+        Best SLM P95: 844ms
+
+  H7.3 (Best SLM < 95% LLM parity)        : SUPPORTED
+        Best SLM 53.3% vs LLM 57.8% → ratio 92%
+        Validates Hybrid — SK=4 flag rule justified
+
+  H7.4 (HIGH_RISK highest SLM-vs-LLM gap) : NOT SUPPORTED
+        0 of 6 SLMs show HIGH_RISK as largest gap
+        Safety-critical errors concentrated in high-risk clauses
+
+========================================================================
+  END OF UC7 EVALUATION REPORT
+========================================================================
