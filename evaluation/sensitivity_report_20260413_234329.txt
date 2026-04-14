@@ -1,0 +1,93 @@
+============================================================================
+  S3 MULTI-PROFILE SENSITIVITY ANALYSIS
+  Generated: 2026-04-13 23:43:29
+  Method: Triantaphyllou [35] — single-weight perturbation
+============================================================================
+
+  WEIGHT PROFILES
+  ----------------------------------------------------------------------
+  Profile              TC   OS   SK   DS   LT   VL  Rationale
+  ----------------------------------------------------------------------
+  Default               3    2    4    2    3    1  Paper baseline (SMART elicitation)
+  Security-First        2    1    5    4    1    1  Regulated industries prioritize SK, DS
+  Latency-First         2    2    2    1    5    3  Real-time apps prioritize LT, VL
+  Balanced              3    3    3    3    3    3  Equal weights — no dimension priority
+  Volume-Heavy          2    2    3    2    4    5  High-throughput batch processing
+
+  TABLE 1 — S3 Scores Under Each Weight Profile
+  ------------------------------------------------------------------------
+  Use Case                  Default   Security   Latency-   Balanced   Volume-H  Stable?
+  ------------------------------------------------------------------------
+  UC1_SMS_Threat               3.40       3.14       3.53       3.33       3.39  YES
+  UC2_Invoice_Extract          2.60       2.36       2.80       2.67       2.72  YES
+  UC3_Ticket_Routing           2.67       2.36       2.93       2.83       2.83  YES
+  UC4_Review_Sentiment         2.07       1.64       2.40       2.33       2.33  YES
+  UC5_Code_Review              3.27       2.93       3.13       3.17       2.94  NO
+  UC6_Clinical_Triage          4.27       4.29       3.87       4.00       3.72  YES
+  UC7_Legal_Contract           3.20       3.29       2.67       3.00       2.61  YES
+  UC8_Financial_Report         3.07       3.29       2.40       2.67       2.39  YES
+  ------------------------------------------------------------------------
+  Stable assignments: 7/8
+
+  TABLE 2 — Tier Assignments Under Each Weight Profile
+  ------------------------------------------------------------------------
+  Use Case                  Default   Security   Latency-   Balanced   Volume-H
+  ------------------------------------------------------------------------
+  UC1_SMS_Threat             Hybrid     Hybrid     Hybrid     Hybrid     Hybrid
+  UC2_Invoice_Extract          Pure       Pure       Pure       Pure       Pure
+  UC3_Ticket_Routing           Pure       Pure       Pure       Pure       Pure
+  UC4_Review_Sentiment         Pure       Pure       Pure       Pure       Pure
+  UC5_Code_Review            Hybrid       Pure       Pure       Pure       Pure
+  UC6_Clinical_Triage           LLM        LLM        LLM        LLM        LLM
+  UC7_Legal_Contract         Hybrid     Hybrid     Hybrid     Hybrid     Hybrid
+  UC8_Financial_Report          LLM        LLM        LLM        LLM        LLM
+
+  TABLE 3 — Triantaphyllou Stability Margins (Default Profile)
+  Minimum single-weight change to flip tier assignment
+  ------------------------------------------------------------------------
+  Use Case                  S3 Tier        Min Change          Via Flips To  
+  ------------------------------------------------------------------------
+  UC1_SMS_Threat         3.40 Hybrid            450%     OS +450% LLM Only  
+  UC2_Invoice_Extract    2.60 Pure SLM        LOCKED    gate rule N/A       
+  UC3_Ticket_Routing     2.67 Pure SLM          223%     OS +223% Hybrid    
+  UC4_Review_Sentiment   2.07 Pure SLM          473%     OS +473% Hybrid    
+  UC5_Code_Review        3.27 Hybrid             28%      OS -28% Pure SLM  
+  UC6_Clinical_Triage    4.27 LLM Only        LOCKED    gate rule N/A       
+  UC7_Legal_Contract     3.20 Hybrid          LOCKED    gate rule N/A       
+  UC8_Financial_Report   3.07 LLM Only        LOCKED    gate rule N/A       
+  ------------------------------------------------------------------------
+
+  MARGIN INTERPRETATION:
+    UC1_SMS_Threat: ROBUST — requires >450% weight change to flip
+    UC2_Invoice_Extract: LOCKED by gate rule — weight changes cannot flip tier
+    UC3_Ticket_Routing: ROBUST — requires >223% weight change to flip
+    UC4_Review_Sentiment: ROBUST — requires >473% weight change to flip
+    UC5_Code_Review: SENSITIVE — only 28% weight change flips tier
+    UC6_Clinical_Triage: LOCKED by gate rule — weight changes cannot flip tier
+    UC7_Legal_Contract: LOCKED by gate rule — weight changes cannot flip tier
+    UC8_Financial_Report: LOCKED by gate rule — weight changes cannot flip tier
+
+  BOUNDARY CASE ANALYSIS
+  ------------------------------------------------------------
+  Use cases near tier boundaries (within 0.3 of tau_1=3.2 or tau_2=4.0):
+    UC1_SMS_Threat: S3=3.40, distance to tau_1 (3.2) = 0.20
+    UC5_Code_Review: S3=3.27, distance to tau_1 (3.2) = 0.07
+    UC6_Clinical_Triage: S3=4.27, distance to tau_2 (4.0) = 0.27
+    UC7_Legal_Contract: S3=3.20, distance to tau_1 (3.2) = 0.00
+    UC8_Financial_Report: S3=3.07, distance to tau_1 (3.2) = 0.13
+
+  SUMMARY
+  ------------------------------------------------------------
+  Gate-rule locked (cannot flip):  4/8
+  Robust (>100% change needed):    3/8
+  Stable (30-100% change needed):  0/8
+  Sensitive (<30% change needed):   1/8
+  Profile-stable (same tier all 5): 7/8
+
+  CAUTION: 1 UC(s) are sensitive to weight changes:
+    - UC5_Code_Review: requires only 28% change
+  These cases would benefit from UTADIS calibration at N>=50.
+
+============================================================================
+  END OF SENSITIVITY ANALYSIS
+============================================================================

@@ -28,14 +28,14 @@ TAU_1, TAU_2 = 3.2, 4.0
 
 # ── S³ Dimension Scores for 8 Use Cases (Paper Table III) ─────
 USE_CASES = {
-    "UC1_SMS_Threat":       {"TC": 2, "OS": 5, "SK": 3, "DS": 2, "LT": 4, "VL": 3},
-    "UC2_Email_Priority":   {"TC": 3, "OS": 4, "SK": 2, "DS": 2, "LT": 3, "VL": 4},
-    "UC3_Sentiment":        {"TC": 3, "OS": 3, "SK": 3, "DS": 2, "LT": 3, "VL": 3},
-    "UC4_Clinical_Summary": {"TC": 4, "OS": 2, "SK": 4, "DS": 3, "LT": 2, "VL": 2},
-    "UC5_Code_Review":      {"TC": 4, "OS": 3, "SK": 3, "DS": 3, "LT": 4, "VL": 2},
-    "UC6_Resume_Screen":    {"TC": 3, "OS": 2, "SK": 3, "DS": 3, "LT": 3, "VL": 2},
-    "UC7_Legal_Contract":   {"TC": 4, "OS": 4, "SK": 4, "DS": 4, "LT": 3, "VL": 1},
-    "UC8_Threat_Intel":     {"TC": 5, "OS": 1, "SK": 5, "DS": 4, "LT": 2, "VL": 1},
+    "UC1_SMS_Threat":       {"TC": 2, "OS": 5, "SK": 4, "DS": 2, "LT": 4, "VL": 3},
+    "UC2_Invoice_Extract":  {"TC": 3, "OS": 3, "SK": 2, "DS": 2, "LT": 3, "VL": 3},
+    "UC3_Ticket_Routing":   {"TC": 2, "OS": 5, "SK": 2, "DS": 2, "LT": 3, "VL": 3},
+    "UC4_Review_Sentiment": {"TC": 2, "OS": 5, "SK": 1, "DS": 1, "LT": 2, "VL": 3},
+    "UC5_Code_Review":      {"TC": 4, "OS": 5, "SK": 3, "DS": 2, "LT": 3, "VL": 2},
+    "UC6_Clinical_Triage":  {"TC": 4, "OS": 5, "SK": 5, "DS": 4, "LT": 4, "VL": 2},
+    "UC7_Legal_Contract":   {"TC": 3, "OS": 5, "SK": 4, "DS": 3, "LT": 2, "VL": 1},
+    "UC8_Financial_Report": {"TC": 5, "OS": 1, "SK": 4, "DS": 3, "LT": 2, "VL": 1},
 }
 
 # ── Weight Profiles ───────────────────────────────────────────
